@@ -1,6 +1,6 @@
 # WebScraping Pemain Liga 1 Indonesia 2021 / 2022 
 Webscraping dari situs [(https://www.transfermarkt.com/liga-1-indonesia/startseite/wettbewerb/IN1L)](https://www.transfermarkt.com/liga-1-indonesia/startseite/wettbewerb/IN1L).
-Tujuan dari webscraping ini adalah untuk mendapatkan data Tim-tim sepakbola Liga 1 Indonesia musim 2021/2022 beserta data pemainnya. 
+Tujuan dari webscraping ini adalah untuk mendapatkan data Tim-tim sepakbola Liga 1 Indonesia musim 2021/2022 beserta data pemainnya. DBMS yang digunakan ialah MariaDb dan MySQL, MariaDb digunakan untuk local. Alasan penggunaan karena SQL Query sangat familiar dan GUI Support
  
 *disclaimer : this program is for educational purposes*
 ## Spesifikasi
