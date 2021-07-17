@@ -47,11 +47,11 @@ Tujuan dari webscraping ini adalah untuk mendapatkan data Tim-tim sepakbola Liga
 ## Screenshot
 
 ### Web Scraping
-![Tangkapan layar 1](/"Data Scraping"/screenshot/1.png)
+![Tangkapan layar 1](/Data%20Scraping/screenshot/1.png)  
 
 ### DBMS MariaDb
-![Tangkapan layar 1](/"Data Storing"/screenshot/1.png)
-![Tangkapan layar 2](/"Data Storing"/screenshot/2.png)
+![Tangkapan layar 1](/Data%20Storing/screenshot/1.png)  
+![Tangkapan layar 2](/Data%20Storing/screenshot/2.png)  
 
 ## Reference
 Library lain
