@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  web:
+    image: golang:latest
+    volumes:
+      - .:/go/src/go-with-compose
+    working_dir: /go/src/go-with-compose
+    ports:
+        - 4747:4747
+    command: go run main.go type.go db.go
