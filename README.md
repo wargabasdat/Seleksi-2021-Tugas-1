@@ -22,7 +22,6 @@ Melakukan *data scraping* dari website NBA (https://www.nba.com/players), untuk 
 1. Source code *data scraping* menggunakan bahasa pemrograman`Python` 
 2. Pada website (https://www.nba.com/players) terdapat tabel yang berisi data-data pemain NBA, dengan format tabel seperti gambar di bawah.
 3. Diperlukan sebuah `webdriver` dalam proses *data scraping* untuk dapat melakukan navigasi otomatis pada halaman website. Pada source code ini saya menggunakan [Chrome Webdriver](https://chromedriver.chromium.org/downloads)
-4. 
 
 
 ![](Data%20Scraping/screenshot/nba_com_players.jpg)
@@ -88,7 +87,7 @@ Data hasil *scraping* akan disimpan pada *database*. DBMS yang saya gunakan adal
 
 
 ### Store data to local DBMS
-Untuk menyimpan data pada *local*  dbms, petama saya membuat *cluster* pada __MongoDB Atlas__ saya juga menggunakan __tool mongoimport__ dengan cara : 
+Untuk menyimpan data pada *local*  dbms saya menggunakan __tool mongoimport__ dengan cara : 
 - Membuka *directory* `NBAPlayers.json` pada terminal
 - Lalu menjalankan command berikut
 ```
@@ -96,7 +95,7 @@ mongoimport --db NBA --collection NBAPlayers --file NBAPlayers.json --jsonArray
 
 ```
 ### Store data to cloud DBMS
-Untuk menyimpan data pada *cloud* dan *cloud* dbms, saya menggunakan __tool mongoimport__ dengan cara : 
+Untuk menyimpan data pada *cloud* dbms, petama saya membuat *cluster* pada __MongoDB Atlas__, lalu saya juga menggunakan __tool mongoimport__ untuk meng-import file json ke *cloud* dbms dengan cara : 
 - Membuka *directory* `NBAPlayers.json` pada terminal
 - Lalu menjalankan command berikut
 ```
