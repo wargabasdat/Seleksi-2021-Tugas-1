@@ -59,10 +59,12 @@ In order to run the program, it requires the following programs/modules/packages
 ### Data scraping
 All the scripts are basically normal python script, so you can run it however you want. The followings are how to run the python script on command prompt on Windows 10
 1. Assuming you're on the main directory (Steam Scraper), change the directory to `Data Scraping/src`
+
     ```
     cd Data Scraping/src
     ```
 2. Run the python script, `SteamScraper.py`
+
     ```
     python SteamScraper.py
     ```
@@ -76,16 +78,13 @@ First and foremost, I already made some scripts that'll automatically do all the
       ```
       python SettingUpDatabase.py
       ```
-    Second method. If you want to setting up the database manually, you can run all the queries manually that you can check in a text file 
-      ```
-      SQL Query for Setting up Database.txt
-      ```
+    Second method. If you want to setting up the database manually, you can run all the queries manually that you can check in a text file `SQL Query for Setting up Database.txt`
 2. Filling up the database with data
 
-  To do this, all you have to do is to run a python script that I already made. This script will read JSON Files that were already made and then store it to database, steamscrape
-      ```
-      python FillingDatabase.py
-      ```
+    To do this, all you have to do is to run a python script that I already made. This script will read JSON Files that were already made and then store it to database, steamscrape
+        ```
+        python FillingDatabase.py
+        ```
 3. After the process is done, you should see a dump database file, `steamscrape.sql` and a database, `steamscrape` in your system    
 
 
