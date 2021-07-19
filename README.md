@@ -39,17 +39,16 @@ In order to run the program, it requires the following programs/modules/packages
 
     To install 'lxml' parser package
 
-        `pip install lxml`
+      `pip install lxml`
 
     To install 'hmtl.parser' parser package
 
-        `pip install html-parser` or
-
-        `pip install html.parser`
+      `pip install html-parser` or
+      `pip install html.parser`
 
     To install 'html5lib' parser package
-    
-        `pip intall html5lib`
+
+      `pip intall html5lib`
 
 4. A DBMS, __mariaDB__
 5. A python module package for connecting to mariaDB database
