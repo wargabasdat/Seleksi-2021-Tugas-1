@@ -41,7 +41,7 @@ for i in range(lenPlayers):
     # clean
     item = "("
     for x in player:
-        if (x == 'club' or x == 'id'):
+        if (x == 'club'):
             continue
         else:
             if(player[x]):
