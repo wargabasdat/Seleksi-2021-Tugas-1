@@ -169,7 +169,7 @@ These are some of the references that have been very useful in making this web s
 [How to connect Python programs to MariaDB](https://MariaDB.com/resources/blog/how-to-connect-python-programs-to-MariaDB/)
 
 ## Online database
-Go to [here](http://www.phpmyadmin.co/)
+Go to [phpmyadmin](http://www.phpmyadmin.co/)
 
 Then you need to insert these following data to log you in
 
