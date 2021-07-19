@@ -22,7 +22,6 @@ Melakukan *data scraping* dari website NBA (https://www.nba.com/players), untuk 
 1. Source code *data scraping* menggunakan bahasa pemrograman`Python` 
 2. Pada website (https://www.nba.com/players) terdapat tabel yang berisi data-data pemain NBA, dengan format tabel seperti gambar di bawah.
 3. Diperlukan sebuah `webdriver` dalam proses *data scraping* untuk dapat melakukan navigasi otomatis pada halaman website. Pada source code ini saya menggunakan [Chrome Webdriver](https://chromedriver.chromium.org/downloads)
-4. 
 
 
 ![](Data%20Scraping/screenshot/nba_com_players.jpg)
@@ -88,7 +87,7 @@ Data hasil *scraping* akan disimpan pada *database*. DBMS yang saya gunakan adal
 
 
 ### Store data to local DBMS
-Untuk menyimpan data pada *local*  dbms, petama saya membuat *cluster* pada __MongoDB Atlas__ saya juga menggunakan __tool mongoimport__ dengan cara : 
+Untuk menyimpan data pada *local*  dbms saya menggunakan __tool mongoimport__ dengan cara : 
 - Membuka *directory* `NBAPlayers.json` pada terminal
 - Lalu menjalankan command berikut
 ```
@@ -96,7 +95,7 @@ mongoimport --db NBA --collection NBAPlayers --file NBAPlayers.json --jsonArray
 
 ```
 ### Store data to cloud DBMS
-Untuk menyimpan data pada *cloud* dan *cloud* dbms, saya menggunakan __tool mongoimport__ dengan cara : 
+Untuk menyimpan data pada *cloud* dbms, petama saya membuat *cluster* pada __MongoDB Atlas__, lalu saya juga menggunakan __tool mongoimport__ untuk meng-import file json ke *cloud* dbms dengan cara : 
 - Membuka *directory* `NBAPlayers.json` pada terminal
 - Lalu menjalankan command berikut
 ```
@@ -115,16 +114,62 @@ mongoimport --host learning-shard-00-02.xpygv.mongodb.net:27017 --db nba --type 
 ![](/Data%20Storing/screenshot/storingCloud_1.png)
 ![](/Data%20Storing/screenshot/storingCloud_2.png)
 
+### API
+Saya mambuat `API` sederhana untuk dapat mengakses *online database*, dan dapet melakukan operasi *create, read, update & delete (CRUD)*. `API` telah di-*deploy* pada tautan berikut. 
+```
+https://nba-players-api.herokuapp.com/players/
+
+```
+
+### How To Use API
+1. Buka `Postman`
+2. *Copy* tautan (https://nba-players-api.herokuapp.com/players/) pada `Postman`
+3. Lakukan *request method* `GET, POST, PATCH, & DELETE` lalu tekan *Send*
+
+Berikut adalah beberapa contoh *request* yang dapat dijalankan.
+### Screenshot
+- **GET Method**
+
+*Get all players data*
+![](/Api/screenshot/postman_1.png)
+*Get player data by id*
+![](/Api/screenshot/postman_9.png)
+
+- **POST Method**
+
+*Create new player data*
+![](/Api/screenshot/postman_2.png)
+![](/Api/screenshot/postman_3.png)
+- **PATCH Method**
+
+*Update specific player data*
+![](/Api/screenshot/postman_4.png)
+![](/Api/screenshot/postman_5.png)
+- **DELETE Method**
+
+*Delete specific player data*
+![](/Api/screenshot/postman_6.png)
+![](/Api/screenshot/postman_7.png)
+![](/Api/screenshot/postman_8.png)
+
 
 ### Tools and References
 - Beautifullsoup4
 - Selenium
 - MongoDB
 - MongoDB Atlas
+- Node JS
+- Express JS
+- Mongoose
+- Postman
 
+
+- Mongoose documentation (https://mongoosejs.com/docs/api.html)
+- Express documentation (https://expressjs.com/en/api.html)
 - MongoDB documentation (https://docs.mongodb.com/)
 - Scraping with BeautifullSoup tutorial (https://www.youtube.com/watch?v=XQgXKtPSzUI)
 - Scraping with Selenium tutorial (https://www.youtube.com/watch?v=Xjv1sY630Uc&t=558s)
+- Rest API tutorial (https://www.youtube.com/watch?v=vjf774RKrLc)
 
 
 ### Author
