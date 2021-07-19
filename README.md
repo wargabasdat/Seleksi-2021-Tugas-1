@@ -73,12 +73,12 @@ First and foremost, I already made some scripts that'll automatically do all the
 1. Creating the database and all the tables
 
     First method, run an automcatic python script. Assuming you're still in Data Scraping/src directory
-
-        `python SettingUpDatabase.py`
-
+      ```
+      python SettingUpDatabase.py
+      ```
     Second method. If you want to setting up the database manually, you can run all the queries manually that you can check in a text file 
 
-        `SQL Query for Setting up Database.txt`
+      `SQL Query for Setting up Database.txt`
 
 2. Filling up the database with data
 
