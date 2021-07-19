@@ -30,10 +30,10 @@ For data storing purpose, mariaDB is choosen because it's basically an open sour
 
 ## Requirements
 In order to run the program, it requires the following programs/modules/packages to be installed
-1. <b>Python<\b>, tested using version 3.9.5
-2. beautifulsoup4 python package
+1. ___Python__, tested using version 3.9.5
+2. __beautifulsoup4__ python package
     `pip install beautifulsoup4`
-3. A parser module package. There are a couple of options like 'lxml', 'html.parser', or 'html5lib' but I personally used 'html5lib'
+3. A parser module package. There are a couple of options like __'lxml', 'html.parser', or 'html5lib'__ but I personally use 'html5lib'
     To install 'lxml' parser package
         `pip install lxml`
     To install 'hmtl.parser' parser package
@@ -41,7 +41,7 @@ In order to run the program, it requires the following programs/modules/packages
         `pip install html.parser`
     To install 'html5lib' parser package
         `pip intall html5lib`
-4. A DBMS, mariaDB
+4. A DBMS, __mariaDB__
 5. A python module package for connecting to mariaDB database
     `pip install mariaDB`
 
@@ -57,20 +57,19 @@ All the scripts are basically normal python script, so you can run it however yo
 ### Data Storing
 First and foremost, I already made some scripts that'll automatically do all the queries in order to set up the database from creating the database and creating all the tables needed but if you want to do all the queries manually, I also make a text file that contains all the queries
 1. Creating the database and all the tables
-    First method, run an automcatic python script. Assuming you're still in Data Scraping/src directory
-        `python SettingUpDatabase.py`
-    Second method. If you want to setting up the database manually, you can run all the queries manually that you can check in a text file 
-        SQL Query for Setting up Database.txt
+  First method, run an automcatic python script. Assuming you're still in Data Scraping/src directory
+      `python SettingUpDatabase.py`
+  Second method. If you want to setting up the database manually, you can run all the queries manually that you can check in a text file 
+      `SQL Query for Setting up Database.txt`
 2. Filling up the database with data
-    To do this, all you have to do is to run a python script that I already made. This script will read JSON Files that were already made and then store it to database, steamscrape
-        `python FillingDatabase.py`
-3. After all the process is done, you should see a dump database file, steamscrape.py and a database, steamscrape in your system    
+  To do this, all you have to do is to run a python script that I already made. This script will read JSON Files that were already made and then store it to database, steamscrape
+      `python FillingDatabase.py`
+3. After the process is done, you should see a dump database file, `steamscrape.sql` and a database, `steamscrape` in your system    
 
 
-JSON Structure
+## JSON Structure
 There are 2 JSON Files as a result of the scraping process `SteamGame.json` and `SteamGenreDeveloper.json`
-1. SteamGame.json
-SteamGame.json contains all the data that are associated with game information with the structure as follows
+1. `SteamGame.json` contains all the data that are associated with game information with the structure as follows
 ```
 {
   "GamesData": [
@@ -113,8 +112,7 @@ SteamGame.json contains all the data that are associated with game information w
     ]   
 }
 ```
-2. SteamGenreDeveloper.json
-SteamGenreDeveloper.json contains all the data that are associated with game genre and developers with the structure as follows
+2. `SteamGenreDeveloper.json` contains all the data that are associated with game genre and developers with the structure as follows
 ```
 {
     "GenreData" : [genreList],
@@ -126,7 +124,7 @@ SteamGenreDeveloper.json contains all the data that are associated with game gen
 
 
 ## Reference
-There are some of the references that have been very useful in making this web scraping project
+These are some of the references that have been very useful in making this web scraping project
 
 [Python Tutorial: Web Scraping with BeautifulSoup and Requests](https://www.youtube.com/watch?v=ng2o98k983k)
 
