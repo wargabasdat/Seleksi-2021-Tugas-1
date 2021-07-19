@@ -27,16 +27,16 @@ For data storing purpose, MariaDB is choosen because it's basically an open sour
 
 
 ## Requirements
-In order to run the whole __Steam Scraper__ program, it requires the following programs to be installed in your system first
+In order to run the whole __Steam Scraper__ program, it requires the following programs to be installed in your system first:
 1. __Python__, tested using version 3.9.5
 2. A Database Management System, __MariaDB__
 
-Alongside those programs, we also need to install a couple of module/packages. __You can run this command on `command prompt` or `cmd` directly__
+Alongside those programs, we also need to install a couple of module/packages. __You can run these commands on `command prompt` or `cmd` directly__
 1. __beautifulsoup4__ python package. This package is used for extracting/pulling out data from given web URL (HTML)
     ```
     pip install beautifulsoup4
     ```
-2. A parser module package. There are a couple of options like __'lxml', 'html.parser', or 'html5lib'__. This parser functions to parse HTML that's previously extracted using __beautifulsoup__. You only need to install one of these. In most cases, the parser won't matter too much as long as you're working with good HTML. In our case (Scraping from Steam), they all give the same result. I personally use __'html5lib'__. 
+2. A parser module package. There are a couple of options like __'lxml', 'html.parser', or 'html5lib'__. This parser functions to parse HTML that's previously extracted using `beautifulsoup`. __You only need to install one of these__. In most cases, the parser won't matter too much as long as you're working with good HTML. In our case (Scraping from Steam), they all give the same result. I personally use __'html5lib'__. 
 
     To install 'lxml' parser package
       ```
