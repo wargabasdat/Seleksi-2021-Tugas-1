@@ -170,11 +170,17 @@ These are some of the references that have been very useful in making this web s
 
 ## Online database
 Go to [here](http://www.phpmyadmin.co/)
+
 Then you need to insert these following data to log you in
+
 Host: sql6.freesqldatabase.com
+
 Database name: sql6426508
+
 Database password: aNRGg6ZSQH
+
 
 ## Author
 Mohammad Yahya Ibrahim
+
 13519091
