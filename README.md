@@ -20,7 +20,7 @@ Beside scraping the data from Steam web, the program also facilitates/allows you
 All scripts in this repository are based on python languange with the integration of mariaDB DBMS for it in order to achieve all the database integration functions
 
 ## Description of the Data and DBMS
-Data that are scraped include game title, release date of a game, original price and final price after all discounts are applied, game rating, percentage that builds the rating, total review from all users, game compatibility for each platform (Windows , Mac, Linux, VR compatible, VR only. These data were chosen because they can can be very helpful for users with their buying decision. E.g pricing, discount, review, etc. Hence why the program doesn't scrap listings like soundtracks, videos, hardware, and inlcude bundles because they don't represent the data that we're trying to look for.
+Data that are scraped include game title, release date of a game, original price and final price after all discounts are applied, game rating, percentage that builds the rating, total review from all users, game compatibility for each platform (Windows , Mac, Linux, VR compatible, VR only). These data were chosen because they can can be very helpful for users with their buying decision. E.g pricing, discount, review, etc. Hence why the program doesn't scrap listings like soundtracks, videos, hardware, and inlcude bundles because they don't represent the data that we're trying to look for.
 
 For data storing purpose, mariaDB is choosen because it's basically an open source version of MySQL. It's developed to be as compatible with MySQL as possible. mariaDB offers some advantages : 
   - Because it's open source, it has wide variety of support and wide compatibility. This results in fast migration from one system to others. Plus there is a handful of documentations availabe on internet
@@ -30,9 +30,11 @@ For data storing purpose, mariaDB is choosen because it's basically an open sour
 
 ## Requirements
 In order to run the program, it requires the following programs/modules/packages to be installed
-1. ___Python__, tested using version 3.9.5
+1. __Python__, tested using version 3.9.5
 2. __beautifulsoup4__ python package
+
     `pip install beautifulsoup4`
+    
 3. A parser module package. There are a couple of options like __'lxml', 'html.parser', or 'html5lib'__ but I personally use 'html5lib'
     To install 'lxml' parser package
         `pip install lxml`
@@ -49,6 +51,7 @@ In order to run the program, it requires the following programs/modules/packages
 ### Data scraping
 All the scripts are basically normal python script, so you can run it however you want. The followings are how to run the python script on command prompt on Windows 10
 1. Assuming you're on the main directory (Steam Scraper), change the directory to `Data Scraping/src`
+
     `cd Data Scraping/src`
 2. Run the python script, `SteamScraper.py`
     `python SteamScraper.py` 
