@@ -28,8 +28,8 @@ For data storing purpose, MariaDB is choosen because it's basically an open sour
 
 ## Requirements
 In order to run the whole __Steam Scraper__ program, it requires the following programs to be installed in your system first:
-1. __Python__, tested using version 3.9.5
-2. A Database Management System, __MariaDB__
+1. __Python__, tested using version 3.9.5. You can download latest version of python in [here](https://www.python.org/downloads/)
+2. A Database Management System, __MariaDB__. You can download latest version of MariaDB in [here](https://mariadb.com/downloads/)
 
 Alongside those programs, we also need to install a couple of module/packages. __You can run these commands on `command prompt` or `cmd` directly__
 1. __beautifulsoup4__ python package. This package is used for extracting/pulling out data from given web URL (HTML)
@@ -56,8 +56,8 @@ Alongside those programs, we also need to install a couple of module/packages. _
     pip install MariaDB
     ```
 ## How to use 
+__Note__ : All the scripts are basically normal python script, so you can run it however you want. The followings are the steps to run the python script on `command prompt` or `cmd` on __Windows 10__
 ### Data scraping
-All the scripts are basically normal python script, so you can run it however you want. The followings are how to run the python script on command prompt on Windows 10
 1. Assuming you're in the main directory, change the directory to `Data Scraping/src`
 
     ```
@@ -71,26 +71,29 @@ All the scripts are basically normal python script, so you can run it however yo
 3. Wait for the process to be done and all the data that's been successfully scraped will be stored in `data` folder in JSON format
 
 ### Data Storing
-First and foremost, I already made some scripts that'll automatically do all the queries in order to set up the database from creating the database and creating all the tables needed but if you want to do all the queries manually, I also make a text file that contains all the queries
+First and foremost, I already made some scripts that'll automatically do all the queries in order to set up the database from creating the database to creating all the tables needed but if you want to do all the queries manually, I also make a text file that contains all the queries
 1. Creating the database and all the tables
 
-    First method, run an automcatic python script. Assuming you're still in Data Scraping/src directory
+    - First method, run an automcatic python script `SettingUpDatabase.py`. Assuming you're still in __Data Scraping/src__ directory
       ```
       python SettingUpDatabase.py
       ```
-    Second method. If you want to setting up the database manually, you can run all the queries manually that you can check in a text file `SQL Query for Setting up Database.txt`
+    - Second method. If you want to setting up the database manually, you can run all the queries manually on `command prompt` or `cmd` that you can check in a text file `SQL Query for Setting up Database.txt`
 2. Filling up the database with data
 
-    To do this, all you have to do is to run a python script that I already made. This script will read JSON Files that were already made and then store it to database, steamscrape
+    To do this, all you have to do is to run a python script inside `src` folder that I already made. This script will read JSON Files that were already made and then store it to database called _steamscrape_
         ```
         python FillingDatabase.py
         ```
-3. After the process is done, you should see a dump database file, `steamscrape.sql` and a database, `steamscrape` in your system    
+3. After the process is done, you should see a dump database file, `steamscrape.sql` and a database, `steamscrape` in inside `export` folder (__Data storing/export__ directory)    
 
 
 ## JSON Structure
-There are 2 JSON Files as a result of the scraping process `SteamGame.json` and `SteamGenreDeveloper.json`
+There are 2 JSON Files as a result of the prior scraping process `SteamGame.json` and `SteamGenreDeveloper.json`. The two files are made separately in order to minimize clutter whenever people want to take a look at the JSON file.
 1. `SteamGame.json` contains all the data that are associated with game information with the structure as follows
+
+`GamesData` Key is a list of dictionary/object. Each dictionary/object contains several keys: `game_title`, `release_date`, `original_price`, `disc_price`, `gaming_rating`, `game_rating_percentage`, `total_user_reviews`, `win_compatibility`, `mac_compatibility`, `linux_compatibility`, `vr_compatibility`, `vr_only`, `game_URL`, `game_genres`, and `game_developer`
+
 ```
 {
   "GamesData": [
@@ -134,6 +137,9 @@ There are 2 JSON Files as a result of the scraping process `SteamGame.json` and 
 }
 ```
 2. `SteamGenreDeveloper.json` contains all the data that are associated with game genre and developers with the structure as follows
+
+`GenreData` Key contains a list of str/String that represents all kinds of genre name. `DeveloperData` Key contains a list of str/String that represents all developer game from all the game titles that have been successufully scraped. 
+
 ```
 {
     "GenreData" : [genreList],
