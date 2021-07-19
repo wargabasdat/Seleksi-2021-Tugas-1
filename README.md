@@ -70,7 +70,10 @@ __Note__ : All the scripts are basically normal python script, so you can run it
     ```
 3. Wait for the process to be done and all the data that's been successfully scraped will be stored in `data` folder in JSON format
 
+Image when running `SteamScraper.py`
+
 ![SteamScraper 1](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/SteamScraper%201.png)
+
 ![SteamScraper 2](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/SteamScraper%202.png)
 
 ### Data Storing
