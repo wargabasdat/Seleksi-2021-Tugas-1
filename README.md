@@ -1,84 +1,61 @@
-<h1 align="center">
-  <br>
-  Seleksi Warga Basdat 2021
-  <br>
-  <br>
-</h1>
-
-<h2 align="center">
-  <br>
-  Tugas 1 : Data Scraping & Data Storing
-  <br>
-  <br>
-</h2>
-
-
+# Webscraping Pemain Liga 1 Indonesia 2021 / 2022 
+Webscraping dari situs [(https://www.transfermarkt.com/liga-1-indonesia/startseite/wettbewerb/IN1L)](https://www.transfermarkt.com/liga-1-indonesia/startseite/wettbewerb/IN1L).
+Tujuan dari Webscraping ini adalah untuk mendapatkan data Tim-tim sepakbola Liga 1 Indonesia musim 2021/2022 beserta data pemainnya. 
+ 
+*disclaimer : this program is for educational purposes*
 ## Spesifikasi
+- Pada laman [(https://www.transfermarkt.com/liga-1-indonesia/startseite/wettbewerb/IN1L)](https://www.transfermarkt.com/liga-1-indonesia/startseite/wettbewerb/IN1L) terdapat daftar Tim, juga link yang menuju detail dari Tim tersebut. Sebagai contoh untuk detail dari pemain Persib Bandung terlihat pada link berikutt [https://www.transfermarkt.com/persib-bandung/kader/verein/14105/saison_id/2020/plus/1](https://www.transfermarkt.com/persib-bandung/kader/verein/14105/saison_id/2020/plus/1)
+- Setelah ditelaah tag html pada laman, kemudian didapat pengetahuan untuk membentuk struktur data json sebagai berikut
 
-### Data Scraping
+### Clubs
+| Atribut 	| Tipe         	|
+|---------	|--------------	|
+| name    	| VARCHAR      	|
+| manager 	| VARCHAR      	|
+| league  	| VARCHAR      	|
+| stadium 	| VARCHAR      	|
 
-1. Lakukan _data scraping_ dari sebuah laman web untuk memperoleh data atau informasi tertentu __TANPA MENGGUNAKAN API__. Hasil _data scraping_ ini nantinya akan disimpan dalam DBMS dan digunakan sebagai bahan tugas analisis dan visualisasi data.
-
-2. Daftarkan judul topik yang akan dijadikan bahan _data scraping_ dan DBMS yang akan digunakan pada spreadsheet berikut: [Topik Data Scraping](https://docs.google.com/spreadsheets/d/12sgizyreDkFXz4N3FaGouyGKRZN3qHyWEeSIbEXtpR4/edit?usp=sharing). Usahakan agar tidak ada peserta dengan topik yang sama. Akses edit ke spreadsheet akan ditutup tanggal __12 Juli 2021 pukul 23.59 WIB__
-
-3. Pada folder `Data Scraping`, calon warga basdat harus mengumpulkan _file script_, json hasil _data scraping_. Folder `Data Scraping` terdiri dari _folder_ `src`, `data` dan `screenshots`. 
-    - _Folder_ `src` berisi _file script_/kode yang __*WELL DOCUMENTED* dan *CLEAN CODE*__ 
-    - _Folder_ `data` berisi _file_ json hasil _scraper_
-    - _Folder_ `screenshot` berisi tangkapan layar program.
-
-4. Sebagai referensi untuk mengenal _data scraping_, asisten menyediakan dokumen "_Short Guidance To Data Scraping_" yang dapat diakses pada link berikut: [Data Scraping Guidance](http://bit.ly/DataScrapingGuidance). Mohon memperhatikan etika dalam melakukan _scraping_.
-
-5. JSON harus dinormalisasi dan harus di-_preprocessing_
-```
-Preprocessing contohnya :
-- Cleaning
-- Parsing
-- Transformation
-- dan lainnya
-```
-
-### Data Storing
-
-1. Lakukan _storing_ data yang didapatkan dari hasil _scraping_ ke DBMS 
-
-2. Tools yang digunakan __dibebaskan__
-
-3. Calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Folder_ `Data Storing` terdiri dari folder `data`, `screenshots` dan `export`
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
+### Players
+| Atribut       	| Tipe    	|
+|---------------	|---------	|
+| name          	| VARCHAR 	|
+| number        	| VARCHAR 	|
+| position      	| VARCHAR 	|
+| birth-of-date 	| DATE    	|
+| nationality   	| VARCHAR 	|
+| height        	| INTEGER 	|
+| foot          	| VARCHAR 	|
+| market-value  	| INTEGER 	|
+| club          	| VARCHAR 	|
 
 
-
-4. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    - Simpan ke database online
-    - Buatlah API sederhana untuk mengakses database online tersebut
-
-### Pengumpulan
-
-
-1. Dalam mengerjakan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: [Seleksi-2021-Tugas-1](https://github.com/wargabasdat/Seleksi-2021-Tugas-1). Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_1_[NIM]```
-
-2. Tambahkan juga `.gitignore` pada _file_ atau _folder_ yang tidak perlu di-_upload_, __NB: BINARY TIDAK DIUPLOAD__
-
-3. Berikan satu buah file `README` yang __WELL DOCUMENTED__ dengan cara __override__ _file_ `README.md` ini. `README` harus memuat minimal konten:
+## Cara Menggunakan
+- Pastikan python3 dan pip terinstall
+- Install semua dependencies dengan command `pip install -r requirements.txt`
+- File `scrapping.py` digunakan untuk melakukan scrapping data dari situs transfermrkt. Kemudian menyimpannya pada file `scrap.json`
+- Pada file `setupDb.py`, jalankan file ini dengan terlebih dahulu mengkonfigurasi file `.env`. File ini digunakan untuk inisialisasi database dan membuat table `clubs` dan `players`
+- Pada file `dbConn.py`, menjalankan input data `scrap.json` ke database. Jika terdapat `file/directory not found`, dapat menyesuaikan dengan path yang benar pada bagian `# Load JSON file. 
 
 
-```
-- Description of the data and DBMS (Why you choose it)
-- Specification of the program
-- How to use
-- JSON Structure
-- Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-- Reference (Library used, etc)
-- Author
-```
+## Struktur JSON
+- `data` sebagai array dictionary berisi `clubs` dan `players`
+- Key `clubs` merupakan array yang isinya array dictionary. Berisi data club-club sepakbola Liga 1 Indonesia. Dengan key attributes *id, name, manager, league, stadium*
+- Key `players` merupakan array yang isinya array dictionary. Berisi data pemain dari setiap klub Liga 1 Indonesia. Dengan key attributes *id, name, number, position, date-of-birth, nationality, height, foot, market-value, club*. Height dalam satuan cm, dan market-value dalam euro. 
 
+## Screenshot
 
-4. Deadline pengumpulan tugas 1 adalah <span style="color:red">__24 Juli 2021 Pukul 23.59 WIB__</span>
+## Reference
+Library lain
+- beautifulsoup4
+- lxml
+- python-decouple
+- mysql-connector-python
 
-<h3 align="center">
-  <br>
-  Selamat Mengerjakan
-  <br>
-  <br>
-</h3>
+## Hosting Online
+- [https://www.freemysqlhosting.net/](https://www.freemysqlhosting.net/)
+- [https://www.000webhost.com/](https://www.000webhost.com/)
+
+## Author
+[Muhammad Jafar - 13519197](https://github.com/mhmmdjafarg) 
+
+📌 Bandung, Indonesia
