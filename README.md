@@ -70,6 +70,9 @@ __Note__ : All the scripts are basically normal python script, so you can run it
     ```
 3. Wait for the process to be done and all the data that's been successfully scraped will be stored in `data` folder in JSON format
 
+![SteamScraper 1](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1/main/Data Scraping/screenshot/SteamScraper 1.png)
+![SteamScraper 2](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1/main/Data Scraping/screenshot/SteamScraper 2.png)
+
 ### Data Storing
 First and foremost, I already made some scripts that'll automatically do all the queries in order to set up the database from creating the database to creating all the tables needed but if you want to do all the queries manually, I also make a text file that contains all the queries
 1. Creating the database and all the tables
@@ -146,9 +149,6 @@ There are 2 JSON Files as a result of the prior scraping process `SteamGame.json
     "DeveloperData" : [gameDevList]
 }
 ```
-
-##  Program  Screenshot
-
 
 ## Reference
 These are some of the references that have been very useful in making this web scraping project
