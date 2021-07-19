@@ -15,7 +15,7 @@
 ## Specification of Program
 Steam Scraper is a program that lets you scrape various data from steam listings. It includes listings like games, software, downloadable content, demos, and mods but it doesn't include things like soundtracks, videos, hardware, and inlcude bundles.
 
-Beside scraping the data from Steam web, the program also facilitates/allows users to convert and store those data into a database (.sql file). Storing the data into a database form gives you freedom and flexibility on how you can utilize the data. For example, you can sort the listings by which app that has the biggest discount so you know what apps that offer the best fot their money,  you can listings with a particular review with certain percentage that builds the review itself, etc
+Beside scraping the data from Steam web, the program also facilitates/allows you to convert and store those data into a database (.sql file). Storing the data into a database form gives you freedom and flexibility on how you can utilize the data. For example, you can sort the listings by which app that has the biggest discount so you know what apps that offer the best fot their money,  you can listings with a particular review with certain percentage that builds the review itself, etc
 
 All scripts in this repository are based on python languange with the integration of mariaDB DBMS for it in order to achieve all the database integration functions
 
@@ -30,7 +30,7 @@ For data storing purpose, mariaDB is choosen because it's basically an open sour
 
 ## Requirements
 In order to run the program, it requires the following programs/modules/packages to be installed
-1. Python, tested using version 3.9.5
+1. <b>Python<\b>, tested using version 3.9.5
 2. beautifulsoup4 python package
     `pip install beautifulsoup4`
 3. A parser module package. There are a couple of options like 'lxml', 'html.parser', or 'html5lib' but I personally used 'html5lib'
