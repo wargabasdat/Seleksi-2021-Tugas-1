@@ -82,9 +82,9 @@ First and foremost, I already made some scripts that'll automatically do all the
 2. Filling up the database with data
 
     To do this, all you have to do is to run a python script inside `src` folder that I already made. This script will read JSON Files that were already made and then store it to database called _steamscrape_
-        ```
-        python FillingDatabase.py
-        ```
+    ```
+    python FillingDatabase.py
+    ```
 3. After the process is done, you should see a dump database file, `steamscrape.sql` and a database, `steamscrape` in inside `export` folder (__Data storing/export__ directory)    
 
 
