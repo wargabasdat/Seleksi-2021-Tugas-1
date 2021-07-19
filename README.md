@@ -126,14 +126,12 @@ SteamGenreDeveloper.json contains all the data that are associated with game gen
 
 
 ## Reference
-[Python Tutorial: Web Scraping with BeautifulSoup and Requests]
-(https://www.youtube.com/watch?v=ng2o98k983k)
+There are some of the references that have been very useful in making this web scraping project
+[Python Tutorial: Web Scraping with BeautifulSoup and Requests](https://www.youtube.com/watch?v=ng2o98k983k)
 
-[Python Tutorial: Working with JSON Data using the json Module]
-(https://www.youtube.com/watch?v=9N6a-VLBa2I)
+[Python Tutorial: Working with JSON Data using the json Module](https://www.youtube.com/watch?v=9N6a-VLBa2I)
 
-[How to connect Python programs to MariaDB]
-(https://mariadb.com/resources/blog/how-to-connect-python-programs-to-mariadb/)
+[How to connect Python programs to MariaDB](https://mariadb.com/resources/blog/how-to-connect-python-programs-to-mariadb/)
 
 
 ## Author
