@@ -36,18 +36,18 @@ Alongside those programs, we also need to install a couple of module/packages. _
     ```
     pip install beautifulsoup4
     ```
-2. A parser module package. There are a couple of options like __'lxml', 'html.parser', or 'html5lib'__. This parser functions to parse HTML that's previously extracted using `beautifulsoup`. __You only need to install one of these__. In most cases, the parser won't matter too much as long as you're working with good HTML. In our case (Scraping from Steam), they all give the same result. I personally use __'html5lib'__. 
+2. A parser module package. There are a couple of options like `lxml`, `html.parser`, or `html5lib`. This parser functions to parse HTML that's previously extracted using `beautifulsoup`. __You only need to install one of these__. In most cases, the parser won't matter too much as long as you're working with good HTML. In our case (Scraping from Steam), they all give the same result. I personally use `html5lib`. 
 
-    To install 'lxml' parser package
+    To install `lxml` parser package
       ```
       pip install lxml
       ```
-    To install 'hmtl.parser' parser package
+    To install `html.parser` parser package
       ```
       pip install html-parser
       pip install html.parser
       ```
-    To install 'html5lib' parser package
+    To install `html5lib` parser package
       ```
       pip intall html5lib
       ```
