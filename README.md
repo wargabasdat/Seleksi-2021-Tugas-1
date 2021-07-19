@@ -147,7 +147,7 @@ There are 2 JSON Files as a result of the prior scraping process `SteamGame.json
 }
 ```
 
-## Screenshot program 
+##  Program  Screenshot
 
 
 ## Reference
