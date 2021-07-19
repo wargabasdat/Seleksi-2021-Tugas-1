@@ -71,7 +71,7 @@ __Note__ : All the scripts are basically normal python script, so you can run it
 3. Wait for the process to be done and all the data that's been successfully scraped will be stored in `data` folder in JSON format
 
 ![SteamScraper 1](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/SteamScraper%201.png)
-![SteamScraper 2](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1/main/Data Scraping/screenshot/SteamScraper 2.png)
+![SteamScraper 2](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/SteamScraper%202.png)
 
 ### Data Storing
 First and foremost, I already made some scripts that'll automatically do all the queries in order to set up the database from creating the database to creating all the tables needed but if you want to do all the queries manually, I also make a text file that contains all the queries
@@ -82,6 +82,8 @@ First and foremost, I already made some scripts that'll automatically do all the
       python SettingUpDatabase.py
       ```
     - Second method. If you want to setting up the database manually, you can run all the queries manually on `command prompt` or `cmd` that you can check in a text file `SQL Query for Setting up Database.txt`
+
+    ![SettingUpDatabase](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1/blob/main/Data%20Storing/screenshot/SettingUpDatabase.png)
 2. Filling up the database with data
 
     To do this, all you have to do is to run a python script inside `src` folder that I already made. This script will read JSON Files that were already made and then store it to database called _steamscrape_
@@ -90,6 +92,7 @@ First and foremost, I already made some scripts that'll automatically do all the
     ```
 3. After the process is done, you should see a dump database file, `steamscrape.sql` and a database, `steamscrape` in inside `export` folder (__Data storing/export__ directory)    
 
+    ![FillingDatabase](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1/blob/main/Data%20Storing/screenshot/FillingDatabase.png)
 
 ## JSON Structure
 There are 2 JSON Files as a result of the prior scraping process `SteamGame.json` and `SteamGenreDeveloper.json`. The two files are made separately in order to minimize clutter whenever people want to take a look at the JSON file.
