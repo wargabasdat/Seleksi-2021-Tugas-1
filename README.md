@@ -10,7 +10,6 @@ Tujuan dari Webscraping ini adalah untuk mendapatkan data Tim-tim sepakbola Liga
 ### Clubs
 | Atribut 	| Tipe         	|
 |---------	|--------------	|
-| id      	| Integer      	|
 | name    	| VARCHAR      	|
 | manager 	| VARCHAR      	|
 | league  	| VARCHAR      	|
@@ -19,7 +18,6 @@ Tujuan dari Webscraping ini adalah untuk mendapatkan data Tim-tim sepakbola Liga
 ### Players
 | Atribut       	| Tipe    	|
 |---------------	|---------	|
-| id            	| INT     	|
 | name          	| VARCHAR 	|
 | number        	| VARCHAR 	|
 | position      	| VARCHAR 	|
