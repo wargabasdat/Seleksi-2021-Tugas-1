@@ -1,0 +1,6553 @@
+[{
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4deb"
+    },
+    "name": "Ty-Shon Alexander",
+    "team": "Phoenix Suns",
+    "number": 0,
+    "position": "G",
+    "height": 192.0,
+    "weight": 88,
+    "school": "Creighton",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4dec"
+    },
+    "name": "Jarrett Allen",
+    "team": "Cleveland Cavaliers",
+    "number": 31,
+    "position": "C",
+    "height": 186.2,
+    "weight": 110,
+    "school": "Texas-Austin",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ded"
+    },
+    "name": "Jaylen Adams",
+    "team": null,
+    "number": null,
+    "position": "G",
+    "height": 182.9,
+    "weight": 102,
+    "school": "St. Bonaventure",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4dee"
+    },
+    "name": "Al-Farouq Aminu",
+    "team": "Chicago Bulls",
+    "number": 5,
+    "position": "F",
+    "height": 207.3,
+    "weight": 99,
+    "school": "Wake Forest",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4def"
+    },
+    "name": "Kyle Anderson",
+    "team": "Memphis Grizzlies",
+    "number": 1,
+    "position": "F-G",
+    "height": 210.3,
+    "weight": 104,
+    "school": "UCLA",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4df0"
+    },
+    "name": "Giannis Antetokounmpo",
+    "team": "Milwaukee Bucks",
+    "number": 34,
+    "position": "F",
+    "height": 186.2,
+    "weight": 109,
+    "school": "Filathlitikos",
+    "country": "Greece"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4df1"
+    },
+    "name": "Kostas Antetokounmpo",
+    "team": "Los Angeles Lakers",
+    "number": 37,
+    "position": "F",
+    "height": 185.9,
+    "weight": 90,
+    "school": "Dayton",
+    "country": "Greece"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4df2"
+    },
+    "name": "Thanasis Antetokounmpo",
+    "team": "Milwaukee Bucks",
+    "number": 43,
+    "position": "F",
+    "height": 201.2,
+    "weight": 99,
+    "school": "Panathinaikos",
+    "country": "Greece"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4df3"
+    },
+    "name": "Carmelo Anthony",
+    "team": "Portland Trail Blazers",
+    "number": 0,
+    "position": "F",
+    "height": 204.2,
+    "weight": 107,
+    "school": "Syracuse",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4df4"
+    },
+    "name": "Cole Anthony",
+    "team": "Orlando Magic",
+    "number": 50,
+    "position": "G",
+    "height": 189.0,
+    "weight": 83,
+    "school": "North Carolina",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4df5"
+    },
+    "name": "OG Anunoby",
+    "team": "Toronto Raptors",
+    "number": 3,
+    "position": "F",
+    "height": 204.2,
+    "weight": 105,
+    "school": "Indiana",
+    "country": "United Kingdom"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4df6"
+    },
+    "name": "Precious Achiuwa",
+    "team": "Miami Heat",
+    "number": 5,
+    "position": "F",
+    "height": 207.3,
+    "weight": 102,
+    "school": "Memphis",
+    "country": "Nigeria"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4df7"
+    },
+    "name": "D.J. Augustin",
+    "team": "Houston Rockets",
+    "number": 14,
+    "position": "G",
+    "height": 155.8,
+    "weight": 82,
+    "school": "Texas-Austin",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4df8"
+    },
+    "name": "Bam Adebayo",
+    "team": "Miami Heat",
+    "number": 13,
+    "position": "C-F",
+    "height": 210.3,
+    "weight": 115,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4df9"
+    },
+    "name": "Ryan Arcidiacono",
+    "team": "Chicago Bulls",
+    "number": 51,
+    "position": "G",
+    "height": 192.0,
+    "weight": 88,
+    "school": "Villanova",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4dfa"
+    },
+    "name": "Trevor Ariza",
+    "team": "Miami Heat",
+    "number": 8,
+    "position": "F",
+    "height": 207.3,
+    "weight": 97,
+    "school": "UCLA",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4dfb"
+    },
+    "name": "Grayson Allen",
+    "team": "Memphis Grizzlies",
+    "number": 3,
+    "position": "G",
+    "height": 195.1,
+    "weight": 89,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4dfc"
+    },
+    "name": "Deni Avdija",
+    "team": "Washington Wizards",
+    "number": 9,
+    "position": "F",
+    "height": 210.3,
+    "weight": 95,
+    "school": "Maccabi Tel Aviv",
+    "country": "Israel"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4dfd"
+    },
+    "name": "Dwayne Bacon",
+    "team": "Orlando Magic",
+    "number": 8,
+    "position": "G-F",
+    "height": 201.2,
+    "weight": 100,
+    "school": "Florida State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4dfe"
+    },
+    "name": "Marvin Bagley III",
+    "team": "Sacramento Kings",
+    "number": 35,
+    "position": "F",
+    "height": 186.2,
+    "weight": 106,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4dff"
+    },
+    "name": "LaMarcus Aldridge",
+    "team": null,
+    "number": null,
+    "position": "C-F",
+    "height": 186.2,
+    "weight": 113,
+    "school": "Texas-Austin",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e00"
+    },
+    "name": "Nickeil Alexander-Walker",
+    "team": "New Orleans Pelicans",
+    "number": 6,
+    "position": "G",
+    "height": 201.2,
+    "weight": 92,
+    "school": "Virginia Tech",
+    "country": "Canada"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e01"
+    },
+    "name": "Steven Adams",
+    "team": "New Orleans Pelicans",
+    "number": 12,
+    "position": "C",
+    "height": 186.2,
+    "weight": 120,
+    "school": "Pittsburgh",
+    "country": "New Zealand"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e02"
+    },
+    "name": "Deandre Ayton",
+    "team": "Phoenix Suns",
+    "number": 22,
+    "position": "C",
+    "height": 186.2,
+    "weight": 113,
+    "school": "Arizona",
+    "country": "Bahamas"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e03"
+    },
+    "name": "LaMelo Ball",
+    "team": "Charlotte Hornets",
+    "number": 2,
+    "position": "G",
+    "height": 201.2,
+    "weight": 81,
+    "school": "Illawarra",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e04"
+    },
+    "name": "Lonzo Ball",
+    "team": "New Orleans Pelicans",
+    "number": 2,
+    "position": "G",
+    "height": 201.2,
+    "weight": 86,
+    "school": "UCLA",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e05"
+    },
+    "name": "Mo Bamba",
+    "team": "Orlando Magic",
+    "number": 5,
+    "position": "C",
+    "height": 213.4,
+    "weight": 104,
+    "school": "Texas-Austin",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e06"
+    },
+    "name": "Udoka Azubuike",
+    "team": "Utah Jazz",
+    "number": 20,
+    "position": "C-F",
+    "height": 185.9,
+    "weight": 126,
+    "school": "Kansas",
+    "country": "Nigeria"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e07"
+    },
+    "name": "Desmond Bane",
+    "team": "Memphis Grizzlies",
+    "number": 22,
+    "position": "G",
+    "height": 198.1,
+    "weight": 97,
+    "school": "TCU",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e08"
+    },
+    "name": "Harrison Barnes",
+    "team": "Sacramento Kings",
+    "number": 40,
+    "position": "F",
+    "height": 207.3,
+    "weight": 102,
+    "school": "North Carolina",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e09"
+    },
+    "name": "RJ Barrett",
+    "team": "New York Knicks",
+    "number": 9,
+    "position": "F-G",
+    "height": 201.2,
+    "weight": 97,
+    "school": "Duke",
+    "country": "Canada"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e0a"
+    },
+    "name": "Will Barton",
+    "team": "Denver Nuggets",
+    "number": 5,
+    "position": "G",
+    "height": 201.2,
+    "weight": 82,
+    "school": "Memphis",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e0b"
+    },
+    "name": "Keita Bates-Diop",
+    "team": "San Antonio Spurs",
+    "number": 31,
+    "position": "F",
+    "height": 207.3,
+    "weight": 103,
+    "school": "Ohio State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e0c"
+    },
+    "name": "Nicolas Batum",
+    "team": "LA Clippers",
+    "number": 33,
+    "position": "G-F",
+    "height": 207.3,
+    "weight": 104,
+    "school": "Le Mans",
+    "country": "France"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e0d"
+    },
+    "name": "Kent Bazemore",
+    "team": "Golden State Wariors",
+    "number": 26,
+    "position": "G-F",
+    "height": 195.1,
+    "weight": 88,
+    "school": "Old Dominion",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e0e"
+    },
+    "name": "Bradley Beal",
+    "team": "Washington Wizards",
+    "number": 3,
+    "position": "G",
+    "height": 192.0,
+    "weight": 93,
+    "school": "Florida",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e0f"
+    },
+    "name": "Jordan Bell",
+    "team": "Golden State Wariors",
+    "number": 7,
+    "position": "F",
+    "height": 207.3,
+    "weight": 97,
+    "school": "Oregon",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e10"
+    },
+    "name": "Darius Bazley",
+    "team": "Oklahoma Thunder",
+    "number": 7,
+    "position": "F-G",
+    "height": 207.3,
+    "weight": 94,
+    "school": "Princeton HS (OH)",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e11"
+    },
+    "name": "Tyler Bey",
+    "team": "Dallas Mavericks",
+    "number": 2,
+    "position": "F",
+    "height": 204.2,
+    "weight": 97,
+    "school": "Colorado",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e12"
+    },
+    "name": "Khem Birch",
+    "team": "Toronto Raptors",
+    "number": 24,
+    "position": "C",
+    "height": 210.3,
+    "weight": 105,
+    "school": "UNLV",
+    "country": "Canada"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e13"
+    },
+    "name": "Aron Baynes",
+    "team": "Toronto Raptors",
+    "number": 46,
+    "position": "C-F",
+    "height": 185.9,
+    "weight": 117,
+    "school": "Washington State",
+    "country": "Australia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e14"
+    },
+    "name": "Davis Bertans",
+    "team": "Washington Wizards",
+    "number": 42,
+    "position": "F",
+    "height": 185.9,
+    "weight": 102,
+    "school": "Baskonia",
+    "country": "Latvia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e15"
+    },
+    "name": "Bismack Biyombo",
+    "team": "Charlotte Hornets",
+    "number": 8,
+    "position": "C",
+    "height": 207.3,
+    "weight": 115,
+    "school": "Baloncesto Fuenlabrada",
+    "country": "DRC"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e16"
+    },
+    "name": "Keljin Blevins",
+    "team": "Portland Trail Blazers",
+    "number": 21,
+    "position": "G",
+    "height": 195.1,
+    "weight": 90,
+    "school": "Montana State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e17"
+    },
+    "name": "Nemanja Bjelica",
+    "team": "Miami Heat",
+    "number": 70,
+    "position": "F",
+    "height": 185.9,
+    "weight": 106,
+    "school": "Fenerbahce",
+    "country": "Serbia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e18"
+    },
+    "name": "Eric Bledsoe",
+    "team": "New Orleans Pelicans",
+    "number": 5,
+    "position": "G",
+    "height": 185.9,
+    "weight": 97,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e19"
+    },
+    "name": "Goga Bitadze",
+    "team": "Indiana Pacers",
+    "number": 88,
+    "position": "C-F",
+    "height": 186.2,
+    "weight": 113,
+    "school": "Mega Basket",
+    "country": "Georgia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e1a"
+    },
+    "name": "Bogdan Bogdanovic",
+    "team": "Atlanta Hawks",
+    "number": 13,
+    "position": "G",
+    "height": 201.2,
+    "weight": 99,
+    "school": "Fenerbahce",
+    "country": "Serbia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e1b"
+    },
+    "name": "Bojan Bogdanovic",
+    "team": "Utah Jazz",
+    "number": 44,
+    "position": "F",
+    "height": 204.2,
+    "weight": 102,
+    "school": "Fenerbahce",
+    "country": "Croatia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e1c"
+    },
+    "name": "Malik Beasley",
+    "team": "Minnesota Timberwolves",
+    "number": 5,
+    "position": "G",
+    "height": 195.1,
+    "weight": 84,
+    "school": "Florida State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e1d"
+    },
+    "name": "Saddiq Bey",
+    "team": "Detroit Pistons",
+    "number": 41,
+    "position": "F",
+    "height": 204.2,
+    "weight": 97,
+    "school": "Villanova",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e1e"
+    },
+    "name": "Marques Bolden",
+    "team": null,
+    "number": null,
+    "position": "C",
+    "height": 185.9,
+    "weight": 112,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e1f"
+    },
+    "name": "Bol Bol",
+    "team": "Denver Nuggets",
+    "number": 10,
+    "position": "C-F",
+    "height": 219.5,
+    "weight": 99,
+    "school": "Oregon",
+    "country": "Sudan"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e20"
+    },
+    "name": "Jordan Bone",
+    "team": null,
+    "number": null,
+    "position": "G",
+    "height": 189.0,
+    "weight": 81,
+    "school": "Tennessee",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e21"
+    },
+    "name": "Isaac Bonga",
+    "team": "Washington Wizards",
+    "number": 17,
+    "position": "G",
+    "height": 207.3,
+    "weight": 81,
+    "school": "Skyliners Frankfurt",
+    "country": "Germany"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e22"
+    },
+    "name": "Chris Boucher",
+    "team": "Toronto Raptors",
+    "number": 25,
+    "position": "F-C",
+    "height": 210.3,
+    "weight": 90,
+    "school": "Oregon",
+    "country": "Saint Lucia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e23"
+    },
+    "name": "Brian Bowen II",
+    "team": null,
+    "number": null,
+    "position": "F-G",
+    "height": 201.2,
+    "weight": 86,
+    "school": " ",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e24"
+    },
+    "name": "Devin Booker",
+    "team": "Phoenix Suns",
+    "number": 1,
+    "position": "G",
+    "height": 198.1,
+    "weight": 93,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e25"
+    },
+    "name": "DeAndre' Bembry",
+    "team": "Toronto Raptors",
+    "number": 95,
+    "position": "G-F",
+    "height": 198.1,
+    "weight": 95,
+    "school": "St. Joseph's (PA)",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e26"
+    },
+    "name": "Patrick Beverley",
+    "team": "LA Clippers",
+    "number": 21,
+    "position": "G",
+    "height": 185.9,
+    "weight": 81,
+    "school": "Arkansas",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e27"
+    },
+    "name": "Avery Bradley",
+    "team": "Houston Rockets",
+    "number": 9,
+    "position": "G",
+    "height": 192.0,
+    "weight": 81,
+    "school": "Texas-Austin",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e28"
+    },
+    "name": "Tony Bradley",
+    "team": "Oklahoma Thunder",
+    "number": 13,
+    "position": "C-F",
+    "height": 185.9,
+    "weight": 112,
+    "school": "North Carolina",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e29"
+    },
+    "name": "Jarrell Brantley",
+    "team": "Utah Jazz",
+    "number": 5,
+    "position": "F",
+    "height": 198.1,
+    "weight": 113,
+    "school": "College of Charleston",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e2a"
+    },
+    "name": "Mikal Bridges",
+    "team": "Phoenix Suns",
+    "number": 25,
+    "position": "F",
+    "height": 201.2,
+    "weight": 94,
+    "school": "Villanova",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e2b"
+    },
+    "name": "Amida Brimah",
+    "team": "Indiana Pacers",
+    "number": 37,
+    "position": "C",
+    "height": 185.9,
+    "weight": 104,
+    "school": "Connecticut",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e2c"
+    },
+    "name": "Oshae Brissett",
+    "team": "Indiana Pacers",
+    "number": 12,
+    "position": "F-G",
+    "height": 204.2,
+    "weight": 95,
+    "school": "Syracuse",
+    "country": "Canada"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e2d"
+    },
+    "name": "Malcolm Brogdon",
+    "team": "Indiana Pacers",
+    "number": 7,
+    "position": "G",
+    "height": 198.1,
+    "weight": 103,
+    "school": "Virginia",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e2e"
+    },
+    "name": "Miles Bridges",
+    "team": "Charlotte Hornets",
+    "number": 0,
+    "position": "F",
+    "height": 201.2,
+    "weight": 102,
+    "school": "Michigan State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e2f"
+    },
+    "name": "Armoni Brooks",
+    "team": "Houston Rockets",
+    "number": 7,
+    "position": "G",
+    "height": 192.0,
+    "weight": 88,
+    "school": "Houston",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e30"
+    },
+    "name": "Dillon Brooks",
+    "team": "Memphis Grizzlies",
+    "number": 24,
+    "position": "G-F",
+    "height": 204.2,
+    "weight": 102,
+    "school": "Oregon",
+    "country": "Canada"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e31"
+    },
+    "name": "Bruce Brown",
+    "team": "Brooklyn Nets",
+    "number": 1,
+    "position": "G-F",
+    "height": 195.1,
+    "weight": 91,
+    "school": "Miami",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e32"
+    },
+    "name": "Jaylen Brown",
+    "team": "Boston Celtics",
+    "number": 7,
+    "position": "G-F",
+    "height": 201.2,
+    "weight": 101,
+    "school": "California",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e33"
+    },
+    "name": "Charlie Brown Jr.",
+    "team": "Oklahoma Thunder",
+    "number": 44,
+    "position": "G",
+    "height": 201.2,
+    "weight": 90,
+    "school": "St. Joseph's (PA)",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e34"
+    },
+    "name": "Sterling Brown",
+    "team": "Houston Rockets",
+    "number": 0,
+    "position": "G-F",
+    "height": 198.1,
+    "weight": 99,
+    "school": "Southern Methodist",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e35"
+    },
+    "name": "Ignas Brazdeikis",
+    "team": "Orlando Magic",
+    "number": 17,
+    "position": "F",
+    "height": 201.2,
+    "weight": 100,
+    "school": "Michigan",
+    "country": "Canada"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e36"
+    },
+    "name": "Jalen Brunson",
+    "team": "Dallas Mavericks",
+    "number": 13,
+    "position": "G",
+    "height": 185.9,
+    "weight": 86,
+    "school": "Villanova",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e37"
+    },
+    "name": "Troy Brown Jr.",
+    "team": "Chicago Bulls",
+    "number": 7,
+    "position": "G-F",
+    "height": 201.2,
+    "weight": 97,
+    "school": "Oregon",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e38"
+    },
+    "name": "Moses Brown",
+    "team": "Boston Celtics",
+    "number": 9,
+    "position": "C",
+    "height": 219.5,
+    "weight": 111,
+    "school": "UCLA",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e39"
+    },
+    "name": "Elijah Bryant",
+    "team": "Milwaukee Bucks",
+    "number": null,
+    "position": "G",
+    "height": 198.1,
+    "weight": 95,
+    "school": "Brigham Young",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e3a"
+    },
+    "name": "Thomas Bryant",
+    "team": "Washington Wizards",
+    "number": 13,
+    "position": "C-F",
+    "height": 185.9,
+    "weight": 112,
+    "school": "Indiana",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e3b"
+    },
+    "name": "Trey Burke",
+    "team": "Dallas Mavericks",
+    "number": 3,
+    "position": "G",
+    "height": 182.9,
+    "weight": 83,
+    "school": "Michigan",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e3c"
+    },
+    "name": "Reggie Bullock",
+    "team": "New York Knicks",
+    "number": 25,
+    "position": "G-F",
+    "height": 201.2,
+    "weight": 92,
+    "school": "North Carolina",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e3d"
+    },
+    "name": "Jimmy Butler",
+    "team": "Miami Heat",
+    "number": 22,
+    "position": "F",
+    "height": 204.2,
+    "weight": 104,
+    "school": "Marquette",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e3e"
+    },
+    "name": "Bruno Caboclo",
+    "team": null,
+    "number": null,
+    "position": "F",
+    "height": 210.3,
+    "weight": 98,
+    "school": "",
+    "country": "Brazil"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e3f"
+    },
+    "name": "Alec Burks",
+    "team": "New York Knicks",
+    "number": 18,
+    "position": "G",
+    "height": 201.2,
+    "weight": 97,
+    "school": "Colorado",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e40"
+    },
+    "name": "Kentavious Caldwell-Pope",
+    "team": "Los Angeles Lakers",
+    "number": 1,
+    "position": "G",
+    "height": 198.1,
+    "weight": 92,
+    "school": "Georgia",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e41"
+    },
+    "name": "Devontae Cacok",
+    "team": "Los Angeles Lakers",
+    "number": 12,
+    "position": "F",
+    "height": 204.2,
+    "weight": 108,
+    "school": "North Carolina-Wilmington",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e42"
+    },
+    "name": "Vernon Carey Jr.",
+    "team": "Charlotte Hornets",
+    "number": 22,
+    "position": "F-C",
+    "height": 210.3,
+    "weight": 122,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e43"
+    },
+    "name": "Facundo Campazzo",
+    "team": "Denver Nuggets",
+    "number": 7,
+    "position": "G",
+    "height": 155.4,
+    "weight": 88,
+    "school": "Murcia",
+    "country": "Argentina"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e44"
+    },
+    "name": "Wendell Carter Jr.",
+    "team": "Orlando Magic",
+    "number": 34,
+    "position": "C-F",
+    "height": 185.9,
+    "weight": 122,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e45"
+    },
+    "name": "Clint Capela",
+    "team": "Atlanta Hawks",
+    "number": 15,
+    "position": "C",
+    "height": 185.9,
+    "weight": 108,
+    "school": "Elan Chalon",
+    "country": "Switzerland"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e46"
+    },
+    "name": "Jevon Carter",
+    "team": "Phoenix Suns",
+    "number": 4,
+    "position": "G",
+    "height": 185.9,
+    "weight": 90,
+    "school": "West Virginia",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e47"
+    },
+    "name": "Vlatko Cancar",
+    "team": "Denver Nuggets",
+    "number": 31,
+    "position": "F",
+    "height": 207.3,
+    "weight": 107,
+    "school": "San Pablo Burgos",
+    "country": "Slovenia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e48"
+    },
+    "name": "Alex Caruso",
+    "team": "Los Angeles Lakers",
+    "number": 4,
+    "position": "G",
+    "height": 195.1,
+    "weight": 84,
+    "school": "Texas A&M",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e49"
+    },
+    "name": "Michael Carter-Williams",
+    "team": "Orlando Magic",
+    "number": 7,
+    "position": "G",
+    "height": 198.1,
+    "weight": 86,
+    "school": "Syracuse",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e4a"
+    },
+    "name": "Willie Cauley-Stein",
+    "team": "Dallas Mavericks",
+    "number": 33,
+    "position": "C",
+    "height": 213.4,
+    "weight": 108,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e4b"
+    },
+    "name": "Chris Chiozza",
+    "team": "Brooklyn Nets",
+    "number": 4,
+    "position": "G",
+    "height": 155.8,
+    "weight": 79,
+    "school": "Florida",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e4c"
+    },
+    "name": "Marquese Chriss",
+    "team": null,
+    "number": null,
+    "position": "F",
+    "height": 210.3,
+    "weight": 108,
+    "school": "Washington",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e4d"
+    },
+    "name": "Gary Clark",
+    "team": "Philadelphia 76ers",
+    "number": 12,
+    "position": "F",
+    "height": 201.2,
+    "weight": 102,
+    "school": "Cincinnati",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e4e"
+    },
+    "name": "Brandon Clarke",
+    "team": "Memphis Grizzlies",
+    "number": 15,
+    "position": "F",
+    "height": 207.3,
+    "weight": 97,
+    "school": "Gonzaga",
+    "country": "Canada"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e4f"
+    },
+    "name": "Nicolas Claxton",
+    "team": "Brooklyn Nets",
+    "number": 33,
+    "position": "F-C",
+    "height": 186.2,
+    "weight": 97,
+    "school": "Georgia",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e50"
+    },
+    "name": "Devin Cannady",
+    "team": null,
+    "number": null,
+    "position": "G",
+    "height": 189.0,
+    "weight": 82,
+    "school": "Princeton",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e51"
+    },
+    "name": "Jordan Clarkson",
+    "team": "Utah Jazz",
+    "number": 0,
+    "position": "G",
+    "height": 195.1,
+    "weight": 87,
+    "school": "Missouri",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e52"
+    },
+    "name": "John Collins",
+    "team": "Atlanta Hawks",
+    "number": 20,
+    "position": "F-C",
+    "height": 210.3,
+    "weight": 106,
+    "school": "Wake Forest",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e53"
+    },
+    "name": "Amir Coffey",
+    "team": "LA Clippers",
+    "number": 7,
+    "position": "G-F",
+    "height": 204.2,
+    "weight": 95,
+    "school": "Minnesota",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e54"
+    },
+    "name": "Zach Collins",
+    "team": "Portland Trail Blazers",
+    "number": 33,
+    "position": "F-C",
+    "height": 186.2,
+    "weight": 113,
+    "school": "Gonzaga",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e55"
+    },
+    "name": "Pat Connaughton",
+    "team": "Milwaukee Bucks",
+    "number": 24,
+    "position": "G",
+    "height": 198.1,
+    "weight": 94,
+    "school": "Notre Dame",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e56"
+    },
+    "name": "Quinn Cook",
+    "team": null,
+    "number": null,
+    "position": "G",
+    "height": 185.9,
+    "weight": 81,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e57"
+    },
+    "name": "Mike Conley",
+    "team": "Utah Jazz",
+    "number": 10,
+    "position": "G",
+    "height": 185.9,
+    "weight": 79,
+    "school": "Ohio State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e58"
+    },
+    "name": "Torrey Craig",
+    "team": "Phoenix Suns",
+    "number": 12,
+    "position": "F",
+    "height": 204.2,
+    "weight": 100,
+    "school": "South Carolina Upstate",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e59"
+    },
+    "name": "Tyler Cook",
+    "team": "Detroit Pistons",
+    "number": 25,
+    "position": "F",
+    "height": 207.3,
+    "weight": 115,
+    "school": "Iowa",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e5a"
+    },
+    "name": "Jarrett Culver",
+    "team": "Minnesota Timberwolves",
+    "number": 23,
+    "position": "G-F",
+    "height": 201.2,
+    "weight": 88,
+    "school": "Texas Tech",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e5b"
+    },
+    "name": "DeMarcus Cousins",
+    "team": "LA Clippers",
+    "number": 15,
+    "position": "C",
+    "height": 185.9,
+    "weight": 122,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e5c"
+    },
+    "name": "Jae Crowder",
+    "team": "Phoenix Suns",
+    "number": 99,
+    "position": "F",
+    "height": 201.2,
+    "weight": 106,
+    "school": "Marquette",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e5d"
+    },
+    "name": "Seth Curry",
+    "team": "Philadelphia 76ers",
+    "number": 31,
+    "position": "G",
+    "height": 189.0,
+    "weight": 83,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e5e"
+    },
+    "name": "Nate Darling",
+    "team": "Charlotte Hornets",
+    "number": 30,
+    "position": "G",
+    "height": 201.2,
+    "weight": 90,
+    "school": "Delaware",
+    "country": "Canada"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e5f"
+    },
+    "name": "Stephen Curry",
+    "team": "Golden State Wariors",
+    "number": 30,
+    "position": "G",
+    "height": 192.0,
+    "weight": 83,
+    "school": "Davidson",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e60"
+    },
+    "name": "Ed Davis",
+    "team": "Minnesota Timberwolves",
+    "number": 17,
+    "position": "C-F",
+    "height": 210.3,
+    "weight": 98,
+    "school": "North Carolina",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e61"
+    },
+    "name": "Terence Davis",
+    "team": "Sacramento Kings",
+    "number": 9,
+    "position": "G",
+    "height": 195.1,
+    "weight": 91,
+    "school": "Mississippi",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e62"
+    },
+    "name": "DeMar DeRozan",
+    "team": "San Antonio Spurs",
+    "number": 10,
+    "position": "G-F",
+    "height": 201.2,
+    "weight": 99,
+    "school": "Southern California",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e63"
+    },
+    "name": "Anthony Davis",
+    "team": "Los Angeles Lakers",
+    "number": 3,
+    "position": "F-C",
+    "height": 185.9,
+    "weight": 114,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e64"
+    },
+    "name": "Gabriel Deck",
+    "team": "Oklahoma Thunder",
+    "number": 6,
+    "position": "F",
+    "height": 201.2,
+    "weight": 104,
+    "school": "Real Madrid",
+    "country": "Argentina"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e65"
+    },
+    "name": "Dewayne Dedmon",
+    "team": "Miami Heat",
+    "number": 21,
+    "position": "C",
+    "height": 213.4,
+    "weight": 111,
+    "school": "Southern California",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e66"
+    },
+    "name": "Matthew Dellavedova",
+    "team": "Cleveland Cavaliers",
+    "number": 18,
+    "position": "G",
+    "height": 192.0,
+    "weight": 90,
+    "school": "St.Mary's College of California",
+    "country": "Australia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e67"
+    },
+    "name": "Donte DiVincenzo",
+    "team": "Milwaukee Bucks",
+    "number": 0,
+    "position": "G",
+    "height": 195.1,
+    "weight": 92,
+    "school": "Villanova",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e68"
+    },
+    "name": "Robert Covington",
+    "team": "Portland Trail Blazers",
+    "number": 23,
+    "position": "F",
+    "height": 204.2,
+    "weight": 94,
+    "school": "Tennessee State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e69"
+    },
+    "name": "Hamidou Diallo",
+    "team": "Detroit Pistons",
+    "number": 6,
+    "position": "G",
+    "height": 198.1,
+    "weight": 91,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e6a"
+    },
+    "name": "Gorgui Dieng",
+    "team": "San Antonio Spurs",
+    "number": 7,
+    "position": "C",
+    "height": 185.9,
+    "weight": 114,
+    "school": "Louisville",
+    "country": "Senegal"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e6b"
+    },
+    "name": "Spencer Dinwiddie",
+    "team": "Brooklyn Nets",
+    "number": 26,
+    "position": "G",
+    "height": 198.1,
+    "weight": 97,
+    "school": "Colorado",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e6c"
+    },
+    "name": "Luka Doncic",
+    "team": "Dallas Mavericks",
+    "number": 77,
+    "position": "F-G",
+    "height": 204.2,
+    "weight": 104,
+    "school": "Real Madrid",
+    "country": "Slovenia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e6d"
+    },
+    "name": "Luguentz Dort",
+    "team": "Oklahoma Thunder",
+    "number": 5,
+    "position": "G",
+    "height": 192.0,
+    "weight": 97,
+    "school": "Arizona State",
+    "country": "Canada"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e6e"
+    },
+    "name": "Damyean Dotson",
+    "team": "Cleveland Cavaliers",
+    "number": 21,
+    "position": "G",
+    "height": 198.1,
+    "weight": 95,
+    "school": "Houston",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e6f"
+    },
+    "name": "Devon Dotson",
+    "team": "Chicago Bulls",
+    "number": 3,
+    "position": "G",
+    "height": 189.0,
+    "weight": 83,
+    "school": "Kansas",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e70"
+    },
+    "name": "PJ Dozier",
+    "team": "Denver Nuggets",
+    "number": 35,
+    "position": "G-F",
+    "height": 201.2,
+    "weight": 92,
+    "school": "South Carolina",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e71"
+    },
+    "name": "Sekou Doumbouya",
+    "team": "Detroit Pistons",
+    "number": 45,
+    "position": "F",
+    "height": 207.3,
+    "weight": 104,
+    "school": "Limoges",
+    "country": "France"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e72"
+    },
+    "name": "Andre Drummond",
+    "team": "Los Angeles Lakers",
+    "number": 2,
+    "position": "C",
+    "height": 185.9,
+    "weight": 126,
+    "school": "Connecticut",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e73"
+    },
+    "name": "Goran Dragic",
+    "team": "Miami Heat",
+    "number": 7,
+    "position": "G",
+    "height": 192.0,
+    "weight": 86,
+    "school": "Union Olimpija",
+    "country": "Slovenia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e74"
+    },
+    "name": "Kevin Durant",
+    "team": "Brooklyn Nets",
+    "number": 7,
+    "position": "F",
+    "height": 185.9,
+    "weight": 108,
+    "school": "Texas-Austin",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e75"
+    },
+    "name": "Anthony Edwards",
+    "team": "Minnesota Timberwolves",
+    "number": 1,
+    "position": "G",
+    "height": 195.1,
+    "weight": 102,
+    "school": "Georgia",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e76"
+    },
+    "name": "Jared Dudley",
+    "team": "Los Angeles Lakers",
+    "number": 10,
+    "position": "F",
+    "height": 201.2,
+    "weight": 107,
+    "school": "Boston College",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e77"
+    },
+    "name": "Mamadi Diakite",
+    "team": "Milwaukee Bucks",
+    "number": 25,
+    "position": "F",
+    "height": 210.3,
+    "weight": 103,
+    "school": "Virginia",
+    "country": "Guinea"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e78"
+    },
+    "name": "Kris Dunn",
+    "team": "Atlanta Hawks",
+    "number": 32,
+    "position": "G",
+    "height": 192.0,
+    "weight": 92,
+    "school": "Providence",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e79"
+    },
+    "name": "Henry Ellenson",
+    "team": null,
+    "number": null,
+    "position": "F-C",
+    "height": 185.9,
+    "weight": 108,
+    "school": "Marquette",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e7a"
+    },
+    "name": "Carsen Edwards",
+    "team": "Boston Celtics",
+    "number": 4,
+    "position": "G",
+    "height": 155.8,
+    "weight": 90,
+    "school": "Purdue",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e7b"
+    },
+    "name": "CJ Elleby",
+    "team": "Portland Trail Blazers",
+    "number": 16,
+    "position": "F-G",
+    "height": 201.2,
+    "weight": 90,
+    "school": "Washington State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e7c"
+    },
+    "name": "Wayne Ellington",
+    "team": "Detroit Pistons",
+    "number": 8,
+    "position": "G",
+    "height": 195.1,
+    "weight": 93,
+    "school": "North Carolina",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e7d"
+    },
+    "name": "James Ennis III",
+    "team": "Orlando Magic",
+    "number": 11,
+    "position": "F",
+    "height": 201.2,
+    "weight": 97,
+    "school": "California State-Long Beach",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e7e"
+    },
+    "name": "Joel Embiid",
+    "team": "Philadelphia 76ers",
+    "number": 21,
+    "position": "C-F",
+    "height": 213.4,
+    "weight": 126,
+    "school": "Kansas",
+    "country": "Cameroon"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e7f"
+    },
+    "name": "Drew Eubanks",
+    "team": "San Antonio Spurs",
+    "number": 14,
+    "position": "F-C",
+    "height": 210.3,
+    "weight": 111,
+    "school": "Oregon State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e80"
+    },
+    "name": "Dante Exum",
+    "team": "Houston Rockets",
+    "number": 5,
+    "position": "G",
+    "height": 198.1,
+    "weight": 97,
+    "school": "Australian Institute of Sport",
+    "country": "Australia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e81"
+    },
+    "name": "Derrick Favors",
+    "team": "Utah Jazz",
+    "number": 15,
+    "position": "F",
+    "height": 210.3,
+    "weight": 120,
+    "school": "Georgia Tech",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e82"
+    },
+    "name": "Cristiano Felicio",
+    "team": "Chicago Bulls",
+    "number": 6,
+    "position": "F-C",
+    "height": 186.2,
+    "weight": 122,
+    "school": "Flamengo",
+    "country": "Brazil"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e83"
+    },
+    "name": "Tacko Fall",
+    "team": "Boston Celtics",
+    "number": 99,
+    "position": "C",
+    "height": 228.6,
+    "weight": 141,
+    "school": "Central Florida",
+    "country": "Senegal"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e84"
+    },
+    "name": "Terrance Ferguson",
+    "team": null,
+    "number": null,
+    "position": "G",
+    "height": 201.2,
+    "weight": 86,
+    "school": "",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e85"
+    },
+    "name": "Yogi Ferrell",
+    "team": "LA Clippers",
+    "number": 11,
+    "position": "G",
+    "height": 182.9,
+    "weight": 80,
+    "school": "Indiana",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e86"
+    },
+    "name": "Bruno Fernando",
+    "team": "Atlanta Hawks",
+    "number": 24,
+    "position": "F-C",
+    "height": 210.3,
+    "weight": 108,
+    "school": "Maryland",
+    "country": "Angola"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e87"
+    },
+    "name": "Dorian Finney-Smith",
+    "team": "Dallas Mavericks",
+    "number": 10,
+    "position": "F",
+    "height": 204.2,
+    "weight": 99,
+    "school": "Florida",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e88"
+    },
+    "name": "Trent Forrest",
+    "team": "Utah Jazz",
+    "number": 3,
+    "position": "G",
+    "height": 195.1,
+    "weight": 95,
+    "school": "Florida State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e89"
+    },
+    "name": "Bryn Forbes",
+    "team": "Milwaukee Bucks",
+    "number": 7,
+    "position": "G",
+    "height": 189.0,
+    "weight": 92,
+    "school": "Michigan State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e8a"
+    },
+    "name": "Malik Fitts",
+    "team": null,
+    "number": null,
+    "position": "F",
+    "height": 207.3,
+    "weight": 104,
+    "school": "-",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e8b"
+    },
+    "name": "Evan Fournier",
+    "team": "Boston Celtics",
+    "number": 94,
+    "position": "G-F",
+    "height": 204.2,
+    "weight": 92,
+    "school": "Poitiers Basket 86",
+    "country": "France"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e8c"
+    },
+    "name": "De'Aaron Fox",
+    "team": "Sacramento Kings",
+    "number": 5,
+    "position": "G",
+    "height": 192.0,
+    "weight": 83,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e8d"
+    },
+    "name": "Malachi Flynn",
+    "team": "Toronto Raptors",
+    "number": 8,
+    "position": "G",
+    "height": 185.9,
+    "weight": 79,
+    "school": "San Diego State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e8e"
+    },
+    "name": "Tim Frazier",
+    "team": "Memphis Grizzlies",
+    "number": 10,
+    "position": "G",
+    "height": 182.9,
+    "weight": 77,
+    "school": "Penn State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e8f"
+    },
+    "name": "Robert Franks",
+    "team": null,
+    "number": null,
+    "position": "F",
+    "height": 204.2,
+    "weight": 102,
+    "school": "Washington State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e90"
+    },
+    "name": "Markelle Fultz",
+    "team": "Orlando Magic",
+    "number": 20,
+    "position": "G",
+    "height": 192.0,
+    "weight": 94,
+    "school": "Washington",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e91"
+    },
+    "name": "Darius Garland",
+    "team": "Cleveland Cavaliers",
+    "number": 10,
+    "position": "G",
+    "height": 185.9,
+    "weight": 87,
+    "school": "Vanderbilt",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e92"
+    },
+    "name": "Rudy Gay",
+    "team": "San Antonio Spurs",
+    "number": 22,
+    "position": "F-G",
+    "height": 207.3,
+    "weight": 113,
+    "school": "Connecticut",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e93"
+    },
+    "name": "Wenyen Gabriel",
+    "team": "New Orleans Pelicans",
+    "number": 32,
+    "position": "F",
+    "height": 210.3,
+    "weight": 92,
+    "school": "Kentucky",
+    "country": "South Sudan"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e94"
+    },
+    "name": "Daniel Gafford",
+    "team": "Washington Wizards",
+    "number": 21,
+    "position": "F-C",
+    "height": 185.9,
+    "weight": 106,
+    "school": "Arkansas",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e95"
+    },
+    "name": "Taj Gibson",
+    "team": "New York Knicks",
+    "number": 67,
+    "position": "F",
+    "height": 210.3,
+    "weight": 105,
+    "school": "Southern California",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e96"
+    },
+    "name": "Harry Giles III",
+    "team": "Portland Trail Blazers",
+    "number": 4,
+    "position": "F-C",
+    "height": 186.2,
+    "weight": 108,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e97"
+    },
+    "name": "Anthony Gill",
+    "team": "Washington Wizards",
+    "number": 16,
+    "position": "F",
+    "height": 204.2,
+    "weight": 104,
+    "school": "Virginia",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e98"
+    },
+    "name": "Shai Gilgeous-Alexander",
+    "team": "Oklahoma Thunder",
+    "number": 2,
+    "position": "G-F",
+    "height": 201.2,
+    "weight": 81,
+    "school": "Kentucky",
+    "country": "Canada"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e99"
+    },
+    "name": "Marc Gasol",
+    "team": "Los Angeles Lakers",
+    "number": 14,
+    "position": "C",
+    "height": 186.2,
+    "weight": 115,
+    "school": "FC Barcelona",
+    "country": "Spain"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e9a"
+    },
+    "name": "Danilo Gallinari",
+    "team": "Atlanta Hawks",
+    "number": 8,
+    "position": "F",
+    "height": 185.9,
+    "weight": 105,
+    "school": "Olimpia Milano",
+    "country": "Italy"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e9b"
+    },
+    "name": "Paul George",
+    "team": "LA Clippers",
+    "number": 13,
+    "position": "F",
+    "height": 207.3,
+    "weight": 99,
+    "school": "Fresno State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e9c"
+    },
+    "name": "Rudy Gobert",
+    "team": "Utah Jazz",
+    "number": 27,
+    "position": "C",
+    "height": 216.4,
+    "weight": 117,
+    "school": "Cholet",
+    "country": "France"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e9d"
+    },
+    "name": "Jerami Grant",
+    "team": "Detroit Pistons",
+    "number": 9,
+    "position": "F",
+    "height": 207.3,
+    "weight": 95,
+    "school": "Syracuse",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e9e"
+    },
+    "name": "Danny Green",
+    "team": "Philadelphia 76ers",
+    "number": 14,
+    "position": "G",
+    "height": 201.2,
+    "weight": 97,
+    "school": "North Carolina",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4e9f"
+    },
+    "name": "Draymond Green",
+    "team": "Golden State Wariors",
+    "number": 23,
+    "position": "F",
+    "height": 201.2,
+    "weight": 104,
+    "school": "Michigan State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ea0"
+    },
+    "name": "Freddie Gillespie",
+    "team": "Toronto Raptors",
+    "number": null,
+    "position": "F",
+    "height": 210.3,
+    "weight": 111,
+    "school": "Baylor",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ea1"
+    },
+    "name": "Javonte Green",
+    "team": "Chicago Bulls",
+    "number": 11,
+    "position": "G-F",
+    "height": 195.1,
+    "weight": 92,
+    "school": "Radford",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ea2"
+    },
+    "name": "Eric Gordon",
+    "team": "Houston Rockets",
+    "number": 10,
+    "position": "G",
+    "height": 192.0,
+    "weight": 97,
+    "school": "Indiana",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ea3"
+    },
+    "name": "Aaron Gordon",
+    "team": "Denver Nuggets",
+    "number": 50,
+    "position": "F",
+    "height": 207.3,
+    "weight": 106,
+    "school": "Arizona",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ea4"
+    },
+    "name": "JaMychal Green",
+    "team": "Denver Nuggets",
+    "number": 0,
+    "position": "F-C",
+    "height": 207.3,
+    "weight": 102,
+    "school": "Alabama",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ea5"
+    },
+    "name": "Jeff Green",
+    "team": "Brooklyn Nets",
+    "number": 8,
+    "position": "F",
+    "height": 207.3,
+    "weight": 106,
+    "school": "Georgetown",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ea6"
+    },
+    "name": "Josh Green",
+    "team": "Dallas Mavericks",
+    "number": 8,
+    "position": "G",
+    "height": 198.1,
+    "weight": 90,
+    "school": "Arizona",
+    "country": "Australia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ea7"
+    },
+    "name": "Devonte' Graham",
+    "team": "Charlotte Hornets",
+    "number": 4,
+    "position": "G",
+    "height": 185.9,
+    "weight": 88,
+    "school": "Kansas",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ea8"
+    },
+    "name": "Blake Griffin",
+    "team": "Brooklyn Nets",
+    "number": 2,
+    "position": "F",
+    "height": 210.3,
+    "weight": 113,
+    "school": "Oklahoma",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ea9"
+    },
+    "name": "Kyle Guy",
+    "team": "Sacramento Kings",
+    "number": 7,
+    "position": "G",
+    "height": 185.9,
+    "weight": 75,
+    "school": "Virginia",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eaa"
+    },
+    "name": "Rui Hachimura",
+    "team": "Washington Wizards",
+    "number": 8,
+    "position": "F",
+    "height": 207.3,
+    "weight": 104,
+    "school": "Gonzaga",
+    "country": "Japan"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eab"
+    },
+    "name": "Brandon Goodwin",
+    "team": "Atlanta Hawks",
+    "number": 0,
+    "position": "G",
+    "height": 182.9,
+    "weight": 81,
+    "school": "Florida Gulf Coast",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eac"
+    },
+    "name": "Ashton Hagans",
+    "team": null,
+    "number": null,
+    "position": "G-F",
+    "height": 192.0,
+    "weight": 86,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ead"
+    },
+    "name": "James Harden",
+    "team": "Brooklyn Nets",
+    "number": 13,
+    "position": "G",
+    "height": 198.1,
+    "weight": 99,
+    "school": "Arizona State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eae"
+    },
+    "name": "Maurice Harkless",
+    "team": "Sacramento Kings",
+    "number": 8,
+    "position": "F-G",
+    "height": 204.2,
+    "weight": 99,
+    "school": "St. John's",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eaf"
+    },
+    "name": "Donta Hall",
+    "team": null,
+    "number": null,
+    "position": "C",
+    "height": 185.9,
+    "weight": 104,
+    "school": "Alabama",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eb0"
+    },
+    "name": "Jared Harper",
+    "team": "New York Knicks",
+    "number": 0,
+    "position": "G",
+    "height": 155.4,
+    "weight": 79,
+    "school": "Auburn",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eb1"
+    },
+    "name": "Montrezl Harrell",
+    "team": "Los Angeles Lakers",
+    "number": 15,
+    "position": "F-C",
+    "height": 204.2,
+    "weight": 108,
+    "school": "Louisville",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eb2"
+    },
+    "name": "Tim Hardaway Jr.",
+    "team": "Dallas Mavericks",
+    "number": 11,
+    "position": "G-F",
+    "height": 198.1,
+    "weight": 92,
+    "school": "Michigan",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eb3"
+    },
+    "name": "Jalen Harris",
+    "team": null,
+    "number": null,
+    "position": "G",
+    "height": 198.1,
+    "weight": 88,
+    "school": "Nevada",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eb4"
+    },
+    "name": "Gary Harris",
+    "team": "Orlando Magic",
+    "number": 14,
+    "position": "G",
+    "height": 195.1,
+    "weight": 95,
+    "school": "Michigan State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eb5"
+    },
+    "name": "Josh Hall",
+    "team": "Oklahoma Thunder",
+    "number": 15,
+    "position": "F",
+    "height": 210.3,
+    "weight": 86,
+    "school": "Moravian Prep (NC)",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eb6"
+    },
+    "name": "Joe Harris",
+    "team": "Brooklyn Nets",
+    "number": 12,
+    "position": "G-F",
+    "height": 201.2,
+    "weight": 99,
+    "school": "Virginia",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eb7"
+    },
+    "name": "Shaquille Harrison",
+    "team": "Denver Nuggets",
+    "number": 3,
+    "position": "G",
+    "height": 204.2,
+    "weight": 86,
+    "school": "Tulsa",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eb8"
+    },
+    "name": "Tobias Harris",
+    "team": "Philadelphia 76ers",
+    "number": 12,
+    "position": "F",
+    "height": 207.3,
+    "weight": 102,
+    "school": "Tennessee",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eb9"
+    },
+    "name": "Josh Hart",
+    "team": "New Orleans Pelicans",
+    "number": 3,
+    "position": "G",
+    "height": 198.1,
+    "weight": 97,
+    "school": "Villanova",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eba"
+    },
+    "name": "Isaiah Hartenstein",
+    "team": "Cleveland Cavaliers",
+    "number": 55,
+    "position": "C-F",
+    "height": 213.4,
+    "weight": 113,
+    "school": "Zalgiris",
+    "country": "Germany"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ebb"
+    },
+    "name": "Udonis Haslem",
+    "team": "Miami Heat",
+    "number": 40,
+    "position": "F",
+    "height": 207.3,
+    "weight": 106,
+    "school": "Florida",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ebc"
+    },
+    "name": "Jaxson Hayes",
+    "team": "New Orleans Pelicans",
+    "number": 10,
+    "position": "C-F",
+    "height": 186.2,
+    "weight": 99,
+    "school": "Texas-Austin",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ebd"
+    },
+    "name": "R.J. Hampton",
+    "team": "Orlando Magic",
+    "number": 13,
+    "position": "G",
+    "height": 195.1,
+    "weight": 79,
+    "school": "New Zealand Breakers",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ebe"
+    },
+    "name": "Tyrese Haliburton",
+    "team": "Sacramento Kings",
+    "number": 0,
+    "position": "G",
+    "height": 198.1,
+    "weight": 83,
+    "school": "Iowa State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ebf"
+    },
+    "name": "Killian Hayes",
+    "team": "Detroit Pistons",
+    "number": 7,
+    "position": "G",
+    "height": 198.1,
+    "weight": 88,
+    "school": "Ratiopharm Ulm",
+    "country": "France"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ec0"
+    },
+    "name": "Gordon Hayward",
+    "team": "Charlotte Hornets",
+    "number": 20,
+    "position": "F",
+    "height": 204.2,
+    "weight": 102,
+    "school": "Butler",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ec1"
+    },
+    "name": "Juancho Hernangomez",
+    "team": "Minnesota Timberwolves",
+    "number": 41,
+    "position": "F",
+    "height": 210.3,
+    "weight": 97,
+    "school": "Estudiantes",
+    "country": "Spain"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ec2"
+    },
+    "name": "Tyler Herro",
+    "team": "Miami Heat",
+    "number": 14,
+    "position": "G",
+    "height": 198.1,
+    "weight": 88,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ec3"
+    },
+    "name": "Nate Hinton",
+    "team": "Dallas Mavericks",
+    "number": 14,
+    "position": "G-F",
+    "height": 198.1,
+    "weight": 95,
+    "school": "Houston",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ec4"
+    },
+    "name": "Solomon Hill",
+    "team": "Atlanta Hawks",
+    "number": 18,
+    "position": "F",
+    "height": 201.2,
+    "weight": 102,
+    "school": "Arizona",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ec5"
+    },
+    "name": "Willy Hernangomez",
+    "team": "New Orleans Pelicans",
+    "number": 9,
+    "position": "C-F",
+    "height": 186.2,
+    "weight": 113,
+    "school": "Cajasol Sevilla",
+    "country": "Spain"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ec6"
+    },
+    "name": "Langston Galloway",
+    "team": "Phoenix Suns",
+    "number": 2,
+    "position": "G",
+    "height": 185.9,
+    "weight": 90,
+    "school": "St. Joseph's (PA)",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ec7"
+    },
+    "name": "Buddy Hield",
+    "team": "Sacramento Kings",
+    "number": 24,
+    "position": "G",
+    "height": 195.1,
+    "weight": 99,
+    "school": "Oklahoma",
+    "country": "Bahamas"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ec8"
+    },
+    "name": "George Hill",
+    "team": "Philadelphia 76ers",
+    "number": 33,
+    "position": "G",
+    "height": 195.1,
+    "weight": 85,
+    "school": "Indiana-Purdue Indianapolis",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ec9"
+    },
+    "name": "Jaylen Hoard",
+    "team": "Oklahoma Thunder",
+    "number": 8,
+    "position": "F",
+    "height": 207.3,
+    "weight": 97,
+    "school": "Wake Forest",
+    "country": "France"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eca"
+    },
+    "name": "Jrue Holiday",
+    "team": "Milwaukee Bucks",
+    "number": 21,
+    "position": "G",
+    "height": 192.0,
+    "weight": 92,
+    "school": "UCLA",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ecb"
+    },
+    "name": "Rondae Hollis-Jefferson",
+    "team": "Portland Trail Blazers",
+    "number": 2,
+    "position": "F",
+    "height": 201.2,
+    "weight": 98,
+    "school": "Arizona",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ecc"
+    },
+    "name": "Aaron Holiday",
+    "team": "Indiana Pacers",
+    "number": 3,
+    "position": "G",
+    "height": 182.9,
+    "weight": 83,
+    "school": "UCLA",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ecd"
+    },
+    "name": "Justin Holiday",
+    "team": "Indiana Pacers",
+    "number": 8,
+    "position": "F-G",
+    "height": 201.2,
+    "weight": 81,
+    "school": "Washington",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ece"
+    },
+    "name": "Richaun Holmes",
+    "team": "Sacramento Kings",
+    "number": 22,
+    "position": "F",
+    "height": 185.9,
+    "weight": 106,
+    "school": "Bowling Green",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ecf"
+    },
+    "name": "Al Horford",
+    "team": "Boston Celtics",
+    "number": 42,
+    "position": "C-F",
+    "height": 210.3,
+    "weight": 108,
+    "school": "Florida",
+    "country": "Dominican Republic"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ed0"
+    },
+    "name": "Rodney Hood",
+    "team": "Toronto Raptors",
+    "number": 32,
+    "position": "G-F",
+    "height": 207.3,
+    "weight": 94,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ed1"
+    },
+    "name": "Caleb Homesley",
+    "team": "Washington Wizards",
+    "number": null,
+    "position": "G",
+    "height": 201.2,
+    "weight": 92,
+    "school": "Liberty",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ed2"
+    },
+    "name": "Dwight Howard",
+    "team": "Philadelphia 76ers",
+    "number": 39,
+    "position": "C-F",
+    "height": 185.9,
+    "weight": 120,
+    "school": "SW Atlanta Christian Academy (GA)",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ed3"
+    },
+    "name": "Danuel House Jr.",
+    "team": "Houston Rockets",
+    "number": 4,
+    "position": "F-G",
+    "height": 201.2,
+    "weight": 99,
+    "school": "Texas A&M",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ed4"
+    },
+    "name": "De'Andre Hunter",
+    "team": "Atlanta Hawks",
+    "number": 12,
+    "position": "F-G",
+    "height": 207.3,
+    "weight": 102,
+    "school": "Virginia",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ed5"
+    },
+    "name": "Serge Ibaka",
+    "team": "LA Clippers",
+    "number": 9,
+    "position": "F",
+    "height": 185.9,
+    "weight": 106,
+    "school": "Ricoh Manresa",
+    "country": "Republic of the Congo"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ed6"
+    },
+    "name": "Andre Iguodala",
+    "team": "Miami Heat",
+    "number": 28,
+    "position": "G-F",
+    "height": 201.2,
+    "weight": 97,
+    "school": "Arizona",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ed7"
+    },
+    "name": "Ersan Ilyasova",
+    "team": "Utah Jazz",
+    "number": 77,
+    "position": "F",
+    "height": 210.3,
+    "weight": 106,
+    "school": "FC Barcelona",
+    "country": "Turkey"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ed8"
+    },
+    "name": "Chandler Hutchison",
+    "team": "Washington Wizards",
+    "number": 1,
+    "position": "F-G",
+    "height": 201.2,
+    "weight": 95,
+    "school": "Boise State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ed9"
+    },
+    "name": "Talen Horton-Tucker",
+    "team": "Los Angeles Lakers",
+    "number": 5,
+    "position": "G",
+    "height": 195.1,
+    "weight": 106,
+    "school": "Iowa State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eda"
+    },
+    "name": "Kevin Huerter",
+    "team": "Atlanta Hawks",
+    "number": 3,
+    "position": "G-F",
+    "height": 204.2,
+    "weight": 86,
+    "school": "Maryland",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4edb"
+    },
+    "name": "Markus Howard",
+    "team": "Denver Nuggets",
+    "number": 0,
+    "position": "G",
+    "height": 155.4,
+    "weight": 79,
+    "school": "Marquette",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4edc"
+    },
+    "name": "Elijah Hughes",
+    "team": "Utah Jazz",
+    "number": 33,
+    "position": "G",
+    "height": 198.1,
+    "weight": 97,
+    "school": "Syracuse",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4edd"
+    },
+    "name": "Justin Jackson",
+    "team": "Milwaukee Bucks",
+    "number": 44,
+    "position": "F",
+    "height": 207.3,
+    "weight": 99,
+    "school": "North Carolina",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ede"
+    },
+    "name": "Frank Jackson",
+    "team": "Detroit Pistons",
+    "number": 5,
+    "position": "G",
+    "height": 192.0,
+    "weight": 92,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4edf"
+    },
+    "name": "Jonathan Isaac",
+    "team": "Orlando Magic",
+    "number": 1,
+    "position": "F",
+    "height": 186.2,
+    "weight": 104,
+    "school": "Florida State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ee0"
+    },
+    "name": "Josh Jackson",
+    "team": "Detroit Pistons",
+    "number": 20,
+    "position": "G-F",
+    "height": 207.3,
+    "weight": 93,
+    "school": "Kansas",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ee1"
+    },
+    "name": "Reggie Jackson",
+    "team": "LA Clippers",
+    "number": 1,
+    "position": "G",
+    "height": 189.0,
+    "weight": 94,
+    "school": "Boston College",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ee2"
+    },
+    "name": "Justin James",
+    "team": "Sacramento Kings",
+    "number": 10,
+    "position": "G-F",
+    "height": 204.2,
+    "weight": 86,
+    "school": "Wyoming",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ee3"
+    },
+    "name": "LeBron James",
+    "team": "Los Angeles Lakers",
+    "number": 6,
+    "position": "F",
+    "height": 210.3,
+    "weight": 113,
+    "school": "St. Vincent-St. Mary HS (OH)",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ee4"
+    },
+    "name": "DaQuan Jeffries",
+    "team": "San Antonio Spurs",
+    "number": 55,
+    "position": "G-F",
+    "height": 198.1,
+    "weight": 104,
+    "school": "Tulsa",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ee5"
+    },
+    "name": "Isaiah Joe",
+    "team": "Philadelphia 76ers",
+    "number": 7,
+    "position": "G",
+    "height": 195.1,
+    "weight": 74,
+    "school": "Arkansas",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ee6"
+    },
+    "name": "Ty Jerome",
+    "team": "Oklahoma Thunder",
+    "number": 16,
+    "position": "G-F",
+    "height": 198.1,
+    "weight": 88,
+    "school": "Virginia",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ee7"
+    },
+    "name": "Cameron Johnson",
+    "team": "Phoenix Suns",
+    "number": 23,
+    "position": "F",
+    "height": 207.3,
+    "weight": 95,
+    "school": "North Carolina",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ee8"
+    },
+    "name": "James Johnson",
+    "team": "New Orleans Pelicans",
+    "number": 16,
+    "position": "F",
+    "height": 204.2,
+    "weight": 108,
+    "school": "Wake Forest",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ee9"
+    },
+    "name": "Keldon Johnson",
+    "team": "San Antonio Spurs",
+    "number": 3,
+    "position": "F-G",
+    "height": 198.1,
+    "weight": 99,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eea"
+    },
+    "name": "Wes Iwundu",
+    "team": "New Orleans Pelicans",
+    "number": 4,
+    "position": "F",
+    "height": 201.2,
+    "weight": 88,
+    "school": "Kansas State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eeb"
+    },
+    "name": "Kyrie Irving",
+    "team": "Brooklyn Nets",
+    "number": 11,
+    "position": "G",
+    "height": 189.0,
+    "weight": 88,
+    "school": "Duke",
+    "country": "Australia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eec"
+    },
+    "name": "Jaren Jackson Jr.",
+    "team": "Memphis Grizzlies",
+    "number": 13,
+    "position": "F-C",
+    "height": 186.2,
+    "weight": 109,
+    "school": "Michigan State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eed"
+    },
+    "name": "Joe Ingles",
+    "team": "Utah Jazz",
+    "number": 2,
+    "position": "F-G",
+    "height": 207.3,
+    "weight": 99,
+    "school": "Maccabi Tel Aviv",
+    "country": "Australia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eee"
+    },
+    "name": "Mike James",
+    "team": "Brooklyn Nets",
+    "number": 55,
+    "position": "G",
+    "height": 185.9,
+    "weight": 79,
+    "school": "Lamar",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eef"
+    },
+    "name": "Brandon Ingram",
+    "team": "New Orleans Pelicans",
+    "number": 14,
+    "position": "F",
+    "height": 207.3,
+    "weight": 86,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ef0"
+    },
+    "name": "Alize Johnson",
+    "team": "Brooklyn Nets",
+    "number": 24,
+    "position": "F",
+    "height": 204.2,
+    "weight": 96,
+    "school": "Missouri State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ef1"
+    },
+    "name": "Tyler Johnson",
+    "team": "Brooklyn Nets",
+    "number": 10,
+    "position": "G",
+    "height": 192.0,
+    "weight": 84,
+    "school": "Fresno State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ef2"
+    },
+    "name": "Stanley Johnson",
+    "team": "Toronto Raptors",
+    "number": 5,
+    "position": "F-G",
+    "height": 201.2,
+    "weight": 109,
+    "school": "Arizona",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ef3"
+    },
+    "name": "Damian Jones",
+    "team": "Sacramento Kings",
+    "number": 15,
+    "position": "C",
+    "height": 186.2,
+    "weight": 111,
+    "school": "Vanderbilt",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ef4"
+    },
+    "name": "DeAndre Jordan",
+    "team": "Brooklyn Nets",
+    "number": 6,
+    "position": "C",
+    "height": 186.2,
+    "weight": 120,
+    "school": "Texas A&M",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ef5"
+    },
+    "name": "Derrick Jones Jr.",
+    "team": "Portland Trail Blazers",
+    "number": 5,
+    "position": "F",
+    "height": 198.1,
+    "weight": 95,
+    "school": "UNLV",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ef6"
+    },
+    "name": "Tre Jones",
+    "team": "San Antonio Spurs",
+    "number": 33,
+    "position": "G",
+    "height": 185.9,
+    "weight": 83,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ef7"
+    },
+    "name": "Cory Joseph",
+    "team": "Detroit Pistons",
+    "number": 18,
+    "position": "G",
+    "height": 192.0,
+    "weight": 90,
+    "school": "Texas-Austin",
+    "country": "Canada"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ef8"
+    },
+    "name": "Mason Jones",
+    "team": null,
+    "number": null,
+    "position": "G",
+    "height": 195.1,
+    "weight": 90,
+    "school": "Arkansas",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ef9"
+    },
+    "name": "Nikola Jokic",
+    "team": "Denver Nuggets",
+    "number": 15,
+    "position": "C",
+    "height": 186.2,
+    "weight": 128,
+    "school": "Mega Basket",
+    "country": "Serbia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4efa"
+    },
+    "name": "Mfiondu Kabengele",
+    "team": "Cleveland Cavaliers",
+    "number": 27,
+    "position": "F-C",
+    "height": 210.3,
+    "weight": 113,
+    "school": "Florida State",
+    "country": "Canada"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4efb"
+    },
+    "name": "Frank Kaminsky",
+    "team": "Phoenix Suns",
+    "number": 8,
+    "position": "F-C",
+    "height": 213.4,
+    "weight": 108,
+    "school": "Wisconsin",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4efc"
+    },
+    "name": "Luke Kennard",
+    "team": "LA Clippers",
+    "number": 5,
+    "position": "G",
+    "height": 198.1,
+    "weight": 93,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4efd"
+    },
+    "name": "Enes Kanter",
+    "team": "Portland Trail Blazers",
+    "number": 11,
+    "position": "C",
+    "height": 185.9,
+    "weight": 113,
+    "school": "Fenerbahce",
+    "country": "Turkey"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4efe"
+    },
+    "name": "Maxi Kleber",
+    "team": "Dallas Mavericks",
+    "number": 42,
+    "position": "F",
+    "height": 185.9,
+    "weight": 108,
+    "school": "Bayern Munich",
+    "country": "Germany"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4eff"
+    },
+    "name": "Louis King",
+    "team": "Sacramento Kings",
+    "number": 23,
+    "position": "F",
+    "height": 204.2,
+    "weight": 92,
+    "school": "Oregon",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f00"
+    },
+    "name": "Nathan Knight",
+    "team": "Atlanta Hawks",
+    "number": 1,
+    "position": "F-C",
+    "height": 185.9,
+    "weight": 114,
+    "school": "William & Mary",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f01"
+    },
+    "name": "Tyus Jones",
+    "team": "Memphis Grizzlies",
+    "number": 21,
+    "position": "G",
+    "height": 182.9,
+    "weight": 88,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f02"
+    },
+    "name": "Kevin Knox II",
+    "team": "New York Knicks",
+    "number": 20,
+    "position": "F",
+    "height": 204.2,
+    "weight": 97,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f03"
+    },
+    "name": "John Konchar",
+    "team": "Memphis Grizzlies",
+    "number": 46,
+    "position": "G",
+    "height": 198.1,
+    "weight": 95,
+    "school": "Indiana-Purdue Fort Wayne",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f04"
+    },
+    "name": "Furkan Korkmaz",
+    "team": "Philadelphia 76ers",
+    "number": 30,
+    "position": "G-F",
+    "height": 204.2,
+    "weight": 91,
+    "school": "Anadolu Efes",
+    "country": "Turkey"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f05"
+    },
+    "name": "Luke Kornet",
+    "team": "Boston Celtics",
+    "number": 40,
+    "position": "F-C",
+    "height": 219.5,
+    "weight": 113,
+    "school": "Vanderbilt",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f06"
+    },
+    "name": "Rodions Kurucs",
+    "team": null,
+    "number": null,
+    "position": "F",
+    "height": 210.3,
+    "weight": 103,
+    "school": " ",
+    "country": "Latvia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f07"
+    },
+    "name": "Kyle Kuzma",
+    "team": "Los Angeles Lakers",
+    "number": 0,
+    "position": "F",
+    "height": 185.9,
+    "weight": 100,
+    "school": "Utah",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f08"
+    },
+    "name": "Zach LaVine",
+    "team": "Chicago Bulls",
+    "number": 8,
+    "position": "G-F",
+    "height": 198.1,
+    "weight": 90,
+    "school": "UCLA",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f09"
+    },
+    "name": "Anthony Lamb",
+    "team": "Houston Rockets",
+    "number": 33,
+    "position": "F",
+    "height": 201.2,
+    "weight": 102,
+    "school": "Vermont",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f0a"
+    },
+    "name": "T.J. Leaf",
+    "team": "Portland Trail Blazers",
+    "number": 18,
+    "position": "F",
+    "height": 185.9,
+    "weight": 100,
+    "school": "UCLA",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f0b"
+    },
+    "name": "Jalen Lecque",
+    "team": null,
+    "number": null,
+    "position": "G",
+    "height": 195.1,
+    "weight": 83,
+    "school": "",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f0c"
+    },
+    "name": "Romeo Langford",
+    "team": "Boston Celtics",
+    "number": 45,
+    "position": "G-F",
+    "height": 195.1,
+    "weight": 97,
+    "school": "Indiana",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f0d"
+    },
+    "name": "Damion Lee",
+    "team": "Golden State Wariors",
+    "number": 1,
+    "position": "G-F",
+    "height": 198.1,
+    "weight": 95,
+    "school": "Drexel",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f0e"
+    },
+    "name": "Saben Lee",
+    "team": "Detroit Pistons",
+    "number": 38,
+    "position": "G",
+    "height": 189.0,
+    "weight": 82,
+    "school": "Vanderbilt",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f0f"
+    },
+    "name": "Alex Len",
+    "team": "Washington Wizards",
+    "number": 27,
+    "position": "C",
+    "height": 213.4,
+    "weight": 113,
+    "school": "Maryland",
+    "country": "Ukraine"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f10"
+    },
+    "name": "Kawhi Leonard",
+    "team": "LA Clippers",
+    "number": 2,
+    "position": "F",
+    "height": 204.2,
+    "weight": 102,
+    "school": "San Diego State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f11"
+    },
+    "name": "Meyers Leonard",
+    "team": null,
+    "number": null,
+    "position": "F-C",
+    "height": 213.4,
+    "weight": 117,
+    "school": "Illinois",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f12"
+    },
+    "name": "Kira Lewis Jr.",
+    "team": "New Orleans Pelicans",
+    "number": 13,
+    "position": "G",
+    "height": 185.9,
+    "weight": 77,
+    "school": "Alabama",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f13"
+    },
+    "name": "Jake Layman",
+    "team": "Minnesota Timberwolves",
+    "number": 10,
+    "position": "F",
+    "height": 207.3,
+    "weight": 94,
+    "school": "Maryland",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f14"
+    },
+    "name": "Damian Lillard",
+    "team": "Portland Trail Blazers",
+    "number": 0,
+    "position": "G",
+    "height": 189.0,
+    "weight": 88,
+    "school": "Weber State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f15"
+    },
+    "name": "Jeremy Lamb",
+    "team": "Indiana Pacers",
+    "number": 26,
+    "position": "G-F",
+    "height": 198.1,
+    "weight": 81,
+    "school": "Connecticut",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f16"
+    },
+    "name": "Kevon Looney",
+    "team": "Golden State Wariors",
+    "number": 5,
+    "position": "F",
+    "height": 210.3,
+    "weight": 100,
+    "school": "UCLA",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f17"
+    },
+    "name": "Caris LeVert",
+    "team": "Indiana Pacers",
+    "number": 22,
+    "position": "G",
+    "height": 201.2,
+    "weight": 92,
+    "school": "Michigan",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f18"
+    },
+    "name": "Nassir Little",
+    "team": "Portland Trail Blazers",
+    "number": 9,
+    "position": "F-G",
+    "height": 198.1,
+    "weight": 99,
+    "school": "North Carolina",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f19"
+    },
+    "name": "Brook Lopez",
+    "team": "Milwaukee Bucks",
+    "number": 11,
+    "position": "C",
+    "height": 213.4,
+    "weight": 127,
+    "school": "Stanford",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f1a"
+    },
+    "name": "Robin Lopez",
+    "team": "Washington Wizards",
+    "number": 15,
+    "position": "C",
+    "height": 213.4,
+    "weight": 127,
+    "school": "Stanford",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f1b"
+    },
+    "name": "Didi Louzada",
+    "team": "New Orleans Pelicans",
+    "number": null,
+    "position": "G",
+    "height": 198.1,
+    "weight": 85,
+    "school": " ",
+    "country": "Brazil"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f1c"
+    },
+    "name": "Kyle Lowry",
+    "team": "Toronto Raptors",
+    "number": 7,
+    "position": "G",
+    "height": 182.9,
+    "weight": 88,
+    "school": "Villanova",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f1d"
+    },
+    "name": "Timothe Luwawu-Cabarrot",
+    "team": "Brooklyn Nets",
+    "number": 9,
+    "position": "G-F",
+    "height": 204.2,
+    "weight": 99,
+    "school": "Mega Basket",
+    "country": "France"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f1e"
+    },
+    "name": "Trey Lyles",
+    "team": "San Antonio Spurs",
+    "number": 41,
+    "position": "F",
+    "height": 210.3,
+    "weight": 106,
+    "school": "Kentucky",
+    "country": "Canada"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f1f"
+    },
+    "name": "Will Magnay",
+    "team": null,
+    "number": null,
+    "position": "C",
+    "height": 185.9,
+    "weight": 106,
+    "school": "",
+    "country": "Australia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f20"
+    },
+    "name": "Kevin Love",
+    "team": "Cleveland Cavaliers",
+    "number": 0,
+    "position": "F-C",
+    "height": 207.3,
+    "weight": 113,
+    "school": "UCLA",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f21"
+    },
+    "name": "Thon Maker",
+    "team": null,
+    "number": null,
+    "position": "F-C",
+    "height": 213.4,
+    "weight": 100,
+    "school": "",
+    "country": "South Sudan"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f22"
+    },
+    "name": "Nico Mannion",
+    "team": "Golden State Wariors",
+    "number": 2,
+    "position": "G",
+    "height": 189.0,
+    "weight": 86,
+    "school": "Arizona",
+    "country": "Italy"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f23"
+    },
+    "name": "Boban Marjanovic",
+    "team": "Dallas Mavericks",
+    "number": 51,
+    "position": "C",
+    "height": 225.6,
+    "weight": 131,
+    "school": "Crvena zvezda",
+    "country": "Serbia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f24"
+    },
+    "name": "Lauri Markkanen",
+    "team": "Chicago Bulls",
+    "number": 24,
+    "position": "F-C",
+    "height": 213.4,
+    "weight": 108,
+    "school": "Arizona",
+    "country": "Finland"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f25"
+    },
+    "name": "Naji Marshall",
+    "team": "New Orleans Pelicans",
+    "number": 8,
+    "position": "F",
+    "height": 204.2,
+    "weight": 99,
+    "school": "Xavier",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f26"
+    },
+    "name": "Caleb Martin",
+    "team": "Charlotte Hornets",
+    "number": 10,
+    "position": "F",
+    "height": 198.1,
+    "weight": 92,
+    "school": "Nevada-Reno",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f27"
+    },
+    "name": "Cody Martin",
+    "team": "Charlotte Hornets",
+    "number": 11,
+    "position": "F",
+    "height": 198.1,
+    "weight": 92,
+    "school": "Nevada-Reno",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f28"
+    },
+    "name": "Theo Maledon",
+    "team": "Oklahoma Thunder",
+    "number": 11,
+    "position": "G",
+    "height": 195.1,
+    "weight": 79,
+    "school": "Asvel",
+    "country": "France"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f29"
+    },
+    "name": "Jeremiah Martin",
+    "team": "Cleveland Cavaliers",
+    "number": 3,
+    "position": "G",
+    "height": 189.0,
+    "weight": 83,
+    "school": "Memphis",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f2a"
+    },
+    "name": "Kelan Martin",
+    "team": "Indiana Pacers",
+    "number": 21,
+    "position": "F",
+    "height": 198.1,
+    "weight": 104,
+    "school": "Butler",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f2b"
+    },
+    "name": "Terance Mann",
+    "team": "LA Clippers",
+    "number": 14,
+    "position": "G-F",
+    "height": 198.1,
+    "weight": 97,
+    "school": "Florida State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f2c"
+    },
+    "name": "Frank Mason",
+    "team": null,
+    "number": null,
+    "position": "G",
+    "height": 155.8,
+    "weight": 86,
+    "school": "Kansas",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f2d"
+    },
+    "name": "Kenyon Martin Jr.",
+    "team": "Houston Rockets",
+    "number": 6,
+    "position": "F",
+    "height": 201.2,
+    "weight": 97,
+    "school": "IMG Academy (FL)",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f2e"
+    },
+    "name": "Dakota Mathias",
+    "team": null,
+    "number": null,
+    "position": "G",
+    "height": 195.1,
+    "weight": 90,
+    "school": "Purdue",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f2f"
+    },
+    "name": "Garrison Mathews",
+    "team": "Washington Wizards",
+    "number": 24,
+    "position": "G",
+    "height": 198.1,
+    "weight": 97,
+    "school": "Lipscomb",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f30"
+    },
+    "name": "Wesley Matthews",
+    "team": "Los Angeles Lakers",
+    "number": 9,
+    "position": "G",
+    "height": 195.1,
+    "weight": 99,
+    "school": "Marquette",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f31"
+    },
+    "name": "Tyrese Maxey",
+    "team": "Philadelphia 76ers",
+    "number": 0,
+    "position": "G",
+    "height": 189.0,
+    "weight": 90,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f32"
+    },
+    "name": "Skylar Mays",
+    "team": "Atlanta Hawks",
+    "number": 4,
+    "position": "G",
+    "height": 195.1,
+    "weight": 92,
+    "school": "Louisiana State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f33"
+    },
+    "name": "Patrick McCaw",
+    "team": null,
+    "number": null,
+    "position": "G",
+    "height": 204.2,
+    "weight": 82,
+    "school": "UNLV",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f34"
+    },
+    "name": "Karim Mane",
+    "team": null,
+    "number": null,
+    "position": "G",
+    "height": 192.0,
+    "weight": 86,
+    "school": "-",
+    "country": "Senegal"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f35"
+    },
+    "name": "CJ McCollum",
+    "team": "Portland Trail Blazers",
+    "number": 3,
+    "position": "G",
+    "height": 192.0,
+    "weight": 86,
+    "school": "Lehigh",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f36"
+    },
+    "name": "T.J. McConnell",
+    "team": "Indiana Pacers",
+    "number": 9,
+    "position": "G",
+    "height": 185.9,
+    "weight": 86,
+    "school": "Arizona",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f37"
+    },
+    "name": "Jaden McDaniels",
+    "team": "Minnesota Timberwolves",
+    "number": 3,
+    "position": "F",
+    "height": 210.3,
+    "weight": 83,
+    "school": "Washington",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f38"
+    },
+    "name": "Doug McDermott",
+    "team": "Indiana Pacers",
+    "number": 20,
+    "position": "F",
+    "height": 204.2,
+    "weight": 102,
+    "school": "Creighton",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f39"
+    },
+    "name": "Alfonzo McKinnie",
+    "team": "Los Angeles Lakers",
+    "number": 28,
+    "position": "F",
+    "height": 204.2,
+    "weight": 97,
+    "school": "Wisconsin-Green Bay",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f3a"
+    },
+    "name": "Jordan McLaughlin",
+    "team": "Minnesota Timberwolves",
+    "number": 6,
+    "position": "G",
+    "height": 155.8,
+    "weight": 83,
+    "school": "Southern California",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f3b"
+    },
+    "name": "Sean McDermott",
+    "team": "Memphis Grizzlies",
+    "number": 30,
+    "position": "F",
+    "height": 201.2,
+    "weight": 88,
+    "school": "Butler",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f3c"
+    },
+    "name": "De'Anthony Melton",
+    "team": "Memphis Grizzlies",
+    "number": 0,
+    "position": "G",
+    "height": 189.0,
+    "weight": 90,
+    "school": "Southern California",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f3d"
+    },
+    "name": "Ben McLemore",
+    "team": "Los Angeles Lakers",
+    "number": 7,
+    "position": "G",
+    "height": 192.0,
+    "weight": 88,
+    "school": "Kansas",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f3e"
+    },
+    "name": "Sam Merrill",
+    "team": "Milwaukee Bucks",
+    "number": 15,
+    "position": "G",
+    "height": 195.1,
+    "weight": 92,
+    "school": "Utah State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f3f"
+    },
+    "name": "Chimezie Metu",
+    "team": "Sacramento Kings",
+    "number": 25,
+    "position": "F-C",
+    "height": 210.3,
+    "weight": 102,
+    "school": "Southern California",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f40"
+    },
+    "name": "Rodney McGruder",
+    "team": "Detroit Pistons",
+    "number": 17,
+    "position": "G",
+    "height": 195.1,
+    "weight": 92,
+    "school": "Kansas State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f41"
+    },
+    "name": "JaVale McGee",
+    "team": "Denver Nuggets",
+    "number": 34,
+    "position": "C-F",
+    "height": 213.4,
+    "weight": 122,
+    "school": "Nevada-Reno",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f42"
+    },
+    "name": "Darius Miller",
+    "team": null,
+    "number": null,
+    "position": "F",
+    "height": 201.2,
+    "weight": 102,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f43"
+    },
+    "name": "Khris Middleton",
+    "team": "Milwaukee Bucks",
+    "number": 22,
+    "position": "F",
+    "height": 204.2,
+    "weight": 100,
+    "school": "Texas A&M",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f44"
+    },
+    "name": "Paul Millsap",
+    "team": "Denver Nuggets",
+    "number": 4,
+    "position": "F",
+    "height": 204.2,
+    "weight": 116,
+    "school": "Louisiana Tech",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f45"
+    },
+    "name": "Donovan Mitchell",
+    "team": "Utah Jazz",
+    "number": 45,
+    "position": "G",
+    "height": 185.9,
+    "weight": 97,
+    "school": "Louisville",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f46"
+    },
+    "name": "Patty Mills",
+    "team": "San Antonio Spurs",
+    "number": 8,
+    "position": "G",
+    "height": 185.9,
+    "weight": 81,
+    "school": "St.Mary's College of California",
+    "country": "Australia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f47"
+    },
+    "name": "Adam Mokoka",
+    "team": "Chicago Bulls",
+    "number": 20,
+    "position": "G",
+    "height": 195.1,
+    "weight": 86,
+    "school": "Mega Basket",
+    "country": "France"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f48"
+    },
+    "name": "Shake Milton",
+    "team": "Philadelphia 76ers",
+    "number": 18,
+    "position": "G-F",
+    "height": 198.1,
+    "weight": 92,
+    "school": "Southern Methodist",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f49"
+    },
+    "name": "Malik Monk",
+    "team": "Charlotte Hornets",
+    "number": 1,
+    "position": "G",
+    "height": 192.0,
+    "weight": 90,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f4a"
+    },
+    "name": "E'Twaun Moore",
+    "team": "Phoenix Suns",
+    "number": 55,
+    "position": "G",
+    "height": 192.0,
+    "weight": 86,
+    "school": "Purdue",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f4b"
+    },
+    "name": "Jalen McDaniels",
+    "team": "Charlotte Hornets",
+    "number": 6,
+    "position": "F-C",
+    "height": 210.3,
+    "weight": 92,
+    "school": "San Diego State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f4c"
+    },
+    "name": "Nicolo Melli",
+    "team": "Dallas Mavericks",
+    "number": 44,
+    "position": "F",
+    "height": 210.3,
+    "weight": 107,
+    "school": "Fenerbahce",
+    "country": "Italy"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f4d"
+    },
+    "name": "Ja Morant",
+    "team": "Memphis Grizzlies",
+    "number": 12,
+    "position": "G",
+    "height": 192.0,
+    "weight": 78,
+    "school": "Murray State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f4e"
+    },
+    "name": "Juwan Morgan",
+    "team": "Utah Jazz",
+    "number": 16,
+    "position": "F",
+    "height": 204.2,
+    "weight": 105,
+    "school": "Indiana",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f4f"
+    },
+    "name": "Monte Morris",
+    "team": "Denver Nuggets",
+    "number": 11,
+    "position": "G",
+    "height": 189.0,
+    "weight": 82,
+    "school": "Iowa State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f50"
+    },
+    "name": "Marcus Morris Sr.",
+    "team": "LA Clippers",
+    "number": 8,
+    "position": "F",
+    "height": 207.3,
+    "weight": 98,
+    "school": "Kansas",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f51"
+    },
+    "name": "Markieff Morris",
+    "team": "Los Angeles Lakers",
+    "number": 88,
+    "position": "F",
+    "height": 210.3,
+    "weight": 111,
+    "school": "Kansas",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f52"
+    },
+    "name": "Mychal Mulder",
+    "team": "Golden State Wariors",
+    "number": 15,
+    "position": "G",
+    "height": 192.0,
+    "weight": 83,
+    "school": "Kentucky",
+    "country": "Canada"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f53"
+    },
+    "name": "Dejounte Murray",
+    "team": "San Antonio Spurs",
+    "number": 5,
+    "position": "G",
+    "height": 195.1,
+    "weight": 81,
+    "school": "Washington",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f54"
+    },
+    "name": "Mike Muscala",
+    "team": "Oklahoma Thunder",
+    "number": 33,
+    "position": "F-C",
+    "height": 185.9,
+    "weight": 108,
+    "school": "Bucknell",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f55"
+    },
+    "name": "Jamal Murray",
+    "team": "Denver Nuggets",
+    "number": 27,
+    "position": "G",
+    "height": 192.0,
+    "weight": 97,
+    "school": "Kentucky",
+    "country": "Canada"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f56"
+    },
+    "name": "Svi Mykhailiuk",
+    "team": "Oklahoma Thunder",
+    "number": 14,
+    "position": "G-F",
+    "height": 204.2,
+    "weight": 92,
+    "school": "Kansas",
+    "country": "Ukraine"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f57"
+    },
+    "name": "Raul Neto",
+    "team": "Washington Wizards",
+    "number": 19,
+    "position": "G",
+    "height": 185.9,
+    "weight": 81,
+    "school": "Murcia",
+    "country": "Brazil"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f58"
+    },
+    "name": "Frank Ntilikina",
+    "team": "New York Knicks",
+    "number": 11,
+    "position": "G",
+    "height": 195.1,
+    "weight": 90,
+    "school": "Strasbourg IG",
+    "country": "France"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f59"
+    },
+    "name": "Larry Nance Jr.",
+    "team": "Cleveland Cavaliers",
+    "number": 22,
+    "position": "F-C",
+    "height": 204.2,
+    "weight": 111,
+    "school": "Wyoming",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f5a"
+    },
+    "name": "Jaylen Nowell",
+    "team": "Minnesota Timberwolves",
+    "number": 4,
+    "position": "G",
+    "height": 195.1,
+    "weight": 91,
+    "school": "Washington",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f5b"
+    },
+    "name": "Kendrick Nunn",
+    "team": "Miami Heat",
+    "number": 25,
+    "position": "G",
+    "height": 189.0,
+    "weight": 86,
+    "school": "Oakland",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f5c"
+    },
+    "name": "Jusuf Nurkic",
+    "team": "Portland Trail Blazers",
+    "number": 27,
+    "position": "C",
+    "height": 186.2,
+    "weight": 131,
+    "school": "Cedevita",
+    "country": "Bosnia and Herzegovina"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f5d"
+    },
+    "name": "James Nunnally",
+    "team": "New Orleans Pelicans",
+    "number": 21,
+    "position": "F",
+    "height": 204.2,
+    "weight": 92,
+    "school": "California-Santa Barbara",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f5e"
+    },
+    "name": "Aaron Nesmith",
+    "team": "Boston Celtics",
+    "number": 26,
+    "position": "G-F",
+    "height": 198.1,
+    "weight": 97,
+    "school": "Vanderbilt",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f5f"
+    },
+    "name": "David Nwaba",
+    "team": "Houston Rockets",
+    "number": 2,
+    "position": "G-F",
+    "height": 198.1,
+    "weight": 99,
+    "school": "Cal Poly",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f60"
+    },
+    "name": "Jordan Nwora",
+    "team": "Milwaukee Bucks",
+    "number": 13,
+    "position": "F",
+    "height": 207.3,
+    "weight": 102,
+    "school": "Louisville",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f61"
+    },
+    "name": "Abdel Nader",
+    "team": "Phoenix Suns",
+    "number": 11,
+    "position": "F",
+    "height": 198.1,
+    "weight": 102,
+    "school": "Iowa State",
+    "country": "Egypt"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f62"
+    },
+    "name": "Royce O'Neale",
+    "team": "Utah Jazz",
+    "number": 23,
+    "position": "F",
+    "height": 195.1,
+    "weight": 102,
+    "school": "Baylor",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f63"
+    },
+    "name": "Chuma Okeke",
+    "team": "Orlando Magic",
+    "number": 3,
+    "position": "F",
+    "height": 201.2,
+    "weight": 103,
+    "school": "Auburn",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f64"
+    },
+    "name": "Semi Ojeleye",
+    "team": "Boston Celtics",
+    "number": 37,
+    "position": "F",
+    "height": 201.2,
+    "weight": 108,
+    "school": "Southern Methodist",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f65"
+    },
+    "name": "Jahlil Okafor",
+    "team": "Detroit Pistons",
+    "number": 13,
+    "position": "C-F",
+    "height": 185.9,
+    "weight": 122,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f66"
+    },
+    "name": "Zeke Nnaji",
+    "team": "Denver Nuggets",
+    "number": 22,
+    "position": "F-C",
+    "height": 210.3,
+    "weight": 108,
+    "school": "Arizona",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f67"
+    },
+    "name": "Georges Niang",
+    "team": "Utah Jazz",
+    "number": 31,
+    "position": "F",
+    "height": 204.2,
+    "weight": 104,
+    "school": "Iowa State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f68"
+    },
+    "name": "Nerlens Noel",
+    "team": "New York Knicks",
+    "number": 3,
+    "position": "C-F",
+    "height": 186.2,
+    "weight": 99,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f69"
+    },
+    "name": "Onyeka Okongwu",
+    "team": "Atlanta Hawks",
+    "number": 17,
+    "position": "F-C",
+    "height": 207.3,
+    "weight": 106,
+    "school": "Southern California",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f6a"
+    },
+    "name": "Josh Okogie",
+    "team": "Minnesota Timberwolves",
+    "number": 20,
+    "position": "G",
+    "height": 195.1,
+    "weight": 96,
+    "school": "Georgia Tech",
+    "country": "Nigeria"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f6b"
+    },
+    "name": "Isaac Okoro",
+    "team": "Cleveland Cavaliers",
+    "number": 35,
+    "position": "F-G",
+    "height": 198.1,
+    "weight": 102,
+    "school": "Auburn",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f6c"
+    },
+    "name": "KZ Okpala",
+    "team": "Miami Heat",
+    "number": 11,
+    "position": "F-G",
+    "height": 207.3,
+    "weight": 97,
+    "school": "Stanford",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f6d"
+    },
+    "name": "Victor Oladipo",
+    "team": "Miami Heat",
+    "number": 4,
+    "position": "G",
+    "height": 195.1,
+    "weight": 96,
+    "school": "Indiana",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f6e"
+    },
+    "name": "Cameron Oliver",
+    "team": null,
+    "number": null,
+    "position": "F",
+    "height": 207.3,
+    "weight": 102,
+    "school": "Nevada",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f6f"
+    },
+    "name": "Cedi Osman",
+    "team": "Cleveland Cavaliers",
+    "number": 16,
+    "position": "F",
+    "height": 204.2,
+    "weight": 104,
+    "school": "Anadolu Efes",
+    "country": "Turkey"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f70"
+    },
+    "name": "Kelly Oubre Jr.",
+    "team": "Golden State Wariors",
+    "number": 12,
+    "position": "F-G",
+    "height": 204.2,
+    "weight": 92,
+    "school": "Kansas",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f71"
+    },
+    "name": "Daniel Oturu",
+    "team": "LA Clippers",
+    "number": 10,
+    "position": "C",
+    "height": 207.3,
+    "weight": 108,
+    "school": "Minnesota",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f72"
+    },
+    "name": "Eric Paschall",
+    "team": "Golden State Wariors",
+    "number": 7,
+    "position": "F",
+    "height": 201.2,
+    "weight": 115,
+    "school": "Villanova",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f73"
+    },
+    "name": "Jabari Parker",
+    "team": "Boston Celtics",
+    "number": 20,
+    "position": "F",
+    "height": 207.3,
+    "weight": 111,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f74"
+    },
+    "name": "Kelly Olynyk",
+    "team": "Houston Rockets",
+    "number": 41,
+    "position": "F-C",
+    "height": 186.2,
+    "weight": 108,
+    "school": "Gonzaga",
+    "country": "Canada"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f75"
+    },
+    "name": "Anzejs Pasecniks",
+    "team": null,
+    "number": null,
+    "position": "C-F",
+    "height": 216.4,
+    "weight": 103,
+    "school": "",
+    "country": "Latvia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f76"
+    },
+    "name": "Justin Patton",
+    "team": null,
+    "number": null,
+    "position": "C",
+    "height": 186.2,
+    "weight": 109,
+    "school": "Creighton",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f77"
+    },
+    "name": "Patrick Patterson",
+    "team": "LA Clippers",
+    "number": 54,
+    "position": "F",
+    "height": 207.3,
+    "weight": 106,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f78"
+    },
+    "name": "Gary Payton II",
+    "team": "Golden State Wariors",
+    "number": 0,
+    "position": "G",
+    "height": 192.0,
+    "weight": 88,
+    "school": "Oregon State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f79"
+    },
+    "name": "Chris Paul",
+    "team": "Phoenix Suns",
+    "number": 3,
+    "position": "G",
+    "height": 182.9,
+    "weight": 79,
+    "school": "Wake Forest",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f7a"
+    },
+    "name": "Norvel Pelle",
+    "team": "New York Knicks",
+    "number": 14,
+    "position": "C",
+    "height": 185.9,
+    "weight": 104,
+    "school": "Iona",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f7b"
+    },
+    "name": "Cameron Payne",
+    "team": "Phoenix Suns",
+    "number": 15,
+    "position": "G",
+    "height": 185.9,
+    "weight": 82,
+    "school": "Murray State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f7c"
+    },
+    "name": "Elfrid Payton",
+    "team": "New York Knicks",
+    "number": 6,
+    "position": "G",
+    "height": 192.0,
+    "weight": 88,
+    "school": "Louisana-Lafayette",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f7d"
+    },
+    "name": "Theo Pinson",
+    "team": "New York Knicks",
+    "number": 21,
+    "position": "G-F",
+    "height": 198.1,
+    "weight": 96,
+    "school": "North Carolina",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f7e"
+    },
+    "name": "Miye Oni",
+    "team": "Utah Jazz",
+    "number": 81,
+    "position": "G-F",
+    "height": 198.1,
+    "weight": 93,
+    "school": "Yale",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f7f"
+    },
+    "name": "Reggie Perry",
+    "team": "Brooklyn Nets",
+    "number": 0,
+    "position": "F-C",
+    "height": 207.3,
+    "weight": 113,
+    "school": "Mississippi State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f80"
+    },
+    "name": "Vincent Poirier",
+    "team": null,
+    "number": null,
+    "position": "C-F",
+    "height": 213.4,
+    "weight": 106,
+    "school": "",
+    "country": "France"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f81"
+    },
+    "name": "Jakob Poeltl",
+    "team": "San Antonio Spurs",
+    "number": 25,
+    "position": "C",
+    "height": 216.4,
+    "weight": 111,
+    "school": "Utah",
+    "country": "Austria"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f82"
+    },
+    "name": "Mason Plumlee",
+    "team": "Detroit Pistons",
+    "number": 24,
+    "position": "F-C",
+    "height": 186.2,
+    "weight": 115,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f83"
+    },
+    "name": "Aleksej Pokusevski",
+    "team": "Oklahoma Thunder",
+    "number": 17,
+    "position": "C",
+    "height": 213.4,
+    "weight": 86,
+    "school": "Olympiacos",
+    "country": "Serbia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f84"
+    },
+    "name": "Jontay Porter",
+    "team": "Memphis Grizzlies",
+    "number": 4,
+    "position": "C-F",
+    "height": 186.2,
+    "weight": 108,
+    "school": "Missouri",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f85"
+    },
+    "name": "Jordan Poole",
+    "team": "Golden State Wariors",
+    "number": 3,
+    "position": "G",
+    "height": 195.1,
+    "weight": 87,
+    "school": "Michigan",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f86"
+    },
+    "name": "Kevin Porter Jr.",
+    "team": "Houston Rockets",
+    "number": 3,
+    "position": "G-F",
+    "height": 195.1,
+    "weight": 92,
+    "school": "Southern California",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f87"
+    },
+    "name": "Michael Porter Jr.",
+    "team": "Denver Nuggets",
+    "number": 1,
+    "position": "F",
+    "height": 185.9,
+    "weight": 98,
+    "school": "Missouri",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f88"
+    },
+    "name": "Otto Porter Jr.",
+    "team": "Orlando Magic",
+    "number": 22,
+    "position": "F",
+    "height": 207.3,
+    "weight": 89,
+    "school": "Georgetown",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f89"
+    },
+    "name": "Bobby Portis",
+    "team": "Milwaukee Bucks",
+    "number": 9,
+    "position": "F",
+    "height": 185.9,
+    "weight": 113,
+    "school": "Arkansas",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f8a"
+    },
+    "name": "Kristaps Porzingis",
+    "team": "Dallas Mavericks",
+    "number": 6,
+    "position": "F-C",
+    "height": 222.5,
+    "weight": 108,
+    "school": "Cajasol Sevilla",
+    "country": "Latvia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f8b"
+    },
+    "name": "Dwight Powell",
+    "team": "Dallas Mavericks",
+    "number": 7,
+    "position": "F-C",
+    "height": 185.9,
+    "weight": 108,
+    "school": "Stanford",
+    "country": "Canada"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f8c"
+    },
+    "name": "Norman Powell",
+    "team": "Portland Trail Blazers",
+    "number": 24,
+    "position": "G",
+    "height": 192.0,
+    "weight": 97,
+    "school": "UCLA",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f8d"
+    },
+    "name": "Taurean Prince",
+    "team": "Cleveland Cavaliers",
+    "number": 12,
+    "position": "F",
+    "height": 204.2,
+    "weight": 98,
+    "school": "Baylor",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f8e"
+    },
+    "name": "Jahmi'us Ramsey",
+    "team": "Sacramento Kings",
+    "number": 3,
+    "position": "G",
+    "height": 192.0,
+    "weight": 86,
+    "school": "Texas Tech",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f8f"
+    },
+    "name": "Payton Pritchard",
+    "team": "Boston Celtics",
+    "number": 11,
+    "position": "G",
+    "height": 185.9,
+    "weight": 88,
+    "school": "Oregon",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f90"
+    },
+    "name": "Chasson Randle",
+    "team": "Orlando Magic",
+    "number": 25,
+    "position": "G",
+    "height": 189.0,
+    "weight": 83,
+    "school": "Stanford",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f91"
+    },
+    "name": "Immanuel Quickley",
+    "team": "New York Knicks",
+    "number": 5,
+    "position": "G",
+    "height": 192.0,
+    "weight": 86,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f92"
+    },
+    "name": "Julius Randle",
+    "team": "New York Knicks",
+    "number": 30,
+    "position": "F-C",
+    "height": 207.3,
+    "weight": 113,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f93"
+    },
+    "name": "Paul Reed",
+    "team": "Philadelphia 76ers",
+    "number": 44,
+    "position": "F",
+    "height": 210.3,
+    "weight": 95,
+    "school": "DePaul",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f94"
+    },
+    "name": "Naz Reid",
+    "team": "Minnesota Timberwolves",
+    "number": 11,
+    "position": "C-F",
+    "height": 210.3,
+    "weight": 119,
+    "school": "Louisiana State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f95"
+    },
+    "name": "Cameron Reynolds",
+    "team": null,
+    "number": null,
+    "position": "F",
+    "height": 204.2,
+    "weight": 102,
+    "school": "Tulane",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f96"
+    },
+    "name": "JJ Redick",
+    "team": "Dallas Mavericks",
+    "number": 17,
+    "position": "G",
+    "height": 192.0,
+    "weight": 90,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f97"
+    },
+    "name": "Cam Reddish",
+    "team": "Atlanta Hawks",
+    "number": 22,
+    "position": "F-G",
+    "height": 207.3,
+    "weight": 98,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f98"
+    },
+    "name": "Nick Richards",
+    "team": "Charlotte Hornets",
+    "number": 14,
+    "position": "C",
+    "height": 213.4,
+    "weight": 111,
+    "school": "Kentucky",
+    "country": "Jamaica"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f99"
+    },
+    "name": "Josh Richardson",
+    "team": "Dallas Mavericks",
+    "number": 0,
+    "position": "G",
+    "height": 198.1,
+    "weight": 90,
+    "school": "Tennessee",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f9a"
+    },
+    "name": "Grant Riller",
+    "team": "Charlotte Hornets",
+    "number": 7,
+    "position": "G",
+    "height": 189.0,
+    "weight": 86,
+    "school": "College of Charleston",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f9b"
+    },
+    "name": "Austin Rivers",
+    "team": "Denver Nuggets",
+    "number": 25,
+    "position": "G",
+    "height": 195.1,
+    "weight": 90,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f9c"
+    },
+    "name": "Duncan Robinson",
+    "team": "Miami Heat",
+    "number": 55,
+    "position": "F",
+    "height": 204.2,
+    "weight": 97,
+    "school": "Michigan",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f9d"
+    },
+    "name": "Andre Roberson",
+    "team": null,
+    "number": null,
+    "position": "G-F",
+    "height": 204.2,
+    "weight": 95,
+    "school": "Colorado",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f9e"
+    },
+    "name": "Jerome Robinson",
+    "team": null,
+    "number": null,
+    "position": "G",
+    "height": 195.1,
+    "weight": 86,
+    "school": "Boston College",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4f9f"
+    },
+    "name": "Mitchell Robinson",
+    "team": "New York Knicks",
+    "number": 23,
+    "position": "C-F",
+    "height": 213.4,
+    "weight": 108,
+    "school": "Western Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fa0"
+    },
+    "name": "Rajon Rondo",
+    "team": "LA Clippers",
+    "number": 4,
+    "position": "G",
+    "height": 185.9,
+    "weight": 81,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fa1"
+    },
+    "name": "Justin Robinson",
+    "team": null,
+    "number": null,
+    "position": "G",
+    "height": 185.9,
+    "weight": 88,
+    "school": "Virginia Tech",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fa2"
+    },
+    "name": "Terrence Ross",
+    "team": "Orlando Magic",
+    "number": 31,
+    "position": "G-F",
+    "height": 201.2,
+    "weight": 93,
+    "school": "Washington",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fa3"
+    },
+    "name": "Derrick Rose",
+    "team": "New York Knicks",
+    "number": 4,
+    "position": "G",
+    "height": 189.0,
+    "weight": 90,
+    "school": "Memphis",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fa4"
+    },
+    "name": "Glenn Robinson III",
+    "team": null,
+    "number": null,
+    "position": "F",
+    "height": 201.2,
+    "weight": 100,
+    "school": "Michigan",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fa5"
+    },
+    "name": "D'Angelo Russell",
+    "team": "Minnesota Timberwolves",
+    "number": 0,
+    "position": "G",
+    "height": 195.1,
+    "weight": 87,
+    "school": "Ohio State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fa6"
+    },
+    "name": "Ricky Rubio",
+    "team": "Minnesota Timberwolves",
+    "number": 9,
+    "position": "G",
+    "height": 192.0,
+    "weight": 86,
+    "school": "FC Barcelona",
+    "country": "Spain"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fa7"
+    },
+    "name": "Terry Rozier",
+    "team": "Charlotte Hornets",
+    "number": 3,
+    "position": "G",
+    "height": 185.9,
+    "weight": 86,
+    "school": "Louisville",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fa8"
+    },
+    "name": "Dario Saric",
+    "team": "Phoenix Suns",
+    "number": 20,
+    "position": "F-C",
+    "height": 185.9,
+    "weight": 102,
+    "school": "Anadolu Efes",
+    "country": "Croatia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fa9"
+    },
+    "name": "Domantas Sabonis",
+    "team": "Indiana Pacers",
+    "number": 11,
+    "position": "F-C",
+    "height": 186.2,
+    "weight": 108,
+    "school": "Gonzaga",
+    "country": "Lithuania"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4faa"
+    },
+    "name": "Luka Samanic",
+    "team": "San Antonio Spurs",
+    "number": 19,
+    "position": "F",
+    "height": 185.9,
+    "weight": 102,
+    "school": "Union Olimpija",
+    "country": "Croatia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fab"
+    },
+    "name": "JaKarr Sampson",
+    "team": "Indiana Pacers",
+    "number": 14,
+    "position": "F",
+    "height": 204.2,
+    "weight": 97,
+    "school": "St. John's",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fac"
+    },
+    "name": "Dennis Schroder",
+    "team": "Los Angeles Lakers",
+    "number": 17,
+    "position": "G",
+    "height": 192.0,
+    "weight": 78,
+    "school": "Braunschweig",
+    "country": "Germany"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fad"
+    },
+    "name": "Tomas Satoransky",
+    "team": "Chicago Bulls",
+    "number": 31,
+    "position": "G",
+    "height": 204.2,
+    "weight": 95,
+    "school": "FC Barcelona",
+    "country": "Czech Republic"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fae"
+    },
+    "name": "Mike Scott",
+    "team": "Philadelphia 76ers",
+    "number": 1,
+    "position": "F",
+    "height": 204.2,
+    "weight": 107,
+    "school": "Virginia",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4faf"
+    },
+    "name": "Isaiah Roby",
+    "team": "Oklahoma Thunder",
+    "number": 22,
+    "position": "F",
+    "height": 207.3,
+    "weight": 104,
+    "school": "Nebraska-Lincoln",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fb0"
+    },
+    "name": "Jay Scrubb",
+    "team": "LA Clippers",
+    "number": 0,
+    "position": "G",
+    "height": 198.1,
+    "weight": 99,
+    "school": " ",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fb1"
+    },
+    "name": "Iman Shumpert",
+    "team": null,
+    "number": null,
+    "position": "G",
+    "height": 198.1,
+    "weight": 96,
+    "school": "Georgia Tech",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fb2"
+    },
+    "name": "Landry Shamet",
+    "team": "Brooklyn Nets",
+    "number": 20,
+    "position": "G",
+    "height": 195.1,
+    "weight": 86,
+    "school": "Wichita State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fb3"
+    },
+    "name": "Collin Sexton",
+    "team": "Cleveland Cavaliers",
+    "number": 2,
+    "position": "G",
+    "height": 185.9,
+    "weight": 86,
+    "school": "Alabama",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fb4"
+    },
+    "name": "Pascal Siakam",
+    "team": "Toronto Raptors",
+    "number": 43,
+    "position": "F",
+    "height": 210.3,
+    "weight": 104,
+    "school": "New Mexico State",
+    "country": "Cameroon"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fb5"
+    },
+    "name": "Chris Silva",
+    "team": null,
+    "number": null,
+    "position": "F",
+    "height": 207.3,
+    "weight": 106,
+    "school": "South Carolina",
+    "country": "Gabon"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fb6"
+    },
+    "name": "Anfernee Simons",
+    "team": "Portland Trail Blazers",
+    "number": 1,
+    "position": "G",
+    "height": 192.0,
+    "weight": 82,
+    "school": "Edgewater HS (FL)",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fb7"
+    },
+    "name": "Ben Simmons",
+    "team": "Philadelphia 76ers",
+    "number": 25,
+    "position": "G-F",
+    "height": 186.2,
+    "weight": 108,
+    "school": "Louisiana State",
+    "country": "Australia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fb8"
+    },
+    "name": "Deividas Sirvydis",
+    "team": "Detroit Pistons",
+    "number": 91,
+    "position": "F-G",
+    "height": 207.3,
+    "weight": 86,
+    "school": "Lietuvos rytas Vilnius",
+    "country": "Lithuania"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fb9"
+    },
+    "name": "Alen Smailagic",
+    "team": "Golden State Wariors",
+    "number": 6,
+    "position": "F",
+    "height": 185.9,
+    "weight": 97,
+    "school": "Beko",
+    "country": "Serbia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fba"
+    },
+    "name": "Jalen Smith",
+    "team": "Phoenix Suns",
+    "number": 10,
+    "position": "F-C",
+    "height": 185.9,
+    "weight": 97,
+    "school": "Maryland",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fbb"
+    },
+    "name": "Dennis Smith Jr.",
+    "team": "Detroit Pistons",
+    "number": 0,
+    "position": "G",
+    "height": 189.0,
+    "weight": 92,
+    "school": "North Carolina State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fbc"
+    },
+    "name": "Marcus Smart",
+    "team": "Boston Celtics",
+    "number": 36,
+    "position": "G",
+    "height": 192.0,
+    "weight": 99,
+    "school": "Oklahoma State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fbd"
+    },
+    "name": "Ray Spalding",
+    "team": null,
+    "number": null,
+    "position": "F",
+    "height": 210.3,
+    "weight": 102,
+    "school": "Louisville",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fbe"
+    },
+    "name": "Tony Snell",
+    "team": "Atlanta Hawks",
+    "number": 19,
+    "position": "G",
+    "height": 201.2,
+    "weight": 96,
+    "school": "New Mexico",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fbf"
+    },
+    "name": "Ish Smith",
+    "team": "Washington Wizards",
+    "number": 14,
+    "position": "G",
+    "height": 182.9,
+    "weight": 79,
+    "school": "Wake Forest",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fc0"
+    },
+    "name": "Lamar Stevens",
+    "team": "Cleveland Cavaliers",
+    "number": 8,
+    "position": "F",
+    "height": 201.2,
+    "weight": 104,
+    "school": "Penn State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fc1"
+    },
+    "name": "Cassius Stanley",
+    "team": "Indiana Pacers",
+    "number": 2,
+    "position": "G",
+    "height": 198.1,
+    "weight": 86,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fc2"
+    },
+    "name": "Max Strus",
+    "team": "Miami Heat",
+    "number": 31,
+    "position": "G-F",
+    "height": 198.1,
+    "weight": 97,
+    "school": "DePaul",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fc3"
+    },
+    "name": "Isaiah Stewart",
+    "team": "Detroit Pistons",
+    "number": 28,
+    "position": "F-C",
+    "height": 207.3,
+    "weight": 113,
+    "school": "Washington",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fc4"
+    },
+    "name": "Jayson Tatum",
+    "team": "Boston Celtics",
+    "number": 0,
+    "position": "F-G",
+    "height": 207.3,
+    "weight": 95,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fc5"
+    },
+    "name": "Jae'Sean Tate",
+    "team": "Houston Rockets",
+    "number": 8,
+    "position": "F",
+    "height": 195.1,
+    "weight": 104,
+    "school": "Ohio State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fc6"
+    },
+    "name": "Edmond Sumner",
+    "team": "Indiana Pacers",
+    "number": 5,
+    "position": "G",
+    "height": 195.1,
+    "weight": 88,
+    "school": "Xavier",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fc7"
+    },
+    "name": "Jeff Teague",
+    "team": "Milwaukee Bucks",
+    "number": 5,
+    "position": "G",
+    "height": 192.0,
+    "weight": 88,
+    "school": "Wake Forest",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fc8"
+    },
+    "name": "Garrett Temple",
+    "team": "Chicago Bulls",
+    "number": 17,
+    "position": "G-F",
+    "height": 198.1,
+    "weight": 88,
+    "school": "Louisiana State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fc9"
+    },
+    "name": "Daniel Theis",
+    "team": "Chicago Bulls",
+    "number": 27,
+    "position": "F-C",
+    "height": 207.3,
+    "weight": 111,
+    "school": "Brose Bamberg",
+    "country": "Germany"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fca"
+    },
+    "name": "Tyrell Terry",
+    "team": "Dallas Mavericks",
+    "number": 1,
+    "position": "G",
+    "height": 189.0,
+    "weight": 72,
+    "school": "Stanford",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fcb"
+    },
+    "name": "Brodric Thomas",
+    "team": "Cleveland Cavaliers",
+    "number": 33,
+    "position": "G",
+    "height": 198.1,
+    "weight": 83,
+    "school": "Truman State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fcc"
+    },
+    "name": "Matt Thomas",
+    "team": "Utah Jazz",
+    "number": 21,
+    "position": "G",
+    "height": 195.1,
+    "weight": 86,
+    "school": "Iowa State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fcd"
+    },
+    "name": "Khyri Thomas",
+    "team": "Houston Rockets",
+    "number": 13,
+    "position": "G",
+    "height": 192.0,
+    "weight": 95,
+    "school": "Creighton",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fce"
+    },
+    "name": "Isaiah Thomas",
+    "team": null,
+    "number": null,
+    "position": "G",
+    "height": 179.8,
+    "weight": 83,
+    "school": "Washington",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fcf"
+    },
+    "name": "Tristan Thompson",
+    "team": "Boston Celtics",
+    "number": 13,
+    "position": "C-F",
+    "height": 210.3,
+    "weight": 115,
+    "school": "Texas-Austin",
+    "country": "Canada"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fd0"
+    },
+    "name": "Sindarius Thornwell",
+    "team": "Orlando Magic",
+    "number": 15,
+    "position": "G",
+    "height": 195.1,
+    "weight": 97,
+    "school": "South Carolina",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fd1"
+    },
+    "name": "Klay Thompson",
+    "team": "Golden State Wariors",
+    "number": 11,
+    "position": "G",
+    "height": 201.2,
+    "weight": 97,
+    "school": "Washington State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fd2"
+    },
+    "name": "Xavier Tillman",
+    "team": "Memphis Grizzlies",
+    "number": 2,
+    "position": "F",
+    "height": 207.3,
+    "weight": 111,
+    "school": "Michigan State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fd3"
+    },
+    "name": "Killian Tillie",
+    "team": "Memphis Grizzlies",
+    "number": 35,
+    "position": "F-C",
+    "height": 210.3,
+    "weight": 99,
+    "school": "Gonzaga",
+    "country": "France"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fd4"
+    },
+    "name": "Anthony Tolliver",
+    "team": "Philadelphia 76ers",
+    "number": 43,
+    "position": "F",
+    "height": 207.3,
+    "weight": 108,
+    "school": "Creighton",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fd5"
+    },
+    "name": "Obi Toppin",
+    "team": "New York Knicks",
+    "number": 1,
+    "position": "F",
+    "height": 210.3,
+    "weight": 99,
+    "school": "Dayton",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fd6"
+    },
+    "name": "Matisse Thybulle",
+    "team": "Philadelphia 76ers",
+    "number": 22,
+    "position": "G-F",
+    "height": 198.1,
+    "weight": 91,
+    "school": "Washington",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fd7"
+    },
+    "name": "Axel Toupane",
+    "team": "Milwaukee Bucks",
+    "number": 66,
+    "position": "G-F",
+    "height": 204.2,
+    "weight": 95,
+    "school": "Strasbourg IG",
+    "country": "France"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fd8"
+    },
+    "name": "Gary Trent Jr.",
+    "team": "Toronto Raptors",
+    "number": 33,
+    "position": "G-F",
+    "height": 198.1,
+    "weight": 94,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fd9"
+    },
+    "name": "Rayjon Tucker",
+    "team": "Philadelphia 76ers",
+    "number": 9,
+    "position": "G",
+    "height": 192.0,
+    "weight": 94,
+    "school": "Arkansas-Little Rock",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fda"
+    },
+    "name": "P.J. Tucker",
+    "team": "Milwaukee Bucks",
+    "number": 17,
+    "position": "F",
+    "height": 198.1,
+    "weight": 111,
+    "school": "Texas-Austin",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fdb"
+    },
+    "name": "Jonas Valanciunas",
+    "team": "Memphis Grizzlies",
+    "number": 17,
+    "position": "C",
+    "height": 186.2,
+    "weight": 120,
+    "school": "Lietuvos rytas Vilnius",
+    "country": "Lithuania"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fdc"
+    },
+    "name": "Denzel Valentine",
+    "team": "Chicago Bulls",
+    "number": 45,
+    "position": "G",
+    "height": 195.1,
+    "weight": 99,
+    "school": "Michigan State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fdd"
+    },
+    "name": "Fred VanVleet",
+    "team": "Toronto Raptors",
+    "number": 23,
+    "position": "G",
+    "height": 185.9,
+    "weight": 89,
+    "school": "Wichita State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fde"
+    },
+    "name": "Myles Turner",
+    "team": "Indiana Pacers",
+    "number": 33,
+    "position": "C-F",
+    "height": 186.2,
+    "weight": 113,
+    "school": "Texas-Austin",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fdf"
+    },
+    "name": "Jarred Vanderbilt",
+    "team": "Minnesota Timberwolves",
+    "number": 8,
+    "position": "F",
+    "height": 210.3,
+    "weight": 97,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fe0"
+    },
+    "name": "Anderson Varejao",
+    "team": null,
+    "number": null,
+    "position": "F",
+    "height": 186.2,
+    "weight": 117,
+    "school": " ",
+    "country": "Brazil"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fe1"
+    },
+    "name": "Juan Toscano-Anderson",
+    "team": "Golden State Wariors",
+    "number": 95,
+    "position": "F",
+    "height": 201.2,
+    "weight": 94,
+    "school": "Marquette",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fe2"
+    },
+    "name": "Luca Vildoza",
+    "team": "New York Knicks",
+    "number": null,
+    "position": "G",
+    "height": 192.0,
+    "weight": 86,
+    "school": "Baskonia",
+    "country": ""
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fe3"
+    },
+    "name": "Gabe Vincent",
+    "team": "Miami Heat",
+    "number": 2,
+    "position": "G",
+    "height": 192.0,
+    "weight": 90,
+    "school": "California-Santa Barbara",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fe4"
+    },
+    "name": "Devin Vassell",
+    "team": "San Antonio Spurs",
+    "number": 24,
+    "position": "G-F",
+    "height": 198.1,
+    "weight": 90,
+    "school": "Florida State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fe5"
+    },
+    "name": "Noah Vonleh",
+    "team": null,
+    "number": null,
+    "position": "F",
+    "height": 185.9,
+    "weight": 116,
+    "school": "Indiana",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fe6"
+    },
+    "name": "Moritz Wagner",
+    "team": "Orlando Magic",
+    "number": 21,
+    "position": "F-C",
+    "height": 186.2,
+    "weight": 111,
+    "school": "Michigan",
+    "country": "Germany"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fe7"
+    },
+    "name": "Dean Wade",
+    "team": "Cleveland Cavaliers",
+    "number": 32,
+    "position": "F-C",
+    "height": 210.3,
+    "weight": 103,
+    "school": "Kansas State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fe8"
+    },
+    "name": "Lonnie Walker IV",
+    "team": "San Antonio Spurs",
+    "number": 1,
+    "position": "G-F",
+    "height": 195.1,
+    "weight": 92,
+    "school": "Miami",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fe9"
+    },
+    "name": "Nikola Vucevic",
+    "team": "Chicago Bulls",
+    "number": 9,
+    "position": "C",
+    "height": 186.2,
+    "weight": 117,
+    "school": "Southern California",
+    "country": "Montenegro"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fea"
+    },
+    "name": "Kemba Walker",
+    "team": "Oklahoma Thunder",
+    "number": 8,
+    "position": "G",
+    "height": 182.9,
+    "weight": 83,
+    "school": "Connecticut",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4feb"
+    },
+    "name": "John Wall",
+    "team": "Houston Rockets",
+    "number": 1,
+    "position": "G",
+    "height": 192.0,
+    "weight": 95,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fec"
+    },
+    "name": "Brad Wanamaker",
+    "team": "Charlotte Hornets",
+    "number": 9,
+    "position": "G",
+    "height": 192.0,
+    "weight": 95,
+    "school": "Pittsburgh",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fed"
+    },
+    "name": "T.J. Warren",
+    "team": "Indiana Pacers",
+    "number": 1,
+    "position": "F",
+    "height": 207.3,
+    "weight": 99,
+    "school": "North Carolina State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fee"
+    },
+    "name": "Yuta Watanabe",
+    "team": "Toronto Raptors",
+    "number": 18,
+    "position": "G-F",
+    "height": 210.3,
+    "weight": 97,
+    "school": "George Washington",
+    "country": "Japan"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fef"
+    },
+    "name": "P.J. Washington",
+    "team": "Charlotte Hornets",
+    "number": 25,
+    "position": "F",
+    "height": 204.2,
+    "weight": 104,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ff0"
+    },
+    "name": "Karl-Anthony Towns",
+    "team": "Minnesota Timberwolves",
+    "number": 32,
+    "position": "C-F",
+    "height": 186.2,
+    "weight": 112,
+    "school": "Kentucky",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ff1"
+    },
+    "name": "Tremont Waters",
+    "team": "Boston Celtics",
+    "number": 51,
+    "position": "G",
+    "height": 155.4,
+    "weight": 79,
+    "school": "Louisiana State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ff2"
+    },
+    "name": "Quinndary Weatherspoon",
+    "team": "San Antonio Spurs",
+    "number": 15,
+    "position": "G",
+    "height": 192.0,
+    "weight": 92,
+    "school": "Mississippi State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ff3"
+    },
+    "name": "Coby White",
+    "team": "Chicago Bulls",
+    "number": 0,
+    "position": "G",
+    "height": 198.1,
+    "weight": 88,
+    "school": "North Carolina",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ff4"
+    },
+    "name": "Paul Watson",
+    "team": "Toronto Raptors",
+    "number": 1,
+    "position": "G",
+    "height": 201.2,
+    "weight": 95,
+    "school": "Fresno State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ff5"
+    },
+    "name": "Derrick White",
+    "team": "San Antonio Spurs",
+    "number": 4,
+    "position": "G",
+    "height": 195.1,
+    "weight": 86,
+    "school": "Colorado",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ff6"
+    },
+    "name": "Russell Westbrook",
+    "team": "Washington Wizards",
+    "number": 4,
+    "position": "G",
+    "height": 192.0,
+    "weight": 90,
+    "school": "UCLA",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ff7"
+    },
+    "name": "Hassan Whiteside",
+    "team": "Sacramento Kings",
+    "number": 20,
+    "position": "C",
+    "height": 213.4,
+    "weight": 120,
+    "school": "Marshall",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ff8"
+    },
+    "name": "Greg Whittington",
+    "team": null,
+    "number": null,
+    "position": "F",
+    "height": 207.3,
+    "weight": 95,
+    "school": "Georgetown",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ff9"
+    },
+    "name": "Grant Williams",
+    "team": "Boston Celtics",
+    "number": 12,
+    "position": "F",
+    "height": 201.2,
+    "weight": 107,
+    "school": "Tennessee",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ffa"
+    },
+    "name": "Kenrich Williams",
+    "team": "Oklahoma Thunder",
+    "number": 34,
+    "position": "G-F",
+    "height": 201.2,
+    "weight": 95,
+    "school": "TCU",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ffb"
+    },
+    "name": "Andrew Wiggins",
+    "team": "Golden State Wariors",
+    "number": 22,
+    "position": "F",
+    "height": 204.2,
+    "weight": 89,
+    "school": "Kansas",
+    "country": "Canada"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ffc"
+    },
+    "name": "Patrick Williams",
+    "team": "Chicago Bulls",
+    "number": 44,
+    "position": "F",
+    "height": 204.2,
+    "weight": 97,
+    "school": "Florida State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ffd"
+    },
+    "name": "Lou Williams",
+    "team": "Atlanta Hawks",
+    "number": 6,
+    "position": "G",
+    "height": 185.9,
+    "weight": 79,
+    "school": "South Gwinnett HS (GA)",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4ffe"
+    },
+    "name": "Robert Williams III",
+    "team": "Boston Celtics",
+    "number": 44,
+    "position": "C-F",
+    "height": 207.3,
+    "weight": 107,
+    "school": "Texas A&M",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f4fff"
+    },
+    "name": "Justise Winslow",
+    "team": "Memphis Grizzlies",
+    "number": 7,
+    "position": "F-G",
+    "height": 201.2,
+    "weight": 100,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f5000"
+    },
+    "name": "D.J. Wilson",
+    "team": "Houston Rockets",
+    "number": 0,
+    "position": "F",
+    "height": 185.9,
+    "weight": 104,
+    "school": "Michigan",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f5001"
+    },
+    "name": "Dylan Windler",
+    "team": "Cleveland Cavaliers",
+    "number": 9,
+    "position": "G-F",
+    "height": 201.2,
+    "weight": 88,
+    "school": "Belmont",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f5002"
+    },
+    "name": "Zion Williamson",
+    "team": "New Orleans Pelicans",
+    "number": 1,
+    "position": "F",
+    "height": 204.2,
+    "weight": 128,
+    "school": "Duke",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f5003"
+    },
+    "name": "Cassius Winston",
+    "team": "Washington Wizards",
+    "number": 5,
+    "position": "G",
+    "height": 185.9,
+    "weight": 83,
+    "school": "Michigan State",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f5004"
+    },
+    "name": "James Wiseman",
+    "team": "Golden State Wariors",
+    "number": 33,
+    "position": "C",
+    "height": 213.4,
+    "weight": 108,
+    "school": "Memphis",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f5005"
+    },
+    "name": "Christian Wood",
+    "team": "Houston Rockets",
+    "number": 35,
+    "position": "F",
+    "height": 185.9,
+    "weight": 97,
+    "school": "UNLV",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f5006"
+    },
+    "name": "Delon Wright",
+    "team": "Sacramento Kings",
+    "number": 55,
+    "position": "G",
+    "height": 198.1,
+    "weight": 83,
+    "school": "Utah",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f5007"
+    },
+    "name": "Thaddeus Young",
+    "team": "Chicago Bulls",
+    "number": 21,
+    "position": "F",
+    "height": 207.3,
+    "weight": 106,
+    "school": "Georgia Tech",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f5008"
+    },
+    "name": "Trae Young",
+    "team": "Atlanta Hawks",
+    "number": 11,
+    "position": "G",
+    "height": 185.9,
+    "weight": 81,
+    "school": "Oklahoma",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f5009"
+    },
+    "name": "Omer Yurtseven",
+    "team": "Miami Heat",
+    "number": 77,
+    "position": "C",
+    "height": 213.4,
+    "weight": 124,
+    "school": "Georgetown",
+    "country": "Uzbekistan"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f500a"
+    },
+    "name": "Ivica Zubac",
+    "team": "LA Clippers",
+    "number": 40,
+    "position": "C",
+    "height": 213.4,
+    "weight": 108,
+    "school": "Mega Basket",
+    "country": "Croatia"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f500b"
+    },
+    "name": "Cody Zeller",
+    "team": "Charlotte Hornets",
+    "number": 40,
+    "position": "F-C",
+    "height": 186.2,
+    "weight": 108,
+    "school": "Indiana",
+    "country": "USA"
+}, {
+    "_id": {
+        "$oid": "60f3e77310d7e3844c8f500c"
+    },
+    "name": "Robert Woodard II",
+    "team": "Sacramento Kings",
+    "number": 13,
+    "position": "F",
+    "height": 201.2,
+    "weight": 106,
+    "school": "Mississippi State",
+    "country": "USA"
+}]

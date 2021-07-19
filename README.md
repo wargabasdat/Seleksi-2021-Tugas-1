@@ -13,72 +13,168 @@
 </h2>
 
 
-## Spesifikasi
+### **Webscraping data pemain NBA**
+Melakukan *data scraping* dari website NBA (https://www.nba.com/players), untuk medapatkan seluruh data pemain NBA saat ini dan menyimpannya pada sebuah *database*. **MongoDB** akan digunakan sebagai **DBMS**, karena *field* pada data tidak terlalu banyak sehingga tidak memerlukan skema relasional pada *database*, serta data hasil *data scraping* akan disimpan dalam format `JSON`, maka penggunaan **MongoDB** dapat membuat proses *import* data ke dalam *database* sebagai **DBMS** menjadi lebih efektif.  
+
 
 ### Data Scraping
+### Spesifikasi
+1. Source code *data scraping* menggunakan bahasa pemrograman`Python` 
+2. Pada website (https://www.nba.com/players) terdapat tabel yang berisi data-data pemain NBA, dengan format tabel seperti gambar di bawah.
+3. Diperlukan sebuah `webdriver` dalam proses *data scraping* untuk dapat melakukan navigasi otomatis pada halaman website. Pada source code ini saya menggunakan [Chrome Webdriver](https://chromedriver.chromium.org/downloads)
 
-1. Lakukan _data scraping_ dari sebuah laman web untuk memperoleh data atau informasi tertentu __TANPA MENGGUNAKAN API__. Hasil _data scraping_ ini nantinya akan disimpan dalam DBMS dan digunakan sebagai bahan tugas analisis dan visualisasi data.
 
-2. Daftarkan judul topik yang akan dijadikan bahan _data scraping_ dan DBMS yang akan digunakan pada spreadsheet berikut: [Topik Data Scraping](https://docs.google.com/spreadsheets/d/12sgizyreDkFXz4N3FaGouyGKRZN3qHyWEeSIbEXtpR4/edit?usp=sharing). Usahakan agar tidak ada peserta dengan topik yang sama. Akses edit ke spreadsheet akan ditutup tanggal __12 Juli 2021 pukul 23.59 WIB__
+![](Data%20Scraping/screenshot/nba_com_players.jpg)
 
-3. Pada folder `Data Scraping`, calon warga basdat harus mengumpulkan _file script_, json hasil _data scraping_. Folder `Data Scraping` terdiri dari _folder_ `src`, `data` dan `screenshots`. 
-    - _Folder_ `src` berisi _file script_/kode yang __*WELL DOCUMENTED* dan *CLEAN CODE*__ 
-    - _Folder_ `data` berisi _file_ json hasil _scraper_
-    - _Folder_ `screenshot` berisi tangkapan layar program.
+### How to Use
+1. `Clone repository` ini
+2. *Install* seluruh *library* dengan :
 
-4. Sebagai referensi untuk mengenal _data scraping_, asisten menyediakan dokumen "_Short Guidance To Data Scraping_" yang dapat diakses pada link berikut: [Data Scraping Guidance](http://bit.ly/DataScrapingGuidance). Mohon memperhatikan etika dalam melakukan _scraping_.
-
-5. JSON harus dinormalisasi dan harus di-_preprocessing_
 ```
-Preprocessing contohnya :
-- Cleaning
-- Parsing
-- Transformation
-- dan lainnya
+pip install -r requirements.txt
 ```
+3. Buka `webscrap.ipynb` pada `Jupyter Notebook`
+4. Jalankan program.
+
+
+
+### JSON Structure
+Berikut adalah struktur `json` dari data hasil *scraping*
+
+```
+{
+    "name": string,
+    "team": string,
+    "number": integer,
+    "position": string,
+    "height": float,
+    "weight": integer,
+    "school": string,
+    "country": string
+}
+
+```
+Contoh data hasil *scraping* seperti berikut.
+```
+{
+    "name": "Bam Adebayo",
+    "team": "Miami Heat",
+    "number": 13,
+    "position": "C-F",
+    "height": 210.3,
+    "weight": 115,
+    "school": "Kentucky",
+    "country": "USA"
+}
+```
+
+`notes : height dan weight sudah dalam satuan cm dan kg.`
+`file NBAPlayers.json telah di-parse menggunakan extensions Prettier pada Visual Studio Code `
+
+### Screenshot
+- __*Scraping*__
+![](/Data%20Scraping/screenshot/scraping_1.png)
+![](/Data%20Scraping/screenshot/scraping_2.png)
+
+- Dump data to json
+![](/Data%20Scraping/screenshot/scraping_3.png)
 
 ### Data Storing
 
-1. Lakukan _storing_ data yang didapatkan dari hasil _scraping_ ke DBMS 
-
-2. Tools yang digunakan __dibebaskan__
-
-3. Calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Folder_ `Data Storing` terdiri dari folder `data`, `screenshots` dan `export`
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
+### Deskripsi
+Data hasil *scraping* akan disimpan pada *database*. DBMS yang saya gunakan adalah __MongoDB__ (untuk *local* dbms) dan __MongoDB Atlas__ (untuk *cloud* dbms).
 
 
 
-4. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    - Simpan ke database online
-    - Buatlah API sederhana untuk mengakses database online tersebut
-
-### Pengumpulan
-
-
-1. Dalam mengerjakan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: [Seleksi-2021-Tugas-1](https://github.com/wargabasdat/Seleksi-2021-Tugas-1). Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_1_[NIM]```
-
-2. Tambahkan juga `.gitignore` pada _file_ atau _folder_ yang tidak perlu di-_upload_, __NB: BINARY TIDAK DIUPLOAD__
-
-3. Berikan satu buah file `README` yang __WELL DOCUMENTED__ dengan cara __override__ _file_ `README.md` ini. `README` harus memuat minimal konten:
-
+### Store data to local DBMS
+Untuk menyimpan data pada *local*  dbms saya menggunakan __tool mongoimport__ dengan cara : 
+- Membuka *directory* `NBAPlayers.json` pada terminal
+- Lalu menjalankan command berikut
+```
+mongoimport --db NBA --collection NBAPlayers --file NBAPlayers.json --jsonArray
 
 ```
-- Description of the data and DBMS (Why you choose it)
-- Specification of the program
-- How to use
-- JSON Structure
-- Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-- Reference (Library used, etc)
-- Author
+### Store data to cloud DBMS
+Untuk menyimpan data pada *cloud* dbms, petama saya membuat *cluster* pada __MongoDB Atlas__, lalu saya juga menggunakan __tool mongoimport__ untuk meng-import file json ke *cloud* dbms dengan cara : 
+- Membuka *directory* `NBAPlayers.json` pada terminal
+- Lalu menjalankan command berikut
+```
+mongoimport --host learning-shard-00-02.xpygv.mongodb.net:27017 --db nba --type json --file NBAPlayers.json --jsonArray --authenticationDatabase admin --ssl --username admin --password admin
+
 ```
 
 
-4. Deadline pengumpulan tugas 1 adalah <span style="color:red">__24 Juli 2021 Pukul 23.59 WIB__</span>
+### Screenshot
+- Local Data Storing
+![](/Data%20Storing/screenshot/storingLocal_1.png)
+![](/Data%20Storing/screenshot/storingLocal_2.png)
+![](/Data%20Storing/screenshot/storingLocal_3.png)
+![](/Data%20Storing/screenshot/storingLocal_4.png)
+- Online/Cloud Data Storing
+![](/Data%20Storing/screenshot/storingCloud_1.png)
+![](/Data%20Storing/screenshot/storingCloud_2.png)
 
-<h3 align="center">
-  <br>
-  Selamat Mengerjakan
-  <br>
-  <br>
-</h3>
+### API
+Saya mambuat `API` sederhana untuk dapat mengakses *online database*, dan dapet melakukan operasi *create, read, update & delete (CRUD)*. `API` telah di-*deploy* pada tautan berikut. 
+```
+https://nba-players-api.herokuapp.com/players/
+
+```
+
+### How To Use API
+1. Buka `Postman`
+2. *Copy* tautan (https://nba-players-api.herokuapp.com/players/) pada `Postman`
+3. Lakukan *request method* `GET, POST, PATCH, & DELETE` lalu tekan *Send*
+
+Berikut adalah beberapa contoh *request* yang dapat dijalankan.
+### Screenshot
+- **GET Method**
+
+*Get all players data*
+![](/Api/screenshot/postman_1.png)
+*Get player data by id*
+![](/Api/screenshot/postman_9.png)
+
+- **POST Method**
+
+*Create new player data*
+![](/Api/screenshot/postman_2.png)
+![](/Api/screenshot/postman_3.png)
+- **PATCH Method**
+
+*Update specific player data*
+![](/Api/screenshot/postman_4.png)
+![](/Api/screenshot/postman_5.png)
+- **DELETE Method**
+
+*Delete specific player data*
+![](/Api/screenshot/postman_6.png)
+![](/Api/screenshot/postman_7.png)
+![](/Api/screenshot/postman_8.png)
+
+
+### Tools and References
+- Beautifullsoup4
+- Selenium
+- MongoDB
+- MongoDB Atlas
+- Node JS
+- Express JS
+- Mongoose
+- Postman
+
+
+- Mongoose documentation (https://mongoosejs.com/docs/api.html)
+- Express documentation (https://expressjs.com/en/api.html)
+- MongoDB documentation (https://docs.mongodb.com/)
+- Scraping with BeautifullSoup tutorial (https://www.youtube.com/watch?v=XQgXKtPSzUI)
+- Scraping with Selenium tutorial (https://www.youtube.com/watch?v=Xjv1sY630Uc&t=558s)
+- Rest API tutorial (https://www.youtube.com/watch?v=vjf774RKrLc)
+
+
+### Author
+```
+M Rifandy Zulvan
+Sistem dan Teknologi Informasi
+18219021
+```

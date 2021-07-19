@@ -1,0 +1,25 @@
+{
+  "name": "nba-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rifandyzv/nba-players-api.git"
+  },
+  "author": "rifandyzv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rifandyzv/nba-players-api/issues"
+  },
+  "homepage": "https://github.com/rifandyzv/nba-players-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3"
+  }
+}
