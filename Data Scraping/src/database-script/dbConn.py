@@ -38,11 +38,6 @@ for i in range(lenPlayers):
         player['date-of-birth'] = str(datetime.datetime.strptime(
             player['date-of-birth'], '%b %d %Y').date())
 
-    if (player['height']):
-        player['height'] = player['height'].replace(" cm", "")
-    if(player['market-value']):
-        player['market-value'] = player['market-value'].replace(" euros", "")
-
     # clean
     item = "("
     for x in player:

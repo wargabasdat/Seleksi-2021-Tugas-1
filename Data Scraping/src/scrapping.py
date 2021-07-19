@@ -18,8 +18,6 @@ basePageContent = pageSoup.find("div", id="yw1")
 # Get all club list
 club_list = basePageContent.find("tbody")
 club_list = club_list.find_all("tr")
-idClub = 1
-playerId = 1
 for club in club_list:
     tdTag = club.find(
         "td", class_="hauptlink no-border-links show-for-small show-for-pad")
@@ -37,7 +35,6 @@ for club in club_list:
     managerName = unicodedata.normalize(
         'NFKD', managerName).encode('ascii', 'ignore').decode()
     newClubItem = {
-        'id': idClub,
         'name': clubName,
         'manager': managerName,
         'league': 'Liga 1 Indonesia',
@@ -69,7 +66,7 @@ for club in club_list:
         dateOfBirth = (base[1].text)
         dateOfBirth = dateOfBirth[:(len(dateOfBirth) - 5)].replace(",", "")
         nationality = base[2].find("img")['title']
-        height = base[3].text.replace(",", "").replace("m", "cm")
+        height = base[3].text.replace(",", "").replace("m", "")
         foot = base[4].text
         marketValue = player.find(
             "td", class_="rechts hauptlink").text.replace("Th.", "").replace(u'\xa0', u'').replace("€", "")
@@ -77,27 +74,20 @@ for club in club_list:
         # clean
         if(height[0] == " "):
             height = "-"
-        if(marketValue != "-"):
-            marketValue += " euros"
 
         # add new player item
         newPlayer = {
-            "id": playerId,
             "name": name,
             "number": (None if number == "-" else number),
             "position": (None if position == "-" else position),
             "date-of-birth": (None if dateOfBirth == "" else dateOfBirth),
             "nationality": (None if nationality == "-" else nationality),
-            "height": (None if height == "-" else height),
+            "height": (None if height == "-" else int(height)),
             "foot": (None if foot == "-" else foot),
-            "market-value": (None if marketValue == "-" else marketValue),
+            "market-value": (None if marketValue == "-" else int(marketValue)),
             "club": clubName
         }
         players.append(newPlayer)
-        # incr player id
-        playerId += 1
-    # incr clubId
-    idClub += 1
 
 # Creating json objects
 data = {
@@ -106,7 +96,12 @@ data = {
         "players": players
     }
 }
+# clubs = { 'clubs': clubs }
+# players = {'players' : players}
 
+# with open('../data/clubs.json', 'w') as fp:
+#     json.dump(clubs, fp)
+# with open('../data/players.json', 'w') as fp:
+#     json.dump(players, fp)
 with open('../data/scrap.json', 'w') as fp:
     json.dump(data, fp)
-print("scrap.json created successfully")
