@@ -23,9 +23,9 @@ Tujuan dari Webscraping ini adalah untuk mendapatkan data Tim-tim sepakbola Liga
 | position      	| VARCHAR 	|
 | birth-of-date 	| DATE    	|
 | nationality   	| VARCHAR 	|
-| height        	| VARCHAR 	|
+| height        	| INTEGER 	|
 | foot          	| VARCHAR 	|
-| market-value  	| VARCHAR 	|
+| market-value  	| INTEGER 	|
 | club          	| VARCHAR 	|
 
 
