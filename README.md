@@ -78,6 +78,9 @@ Image when running `SteamScraper.py`
 
 ### Data Storing
 First and foremost, I already made some scripts that'll automatically do all the queries in order to set up the database from creating the database to creating all the tables needed but if you want to do all the queries manually, I also make a text file that contains all the queries
+
+Note : The program will prompt you to check if your `user`, `password`, `host`, `port`, and `database` are correct already. The given data are default data so they'll be fine if you never change anything. Otherwise, you can type __Y__ to change the given default value
+
 1. Creating the database and all the tables
 
     - First method, run an automcatic python script `SettingUpDatabase.py`. Assuming you're still in __Data Scraping/src__ directory
