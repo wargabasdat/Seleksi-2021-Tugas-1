@@ -173,11 +173,11 @@ Go to [here](http://www.phpmyadmin.co/)
 
 Then you need to insert these following data to log you in
 
-Host: sql6.freesqldatabase.com
+- Host: sql6.freesqldatabase.com
 
-Database name: sql6426508
+- Database name: sql6426508
 
-Database password: aNRGg6ZSQH
+- Database password: aNRGg6ZSQH
 
 
 ## Author
