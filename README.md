@@ -1,9 +1,16 @@
 <h1 align="center">
   <br>
-  Data Scraping & Data Storing
+  Seleksi Warga Basdat 2021
   <br>
   <br>
 </h1>
+
+<h2 align="center">
+  <br>
+  Tugas 1 : Data Scraping & Data Storing
+  <br>
+  <br>
+</h2>
 <div align="center">
 <img src="./Data Scraping/screenshot/1.png"/>
 </div>
