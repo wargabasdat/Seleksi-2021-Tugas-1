@@ -13,16 +13,16 @@
 </h2>
 
 ## Table of Contents
-- (Specification of Program)[https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#specification-of-program]
-- (Description of the Data and Database Management System (DBMS))[https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#description-of-the-data-and-database-management-system-dbms]
-- (Requirements)[https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#requirements]
-- (How to use)[https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#how-to-use]
-  - (Data Scraping)[https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#data-scraping]
-  - (Data Storing)[https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#data-storing]
-- (JSON Structure)[https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#json-structure]
-- (Reference)[https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#reference]
-- (Online Database)[https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#reference]
-- (Author)[https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#author]
+- [Specification of Program](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#specification-of-program)
+- [Description of the Data and Database Management System (DBMS)](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#description-of-the-data-and-database-management-system-dbms)
+- [Requirements](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#requirements)
+- [How to use](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#how-to-use)
+  - [Data Scraping](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#data-scraping)
+  - [Data Storing](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#data-storing)
+- [JSON Structure](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#json-structure)
+- [Reference](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#reference)
+- [Online Database](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#online-database)
+- [Author](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#author)
 
 ## Specification of Program
 Steam Scraper is a program that lets you scrape various data from steam listings. It includes listings like games, software, downloadable content, demos, and mods but it doesn't include things like soundtracks, videos, hardware, and inlcude bundles. Beside scraping data from Steam web, the program also facilitates/allows you to convert and store those data into a database (.sql file). Storing the data into a database form gives you freedom and flexibility on how you can utilize the data. For example, you can sort the listings by which app that has the biggest discount so you know what apps that offer the best fot their money,  you can listings with a particular review with certain percentage that builds the review itself, etc.
