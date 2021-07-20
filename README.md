@@ -25,7 +25,7 @@
 - [Author](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#author)
 
 ## Specification of Program
-Steam Scraper is a program that lets you scrape various data from steam listings. It includes listings like games, software, downloadable content, demos, and mods but it doesn't include things like soundtracks, videos, hardware, and inlcude bundles. Beside scraping data from Steam web, the program also facilitates/allows you to convert and store those data into a database (.sql file). Storing the data into a database form gives you freedom and flexibility on how you can utilize the data. For example, you can sort the listings by which app that has the biggest discount so you know what apps that offer the best fot their money,  you can listings with a particular review with certain percentage that builds the review itself, etc.
+Steam Scraper is a program that lets you scrape various data from [steam listings](https://store.steampowered.com/). It includes listings like games, software, downloadable content, demos, and mods but it doesn't include things like soundtracks, videos, hardware, and inlcude bundles. Beside scraping data from Steam web, the program also facilitates/allows you to convert and store those data into a database (.sql file). Storing the data into a database form gives you freedom and flexibility on how you can utilize the data. For example, you can sort the listings by which app that has the biggest discount so you know what apps that offer the best fot their money,  you can listings with a particular review with certain percentage that builds the review itself, etc.
 
 All scripts in this repository are based on python languange with the integration of MariaDB DBMS for it in order to achieve all the database integration functions.
 
@@ -36,6 +36,10 @@ For data storing purpose, MariaDB is choosen because it's basically an open sour
   - Because it's open source, it has wide variety of support and wide compatibility. This results in fast migration from one system to others. Plus there is a handful of documentations availabe on internet
   - Easy integration with python and that leads to ease when inserting all the data by using a python script
   - It's efficient and has better performance (Compared to MySQL). This is because of the large selection of alternative database engines.
+
+Link for listing : https://store.steampowered.com/search/results/?query&start=0&count=50&dynamic_data=&force_infinite=1&category1=998%2C994%2C21%2C10%2C997&filter=topsellers&snr=1_7_7_7000_7&infinite=1
+
+Link for genre : https://store.steampowered.com/tag/browse/#global_492
 
 
 ## Requirements
