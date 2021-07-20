@@ -1,0 +1,138 @@
+[
+ {
+  "provinceId": 11,
+  "name": "ACEH"
+ },
+ {
+  "provinceId": 12,
+  "name": "SUMATERA UTARA"
+ },
+ {
+  "provinceId": 13,
+  "name": "SUMATERA BARAT"
+ },
+ {
+  "provinceId": 14,
+  "name": "RIAU"
+ },
+ {
+  "provinceId": 15,
+  "name": "JAMBI"
+ },
+ {
+  "provinceId": 16,
+  "name": "SUMATERA SELATAN"
+ },
+ {
+  "provinceId": 17,
+  "name": "BENGKULU"
+ },
+ {
+  "provinceId": 18,
+  "name": "LAMPUNG"
+ },
+ {
+  "provinceId": 19,
+  "name": "KEPULAUAN BANGKA BELITUNG"
+ },
+ {
+  "provinceId": 21,
+  "name": "KEPULAUAN RIAU"
+ },
+ {
+  "provinceId": 31,
+  "name": "DKI JAKARTA"
+ },
+ {
+  "provinceId": 32,
+  "name": "JAWA BARAT"
+ },
+ {
+  "provinceId": 33,
+  "name": "JAWA TENGAH"
+ },
+ {
+  "provinceId": 34,
+  "name": "DI YOGYAKARTA"
+ },
+ {
+  "provinceId": 35,
+  "name": "JAWA TIMUR"
+ },
+ {
+  "provinceId": 36,
+  "name": "BANTEN"
+ },
+ {
+  "provinceId": 51,
+  "name": "BALI"
+ },
+ {
+  "provinceId": 52,
+  "name": "NUSA TENGGARA BARAT"
+ },
+ {
+  "provinceId": 53,
+  "name": "NUSA TENGGARA TIMUR"
+ },
+ {
+  "provinceId": 61,
+  "name": "KALIMANTAN BARAT"
+ },
+ {
+  "provinceId": 62,
+  "name": "KALIMANTAN TENGAH"
+ },
+ {
+  "provinceId": 63,
+  "name": "KALIMANTAN SELATAN"
+ },
+ {
+  "provinceId": 64,
+  "name": "KALIMANTAN TIMUR"
+ },
+ {
+  "provinceId": 65,
+  "name": "KALIMANTAN UTARA"
+ },
+ {
+  "provinceId": 71,
+  "name": "SULAWESI UTARA"
+ },
+ {
+  "provinceId": 72,
+  "name": "SULAWESI TENGAH"
+ },
+ {
+  "provinceId": 73,
+  "name": "SULAWESI SELATAN"
+ },
+ {
+  "provinceId": 74,
+  "name": "SULAWESI TENGGARA"
+ },
+ {
+  "provinceId": 75,
+  "name": "GORONTALO"
+ },
+ {
+  "provinceId": 76,
+  "name": "SULAWESI BARAT"
+ },
+ {
+  "provinceId": 81,
+  "name": "MALUKU"
+ },
+ {
+  "provinceId": 82,
+  "name": "MALUKU UTARA"
+ },
+ {
+  "provinceId": 91,
+  "name": "PAPUA BARAT"
+ },
+ {
+  "provinceId": 94,
+  "name": "PAPUA"
+ }
+]

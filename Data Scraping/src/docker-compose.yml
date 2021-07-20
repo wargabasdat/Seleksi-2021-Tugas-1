@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  app:
+    image: golang:latest
+    volumes:
+      - .:/go/src/go-with-compose
+    working_dir: /go/src/go-with-compose
+    command: go mod download
+    command: go run main.go
