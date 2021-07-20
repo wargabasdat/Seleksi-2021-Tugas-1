@@ -11,6 +11,7 @@ type UpdatedAt struct {
 }
 
 type Hospital struct {
+	ID           string    `bson:"id"`
 	Name         string    `bson:"name"`
 	Address      string    `bson:"address"`
 	BedAvailable int       `bson:"bedAvailable"`
