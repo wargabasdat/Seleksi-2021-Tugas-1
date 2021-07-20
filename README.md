@@ -1,84 +1,202 @@
 <h1 align="center">
   <br>
-  Seleksi Warga Basdat 2021
+  Tugas 1 : Data Scraping & Data Storing
   <br>
   <br>
 </h1>
 
 <h2 align="center">
   <br>
-  Tugas 1 : Data Scraping & Data Storing
+  Steam Scrape
   <br>
   <br>
 </h2>
 
+## Table of Contents
+- [Specification of Program](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#specification-of-program)
+- [Description of the Data and Database Management System (DBMS)](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#description-of-the-data-and-database-management-system-dbms)
+- [Requirements](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#requirements)
+- [How to use](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#how-to-use)
+  - [Data Scraping](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#data-scraping)
+  - [Data Storing](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#data-storing)
+- [JSON Structure](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#json-structure)
+- [Reference](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#reference)
+- [Online Database](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#online-database)
+- [Author](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1#author)
 
-## Spesifikasi
+## Specification of Program
+Steam Scraper is a program that lets you scrape various data from [Steam listings](https://store.steampowered.com/). It includes listings like games, software, downloadable content, demos, and mods but it doesn't include things like soundtracks, videos, hardware, and inlcude bundles. Beside scraping data from Steam web, the program also facilitates/allows you to convert and store those data into a database (.sql file). Storing the data into a database form gives you freedom and flexibility on how you can utilize the data. For example, you can sort the listings by which app that has the biggest discount so you know what apps that offer the best fot their money,  you can listings with a particular review with certain percentage that builds the review itself, etc.
 
-### Data Scraping
+All scripts in this repository are based on python languange with the integration of MariaDB DBMS for it in order to achieve all the database integration functions.
 
-1. Lakukan _data scraping_ dari sebuah laman web untuk memperoleh data atau informasi tertentu __TANPA MENGGUNAKAN API__. Hasil _data scraping_ ini nantinya akan disimpan dalam DBMS dan digunakan sebagai bahan tugas analisis dan visualisasi data.
+## Description of the Data and Database Management System (DBMS)
+Data that are scraped include game title, release date of a game, original price and final price after all discounts are applied, game rating, percentage that builds the rating, total review from all users, game compatibility for each platform (Windows , Mac, Linux, VR compatible, VR only). These data were chosen because they can can be very helpful for users with their buying decision. E.g pricing, discount, review, etc. Hence why the program doesn't scrap listings like soundtracks, videos, hardware, and inlcude bundles because they don't represent the data that we're trying to look for.
 
-2. Daftarkan judul topik yang akan dijadikan bahan _data scraping_ dan DBMS yang akan digunakan pada spreadsheet berikut: [Topik Data Scraping](https://docs.google.com/spreadsheets/d/12sgizyreDkFXz4N3FaGouyGKRZN3qHyWEeSIbEXtpR4/edit?usp=sharing). Usahakan agar tidak ada peserta dengan topik yang sama. Akses edit ke spreadsheet akan ditutup tanggal __12 Juli 2021 pukul 23.59 WIB__
+For data storing purpose, MariaDB is choosen because it's basically an open source version of MySQL. It's developed to be as compatible with MySQL as possible. MariaDB offers some advantages : 
+  - Because it's open source, it has wide variety of support and wide compatibility. This results in fast migration from one system to others. Plus there is a handful of documentations availabe on internet
+  - Easy integration with python and that leads to ease when inserting all the data by using a python script
+  - It's efficient and has better performance (Compared to MySQL). This is because of the large selection of alternative database engines.
 
-3. Pada folder `Data Scraping`, calon warga basdat harus mengumpulkan _file script_, json hasil _data scraping_. Folder `Data Scraping` terdiri dari _folder_ `src`, `data` dan `screenshots`. 
-    - _Folder_ `src` berisi _file script_/kode yang __*WELL DOCUMENTED* dan *CLEAN CODE*__ 
-    - _Folder_ `data` berisi _file_ json hasil _scraper_
-    - _Folder_ `screenshot` berisi tangkapan layar program.
+Link for listing : https://store.steampowered.com/search/results/?query&start=0&count=50&dynamic_data=&force_infinite=1&category1=998%2C994%2C21%2C10%2C997&filter=topsellers&snr=1_7_7_7000_7&infinite=1
 
-4. Sebagai referensi untuk mengenal _data scraping_, asisten menyediakan dokumen "_Short Guidance To Data Scraping_" yang dapat diakses pada link berikut: [Data Scraping Guidance](http://bit.ly/DataScrapingGuidance). Mohon memperhatikan etika dalam melakukan _scraping_.
+Link for genre : https://store.steampowered.com/tag/browse/#global_492
 
-5. JSON harus dinormalisasi dan harus di-_preprocessing_
-```
-Preprocessing contohnya :
-- Cleaning
-- Parsing
-- Transformation
-- dan lainnya
-```
+
+## Requirements
+In order to run the whole __Steam Scraper__ program, it requires the following programs to be installed in your system first:
+1. __Python__, tested using version 3.9.5. You can download latest version of python in [here](https://www.python.org/downloads/)
+2. A Database Management System, __MariaDB__. You can download latest version of MariaDB in [here](https://mariadb.com/downloads/)
+
+Alongside those programs, we also need to install a couple of module/packages. __You can run these commands on `command prompt` or `cmd` directly__
+1. __beautifulsoup4__ python package. This package is used for extracting/pulling out data from given web URL (HTML)
+    ```
+    pip install beautifulsoup4
+    ```
+2. A parser module package. There are a couple of options like `lxml`, `html.parser`, or `html5lib`. This parser functions to parse HTML that's previously extracted using `beautifulsoup`. __You only need to install one of these__. In most cases, the parser won't matter too much as long as you're working with good HTML. In our case (Scraping from Steam), they all give the same result. I personally use `html5lib`. 
+
+    To install `lxml` parser package
+      ```
+      pip install lxml
+      ```
+    To install `html.parser` parser package
+      ```
+      pip install html-parser
+      pip install html.parser
+      ```
+    To install `html5lib` parser package
+      ```
+      pip intall html5lib
+      ```
+3. A python module package for connecting python to MariaDB database, __MariaDB Connector/Python__
+    ```
+    pip install MariaDB
+    ```
+## How to use 
+__Note__ : All the scripts are basically normal python script, so you can run it however you want. The followings are the steps to run the python script on `command prompt` or `cmd` on __Windows 10__
+### Data scraping
+1. Assuming you're in the main directory, change the directory to `Data Scraping/src`
+
+    ```
+    cd Data Scraping/src
+    ```
+2. Run the python script, `SteamScraper.py`
+
+    ```
+    python SteamScraper.py
+    ```
+3. Wait for the process to be done and all the data that's been successfully scraped will be stored in `data` folder in JSON format
+
+Image when running `SteamScraper.py`
+
+![SteamScraper 1](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/SteamScraper%201.png)
+
+![SteamScraper 2](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/SteamScraper%202.png)
 
 ### Data Storing
+First and foremost, I already made some scripts that'll automatically do all the queries in order to set up the database from creating the database to creating all the tables needed but if you want to do all the queries manually, I also make a text file that contains all the queries
 
-1. Lakukan _storing_ data yang didapatkan dari hasil _scraping_ ke DBMS 
+Note : The program will prompt you to check if your `user`, `password`, `host`, `port`, and `database` are correct already. The given data are default data so they'll be fine if you never change anything. Otherwise, you can type __Y__ to change the given default value
 
-2. Tools yang digunakan __dibebaskan__
+1. Creating the database and all the tables
 
-3. Calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Folder_ `Data Storing` terdiri dari folder `data`, `screenshots` dan `export`
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
+    - First method, run an automcatic python script `SettingUpDatabase.py`. Assuming you're still in __Data Scraping/src__ directory
+      ```
+      python SettingUpDatabase.py
+      ```
+    - Second method. If you want to setting up the database manually, you can run all the queries manually on `command prompt` or `cmd` that you can check in a text file `SQL Query for Setting up Database.txt`
 
+    ![SettingUpDatabase](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1/blob/main/Data%20Storing/screenshot/SettingUpDatabase.png)
+2. Filling up the database with data
 
+    To do this, all you have to do is to run a python script inside `src` folder that I already made. This script will read JSON Files that were already made and then store it to database called _steamscrape_
+    ```
+    python FillingDatabase.py
+    ```
+3. After the process is done, you should see a dump database file, `steamscrape.sql` and a database, `steamscrape` in inside `export` folder (__Data storing/export__ directory)    
 
-4. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    - Simpan ke database online
-    - Buatlah API sederhana untuk mengakses database online tersebut
+    ![FillingDatabase](https://github.com/myahyaibrahim/Seleksi-2021-Tugas-1/blob/main/Data%20Storing/screenshot/FillingDatabase.png)
 
-### Pengumpulan
+## JSON Structure
+There are 2 JSON Files as a result of the prior scraping process `SteamGame.json` and `SteamGenreDeveloper.json`. The two files are made separately in order to minimize clutter whenever people want to take a look at the JSON file.
+1. `SteamGame.json` contains all the data that are associated with game information with the structure as follows
 
-
-1. Dalam mengerjakan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: [Seleksi-2021-Tugas-1](https://github.com/wargabasdat/Seleksi-2021-Tugas-1). Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_1_[NIM]```
-
-2. Tambahkan juga `.gitignore` pada _file_ atau _folder_ yang tidak perlu di-_upload_, __NB: BINARY TIDAK DIUPLOAD__
-
-3. Berikan satu buah file `README` yang __WELL DOCUMENTED__ dengan cara __override__ _file_ `README.md` ini. `README` harus memuat minimal konten:
-
+`GamesData` Key is a list of dictionary/object. Each dictionary/object contains several keys: `game_title`, `release_date`, `original_price`, `disc_price`, `gaming_rating`, `game_rating_percentage`, `total_user_reviews`, `win_compatibility`, `mac_compatibility`, `linux_compatibility`, `vr_compatibility`, `vr_only`, `game_URL`, `game_genres`, and `game_developer`
 
 ```
-- Description of the data and DBMS (Why you choose it)
-- Specification of the program
-- How to use
-- JSON Structure
-- Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-- Reference (Library used, etc)
-- Author
+{
+  "GamesData": [
+        {
+            'game_title': gameTitle,
+            'release_date': releaseDate,
+            'original_price': originalPrice,
+            'disc_price' : discPrice,
+            'gaming_rating' : gamingRatingConc,
+            'game_rating_percentage' : gameRatingPercentage,
+            'total_user_reviews' : totalUserReviews,
+            'win_compatibility' : winCompatibility,
+            'mac_compatibility' : macCompatibility,
+            'linux_compatibility' : linuxCompatibility,
+            'vr_compatibility' : vrCompatibility,
+            'vr_only' : vrOnly,
+            'game_URL' : gameURL,
+            'game_genres' : [gameGenres],
+            'game_developer' : gameDeveloper
+        },
+        ......
+        ......
+        {
+            'game_title': gameTitle,
+            'release_date': releaseDate,
+            'original_price': originalPrice,
+            'disc_price' : discPrice,
+            'gaming_rating' : gamingRatingConc,
+            'game_rating_percentage' : gameRatingPercentage,
+            'total_user_reviews' : totalUserReviews,
+            'win_compatibility' : winCompatibility,
+            'mac_compatibility' : macCompatibility,
+            'linux_compatibility' : linuxCompatibility,
+            'vr_compatibility' : vrCompatibility,
+            'vr_only' : vrOnly,
+            'game_URL' : gameURL,
+            'game_genres' : [gameGenres],
+            'game_developer' : [gameDeveloper]
+        }
+    ]   
+}
+```
+2. `SteamGenreDeveloper.json` contains all the data that are associated with game genre and developers with the structure as follows
+
+`GenreData` Key contains a list of str/String that represents all kinds of genre name. `DeveloperData` Key contains a list of str/String that represents all developer game from all the game titles that have been successufully scraped. 
+
+```
+{
+    "GenreData" : [genreList],
+    "DeveloperData" : [gameDevList]
+}
 ```
 
+## Reference
+These are some of the references that have been very useful in making this web scraping project
 
-4. Deadline pengumpulan tugas 1 adalah <span style="color:red">__24 Juli 2021 Pukul 23.59 WIB__</span>
+[Python Tutorial: Web Scraping with BeautifulSoup and Requests](https://www.youtube.com/watch?v=ng2o98k983k)
 
-<h3 align="center">
-  <br>
-  Selamat Mengerjakan
-  <br>
-  <br>
-</h3>
+[Python Tutorial: Working with JSON Data using the json Module](https://www.youtube.com/watch?v=9N6a-VLBa2I)
+
+[How to connect Python programs to MariaDB](https://MariaDB.com/resources/blog/how-to-connect-python-programs-to-MariaDB/)
+
+## Online database
+Go to [phpmyadmin](http://www.phpmyadmin.co/)
+
+Then you need to insert these following data to log you in
+
+- Host: sql6.freesqldatabase.com
+
+- Database name: sql6426508
+
+- Database password: aNRGg6ZSQH
+
+
+## Author
+Mohammad Yahya Ibrahim
+
+13519091
