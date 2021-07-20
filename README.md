@@ -4,8 +4,9 @@
   <br>
   <br>
 </h1>
-
+<div align="center">
 <img src="./Data Scraping/screenshot/1.png"/>
+</div>
 
 ## Deskripsi
 
@@ -81,18 +82,18 @@ go run main.go
 Tiap _record_ dalam JSON File hasil proses _data scraping_ ini memiliki atribut-atribut sebagai berikut:
 ```json
 {
-  "id":"id record",
-  "name": "Nama Rumah Sakit",
-  "address": "Alamat Rumah Sakit",
-  "bedAvailable": "Jumlah Tempat Tidur yang available untuk pasien baru ",
-  "queue": "Jumlah antrian tempat tidur ",
-  "hotline": "Nomor Telpon rumah sakit",
+  "id":"STRING: id record UUID",
+  "name": "STRING: Nama Rumah Sakit",
+  "address": "STRING: Alamat Rumah Sakit",
+  "bedAvailable": "INTGER: Jumlah Tempat Tidur yang available untuk pasien baru ",
+  "queue": "INTGER: Jumlah antrian tempat tidur ",
+  "hotline": "STRING:Nomor Telpon rumah sakit",
   "updatedAt": {
-   "hour": "Jam terakhir diupdate",
-   "minute": "Menit terakhir diupdate"
+   "hour": "INTGER: Jam terakhir diupdate",
+   "minute": "INTGER: Menit terakhir diupdate"
   },
-  "links": "Link detail data rumah sakit",
-  "provinceId": "Id Provinsi"
+  "links": "STRING: Link detail data rumah sakit",
+  "provinceId": "INTGER: Id Provinsi"
   }
 ```
 
