@@ -175,7 +175,7 @@ https://hospital-web-ina.herokuapp.com/hospital
 ```
 Responds Success
 
-<img src="./api/screenshot/1.png"/>
+<img src="./API/screenshot/1.png"/>
 - 
   - Get Hospital By Id
 ```url
@@ -185,7 +185,7 @@ Responds Success
 
 Pada contoh ini menggunakan id ="a42b1666-3f08-44b6-b4d4-8d45d76490d7" yang di dapat dari endpoint create record yang ada di bawah
 
-<img src="./api/screenshot/2.png"/>
+<img src="./API/screenshot/2.png"/>
 
   - Get List Provinces : Mereturn nama dan id provinsi yang dapat digunakan pada pencarian rumah sakit berdasarkan provinsi
 ```url
@@ -193,7 +193,7 @@ https://hospital-web-ina.herokuapp.com/province
 ```
 Responds Success
 
-<img src="./api/screenshot/3.png"/>
+<img src="./API/screenshot/3.png"/>
 
   - Get Hospital By Province 
 ```url
@@ -201,11 +201,11 @@ https://hospital-web-ina.herokuapp.com/province/:id
 ```
 Responds Success : Pada request ini diberikan id=11 yang merupakan provinsi Aceh sehingga valid
 
-<img src="./api/screenshot/4.png"/>
+<img src="./API/screenshot/4.png"/>
 
 Responds Failed : Pada request ini diberikan id=5 yang tidak valid
 
-<img src="./api/screenshot/5.png"/>
+<img src="./API/screenshot/5.png"/>
 
   __POST Method__
 
@@ -229,7 +229,7 @@ Params: Body memiliki structure yang seperti ini
 }
 ```
 ID yang digenerate, yaitu _"a42b1666-3f08-44b6-b4d4-8d45d76490d7"_ akan digunakan sepanjang tutorial ini
-<img src="./api/screenshot/6.png"/>
+<img src="./API/screenshot/6.png"/>
 
 __PATCH Method__
 
@@ -248,10 +248,10 @@ Params: Body memiliki structure yang seperti ini
 }
 ```
 ID yang digunakan, yaitu _"a42b1666-3f08-44b6-b4d4-8d45d76490d7"_
-<img src="./api/screenshot/7.png"/>
+<img src="./API/screenshot/7.png"/>
 
 Saat Di get kembali sudah terupdate recordnya
-<img src="./api/screenshot/8.png"/>
+<img src="./API/screenshot/8.png"/>
 
 __PATCH Method__
 
@@ -263,10 +263,10 @@ https://hospital-web-ina.herokuapp.com/hospital/:id
 Responds Success
 
 ID yang digunakan, yaitu _"a42b1666-3f08-44b6-b4d4-8d45d76490d7"_
-<img src="./api/screenshot/9.png"/>
+<img src="./API/screenshot/9.png"/>
 
 Saat Di get kembali record sudah terdelete
-<img src="./api/screenshot/10.png"/>
+<img src="./API/screenshot/10.png"/>
 
 
 ## Reference(s)
