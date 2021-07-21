@@ -47,7 +47,7 @@ link    : Link to listing's page
 ## Program Screenshot
 
 
-## Reference (Libraries)
+## Libraries
 ```
 - requests (used to send http request)
 - json (used to store json data after scraping)
