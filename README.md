@@ -12,13 +12,10 @@
   <br>
 </h2>
 
-
-## Data & DBMS Description
-
-### Data
+## Data
 This project scrapes listings from Airbnb's Unique Stays Collection
 
-### DBMS
+## DBMS
 The DBMS used to store the data is MongoDB Atlas, MongoDB's cloud database. It's an Open-Core NoSQL Document Database which is suitable for semi-structured data like json. Cloud database is relatively safer and MongoDB is simple and free to use.
 
 
@@ -26,7 +23,13 @@ The DBMS used to store the data is MongoDB Atlas, MongoDB's cloud database. It's
 Language: Python version 3.8
 
 ## How to Use
-
+1. Add IP Address to IP Access List in MongoDB Atlas (can only be done by the author of this code)
+2. Open terminal
+3. Go to Data Scraping/src directory
+4. Run program
+    ```bash
+    python3 scrape.py
+    ```
 
 ## JSON Structure
 ```
@@ -47,18 +50,17 @@ link    : Link to listing's page
 ## Program Screenshot
 
 
-## Libraries
+## Libraries & Configurations
 ```
 - requests (used to send http request)
 - json (used to store json data after scraping)
 - BeautifulSoup (used to scrape the data)
 - pymongo (used to store the data into MongoDB Atlas)
+- config.py (hidden to store database's password)
 ```
 
 ## Author
-Aisyah Farras Aqila
-
-13519054
+Aisyah Farras Aqila - 13519054
 
 
 ```
