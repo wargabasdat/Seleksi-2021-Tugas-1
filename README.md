@@ -13,54 +13,51 @@
 </h2>
 
 
-## Spesifikasi
+## Data & DBMS Description
 
-### Data Scraping
+### Data
+This project scrapes listings from Airbnb's Unique Stays Collection
 
-1. Lakukan _data scraping_ dari sebuah laman web untuk memperoleh data atau informasi tertentu __TANPA MENGGUNAKAN API__. Hasil _data scraping_ ini nantinya akan disimpan dalam DBMS dan digunakan sebagai bahan tugas analisis dan visualisasi data.
+### DBMS
+The DBMS used to store the data is MongoDB Atlas, MongoDB's cloud database. It's an Open-Core NoSQL Document Database which is suitable for semi-structured data like json. Cloud database is relatively safer and MongoDB is simple and free to use.
 
-2. Daftarkan judul topik yang akan dijadikan bahan _data scraping_ dan DBMS yang akan digunakan pada spreadsheet berikut: [Topik Data Scraping](https://docs.google.com/spreadsheets/d/12sgizyreDkFXz4N3FaGouyGKRZN3qHyWEeSIbEXtpR4/edit?usp=sharing). Usahakan agar tidak ada peserta dengan topik yang sama. Akses edit ke spreadsheet akan ditutup tanggal __12 Juli 2021 pukul 23.59 WIB__
 
-3. Pada folder `Data Scraping`, calon warga basdat harus mengumpulkan _file script_, json hasil _data scraping_. Folder `Data Scraping` terdiri dari _folder_ `src`, `data` dan `screenshots`. 
-    - _Folder_ `src` berisi _file script_/kode yang __*WELL DOCUMENTED* dan *CLEAN CODE*__ 
-    - _Folder_ `data` berisi _file_ json hasil _scraper_
-    - _Folder_ `screenshot` berisi tangkapan layar program.
+## Program Specification
+Language: Python version 3.8
 
-4. Sebagai referensi untuk mengenal _data scraping_, asisten menyediakan dokumen "_Short Guidance To Data Scraping_" yang dapat diakses pada link berikut: [Data Scraping Guidance](http://bit.ly/DataScrapingGuidance). Mohon memperhatikan etika dalam melakukan _scraping_.
+## How to Use
 
-5. JSON harus dinormalisasi dan harus di-_preprocessing_
+
+## JSON Structure
 ```
-Preprocessing contohnya :
-- Cleaning
-- Parsing
-- Transformation
-- dan lainnya
+_id     : Listing's id (_id is set as the default primary key in MongoDB)
+type    : Type of the listing
+area    : Where the listing is located
+name    : Title of the listing
+guest   : Number of guests
+bedroom : Number of bedrooms
+bed     : Number of beds
+bath    : Number of baths
+price   : Price per night in US Dollars
+rating  : Listing's rating (set to 0 when not provided)
+link    : Link to listing's page
 ```
 
-### Data Storing
 
-1. Lakukan _storing_ data yang didapatkan dari hasil _scraping_ ke DBMS 
-
-2. Tools yang digunakan __dibebaskan__
-
-3. Calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Folder_ `Data Storing` terdiri dari folder `data`, `screenshots` dan `export`
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
+## Program Screenshot
 
 
+## Reference (Libraries)
+```
+- requests (used to send http request)
+- json (used to store json data after scraping)
+- BeautifulSoup (used to scrape the data)
+- pymongo (used to store the data into MongoDB Atlas)
+```
 
-4. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    - Simpan ke database online
-    - Buatlah API sederhana untuk mengakses database online tersebut
-
-### Pengumpulan
-
-
-1. Dalam mengerjakan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: [Seleksi-2021-Tugas-1](https://github.com/wargabasdat/Seleksi-2021-Tugas-1). Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_1_[NIM]```
-
-2. Tambahkan juga `.gitignore` pada _file_ atau _folder_ yang tidak perlu di-_upload_, __NB: BINARY TIDAK DIUPLOAD__
-
-3. Berikan satu buah file `README` yang __WELL DOCUMENTED__ dengan cara __override__ _file_ `README.md` ini. `README` harus memuat minimal konten:
+## Author
+Aisyah Farras Aqila
+13519054
 
 
 ```
@@ -73,12 +70,3 @@ Preprocessing contohnya :
 - Author
 ```
 
-
-4. Deadline pengumpulan tugas 1 adalah <span style="color:red">__24 Juli 2021 Pukul 23.59 WIB__</span>
-
-<h3 align="center">
-  <br>
-  Selamat Mengerjakan
-  <br>
-  <br>
-</h3>
