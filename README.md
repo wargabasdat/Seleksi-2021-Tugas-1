@@ -51,6 +51,8 @@ link    : Link to listing's page
 
 ![picture alt](./Data%20Scraping/screenshot/storing.png)
 
+![picture alt](./Data%20Storing/screenshot/mongodb.png)
+
 ## Library
 - requests (used to send http request)
 - json (used to store json data after scraping)
