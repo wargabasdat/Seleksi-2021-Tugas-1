@@ -13,23 +13,23 @@
 </h2>
 
 ## Data
-This project scrapes listings from Airbnb's Unique Stays Collection
+The data are listings from Airbnb's Unique Stays Collection.
 
 ## DBMS
-The DBMS used to store the data is MongoDB Atlas, MongoDB's cloud database. It's an Open-Core NoSQL Document Database which is suitable for semi-structured data like json. Cloud database is relatively safer and MongoDB is simple and free to use.
-
+The DBMS used to store the data is MongoDB Atlas, MongoDB's cloud database. It's an Open-Core NoSQL Document Database which is suitable for semi-structured data such as json. Cloud database is relatively safer and MongoDB is simple and free to use.
 
 ## Program Specification
 Language: Python version 3.8
 
+## Configuration
+1. Add IP Address to IP Access List in MongoDB Atlas (can only be done by the author of this code).
+2. Create ```config.py``` in src to store database's password in ```db_pass``` variable.
+
 ## How to Use
-1. Add IP Address to IP Access List in MongoDB Atlas (can only be done by the author of this code)
-2. Open terminal
-3. Go to Data Scraping/src directory
-4. Run program
-    ```bash
-    python3 scrape.py
-    ```
+1. Set up configurations.
+2. Open terminal.
+3. Go to Data Scraping/src directory.
+4. Run program with ```python3 scrape.py``` command.
 
 ## JSON Structure
 ```
@@ -46,30 +46,16 @@ rating  : Listing's rating (set to 0 when not provided)
 link    : Link to listing's page
 ```
 
-
 ## Program Screenshot
+![picture alt](./Data%20Scraping/screenshot/scraping.png)
 
+![picture alt](./Data%20Scraping/screenshot/storing.png)
 
-## Libraries & Configurations
-```
+## Library
 - requests (used to send http request)
 - json (used to store json data after scraping)
 - BeautifulSoup (used to scrape the data)
 - pymongo (used to store the data into MongoDB Atlas)
-- config.py (hidden to store database's password)
-```
 
 ## Author
 Aisyah Farras Aqila - 13519054
-
-
-```
-- Description of the data and DBMS (Why you choose it)
-- Specification of the program
-- How to use
-- JSON Structure
-- Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-- Reference (Library used, etc)
-- Author
-```
-
