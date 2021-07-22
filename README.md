@@ -28,7 +28,7 @@ Language: Python version 3.8
 ## How to Use
 1. Set up configurations.
 2. Open terminal.
-3. Go to Data Scraping/src directory.
+3. Go to ```Data Scraping/src``` directory.
 4. Run program with ```python3 scrape.py``` command.
 
 ## JSON Structure
