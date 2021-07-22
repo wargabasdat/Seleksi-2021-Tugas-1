@@ -23,7 +23,7 @@ Language: Python version 3.8
 
 ## Configuration
 1. Add IP Address to IP Access List in MongoDB Atlas (can only be done by the author of this code).
-2. Create ```config.py``` in src to store database's password in ```db_pass``` variable.
+2. Create ```config.py``` in ```src``` to store database's password in ```db_pass``` variable.
 
 ## How to Use
 1. Set up configurations.
