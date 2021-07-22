@@ -47,9 +47,7 @@ link    : Link to listing's page
 ```
 
 ## Program Screenshot
-![picture alt](./Data%20Scraping/screenshot/scraping.png)
-
-![picture alt](./Data%20Scraping/screenshot/storing.png)
+![picture alt](./Data%20Scraping/screenshot/program.png)
 
 ![picture alt](./Data%20Storing/screenshot/mongodb.png)
 
