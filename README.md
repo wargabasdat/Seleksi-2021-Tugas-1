@@ -12,7 +12,7 @@
   <br>
 </h2>
 
-![Logo Rumah123](/Data%20Scraping/blob/screenshot/logo-rumah123.jpg?raw=true)
+![Logo Rumah123](https://github.com/tugusav/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/logo-rumah123.jpg)
 
 ## Table of Contents
 
@@ -140,20 +140,20 @@ The scraped data will be converted into JSON format. Below is an example of the 
 ## Screenshots
 
 - #### Scraping Function
-![Scraper Function 1](/Data%20Scraping/screenshot/scraper-function1.png?raw=true)
-![Scraper Function 2](/Data%20Scraping/screenshot/scraper-function2.png?raw=true)
+![Scraper Function 1](https://github.com/tugusav/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/scraper-function1.png)
+![Scraper Function 2](https://github.com/tugusav/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/scraper-function2.png)
 
 - #### Progress Bar using TQDM
-![Scraping with TQDM](/Data%20Scraping/screenshot/scraping-tqdm.png?raw=true)
+![Scraping with TQDM](https://github.com/tugusav/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/scraping-tqdm.png)
 
 - #### Preprocessing Input Data
-![Preprocessing Input Data](/Data%20Scraping/screenshot/preprocessing-input.png?raw=true)
+![Preprocessing Input Data](https://github.com/tugusav/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/preprocessing-input.png)
 
 - #### Output to JSON
-![Output to JSON](/Data%20Scraping/screenshot/concat-and-output-to-json.png?raw=true)
+![Output to JSON](https://github.com/tugusav/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/concat-and-output-to-json.png)
 
 - #### Data Storing in MongoDB
-![Data Storing MongoDB](/Data%20Scraping/screenshot/storing-mongo.png?raw=true)
+![Data Storing MongoDB](https://github.com/tugusav/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/storing-mongo.png)
 
 ## Reference
 
