@@ -173,6 +173,8 @@ Resolving every error :D
 
 ## Author
 
-Ida Bagus Raditya Avanindra Mahaputra
-Information System and Technology (18219117)
+Ida Bagus Raditya Avanindra Mahaputra (18219117)
+<br>
+Information System and Technology 
+<br>
 Institut Teknologi Bandung
