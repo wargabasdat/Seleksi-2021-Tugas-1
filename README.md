@@ -12,7 +12,7 @@
   <br>
 </h2>
 
-![Logo Rumah123](/main/Data%20Scraping/screenshot/logo-rumah123.jpg?raw=true)
+![Logo Rumah123](/main/Data%20Scraping/blob/screenshot/logo-rumah123.jpg?raw=true)
 
 ## Table of Contents
 
