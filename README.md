@@ -1,18 +1,16 @@
 <h1 align="center">
   <br>
-  Seleksi Warga Basdat 2021
+  Data Mobil Bekas di Indonesia
   <br>
 
 </h1>
 
 <h2 align="center">
   <br>
-  Tugas 1 : Data Scraping & Data Storing
+  Data Scraping & Data Storing dari Mobil123.com
   <br>
   <br>
 </h2>
-
-## Baskoro Adi Wicaksono / 18219113
 
 - Topik yang saya pilih untuk dilakukan data scraping adalah pengambilan data mobil bekas, dimana data mobil bekas ini saya ambil dari sebuah *website* bernama [Mobil123](https://www.mobil123.com). Dengan adanya data mengenai mobil bekas ini, diharapkan dapat membantu pihak-pihak yang saat ini sedang ingin membeli mobil bekas atau bagi pihak yang ingin menjual mobil miliknya.
 
@@ -214,10 +212,21 @@ Pada cuplikan kode tersebut, saya telah menentukan API untuk berjalan pada port 
 
 ![car_by_brand](.\Data%20Storing\bonus\screenshot\API\brand_car.png?raw=true)
 
-![car_by_transmission](.\Data%20Storing\bonus\screenshot\API\car_transmission.png>raw=true)
+![car_by_transmission](.\Data%20Storing\bonus\screenshot\API\car_transmission.png?raw=true)
 
 ![car_by_maxPrice](.\Data%20Storing\bonus\screenshot\API\maxPrice_car.png?raw=true)
 
 ![car_by_minPrice](.\Data%20Storing\bonus\screenshot\API\minPrice_car.png?raw=true)
 
 ![car_by_price](.\Data%20Storing\bonus\screenshot\API\price_car.png?raw=true)
+
+#### Referensi
+- [_*PyPI*_](https://pypi.org/) - Dokumentasi dari seluruh library yang digunakan pada Python
+- [_*npm*_](https://www.npmjs.com/) - Dokumentasi dan detail dari seluruh library yang digunakan oleh API yang saya buat
+- [_*Web Scraping Menggunakan BeautifulSoup*_](https://www.youtube.com/watch?v=XVv6mJpFOb0) - Sebuah tutorial mengenai penggunaan BeautifulSoup untuk keperluan web scraping
+- [_*Stack Overflow*_](https://stackoverflow.com/) - Berbagai forumnya yang memecahkan masalah yang dihadapi pada proses pengerjaan
+- [_*MongoDB Docs*_](https://docs.mongodb.com/) - Dokumentasi penggunaan MongoDB
+
+
+#### Baskoro Adi Wicaksono / 18219113
+#### Institut Teknologi Bandung
