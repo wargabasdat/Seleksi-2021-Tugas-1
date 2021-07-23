@@ -12,7 +12,7 @@
   <br>
 </h2>
 
-![Logo Rumah123](/main/Data%20Scraping/blob/screenshot/logo-rumah123.jpg?raw=true)
+![Logo Rumah123](/Data%20Scraping/blob/screenshot/logo-rumah123.jpg?raw=true)
 
 ## Table of Contents
 
@@ -140,20 +140,20 @@ The scraped data will be converted into JSON format. Below is an example of the 
 ## Screenshots
 
 - #### Scraping Function
-![Scraper Function 1](/main/Data%20Scraping/screenshot/scraper-function1.png?raw=true)
-![Scraper Function 2](/main/Data%20Scraping/screenshot/scraper-function2.png?raw=true)
+![Scraper Function 1](/Data%20Scraping/screenshot/scraper-function1.png?raw=true)
+![Scraper Function 2](/Data%20Scraping/screenshot/scraper-function2.png?raw=true)
 
 - #### Progress Bar using TQDM
-![Scraping with TQDM](/main/Data%20Scraping/screenshot/scraping-tqdm.png?raw=true)
+![Scraping with TQDM](/Data%20Scraping/screenshot/scraping-tqdm.png?raw=true)
 
 - #### Preprocessing Input Data
-![Preprocessing Input Data](/main/Data%20Scraping/screenshot/preprocessing-input.png?raw=true)
+![Preprocessing Input Data](/Data%20Scraping/screenshot/preprocessing-input.png?raw=true)
 
 - #### Output to JSON
-![Output to JSON](/main/Data%20Scraping/screenshot/concat-and-output-to-json.png?raw=true)
+![Output to JSON](/Data%20Scraping/screenshot/concat-and-output-to-json.png?raw=true)
 
 - #### Data Storing in MongoDB
-![Data Storing MongoDB](/main/Data%20Scraping/screenshot/storing-mongo.png?raw=true)
+![Data Storing MongoDB](/Data%20Scraping/screenshot/storing-mongo.png?raw=true)
 
 ## Reference
 
