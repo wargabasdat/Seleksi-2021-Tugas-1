@@ -18,12 +18,12 @@
 
 This README.md contains the following
 1. [Description](#description)
-2. [Specification]()
-3. [How to use]()
-4. [JSON Structure]()
-5. [Screenshots]()
-6. [Reference]()
-7. [Author]()
+2. [Specification](#specification)
+3. [How to use](#how-to-use)
+4. [JSON Structure](#json-structure)
+5. [Screenshots](#screenshots)
+6. [Reference](#reference)
+7. [Author](#author)
 
 
 ## Description
