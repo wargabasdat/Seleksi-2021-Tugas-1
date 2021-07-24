@@ -1,0 +1,1144 @@
+{
+    "fetchTime": "2021-07-24 21:34:15",
+    "chartWeek": "2010-06-19",
+    "chart": [
+        {
+            "rank": 1,
+            "title": "California Gurls",
+            "artist": "Katy Perry Featuring Snoop Dogg",
+            "listArtist": [
+                "Katy Perry",
+                "Snoop Dogg"
+            ],
+            "lastWeek": 2,
+            "peakRank": 1,
+            "weekOnChart": 4
+        },
+        {
+            "rank": 2,
+            "title": "OMG",
+            "artist": "Usher Featuring will.i.am",
+            "listArtist": [
+                "Usher",
+                "will.i.am"
+            ],
+            "lastWeek": 1,
+            "peakRank": 1,
+            "weekOnChart": 10
+        },
+        {
+            "rank": 3,
+            "title": "Airplanes",
+            "artist": "B.o.B Featuring Hayley Williams",
+            "listArtist": [
+                "B.o.B",
+                "Hayley Williams"
+            ],
+            "lastWeek": 3,
+            "peakRank": 2,
+            "weekOnChart": 8
+        },
+        {
+            "rank": 4,
+            "title": "Your Love Is My Drug",
+            "artist": "Ke$ha",
+            "listArtist": [
+                "Ke$ha"
+            ],
+            "lastWeek": 4,
+            "peakRank": 4,
+            "weekOnChart": 17
+        },
+        {
+            "rank": 5,
+            "title": "Billionaire",
+            "artist": "Travie McCoy Featuring Bruno Mars",
+            "listArtist": [
+                "Travie McCoy",
+                "Bruno Mars"
+            ],
+            "lastWeek": 11,
+            "peakRank": 5,
+            "weekOnChart": 10
+        },
+        {
+            "rank": 6,
+            "title": "Break Your Heart",
+            "artist": "Taio Cruz Featuring Ludacris",
+            "listArtist": [
+                "Taio Cruz",
+                "Ludacris"
+            ],
+            "lastWeek": 5,
+            "peakRank": 1,
+            "weekOnChart": 15
+        },
+        {
+            "rank": 7,
+            "title": "Alejandro",
+            "artist": "Lady Gaga",
+            "listArtist": [
+                "Lady Gaga"
+            ],
+            "lastWeek": 6,
+            "peakRank": 6,
+            "weekOnChart": 10
+        },
+        {
+            "rank": 8,
+            "title": "Nothin' On You",
+            "artist": "B.o.B Featuring Bruno Mars",
+            "listArtist": [
+                "B.o.B",
+                "Bruno Mars"
+            ],
+            "lastWeek": 7,
+            "peakRank": 1,
+            "weekOnChart": 19
+        },
+        {
+            "rank": 9,
+            "title": "Rock That Body",
+            "artist": "The Black Eyed Peas",
+            "listArtist": [
+                "The Black Eyed Peas"
+            ],
+            "lastWeek": 16,
+            "peakRank": 9,
+            "weekOnChart": 6
+        },
+        {
+            "rank": 10,
+            "title": "Bulletproof",
+            "artist": "La Roux",
+            "listArtist": [
+                "La Roux"
+            ],
+            "lastWeek": 8,
+            "peakRank": 8,
+            "weekOnChart": 14
+        },
+        {
+            "rank": 11,
+            "title": "Not Afraid",
+            "artist": "Eminem",
+            "listArtist": [
+                "Eminem"
+            ],
+            "lastWeek": 10,
+            "peakRank": 1,
+            "weekOnChart": 5
+        },
+        {
+            "rank": 12,
+            "title": "Hey, Soul Sister",
+            "artist": "Train",
+            "listArtist": [
+                "Train"
+            ],
+            "lastWeek": 9,
+            "peakRank": 3,
+            "weekOnChart": 36
+        },
+        {
+            "rank": 13,
+            "title": "Find Your Love",
+            "artist": "Drake",
+            "listArtist": [
+                "Drake"
+            ],
+            "lastWeek": 15,
+            "peakRank": 13,
+            "weekOnChart": 5
+        },
+        {
+            "rank": 14,
+            "title": "Need You Now",
+            "artist": "Lady Antebellum",
+            "listArtist": [
+                "Lady Antebellum"
+            ],
+            "lastWeek": 14,
+            "peakRank": 2,
+            "weekOnChart": 43
+        },
+        {
+            "rank": 15,
+            "title": "Miss Me",
+            "artist": "Drake Featuring Lil Wayne",
+            "listArtist": [
+                "Drake",
+                "Lil Wayne"
+            ],
+            "lastWeek": null,
+            "peakRank": 15,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 16,
+            "title": "Young Forever",
+            "artist": "Jay-Z + Mr. Hudson",
+            "listArtist": [
+                "Jay-Z",
+                "Mr. Hudson"
+            ],
+            "lastWeek": 12,
+            "peakRank": 10,
+            "weekOnChart": 21
+        },
+        {
+            "rank": 17,
+            "title": "Rude Boy",
+            "artist": "Rihanna",
+            "listArtist": [
+                "Rihanna"
+            ],
+            "lastWeek": 13,
+            "peakRank": 1,
+            "weekOnChart": 17
+        },
+        {
+            "rank": 18,
+            "title": "In My Head",
+            "artist": "Jason Derulo",
+            "listArtist": [
+                "Jason Derulo"
+            ],
+            "lastWeek": 17,
+            "peakRank": 5,
+            "weekOnChart": 26
+        },
+        {
+            "rank": 19,
+            "title": "Cooler Than Me",
+            "artist": "Mike Posner",
+            "listArtist": [
+                "Mike Posner"
+            ],
+            "lastWeek": 31,
+            "peakRank": 19,
+            "weekOnChart": 6
+        },
+        {
+            "rank": 20,
+            "title": "Breakeven",
+            "artist": "The Script",
+            "listArtist": [
+                "The Script"
+            ],
+            "lastWeek": 19,
+            "peakRank": 12,
+            "weekOnChart": 27
+        },
+        {
+            "rank": 21,
+            "title": "Over",
+            "artist": "Drake",
+            "listArtist": [
+                "Drake"
+            ],
+            "lastWeek": 22,
+            "peakRank": 14,
+            "weekOnChart": 13
+        },
+        {
+            "rank": 22,
+            "title": "Can't Be Tamed",
+            "artist": "Miley Cyrus",
+            "listArtist": [
+                "Miley Cyrus"
+            ],
+            "lastWeek": 18,
+            "peakRank": 8,
+            "weekOnChart": 3
+        },
+        {
+            "rank": 23,
+            "title": "Telephone",
+            "artist": "Lady Gaga Featuring Beyonce",
+            "listArtist": [
+                "Lady Gaga",
+                "Beyonce"
+            ],
+            "lastWeek": 23,
+            "peakRank": 3,
+            "weekOnChart": 28
+        },
+        {
+            "rank": 24,
+            "title": "My Chick Bad",
+            "artist": "Ludacris Featuring Nicki Minaj",
+            "listArtist": [
+                "Ludacris",
+                "Nicki Minaj"
+            ],
+            "lastWeek": 21,
+            "peakRank": 11,
+            "weekOnChart": 15
+        },
+        {
+            "rank": 25,
+            "title": "Undo It",
+            "artist": "Carrie Underwood",
+            "listArtist": [
+                "Carrie Underwood"
+            ],
+            "lastWeek": 25,
+            "peakRank": 25,
+            "weekOnChart": 6
+        },
+        {
+            "rank": 26,
+            "title": "Dynamite",
+            "artist": "Taio Cruz",
+            "listArtist": [
+                "Taio Cruz"
+            ],
+            "lastWeek": null,
+            "peakRank": 26,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 27,
+            "title": "Haven't Met You Yet",
+            "artist": "Michael Buble",
+            "listArtist": [
+                "Michael Buble"
+            ],
+            "lastWeek": 27,
+            "peakRank": 24,
+            "weekOnChart": 36
+        },
+        {
+            "rank": 28,
+            "title": "My First Kiss",
+            "artist": "3OH!3 Featuring Ke$ha",
+            "listArtist": [
+                "3OH!3",
+                "Ke$ha"
+            ],
+            "lastWeek": 36,
+            "peakRank": 9,
+            "weekOnChart": 5
+        },
+        {
+            "rank": 29,
+            "title": "Un-Thinkable (I'm Ready)",
+            "artist": "Alicia Keys",
+            "listArtist": [
+                "Alicia Keys"
+            ],
+            "lastWeek": 29,
+            "peakRank": 27,
+            "weekOnChart": 9
+        },
+        {
+            "rank": 30,
+            "title": "Impossible",
+            "artist": "Shontelle",
+            "listArtist": [
+                "Shontelle"
+            ],
+            "lastWeek": 28,
+            "peakRank": 28,
+            "weekOnChart": 7
+        },
+        {
+            "rank": 31,
+            "title": "The House That Built Me",
+            "artist": "Miranda Lambert",
+            "listArtist": [
+                "Miranda Lambert"
+            ],
+            "lastWeek": 33,
+            "peakRank": 28,
+            "weekOnChart": 11
+        },
+        {
+            "rank": 32,
+            "title": "TiK ToK",
+            "artist": "Ke$ha",
+            "listArtist": [
+                "Ke$ha"
+            ],
+            "lastWeek": 32,
+            "peakRank": 1,
+            "weekOnChart": 35
+        },
+        {
+            "rank": 33,
+            "title": "All I Do Is Win",
+            "artist": "DJ Khaled Featuring T-Pain, Ludacris, Snoop Dogg & Rick Ross",
+            "listArtist": [
+                "DJ Khaled",
+                "T-Pain",
+                "Ludacris",
+                "Snoop Dogg",
+                "Rick Ross"
+            ],
+            "lastWeek": 37,
+            "peakRank": 33,
+            "weekOnChart": 16
+        },
+        {
+            "rank": 34,
+            "title": "Ridin' Solo",
+            "artist": "Jason Derulo",
+            "listArtist": [
+                "Jason Derulo"
+            ],
+            "lastWeek": 56,
+            "peakRank": 33,
+            "weekOnChart": 10
+        },
+        {
+            "rank": 35,
+            "title": "Eenie Meenie",
+            "artist": "Sean Kingston & Justin Bieber",
+            "listArtist": [
+                "Sean Kingston",
+                "Justin Bieber"
+            ],
+            "lastWeek": 26,
+            "peakRank": 15,
+            "weekOnChart": 11
+        },
+        {
+            "rank": 36,
+            "title": "I Made It (Cash Money Heroes)",
+            "artist": "Kevin Rudolf Featuring Birdman, Jay Sean, & Lil Wayne",
+            "listArtist": [
+                "Kevin Rudolf",
+                "Birdman",
+                "Jay Sean,",
+                "Lil Wayne"
+            ],
+            "lastWeek": 34,
+            "peakRank": 21,
+            "weekOnChart": 18
+        },
+        {
+            "rank": 37,
+            "title": "Bad Romance",
+            "artist": "Lady Gaga",
+            "listArtist": [
+                "Lady Gaga"
+            ],
+            "lastWeek": 30,
+            "peakRank": 2,
+            "weekOnChart": 32
+        },
+        {
+            "rank": 38,
+            "title": "Got Your Back",
+            "artist": "T.I. Featuring Keri Hilson",
+            "listArtist": [
+                "T.I.",
+                "Keri Hilson"
+            ],
+            "lastWeek": null,
+            "peakRank": 38,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 39,
+            "title": "This Afternoon",
+            "artist": "Nickelback",
+            "listArtist": [
+                "Nickelback"
+            ],
+            "lastWeek": 41,
+            "peakRank": 39,
+            "weekOnChart": 9
+        },
+        {
+            "rank": 40,
+            "title": "Whataya Want From Me",
+            "artist": "Adam Lambert",
+            "listArtist": [
+                "Adam Lambert"
+            ],
+            "lastWeek": 35,
+            "peakRank": 10,
+            "weekOnChart": 25
+        },
+        {
+            "rank": 41,
+            "title": "If We Ever Meet Again",
+            "artist": "Timbaland Featuring Katy Perry",
+            "listArtist": [
+                "Timbaland",
+                "Katy Perry"
+            ],
+            "lastWeek": 40,
+            "peakRank": 37,
+            "weekOnChart": 12
+        },
+        {
+            "rank": 42,
+            "title": "I Gotta Feeling",
+            "artist": "The Black Eyed Peas",
+            "listArtist": [
+                "The Black Eyed Peas"
+            ],
+            "lastWeek": 42,
+            "peakRank": 1,
+            "weekOnChart": 52
+        },
+        {
+            "rank": 43,
+            "title": "Pray For You",
+            "artist": "Jaron And The Long Road To Love",
+            "listArtist": [
+                "Jaron And The Long Road To Love"
+            ],
+            "lastWeek": 45,
+            "peakRank": 43,
+            "weekOnChart": 11
+        },
+        {
+            "rank": 44,
+            "title": "Yeah Ya Know (Takers)",
+            "artist": "T.I.",
+            "listArtist": [
+                "T.I."
+            ],
+            "lastWeek": null,
+            "peakRank": 44,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 45,
+            "title": "Imma Be",
+            "artist": "The Black Eyed Peas",
+            "listArtist": [
+                "The Black Eyed Peas"
+            ],
+            "lastWeek": 39,
+            "peakRank": 1,
+            "weekOnChart": 27
+        },
+        {
+            "rank": 46,
+            "title": "Water",
+            "artist": "Brad Paisley",
+            "listArtist": [
+                "Brad Paisley"
+            ],
+            "lastWeek": 53,
+            "peakRank": 46,
+            "weekOnChart": 8
+        },
+        {
+            "rank": 47,
+            "title": "Lose My Mind",
+            "artist": "Young Jeezy Featuring Plies",
+            "listArtist": [
+                "Young Jeezy",
+                "Plies"
+            ],
+            "lastWeek": 49,
+            "peakRank": 35,
+            "weekOnChart": 5
+        },
+        {
+            "rank": 48,
+            "title": "Rain Is A Good Thing",
+            "artist": "Luke Bryan",
+            "listArtist": [
+                "Luke Bryan"
+            ],
+            "lastWeek": 52,
+            "peakRank": 48,
+            "weekOnChart": 11
+        },
+        {
+            "rank": 49,
+            "title": "Hey Daddy (Daddy's Home)",
+            "artist": "Usher Featuring Plies",
+            "listArtist": [
+                "Usher",
+                "Plies"
+            ],
+            "lastWeek": 46,
+            "peakRank": 24,
+            "weekOnChart": 21
+        },
+        {
+            "rank": 50,
+            "title": "Lover, Lover",
+            "artist": "Jerrod Niemann",
+            "listArtist": [
+                "Jerrod Niemann"
+            ],
+            "lastWeek": 55,
+            "peakRank": 50,
+            "weekOnChart": 6
+        },
+        {
+            "rank": 51,
+            "title": "Your Love",
+            "artist": "Nicki Minaj",
+            "listArtist": [
+                "Nicki Minaj"
+            ],
+            "lastWeek": null,
+            "peakRank": 51,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 52,
+            "title": "Baby",
+            "artist": "Justin Bieber Featuring Ludacris",
+            "listArtist": [
+                "Justin Bieber",
+                "Ludacris"
+            ],
+            "lastWeek": 50,
+            "peakRank": 5,
+            "weekOnChart": 20
+        },
+        {
+            "rank": 53,
+            "title": "There Goes My Baby",
+            "artist": "Usher",
+            "listArtist": [
+                "Usher"
+            ],
+            "lastWeek": 59,
+            "peakRank": 53,
+            "weekOnChart": 12
+        },
+        {
+            "rank": 54,
+            "title": "Somebody To Love",
+            "artist": "Justin Bieber Featuring Usher",
+            "listArtist": [
+                "Justin Bieber",
+                "Usher"
+            ],
+            "lastWeek": 69,
+            "peakRank": 54,
+            "weekOnChart": 4
+        },
+        {
+            "rank": 55,
+            "title": "I Like It",
+            "artist": "Enrique Iglesias Featuring Pitbull",
+            "listArtist": [
+                "Enrique Iglesias",
+                "Pitbull"
+            ],
+            "lastWeek": 70,
+            "peakRank": 55,
+            "weekOnChart": 4
+        },
+        {
+            "rank": 56,
+            "title": "Winner",
+            "artist": "Jamie Foxx Featuring Justin Timberlake & T .I.",
+            "listArtist": [
+                "Jamie Foxx",
+                "Justin Timberlake",
+                "T .I."
+            ],
+            "lastWeek": 38,
+            "peakRank": 28,
+            "weekOnChart": 9
+        },
+        {
+            "rank": 57,
+            "title": "Crazy Town",
+            "artist": "Jason Aldean",
+            "listArtist": [
+                "Jason Aldean"
+            ],
+            "lastWeek": 61,
+            "peakRank": 57,
+            "weekOnChart": 8
+        },
+        {
+            "rank": 58,
+            "title": "She Won't Be Lonely Long",
+            "artist": "Clay Walker",
+            "listArtist": [
+                "Clay Walker"
+            ],
+            "lastWeek": 62,
+            "peakRank": 58,
+            "weekOnChart": 10
+        },
+        {
+            "rank": 59,
+            "title": "Gimmie That Girl",
+            "artist": "Joe Nichols",
+            "listArtist": [
+                "Joe Nichols"
+            ],
+            "lastWeek": 51,
+            "peakRank": 34,
+            "weekOnChart": 15
+        },
+        {
+            "rank": 60,
+            "title": "Gettin' Over You",
+            "artist": "David Guetta & Chris Willis Featuring Fergie & LMFAO",
+            "listArtist": [
+                "David Guetta",
+                "Chris Willis",
+                "Fergie",
+                "LMFAO"
+            ],
+            "lastWeek": 65,
+            "peakRank": 60,
+            "weekOnChart": 6
+        },
+        {
+            "rank": 61,
+            "title": "Hello Good Morning",
+            "artist": "Diddy - Dirty Money Featuring T.I.",
+            "listArtist": [
+                "Diddy - Dirty Money",
+                "T.I."
+            ],
+            "lastWeek": 67,
+            "peakRank": 34,
+            "weekOnChart": 10
+        },
+        {
+            "rank": 62,
+            "title": "I Never Told You",
+            "artist": "Colbie Caillat",
+            "listArtist": [
+                "Colbie Caillat"
+            ],
+            "lastWeek": 68,
+            "peakRank": 62,
+            "weekOnChart": 11
+        },
+        {
+            "rank": 63,
+            "title": "The Man I Want To Be",
+            "artist": "Chris Young",
+            "listArtist": [
+                "Chris Young"
+            ],
+            "lastWeek": 60,
+            "peakRank": 48,
+            "weekOnChart": 14
+        },
+        {
+            "rank": 64,
+            "title": "Love Like Crazy",
+            "artist": "Lee Brice",
+            "listArtist": [
+                "Lee Brice"
+            ],
+            "lastWeek": 77,
+            "peakRank": 64,
+            "weekOnChart": 5
+        },
+        {
+            "rank": 65,
+            "title": "You And Your Heart",
+            "artist": "Jack Johnson",
+            "listArtist": [
+                "Jack Johnson"
+            ],
+            "lastWeek": 99,
+            "peakRank": 20,
+            "weekOnChart": 4
+        },
+        {
+            "rank": 66,
+            "title": "Free",
+            "artist": "Zac Brown Band",
+            "listArtist": [
+                "Zac Brown Band"
+            ],
+            "lastWeek": 80,
+            "peakRank": 66,
+            "weekOnChart": 3
+        },
+        {
+            "rank": 67,
+            "title": "Lil Freak",
+            "artist": "Usher Featuring Nicki Minaj",
+            "listArtist": [
+                "Usher",
+                "Nicki Minaj"
+            ],
+            "lastWeek": 63,
+            "peakRank": 40,
+            "weekOnChart": 14
+        },
+        {
+            "rank": 68,
+            "title": "I'm Back",
+            "artist": "T.I.",
+            "listArtist": [
+                "T.I."
+            ],
+            "lastWeek": 71,
+            "peakRank": 44,
+            "weekOnChart": 12
+        },
+        {
+            "rank": 69,
+            "title": "Good Vibrations",
+            "artist": "Glee Cast",
+            "listArtist": [
+                "Glee Cast"
+            ],
+            "lastWeek": null,
+            "peakRank": 69,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 70,
+            "title": "Poker Face",
+            "artist": "Glee Cast",
+            "listArtist": [
+                "Glee Cast"
+            ],
+            "lastWeek": 20,
+            "peakRank": 20,
+            "weekOnChart": 3
+        },
+        {
+            "rank": 71,
+            "title": "Ride",
+            "artist": "Ciara Featuring Ludacris",
+            "listArtist": [
+                "Ciara",
+                "Ludacris"
+            ],
+            "lastWeek": 78,
+            "peakRank": 71,
+            "weekOnChart": 7
+        },
+        {
+            "rank": 72,
+            "title": "Beautiful Day",
+            "artist": "Lee DeWyze",
+            "listArtist": [
+                "Lee DeWyze"
+            ],
+            "lastWeek": 24,
+            "peakRank": 24,
+            "weekOnChart": 2
+        },
+        {
+            "rank": 73,
+            "title": "Neighbors Know My Name",
+            "artist": "Trey Songz",
+            "listArtist": [
+                "Trey Songz"
+            ],
+            "lastWeek": 75,
+            "peakRank": 43,
+            "weekOnChart": 15
+        },
+        {
+            "rank": 74,
+            "title": "Beamer, Benz, Or Bentley",
+            "artist": "Lloyd Banks Featuring Juelz Santana",
+            "listArtist": [
+                "Lloyd Banks",
+                "Juelz Santana"
+            ],
+            "lastWeek": 64,
+            "peakRank": 49,
+            "weekOnChart": 15
+        },
+        {
+            "rank": 75,
+            "title": "Deja Vu",
+            "artist": "3OH!3",
+            "listArtist": [
+                "3OH!3"
+            ],
+            "lastWeek": null,
+            "peakRank": 75,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 76,
+            "title": "Hallelujah",
+            "artist": "Lee DeWyze",
+            "listArtist": [
+                "Lee DeWyze"
+            ],
+            "lastWeek": 44,
+            "peakRank": 44,
+            "weekOnChart": 2
+        },
+        {
+            "rank": 77,
+            "title": "Wrong Baby Wrong",
+            "artist": "Martina McBride",
+            "listArtist": [
+                "Martina McBride"
+            ],
+            "lastWeek": 82,
+            "peakRank": 77,
+            "weekOnChart": 11
+        },
+        {
+            "rank": 78,
+            "title": "I Gotta Get To You",
+            "artist": "George Strait",
+            "listArtist": [
+                "George Strait"
+            ],
+            "lastWeek": 73,
+            "peakRank": 70,
+            "weekOnChart": 12
+        },
+        {
+            "rank": 79,
+            "title": "Another One Bites The Dust",
+            "artist": "Glee Cast",
+            "listArtist": [
+                "Glee Cast"
+            ],
+            "lastWeek": null,
+            "peakRank": 79,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 80,
+            "title": "Falling Slowly",
+            "artist": "Lee DeWyze & Crystal Bowersox",
+            "listArtist": [
+                "Lee DeWyze",
+                "Crystal Bowersox"
+            ],
+            "lastWeek": 66,
+            "peakRank": 66,
+            "weekOnChart": 2
+        },
+        {
+            "rank": 81,
+            "title": "Teach Me How To Dougie",
+            "artist": "Cali Swag District",
+            "listArtist": [
+                "Cali Swag District"
+            ],
+            "lastWeek": 91,
+            "peakRank": 81,
+            "weekOnChart": 2
+        },
+        {
+            "rank": 82,
+            "title": "Unstoppable",
+            "artist": "Rascal Flatts",
+            "listArtist": [
+                "Rascal Flatts"
+            ],
+            "lastWeek": 74,
+            "peakRank": 52,
+            "weekOnChart": 18
+        },
+        {
+            "rank": 83,
+            "title": "Pretty Good At Drinkin' Beer",
+            "artist": "Billy Currington",
+            "listArtist": [
+                "Billy Currington"
+            ],
+            "lastWeek": null,
+            "peakRank": 83,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 84,
+            "title": "I Keep On Loving You",
+            "artist": "Reba",
+            "listArtist": [
+                "Reba"
+            ],
+            "lastWeek": 86,
+            "peakRank": 84,
+            "weekOnChart": 7
+        },
+        {
+            "rank": 85,
+            "title": "Sex Room",
+            "artist": "Ludacris Featuring Trey Songz",
+            "listArtist": [
+                "Ludacris",
+                "Trey Songz"
+            ],
+            "lastWeek": 98,
+            "peakRank": 85,
+            "weekOnChart": 2
+        },
+        {
+            "rank": 86,
+            "title": "The Only Exception",
+            "artist": "Paramore",
+            "listArtist": [
+                "Paramore"
+            ],
+            "lastWeek": 90,
+            "peakRank": 86,
+            "weekOnChart": 2
+        },
+        {
+            "rank": 87,
+            "title": "Tell Me Something Good",
+            "artist": "Glee Cast",
+            "listArtist": [
+                "Glee Cast"
+            ],
+            "lastWeek": null,
+            "peakRank": 87,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 88,
+            "title": "Solo",
+            "artist": "Iyaz",
+            "listArtist": [
+                "Iyaz"
+            ],
+            "lastWeek": 79,
+            "peakRank": 32,
+            "weekOnChart": 17
+        },
+        {
+            "rank": 89,
+            "title": "Keep On Lovin' You",
+            "artist": "Steel Magnolia",
+            "listArtist": [
+                "Steel Magnolia"
+            ],
+            "lastWeek": 76,
+            "peakRank": 68,
+            "weekOnChart": 14
+        },
+        {
+            "rank": 90,
+            "title": "Everything To Me",
+            "artist": "Monica",
+            "listArtist": [
+                "Monica"
+            ],
+            "lastWeek": 84,
+            "peakRank": 44,
+            "weekOnChart": 17
+        },
+        {
+            "rank": 91,
+            "title": "I'm In",
+            "artist": "Keith Urban",
+            "listArtist": [
+                "Keith Urban"
+            ],
+            "lastWeek": null,
+            "peakRank": 91,
+            "weekOnChart": 2
+        },
+        {
+            "rank": 92,
+            "title": "Glitter In The Air",
+            "artist": "P!nk",
+            "listArtist": [
+                "P!nk"
+            ],
+            "lastWeek": null,
+            "peakRank": 18,
+            "weekOnChart": 3
+        },
+        {
+            "rank": 93,
+            "title": "Loser",
+            "artist": "Glee Cast",
+            "listArtist": [
+                "Glee Cast"
+            ],
+            "lastWeek": null,
+            "peakRank": 93,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 94,
+            "title": "Little White Church",
+            "artist": "Little Big Town",
+            "listArtist": [
+                "Little Big Town"
+            ],
+            "lastWeek": null,
+            "peakRank": 94,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 95,
+            "title": "It's A Man's, Man's Man's World",
+            "artist": "Glee Cast",
+            "listArtist": [
+                "Glee Cast"
+            ],
+            "lastWeek": null,
+            "peakRank": 95,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 96,
+            "title": "Dirty Picture",
+            "artist": "Taio Cruz Featuring Ke$ha",
+            "listArtist": [
+                "Taio Cruz",
+                "Ke$ha"
+            ],
+            "lastWeek": null,
+            "peakRank": 96,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 97,
+            "title": "Shark In The Water",
+            "artist": "V V Brown",
+            "listArtist": [
+                "V V Brown"
+            ],
+            "lastWeek": null,
+            "peakRank": 97,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 98,
+            "title": "Hold You (Hold Yuh)",
+            "artist": "Gyptian",
+            "listArtist": [
+                "Gyptian"
+            ],
+            "lastWeek": null,
+            "peakRank": 96,
+            "weekOnChart": 2
+        },
+        {
+            "rank": 99,
+            "title": "Roger That",
+            "artist": "Young Money",
+            "listArtist": [
+                "Young Money"
+            ],
+            "lastWeek": 83,
+            "peakRank": 56,
+            "weekOnChart": 11
+        },
+        {
+            "rank": 100,
+            "title": "Animal",
+            "artist": "Neon Trees",
+            "listArtist": [
+                "Neon Trees"
+            ],
+            "lastWeek": null,
+            "peakRank": 100,
+            "weekOnChart": 1
+        }
+    ]
+}

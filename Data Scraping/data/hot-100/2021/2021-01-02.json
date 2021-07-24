@@ -1,0 +1,1139 @@
+{
+    "fetchTime": "2021-07-24 17:00:16",
+    "chartWeek": "2021-01-02",
+    "chart": [
+        {
+            "rank": 1,
+            "title": "All I Want For Christmas Is You",
+            "artist": "Mariah Carey",
+            "listArtist": [
+                "Mariah Carey"
+            ],
+            "lastWeek": 2,
+            "peakRank": 1,
+            "weekOnChart": 43
+        },
+        {
+            "rank": 2,
+            "title": "Rockin' Around The Christmas Tree",
+            "artist": "Brenda Lee",
+            "listArtist": [
+                "Brenda Lee"
+            ],
+            "lastWeek": 3,
+            "peakRank": 2,
+            "weekOnChart": 38
+        },
+        {
+            "rank": 3,
+            "title": "Jingle Bell Rock",
+            "artist": "Bobby Helms",
+            "listArtist": [
+                "Bobby Helms"
+            ],
+            "lastWeek": 4,
+            "peakRank": 3,
+            "weekOnChart": 35
+        },
+        {
+            "rank": 4,
+            "title": "A Holly Jolly Christmas",
+            "artist": "Burl Ives",
+            "listArtist": [
+                "Burl Ives"
+            ],
+            "lastWeek": 6,
+            "peakRank": 4,
+            "weekOnChart": 19
+        },
+        {
+            "rank": 5,
+            "title": "It's The Most Wonderful Time Of The Year",
+            "artist": "Andy Williams",
+            "listArtist": [
+                "Andy Williams"
+            ],
+            "lastWeek": 7,
+            "peakRank": 5,
+            "weekOnChart": 20
+        },
+        {
+            "rank": 6,
+            "title": "Feliz Navidad",
+            "artist": "Jose Feliciano",
+            "listArtist": [
+                "Jose Feliciano"
+            ],
+            "lastWeek": 10,
+            "peakRank": 6,
+            "weekOnChart": 14
+        },
+        {
+            "rank": 7,
+            "title": "Mood",
+            "artist": "24kGoldn Featuring iann dior",
+            "listArtist": [
+                "24kGoldn",
+                "iann dior"
+            ],
+            "lastWeek": 5,
+            "peakRank": 1,
+            "weekOnChart": 20
+        },
+        {
+            "rank": 8,
+            "title": "Let It Snow, Let It Snow, Let It Snow",
+            "artist": "Dean Martin",
+            "listArtist": [
+                "Dean Martin"
+            ],
+            "lastWeek": 11,
+            "peakRank": 8,
+            "weekOnChart": 13
+        },
+        {
+            "rank": 9,
+            "title": "Last Christmas",
+            "artist": "Wham!",
+            "listArtist": [
+                "Wham!"
+            ],
+            "lastWeek": 14,
+            "peakRank": 9,
+            "weekOnChart": 19
+        },
+        {
+            "rank": 10,
+            "title": "Run Rudolph Run",
+            "artist": "Chuck Berry",
+            "listArtist": [
+                "Chuck Berry"
+            ],
+            "lastWeek": 29,
+            "peakRank": 10,
+            "weekOnChart": 8
+        },
+        {
+            "rank": 11,
+            "title": "The Christmas Song (Merry Christmas To You)",
+            "artist": "Nat King Cole",
+            "listArtist": [
+                "Nat King Cole"
+            ],
+            "lastWeek": 15,
+            "peakRank": 11,
+            "weekOnChart": 26
+        },
+        {
+            "rank": 12,
+            "title": "Underneath The Tree",
+            "artist": "Kelly Clarkson",
+            "listArtist": [
+                "Kelly Clarkson"
+            ],
+            "lastWeek": 28,
+            "peakRank": 12,
+            "weekOnChart": 9
+        },
+        {
+            "rank": 13,
+            "title": "Sleigh Ride",
+            "artist": "The Ronettes",
+            "listArtist": [
+                "The Ronettes"
+            ],
+            "lastWeek": 19,
+            "peakRank": 13,
+            "weekOnChart": 11
+        },
+        {
+            "rank": 14,
+            "title": "Positions",
+            "artist": "Ariana Grande",
+            "listArtist": [
+                "Ariana Grande"
+            ],
+            "lastWeek": 8,
+            "peakRank": 1,
+            "weekOnChart": 9
+        },
+        {
+            "rank": 15,
+            "title": "It's Beginning To Look A Lot Like Christmas",
+            "artist": "Perry Como And The Fontane Sisters With Mitchell Ayres And His Orchestra",
+            "listArtist": [
+                "Perry Como And The Fontane Sisters",
+                "Mitchell Ayres And His Orchestra"
+            ],
+            "lastWeek": 12,
+            "peakRank": 12,
+            "weekOnChart": 8
+        },
+        {
+            "rank": 16,
+            "title": "Rudolph The Red-Nosed Reindeer",
+            "artist": "Gene Autry",
+            "listArtist": [
+                "Gene Autry"
+            ],
+            "lastWeek": 31,
+            "peakRank": 16,
+            "weekOnChart": 12
+        },
+        {
+            "rank": 17,
+            "title": "Santa Tell Me",
+            "artist": "Ariana Grande",
+            "listArtist": [
+                "Ariana Grande"
+            ],
+            "lastWeek": 32,
+            "peakRank": 17,
+            "weekOnChart": 8
+        },
+        {
+            "rank": 18,
+            "title": "Happy Holiday / The Holiday Season",
+            "artist": "Andy Williams",
+            "listArtist": [
+                "Andy Williams"
+            ],
+            "lastWeek": 26,
+            "peakRank": 18,
+            "weekOnChart": 8
+        },
+        {
+            "rank": 19,
+            "title": "Christmas (Baby Please Come Home)",
+            "artist": "Darlene Love",
+            "listArtist": [
+                "Darlene Love"
+            ],
+            "lastWeek": 37,
+            "peakRank": 19,
+            "weekOnChart": 7
+        },
+        {
+            "rank": 20,
+            "title": "White Christmas",
+            "artist": "Bing Crosby",
+            "listArtist": [
+                "Bing Crosby"
+            ],
+            "lastWeek": 38,
+            "peakRank": 12,
+            "weekOnChart": 20
+        },
+        {
+            "rank": 21,
+            "title": "Holy",
+            "artist": "Justin Bieber Featuring Chance The Rapper",
+            "listArtist": [
+                "Justin Bieber",
+                "Chance The Rapper"
+            ],
+            "lastWeek": 13,
+            "peakRank": 3,
+            "weekOnChart": 14
+        },
+        {
+            "rank": 22,
+            "title": "(There's No Place Like) Home For The Holidays",
+            "artist": "Perry Como",
+            "listArtist": [
+                "Perry Como"
+            ],
+            "lastWeek": 43,
+            "peakRank": 22,
+            "weekOnChart": 7
+        },
+        {
+            "rank": 23,
+            "title": "It's Beginning To Look A Lot Like Christmas",
+            "artist": "Michael Buble",
+            "listArtist": [
+                "Michael Buble"
+            ],
+            "lastWeek": 42,
+            "peakRank": 23,
+            "weekOnChart": 5
+        },
+        {
+            "rank": 24,
+            "title": "Go Crazy",
+            "artist": "Chris Brown & Young Thug",
+            "listArtist": [
+                "Chris Brown",
+                "Young Thug"
+            ],
+            "lastWeek": 16,
+            "peakRank": 9,
+            "weekOnChart": 33
+        },
+        {
+            "rank": 25,
+            "title": "Laugh Now Cry Later",
+            "artist": "Drake Featuring Lil Durk",
+            "listArtist": [
+                "Drake",
+                "Lil Durk"
+            ],
+            "lastWeek": 17,
+            "peakRank": 2,
+            "weekOnChart": 19
+        },
+        {
+            "rank": 26,
+            "title": "Here Comes Santa Claus (Right Down Santa Claus Lane)",
+            "artist": "Gene Autry",
+            "listArtist": [
+                "Gene Autry"
+            ],
+            "lastWeek": 69,
+            "peakRank": 26,
+            "weekOnChart": 10
+        },
+        {
+            "rank": 27,
+            "title": "Levitating",
+            "artist": "Dua Lipa Featuring DaBaby",
+            "listArtist": [
+                "Dua Lipa",
+                "DaBaby"
+            ],
+            "lastWeek": 27,
+            "peakRank": 20,
+            "weekOnChart": 12
+        },
+        {
+            "rank": 28,
+            "title": "Wonderful Christmastime",
+            "artist": "Paul McCartney",
+            "listArtist": [
+                "Paul McCartney"
+            ],
+            "lastWeek": 46,
+            "peakRank": 28,
+            "weekOnChart": 4
+        },
+        {
+            "rank": 29,
+            "title": "For The Night",
+            "artist": "Pop Smoke Featuring Lil Baby & DaBaby",
+            "listArtist": [
+                "Pop Smoke",
+                "Lil Baby",
+                "DaBaby"
+            ],
+            "lastWeek": 25,
+            "peakRank": 6,
+            "weekOnChart": 25
+        },
+        {
+            "rank": 30,
+            "title": "I Hope",
+            "artist": "Gabby Barrett Featuring Charlie Puth",
+            "listArtist": [
+                "Gabby Barrett",
+                "Charlie Puth"
+            ],
+            "lastWeek": 20,
+            "peakRank": 3,
+            "weekOnChart": 52
+        },
+        {
+            "rank": 31,
+            "title": "Lemonade",
+            "artist": "Internet Money & Gunna Featuring Don Toliver & NAV",
+            "listArtist": [
+                "Internet Money",
+                "Gunna",
+                "Don Toliver",
+                "NAV"
+            ],
+            "lastWeek": 24,
+            "peakRank": 6,
+            "weekOnChart": 19
+        },
+        {
+            "rank": 32,
+            "title": "You're A Mean One, Mr. Grinch",
+            "artist": "Thurl Ravenscroft",
+            "listArtist": [
+                "Thurl Ravenscroft"
+            ],
+            "lastWeek": null,
+            "peakRank": 32,
+            "weekOnChart": 2
+        },
+        {
+            "rank": 33,
+            "title": "Blue Christmas",
+            "artist": "Elvis Presley",
+            "listArtist": [
+                "Elvis Presley"
+            ],
+            "lastWeek": null,
+            "peakRank": 33,
+            "weekOnChart": 3
+        },
+        {
+            "rank": 34,
+            "title": "Dakiti",
+            "artist": "Bad Bunny & Jhay Cortez",
+            "listArtist": [
+                "Bad Bunny",
+                "Jhay Cortez"
+            ],
+            "lastWeek": 23,
+            "peakRank": 5,
+            "weekOnChart": 8
+        },
+        {
+            "rank": 35,
+            "title": "Body",
+            "artist": "Megan Thee Stallion",
+            "listArtist": [
+                "Megan Thee Stallion"
+            ],
+            "lastWeek": 22,
+            "peakRank": 12,
+            "weekOnChart": 5
+        },
+        {
+            "rank": 36,
+            "title": "Mele Kalikimaka (Merry Christmas)",
+            "artist": "Bing Crosby & The Andrews Sisters",
+            "listArtist": [
+                "Bing Crosby",
+                "The Andrews Sisters"
+            ],
+            "lastWeek": null,
+            "peakRank": 36,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 37,
+            "title": "Bang!",
+            "artist": "AJR",
+            "listArtist": [
+                "AJR"
+            ],
+            "lastWeek": 33,
+            "peakRank": 24,
+            "weekOnChart": 25
+        },
+        {
+            "rank": 38,
+            "title": "Willow",
+            "artist": "Taylor Swift",
+            "listArtist": [
+                "Taylor Swift"
+            ],
+            "lastWeek": 1,
+            "peakRank": 1,
+            "weekOnChart": 2
+        },
+        {
+            "rank": 39,
+            "title": "This Christmas",
+            "artist": "Donny Hathaway",
+            "listArtist": [
+                "Donny Hathaway"
+            ],
+            "lastWeek": null,
+            "peakRank": 39,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 40,
+            "title": "34+35",
+            "artist": "Ariana Grande Feat. Doja Cat & Megan Thee Stallion",
+            "listArtist": [
+                "Ariana Grande",
+                "Doja Cat",
+                "Megan Thee Stallion"
+            ],
+            "lastWeek": 35,
+            "peakRank": 8,
+            "weekOnChart": 8
+        },
+        {
+            "rank": 41,
+            "title": "Kings & Queens",
+            "artist": "Ava Max",
+            "listArtist": [
+                "Ava Max"
+            ],
+            "lastWeek": 30,
+            "peakRank": 13,
+            "weekOnChart": 20
+        },
+        {
+            "rank": 42,
+            "title": "Therefore I Am",
+            "artist": "Billie Eilish",
+            "listArtist": [
+                "Billie Eilish"
+            ],
+            "lastWeek": 36,
+            "peakRank": 2,
+            "weekOnChart": 7
+        },
+        {
+            "rank": 43,
+            "title": "Deck The Halls",
+            "artist": "Nat King Cole",
+            "listArtist": [
+                "Nat King Cole"
+            ],
+            "lastWeek": 47,
+            "peakRank": 43,
+            "weekOnChart": 2
+        },
+        {
+            "rank": 44,
+            "title": "Dynamite",
+            "artist": "BTS",
+            "listArtist": [
+                "BTS"
+            ],
+            "lastWeek": 9,
+            "peakRank": 1,
+            "weekOnChart": 18
+        },
+        {
+            "rank": 45,
+            "title": "Please Come Home For Christmas",
+            "artist": "Eagles",
+            "listArtist": [
+                "Eagles"
+            ],
+            "lastWeek": null,
+            "peakRank": 18,
+            "weekOnChart": 9
+        },
+        {
+            "rank": 46,
+            "title": "Santa Claus Is Comin' To Town",
+            "artist": "Jackson 5",
+            "listArtist": [
+                "Jackson 5"
+            ],
+            "lastWeek": null,
+            "peakRank": 46,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 47,
+            "title": "Little Saint Nick",
+            "artist": "The Beach Boys",
+            "listArtist": [
+                "The Beach Boys"
+            ],
+            "lastWeek": null,
+            "peakRank": 47,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 48,
+            "title": "Take Me Home For Christmas",
+            "artist": "Dan + Shay",
+            "listArtist": [
+                "Dan",
+                "Shay"
+            ],
+            "lastWeek": 58,
+            "peakRank": 48,
+            "weekOnChart": 3
+        },
+        {
+            "rank": 49,
+            "title": "Have Yourself A Merry Little Christmas",
+            "artist": "Michael Buble",
+            "listArtist": [
+                "Michael Buble"
+            ],
+            "lastWeek": null,
+            "peakRank": 49,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 50,
+            "title": "I'll Be Home For Christmas",
+            "artist": "Bing Crosby",
+            "listArtist": [
+                "Bing Crosby"
+            ],
+            "lastWeek": null,
+            "peakRank": 50,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 51,
+            "title": "What You Know Bout Love",
+            "artist": "Pop Smoke",
+            "listArtist": [
+                "Pop Smoke"
+            ],
+            "lastWeek": 48,
+            "peakRank": 25,
+            "weekOnChart": 16
+        },
+        {
+            "rank": 52,
+            "title": "Whoopty",
+            "artist": "CJ",
+            "listArtist": [
+                "CJ"
+            ],
+            "lastWeek": 53,
+            "peakRank": 51,
+            "weekOnChart": 7
+        },
+        {
+            "rank": 53,
+            "title": "Lonely",
+            "artist": "Justin Bieber & benny blanco",
+            "listArtist": [
+                "Justin Bieber",
+                "benny blanco"
+            ],
+            "lastWeek": 51,
+            "peakRank": 14,
+            "weekOnChart": 10
+        },
+        {
+            "rank": 54,
+            "title": "Hallelujah",
+            "artist": "Carrie Underwood & John Legend",
+            "listArtist": [
+                "Carrie Underwood",
+                "John Legend"
+            ],
+            "lastWeek": 84,
+            "peakRank": 54,
+            "weekOnChart": 3
+        },
+        {
+            "rank": 55,
+            "title": "WAP",
+            "artist": "Cardi B Featuring Megan Thee Stallion",
+            "listArtist": [
+                "Cardi B",
+                "Megan Thee Stallion"
+            ],
+            "lastWeek": 55,
+            "peakRank": 1,
+            "weekOnChart": 20
+        },
+        {
+            "rank": 56,
+            "title": "Holiday",
+            "artist": "Lil Nas X",
+            "listArtist": [
+                "Lil Nas X"
+            ],
+            "lastWeek": 56,
+            "peakRank": 37,
+            "weekOnChart": 6
+        },
+        {
+            "rank": 57,
+            "title": "Better Together",
+            "artist": "Luke Combs",
+            "listArtist": [
+                "Luke Combs"
+            ],
+            "lastWeek": 59,
+            "peakRank": 30,
+            "weekOnChart": 12
+        },
+        {
+            "rank": 58,
+            "title": "On Me",
+            "artist": "Lil Baby",
+            "listArtist": [
+                "Lil Baby"
+            ],
+            "lastWeek": 60,
+            "peakRank": 30,
+            "weekOnChart": 3
+        },
+        {
+            "rank": 59,
+            "title": "Afterglow",
+            "artist": "Ed Sheeran",
+            "listArtist": [
+                "Ed Sheeran"
+            ],
+            "lastWeek": null,
+            "peakRank": 59,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 60,
+            "title": "Gnat",
+            "artist": "Eminem",
+            "listArtist": [
+                "Eminem"
+            ],
+            "lastWeek": null,
+            "peakRank": 60,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 61,
+            "title": "Rockin' Around The Christmas Tree",
+            "artist": "Justin Bieber",
+            "listArtist": [
+                "Justin Bieber"
+            ],
+            "lastWeek": 87,
+            "peakRank": 61,
+            "weekOnChart": 4
+        },
+        {
+            "rank": 62,
+            "title": "Favorite Time Of Year",
+            "artist": "Carrie Underwood",
+            "listArtist": [
+                "Carrie Underwood"
+            ],
+            "lastWeek": 99,
+            "peakRank": 62,
+            "weekOnChart": 4
+        },
+        {
+            "rank": 63,
+            "title": "Hawai",
+            "artist": "Maluma & The Weeknd",
+            "listArtist": [
+                "Maluma",
+                "The Weeknd"
+            ],
+            "lastWeek": 65,
+            "peakRank": 12,
+            "weekOnChart": 18
+        },
+        {
+            "rank": 64,
+            "title": "Monster",
+            "artist": "Shawn Mendes & Justin Bieber",
+            "listArtist": [
+                "Shawn Mendes",
+                "Justin Bieber"
+            ],
+            "lastWeek": 62,
+            "peakRank": 8,
+            "weekOnChart": 5
+        },
+        {
+            "rank": 65,
+            "title": "Diamonds",
+            "artist": "Sam Smith",
+            "listArtist": [
+                "Sam Smith"
+            ],
+            "lastWeek": 66,
+            "peakRank": 40,
+            "weekOnChart": 14
+        },
+        {
+            "rank": 66,
+            "title": "Starting Over",
+            "artist": "Chris Stapleton",
+            "listArtist": [
+                "Chris Stapleton"
+            ],
+            "lastWeek": 72,
+            "peakRank": 25,
+            "weekOnChart": 17
+        },
+        {
+            "rank": 67,
+            "title": "Cry Baby",
+            "artist": "Megan Thee Stallion Featuring DaBaby",
+            "listArtist": [
+                "Megan Thee Stallion",
+                "DaBaby"
+            ],
+            "lastWeek": 95,
+            "peakRank": 67,
+            "weekOnChart": 3
+        },
+        {
+            "rank": 68,
+            "title": "You Broke Me First.",
+            "artist": "Tate McRae",
+            "listArtist": [
+                "Tate McRae"
+            ],
+            "lastWeek": 79,
+            "peakRank": 50,
+            "weekOnChart": 18
+        },
+        {
+            "rank": 69,
+            "title": "My Ex's Best Friend",
+            "artist": "Machine Gun Kelly X blackbear",
+            "listArtist": [
+                "Machine Gun Kelly",
+                "blackbear"
+            ],
+            "lastWeek": 86,
+            "peakRank": 28,
+            "weekOnChart": 19
+        },
+        {
+            "rank": 70,
+            "title": "Without You",
+            "artist": "The Kid LAROI",
+            "listArtist": [
+                "The Kid LAROI"
+            ],
+            "lastWeek": 81,
+            "peakRank": 63,
+            "weekOnChart": 3
+        },
+        {
+            "rank": 71,
+            "title": "Big, Big Plans",
+            "artist": "Chris Lane",
+            "listArtist": [
+                "Chris Lane"
+            ],
+            "lastWeek": 73,
+            "peakRank": 42,
+            "weekOnChart": 12
+        },
+        {
+            "rank": 72,
+            "title": "Mr. Right Now",
+            "artist": "21 Savage & Metro Boomin Featuring Drake",
+            "listArtist": [
+                "21 Savage",
+                "Metro Boomin",
+                "Drake"
+            ],
+            "lastWeek": 88,
+            "peakRank": 10,
+            "weekOnChart": 12
+        },
+        {
+            "rank": 73,
+            "title": "Forever After All",
+            "artist": "Luke Combs",
+            "listArtist": [
+                "Luke Combs"
+            ],
+            "lastWeek": 92,
+            "peakRank": 2,
+            "weekOnChart": 9
+        },
+        {
+            "rank": 74,
+            "title": "Throat Baby (Go Baby)",
+            "artist": "BRS Kash",
+            "listArtist": [
+                "BRS Kash"
+            ],
+            "lastWeek": 97,
+            "peakRank": 69,
+            "weekOnChart": 10
+        },
+        {
+            "rank": 75,
+            "title": "Under The Mistletoe",
+            "artist": "Kelly Clarkson & Brett Eldredge",
+            "listArtist": [
+                "Kelly Clarkson",
+                "Brett Eldredge"
+            ],
+            "lastWeek": null,
+            "peakRank": 59,
+            "weekOnChart": 3
+        },
+        {
+            "rank": 76,
+            "title": "Tyler Herro",
+            "artist": "Jack Harlow",
+            "listArtist": [
+                "Jack Harlow"
+            ],
+            "lastWeek": 77,
+            "peakRank": 34,
+            "weekOnChart": 9
+        },
+        {
+            "rank": 77,
+            "title": "Champagne Problems",
+            "artist": "Taylor Swift",
+            "listArtist": [
+                "Taylor Swift"
+            ],
+            "lastWeek": 21,
+            "peakRank": 21,
+            "weekOnChart": 2
+        },
+        {
+            "rank": 78,
+            "title": "The First Noel",
+            "artist": "Gabby Barrett",
+            "listArtist": [
+                "Gabby Barrett"
+            ],
+            "lastWeek": null,
+            "peakRank": 78,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 79,
+            "title": "Love You Like I Used To",
+            "artist": "Russell Dickerson",
+            "listArtist": [
+                "Russell Dickerson"
+            ],
+            "lastWeek": 83,
+            "peakRank": 31,
+            "weekOnChart": 16
+        },
+        {
+            "rank": 80,
+            "title": "Champagne Night",
+            "artist": "Lady A",
+            "listArtist": [
+                "Lady A"
+            ],
+            "lastWeek": null,
+            "peakRank": 75,
+            "weekOnChart": 9
+        },
+        {
+            "rank": 81,
+            "title": "Prisoner",
+            "artist": "Miley Cyrus Featuring Dua Lipa",
+            "listArtist": [
+                "Miley Cyrus",
+                "Dua Lipa"
+            ],
+            "lastWeek": 94,
+            "peakRank": 54,
+            "weekOnChart": 5
+        },
+        {
+            "rank": 82,
+            "title": "Good Time",
+            "artist": "Niko Moon",
+            "listArtist": [
+                "Niko Moon"
+            ],
+            "lastWeek": 96,
+            "peakRank": 71,
+            "weekOnChart": 12
+        },
+        {
+            "rank": 83,
+            "title": "7 Summers",
+            "artist": "Morgan Wallen",
+            "listArtist": [
+                "Morgan Wallen"
+            ],
+            "lastWeek": null,
+            "peakRank": 6,
+            "weekOnChart": 18
+        },
+        {
+            "rank": 84,
+            "title": "Adderall (Corvette Corvette)",
+            "artist": "Popp Hunna",
+            "listArtist": [
+                "Popp Hunna"
+            ],
+            "lastWeek": null,
+            "peakRank": 84,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 85,
+            "title": "You're Mines Still",
+            "artist": "Yung Bleu Featuring Drake",
+            "listArtist": [
+                "Yung Bleu",
+                "Drake"
+            ],
+            "lastWeek": null,
+            "peakRank": 52,
+            "weekOnChart": 3
+        },
+        {
+            "rank": 86,
+            "title": "Tequila Shots",
+            "artist": "Kid Cudi",
+            "listArtist": [
+                "Kid Cudi"
+            ],
+            "lastWeek": 41,
+            "peakRank": 41,
+            "weekOnChart": 2
+        },
+        {
+            "rank": 87,
+            "title": "Back To The Streets",
+            "artist": "Saweetie Featuring Jhene Aiko",
+            "listArtist": [
+                "Saweetie",
+                "Jhene Aiko"
+            ],
+            "lastWeek": null,
+            "peakRank": 76,
+            "weekOnChart": 5
+        },
+        {
+            "rank": 88,
+            "title": "Bichota",
+            "artist": "Karol G",
+            "listArtist": [
+                "Karol G"
+            ],
+            "lastWeek": null,
+            "peakRank": 88,
+            "weekOnChart": 4
+        },
+        {
+            "rank": 89,
+            "title": "Way Out",
+            "artist": "Jack Harlow Featuring Big Sean",
+            "listArtist": [
+                "Jack Harlow",
+                "Big Sean"
+            ],
+            "lastWeek": 74,
+            "peakRank": 74,
+            "weekOnChart": 2
+        },
+        {
+            "rank": 90,
+            "title": "Hit Different",
+            "artist": "SZA Featuring Ty Dolla $ign",
+            "listArtist": [
+                "SZA",
+                "Ty Dolla $ign"
+            ],
+            "lastWeek": null,
+            "peakRank": 29,
+            "weekOnChart": 15
+        },
+        {
+            "rank": 91,
+            "title": "'Tis The Damn Season",
+            "artist": "Taylor Swift",
+            "listArtist": [
+                "Taylor Swift"
+            ],
+            "lastWeek": 39,
+            "peakRank": 39,
+            "weekOnChart": 2
+        },
+        {
+            "rank": 92,
+            "title": "Damage",
+            "artist": "H.E.R.",
+            "listArtist": [
+                "H.E.R."
+            ],
+            "lastWeek": null,
+            "peakRank": 70,
+            "weekOnChart": 2
+        },
+        {
+            "rank": 93,
+            "title": "Backdoor",
+            "artist": "Lil Durk",
+            "listArtist": [
+                "Lil Durk"
+            ],
+            "lastWeek": null,
+            "peakRank": 93,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 94,
+            "title": "Silent Night",
+            "artist": "Carrie Underwood",
+            "listArtist": [
+                "Carrie Underwood"
+            ],
+            "lastWeek": null,
+            "peakRank": 94,
+            "weekOnChart": 2
+        },
+        {
+            "rank": 95,
+            "title": "Golden",
+            "artist": "Harry Styles",
+            "listArtist": [
+                "Harry Styles"
+            ],
+            "lastWeek": null,
+            "peakRank": 74,
+            "weekOnChart": 9
+        },
+        {
+            "rank": 96,
+            "title": "Hole In The Bottle",
+            "artist": "Kelsea Ballerini",
+            "listArtist": [
+                "Kelsea Ballerini"
+            ],
+            "lastWeek": null,
+            "peakRank": 72,
+            "weekOnChart": 10
+        },
+        {
+            "rank": 97,
+            "title": "No Body, No Crime",
+            "artist": "Taylor Swift Featuring HAIM",
+            "listArtist": [
+                "Taylor Swift",
+                "HAIM"
+            ],
+            "lastWeek": 34,
+            "peakRank": 34,
+            "weekOnChart": 2
+        },
+        {
+            "rank": 98,
+            "title": "Moonwalking In Calabasas",
+            "artist": "DDG",
+            "listArtist": [
+                "DDG"
+            ],
+            "lastWeek": null,
+            "peakRank": 98,
+            "weekOnChart": 1
+        },
+        {
+            "rank": 99,
+            "title": "Took Her To The O",
+            "artist": "King Von",
+            "listArtist": [
+                "King Von"
+            ],
+            "lastWeek": null,
+            "peakRank": 47,
+            "weekOnChart": 6
+        },
+        {
+            "rank": 100,
+            "title": "Put Your Records On",
+            "artist": "Ritt Momney",
+            "listArtist": [
+                "Ritt Momney"
+            ],
+            "lastWeek": null,
+            "peakRank": 79,
+            "weekOnChart": 10
+        }
+    ]
+}
