@@ -55,13 +55,13 @@ dimana file/path/to adalah path dari file main.py tersimpan
 - JSON Structure dari program main.py adalah sebagai berikut:
 ```
 {
-  TipeMobil      : String,
-  Tahun          : String,
-  Harga          : String,
-  Jarak          : String,
-  Transmisi      : String,
-  Lokasi         : String,
-  Penjual        : String
+  TipeMobil      : tipe/ model dari mobil {type : string},
+  Tahun          : tahun mobil tersebut diluncurkan {type : string},
+  Harga          : harga mobil {type : string},
+  Jarak          : jarak tempuh mobil selama digunakan pemiliknya {type : string},
+  Transmisi      : transmisi mobil (manual atau automatic) {type : string},
+  Lokasi         : provinsi mobil tersebut dijual {type : string},
+  Penjual        : tipe penjual mobil {type : string}
 }
 ```
 
@@ -94,15 +94,15 @@ dimana file/path/to adalah path dari file main.py tersimpan
 ```
 {
   _id            : {
-    $oid            : String
+    $oid            : ID yang diberikan oleh DBMS sebagai unique element identifier bagi tiap dokumen {type : String}
   },
-  TipeMobil      : String,
-  Tahun          : String,
-  Harga          : String,
-  Jarak          : String,
-  Transmisi      : String,
-  Lokasi         : String,
-  Penjual        : String
+  TipeMobil      : tipe/ model dari mobil {type : string},
+  Tahun          : tahun mobil tersebut diluncurkan {type : string},
+  Harga          : harga mobil {type : string},
+  Jarak          : jarak tempuh mobil selama digunakan pemiliknya {type : string},
+  Transmisi      : transmisi mobil (manual atau automatic) {type : string},
+  Lokasi         : provinsi mobil tersebut dijual {type : string},
+  Penjual        : tipe penjual mobil {type : string}
 }
 ```
 
