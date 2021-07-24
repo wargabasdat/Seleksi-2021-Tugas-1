@@ -3,12 +3,8 @@
     "company": "Pt Super Giga Generasi",
     "location": "Kembangan, Jakarta",
     "estimate_salary": "IDR 2.000.000 - 2.500.000",
-    "exp_min": [
-        0
-    ],
-    "exp_opt": [
-        1
-    ],
+    "exp_min": 0,
+    "exp_opt": 1,
     "last_updated": "12 jam yang lalu",
     "applicant": 203
 }

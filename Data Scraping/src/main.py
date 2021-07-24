@@ -6,7 +6,7 @@ import time
 import json
 import re
 
-SCROLL = 1  # More than 10 will be very slow
+SCROLL = 3  # More than 10 will be very slow
 URL = 'https://glints.com/id/opportunities/jobs/explore?country=ID&locationName=Indonesia&jobCategories=1&cities=28904'
 
 # Get Page: encode HTML from url

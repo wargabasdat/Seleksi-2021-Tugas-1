@@ -3,12 +3,8 @@
     "company": "PT Ayo Indonesia Maju",
     "location": "Jakarta",
     "estimate_salary": "IDR 6.000.000 - 7.000.000",
-    "exp_min": [
-        0
-    ],
-    "exp_opt": [
-        1
-    ],
+    "exp_min": 0,
+    "exp_opt": 1,
     "last_updated": "15 jam yang lalu",
     "applicant": 55
 }
