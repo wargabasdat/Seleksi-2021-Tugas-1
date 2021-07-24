@@ -17,10 +17,10 @@
 
 - DBMS yang saya gunakan untuk menyimpan dan meng-*export* data hasil scraping adalah [MongoDB](https://www.mongodb.com). MongoDB adalah sebuah *document-oriented* DBMS yang menggunakan dokumen-dokumen seperti .JSON, dengan skema yang bersifat opsional. MongoDB termasuk salah satu dari kelompok NoSQL DBMS. DBMS dapat menangani import dan export untuk file .JSON dengan mudah, serta schema yang disediakan sangat bebas tergantung kebutuhan pengguna. Selain itu, dikarenakan kurang adanya kebutuhan relasi antar data yang saya miliki, menurut saya akan kurang tepat jika DBMS yang digunakan adalah tipe RDBMS.
 
-- Pada folder Data Scraping, terdapat sebuah program yang tersimpan dalam /src, yaitu _*main.py*_
-- Terdapat juga sebuah file API pada folder Data Storing, yang tersimpan dalam /bonus, dengan nama file _*api.js*_
+- Pada folder Data Scraping, terdapat sebuah program yang tersimpan dalam /src, yaitu [__*main.py*__](/Data%20Scraping/src)
+- Terdapat juga sebuah file API pada folder Data Storing, yang tersimpan dalam /bonus, dengan nama file [__*api.js*__](/Data%20Storing/bonus)
 
-### File Script main.py
+### File Script [__*main.py*__](/Data%20Scraping/src)
 
 - Program ini pada dasarnya bertugas untuk melakukan scraping data dari website [Mobil123](https://www.mobil123.com). Program ini menggunakan bahasa Python.
 
@@ -53,7 +53,7 @@ dimana file/path/to adalah path dari file main.py tersimpan
 ![ssprogram](/Data%20Scraping/screenshot/ssprogram.png?raw=true)
 - Program ini juga terdiri atas beberapa fungsi pendukung seperti get_mobil_data(), format_distance(), dan beberapa fungsi lain.
 
-- JSON Structure dari program main.py adalah sebagai berikut:
+- JSON Structure dari program [__*main.py*__](/Data%20Scraping/src) adalah sebagai berikut:
 ```
 {
   TipeMobil      : tipe/ model dari mobil {type : string},
@@ -66,19 +66,21 @@ dimana file/path/to adalah path dari file main.py tersimpan
 }
 ```
 - File data hasil scraping tersebut disimpan dalam folder [data](/Data%20Scraping/data)
+![scraped_data](/Data%20Scraping/screenshot/ssdata.png?raw=true)
 
 ###  Local Data Storing
 
-- Secara singkat, proses yang dilakukan untuk melakukan importing data pada MongoDB adalah mengambil data yang dihasilkan oleh script _*main.py*_ menggunakan sebuah library _mongoimport_.
-  - _Mongoimport_ dapat diinstal melalui MongoDB Database Tools, yang dapat diunduh pada link berikut [_*ini*_](https://www.mongodb.com/try/download/database-tools)
+- Secara singkat, proses yang dilakukan untuk melakukan importing data pada MongoDB adalah mengambil data yang dihasilkan oleh script [__*main.py*__](/Data%20Scraping/src) menggunakan sebuah library __mongoimport__.
+  - __Mongoimport__ dapat diinstal melalui MongoDB Database Tools, yang dapat diunduh pada link berikut [_*ini*_](https://www.mongodb.com/try/download/database-tools)
   - Buka cmd/shell baru, kemudian ketikkan perintah
   ```
   mongod
   ```
   ![mongod](/Data%20Storing/screenshot/mongod.png?raw=true)
-  - Setelah _MongoImport_ terinstal, buka cmd dan pergi pada folder dimana _Tools_ tersebut berada, kemudian cari dan pergi ke folder bin di _Tools_ tersebut.
+  - Setelah __MongoImport__ terinstal, buka cmd window baru dan pergi pada folder dimana __Tools__ tersebut berada, kemudian cari dan pergi ke folder bin di __Tools__ tersebut.
   Untuk melakukan import data ke dalam NoSQL DBMS MongoDB, kemudian melakukan export data yang sudah diimport tersebut ke dalam sebuah file .json, kita dapat menggunakan dua perintah berikut
   ![import_export_data](/Data%20Storing/screenshot/import_export.png?raw=true)
+  - Seperti yang terlihat pada gambar di atas, data yang telah diimport ke dalam MongoDB akan kita export sebagai sebuah __*jsonArray*__ ke dalam sebuah file bernama [__*exportedData.json*__](/Data%20Storing/export)
   - Kita dapat mengecek apakah data kita sudah terimport atau belum di MongoDB dengan serangkaian perintah berikut.
   ```
   > mongo
@@ -89,7 +91,7 @@ dimana file/path/to adalah path dari file main.py tersimpan
   ```
   ![data_on_db](/Data%20Storing/screenshot/data_on_db.png?raw=true)
 
-  - Seperti terlihat pada beberapa langkah sebelumnya, data dieskpor ke dalam sebuah file bernama _*exportedData.json*_. (ditunjukkan di window sebelah kiri)
+  - Seperti terlihat pada beberapa langkah sebelumnya, data dieskpor ke dalam sebuah file bernama [__*exportedData.json*__](/Data%20Storing/export). (ditunjukkan di window sebelah kiri)
   ![exportedData](/Data%20Storing/screenshot/exportedData.png?raw=true)
 
 - Struktur JSON pada file hasil export MongoDB juga tidak jauh berbeda, yaitu dengan tambahan _id saja.
@@ -109,13 +111,13 @@ dimana file/path/to adalah path dari file main.py tersimpan
 ```
 - Tentu saja, file hasil export ini juga dapat Anda akses pada folder [export](/Data%20Storing/export)
 
-### API yang Mengakses Data di MongoDB Atlas: api.js
+### API yang Mengakses Data di MongoDB Atlas: [__*api.js*__](/Data%20Storing/bonus)
 
 - File ini berisi penyelesaian dari bonus, yaitu API sederhana untuk mengakses data yang disimpan pada database online.
 
 - Sebelum membahas terkait API terlebih dahulu, mari membahas tentang cara mengimport file .json kita ke database online yang digunakan, yaitu MongoDB Atlas
 #### Data Storing di MongoDB Atlas
-  - Pertama, mari kita buat sebuah free cluster di MongoDB Atlas
+  - Pertama, mari kita buat sebuah free cluster di [__*MongoDB Atlas*__](https://cloud.mongodb.com)
   - Kemudian, kita lakukan konfigurasi terhadap network access dan database access.
     - Pada network access, kita menambahkan sebuah IP Address configuration dengan konfigurasi sebagai berikut.
     ![userAccess](/Data%20Storing/bonus/screenshot/online_db/db_access.png?raw=true)
@@ -188,7 +190,7 @@ Pada cuplikan kode tersebut, saya telah menentukan API untuk berjalan pada port 
     => Menampilkan data mobil bekas yang diproduksi oleh brand tertentu saja (e.g. Mercedes-Benz, Toyota, dll)
 ```
 - Untuk menjalankan API ini,
-  - pertama-tama, buka cmd dan pergi ke folder dimana terdapat file _api.js_ ini.
+  - pertama-tama, buka cmd dan pergi ke folder dimana terdapat file _[__*api.js*__](/Data%20Storing/bonus)_ ini.
   - Kemudian, ketikkan perintah
   ```
   npm i
@@ -196,11 +198,11 @@ Pada cuplikan kode tersebut, saya telah menentukan API untuk berjalan pada port 
   dan npm akan mengunduh seluruh library yang dibutuhkan oleh API ke dalam environment Anda
   - Anda siap untuk menjalankan API, ketikkan perintah berikut.
   ```
-  nodemon api.js    // jika Anda telah memiliki library nodemon terinstal, atau
+  nodemon [__*api.js*__](/Data%20Storing/bonus)    // jika Anda telah memiliki library nodemon terinstal, atau
 
-  node api.js
+  node [__*api.js*__](/Data%20Storing/bonus)
   ```
-- Untuk detil fungsionalitas dan kode, silakan akses file api.js pada folder Data Storing -> bonus
+- Untuk detil fungsionalitas dan kode, silakan akses file [__*api.js*__](/Data%20Storing/bonus) pada folder Data Storing -> bonus
 - Di bawah ini adalah dokumentasi API saat dijalankan
 
 ![runningAPI](/Data%20Storing/bonus/screenshot/API/run_api.png?raw=true)
