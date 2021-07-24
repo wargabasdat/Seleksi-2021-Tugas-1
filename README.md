@@ -12,6 +12,7 @@
   <br>
 </h2>
 
+### Deskripsi
 - Topik yang saya pilih untuk dilakukan data scraping adalah pengambilan data mobil bekas, dimana data mobil bekas ini saya ambil dari sebuah *website* bernama [Mobil123](https://www.mobil123.com). Dengan adanya data mengenai mobil bekas ini, diharapkan dapat membantu pihak-pihak yang saat ini sedang ingin membeli mobil bekas atau bagi pihak yang ingin menjual mobil miliknya.
 
 - DBMS yang saya gunakan untuk menyimpan dan meng-*export* data hasil scraping adalah [MongoDB](https://www.mongodb.com). MongoDB adalah sebuah *document-oriented* DBMS yang menggunakan dokumen-dokumen seperti .JSON, dengan skema yang bersifat opsional. MongoDB termasuk salah satu dari kelompok NoSQL DBMS. DBMS dapat menangani import dan export untuk file .JSON dengan mudah, serta schema yang disediakan sangat bebas tergantung kebutuhan pengguna. Selain itu, dikarenakan kurang adanya kebutuhan relasi antar data yang saya miliki, menurut saya akan kurang tepat jika DBMS yang digunakan adalah tipe RDBMS.
@@ -19,7 +20,7 @@
 - Pada folder Data Scraping, terdapat sebuah program yang tersimpan dalam /src, yaitu _*main.py*_
 - Terdapat juga sebuah file API pada folder Data Storing, yang tersimpan dalam /bonus, dengan nama file _*api.js*_
 
-#### File Script main.py
+### File Script main.py
 
 - Program ini pada dasarnya bertugas untuk melakukan scraping data dari website [Mobil123](https://www.mobil123.com). Program ini menggunakan bahasa Python.
 
@@ -64,8 +65,9 @@ dimana file/path/to adalah path dari file main.py tersimpan
   Penjual        : tipe penjual mobil {type : string}
 }
 ```
+- File data hasil scraping tersebut disimpan dalam folder [data](/Data%20Scraping/data)
 
-####  Local Data Storing
+###  Local Data Storing
 
 - Secara singkat, proses yang dilakukan untuk melakukan importing data pada MongoDB adalah mengambil data yang dihasilkan oleh script _*main.py*_ menggunakan sebuah library _mongoimport_.
   - _Mongoimport_ dapat diinstal melalui MongoDB Database Tools, yang dapat diunduh pada link berikut [_*ini*_](https://www.mongodb.com/try/download/database-tools)
@@ -105,12 +107,14 @@ dimana file/path/to adalah path dari file main.py tersimpan
   Penjual        : tipe penjual mobil {type : string}
 }
 ```
+- Tentu saja, file hasil export ini juga dapat Anda akses pada folder [export](/Data%20Storing/export)
 
-#### api.js
+### API yang Mengakses Data di MongoDB Atlas: api.js
 
 - File ini berisi penyelesaian dari bonus, yaitu API sederhana untuk mengakses data yang disimpan pada database online.
 
 - Sebelum membahas terkait API terlebih dahulu, mari membahas tentang cara mengimport file .json kita ke database online yang digunakan, yaitu MongoDB Atlas
+#### Data Storing di MongoDB Atlas
   - Pertama, mari kita buat sebuah free cluster di MongoDB Atlas
   - Kemudian, kita lakukan konfigurasi terhadap network access dan database access.
     - Pada network access, kita menambahkan sebuah IP Address configuration dengan konfigurasi sebagai berikut.
@@ -131,6 +135,7 @@ dimana file/path/to adalah path dari file main.py tersimpan
       - Kita dapat melihat data yang baru saja diimport melalui shell
       ![new_data_imported](/Data%20Storing/bonus/screenshot/online_db/show_data.png?raw=true)
 
+#### API untuk Mengakses Data
 - API ini dibangun dengan menggunakan NodeJS dengan ExpressJS dan beberapa library yang diinstal melalui npm. Library tersebut diantaranya adalah :
 ```
   - Express
@@ -220,7 +225,7 @@ Pada cuplikan kode tersebut, saya telah menentukan API untuk berjalan pada port 
 
 ![car_by_price](/Data%20Storing/bonus/screenshot/API/price_car.png?raw=true)
 
-#### Referensi
+### Referensi
 - [_*PyPI*_](https://pypi.org/) - Dokumentasi dari seluruh library yang digunakan pada Python
 - [_*npm*_](https://www.npmjs.com/) - Dokumentasi dan detail dari seluruh library yang digunakan oleh API yang saya buat
 - [_*Web Scraping Menggunakan BeautifulSoup*_](https://www.youtube.com/watch?v=XVv6mJpFOb0) - Sebuah tutorial mengenai penggunaan BeautifulSoup untuk keperluan web scraping
