@@ -121,23 +121,23 @@ Menggunakan Scraping
 2. Buka file Data Scraping/src/scrap.py pada text editor
 3. pastikan internet telah berjalan, karena menggunakan DATABASE ONLINE dan pastikan juga telah menginstall python (bisa install di https://www.python.org/)
 4. Buka terminal kesayangan anda (diharapkan yang menggunakan vscode langsung saja di terminal vscode)
-5. install requirement yang diperlukan seperti pymongo, beautifulsoap, json, request (jika kurang bisa lihat di line import pada setiap file atau di pesan error pada terminal, lalu ketikkan pip install <nama-requirement>)
+5. install requirement yang diperlukan seperti pymongo, beautifulsoap, json, request (jika kurang bisa lihat di line import pada setiap file atau di pesan error pada terminal, lalu ketikkan pip install {nama-requirement})
 5. jalankan program scrap.py atau anda bisa ketikkan python "Data Scraping/src/scrap.py" pada terminal , sehingga file json yang ada di Data Scraping/data/data.json akan diperbaharui
 6. Pastikan saat menjalankan program, folder root dalam text editor kita adalaha SELEKSI-2021-TUGAS-1
 7. Pada scraping kali ini, data yang author ambil hanya 20 page(1000 data), anda bisa menggantinya jumalhpage yang mau di scraping pada file scrap.py (line 93) menjadi angka lain (1 sampai 50, jangan sampai lebih dari 50)
 
 Menggunakan API 
 1. Buka folder api yang ada di dalam folder Data Scraping/src di text editor baru(pastikan folder api menjadi folder root di text editor)
-2. install requirement yang diperlukan seperti flask, pymongo, bson (jika kurang bisa lihat di line import pada setiap file atau di pesan error pada terminal, lalu ketikkan pip install <nama-requirement>)
+2. install requirement yang diperlukan seperti flask, pymongo, bson (jika kurang bisa lihat di line import pada setiap file atau di pesan error pada terminal, lalu ketikkan pip install {nama-requirement})
 3. Buka Postman atau aplikasi sejenisnya untuk melakukan CRUD (bisa install disini https://www.postman.com/)
 4. lalu jalankan aplikasi dengan ketikkan flask run di terminal 
 5. masukkan endpoint pada aplikasi postman atau sejenisnya (tidak bisa menggunakan browser untuk method selain get)
 * http://127.0.0.1:5000/api/v1/imdb dengan method get untuk ambil semua data 
 * http://127.0.0.1:5000/api/v1/imdb dengan method post, lalu isi data untuk menambah data 
-* http://127.0.0.1:5000/api/v1/imdb/<<filmid>> dengan method get untuk ambil data dengan id tertentu 
-* http://127.0.0.1:5000/api/v1/imdb/nama/<<title>> dengan method get untuk ambil data dengan title tertentu
-* http://127.0.0.1:5000/api/v1/imdb/<<filmid>> dengan method put untuk update data dengan id tertentu
-* http://127.0.0.1:5000/api/v1/imdb/<<filmid>> dengan method delete untuk delete data dengan id tertentu
+* http://127.0.0.1:5000/api/v1/imdb/{id} dengan method get untuk ambil data dengan id tertentu 
+* http://127.0.0.1:5000/api/v1/imdb/nama/{title} dengan method get untuk ambil data dengan title tertentu
+* http://127.0.0.1:5000/api/v1/imdb/{id} dengan method put untuk update data dengan id tertentu
+* http://127.0.0.1:5000/api/v1/imdb/{id} dengan method delete untuk delete data dengan id tertentu
 
 
 ## JSON Structure
@@ -162,7 +162,7 @@ Menggunakan API
 * Pada saat menjalankan, folder root bukan folder SELEKSI-2021-TUGAS-1 sehingga terdapat kendala dalam mengakses path file json
 * Pada saat menjalankan API, folder root bukan folder api yang terdapat dalam folder Data Scraping/src, sehingga aplikasi tidak bisa dijalankan
 * Belum install requirements, lihat baik baik pada error terminal requirement apa yang pelum, lalu ketikkan di terminal pip install 
-<nama-requirement>
+{nama-requirement}
 
 ## Author
 * 13519057 Kadek Dwi Bagus Ananta Udayana
