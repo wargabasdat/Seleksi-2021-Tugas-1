@@ -119,7 +119,7 @@ Preprocessing contohnya :
 Menggunakan Scraping
 1. Pergi ke folder repository yang telah di clone, dan buka folder di text editor kesayangan anda (pastikan folder root dalam text editor adalah SELEKSI-2021-TUGAS-1)
 2. Buka file Data Scraping/src/scrap.py pada text editor
-3. pastikan internet telah berjalan, karena menggunakan DATABASE ONLINE
+3. pastikan internet telah berjalan, karena menggunakan DATABASE ONLINE dan pastikan juga telah menginstall python (bisa install di https://www.python.org/)
 4. Buka terminal kesayangan anda (diharapkan yang menggunakan vscode langsung saja di terminal vscode)
 5. install requirement yang diperlukan seperti pymongo, beautifulsoap, json, request (jika kurang bisa lihat di line import pada setiap file atau di pesan error pada terminal, lalu ketikkan pip install <nama-requirement>)
 5. jalankan program scrap.py atau anda bisa ketikkan python "Data Scraping/src/scrap.py" pada terminal , sehingga file json yang ada di Data Scraping/data/data.json akan diperbaharui
