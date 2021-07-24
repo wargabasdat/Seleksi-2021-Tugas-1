@@ -120,9 +120,9 @@ dimana file/path/to adalah path dari file main.py tersimpan
   - Pertama, mari kita buat sebuah free cluster di [__*MongoDB Atlas*__](https://cloud.mongodb.com)
   - Kemudian, kita lakukan konfigurasi terhadap network access dan database access.
     - Pada network access, kita menambahkan sebuah IP Address configuration dengan konfigurasi sebagai berikut.
-    ![userAccess](/Data%20Storing/bonus/screenshot/online_db/db_access.png?raw=true)
-    - Pada database access, kita menambahkan sebuah user yang memiliki *role* sebagai _Atlas Admin_ dan memberikan password untuk role tersebut.
     ![networkAccess](/Data%20Storing/bonus/screenshot/online_db/network_access.png?raw=true)
+    - Pada database access, kita menambahkan sebuah user yang memiliki *role* sebagai _Atlas Admin_ dan memberikan password untuk role tersebut.
+    ![userAccess](/Data%20Storing/bonus/screenshot/online_db/db_access.png?raw=true)
   - Kemudian, setelah cluster siap untuk digunakan, kita akan mencoba untuk melakukan test terhadap koneksi database pada shell
     - Pilih Connect -> Connect to a MongoDB Shell -> Copy connection String pada shell/cmd -> Masukkan password user pada cmd
     ![connectShell](/Data%20Storing/bonus/screenshot/online_db/connect_shell.png?raw=true)
@@ -198,9 +198,9 @@ Pada cuplikan kode tersebut, saya telah menentukan API untuk berjalan pada port 
   dan npm akan mengunduh seluruh library yang dibutuhkan oleh API ke dalam environment Anda
   - Anda siap untuk menjalankan API, ketikkan perintah berikut.
   ```
-  nodemon [__*api.js*__](/Data%20Storing/bonus)    // jika Anda telah memiliki library nodemon terinstal, atau
+  nodemon api.js    // jika Anda telah memiliki library nodemon terinstal, atau
 
-  node [__*api.js*__](/Data%20Storing/bonus)
+  node api.js(/Data%20Storing/bonus)
   ```
 - Untuk detil fungsionalitas dan kode, silakan akses file [__*api.js*__](/Data%20Storing/bonus) pada folder Data Storing -> bonus
 - Di bawah ini adalah dokumentasi API saat dijalankan
