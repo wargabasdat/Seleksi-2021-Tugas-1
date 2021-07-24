@@ -12,73 +12,199 @@
   <br>
 </h2>
 
+## Deskripsi Data dan DBMS
 
-## Spesifikasi
+Melakukan data scraping dari website **pergikuliner.com**. Data yang diambil berupa data __480 restoran di Jakarta__ (Nama, Alamat, Daerah, Tipe Kuliner, Kisaran Harga, Rating, Pembayaran, Cabang, dan Fasilitas). Data tersebut saya pilih karena banyak orang yang senang untuk mencari informasi tentang suatu restoran sebelum mengunjunginya.
+
+Melakukan data storing dari file _`data.json`_ ke DBMS **MongoDB** dan **MongoDB Atlas**. DBMS tersebut saya pilih karena beberapa alasan berikut:
+
+1. File awal sudah dalam format json sehingga lebih mudah untuk import data ke database NoSQL.
+2. Database NoSQL memiliki struktur data yang lebih fleksibel untuk dimodifikasi.
+3. MongoDB merupakan salah satu database NoSQL yang populer dan sering digunakan oleh banyak developer.
+
+## Spesifikasi Program
+
+Program menggunakan bahasa pemrograman Python dengan library BeautifulSoup, requests, json, time.
+
+- Library **BeautifulSoup** digunakan untuk melakukan data scraping dari website dengan menggunakan fungsi _find()_ dan _find_all()_.
+```
+pip install beautifulsoup4
+```
+- Library **requests** digunakan untuk mengirim request http ke suatu website.
+- Library **json** digunakan untuk mengubah data menjadi file dengan format json.
+- Library **time** digunakan untuk memberikan jeda waktu request data dari website dengan menggunakan fungsi _sleep()_ untuk mencegah request data yang terlalu banyak.
+
+## How to Use
 
 ### Data Scraping
 
-1. Lakukan _data scraping_ dari sebuah laman web untuk memperoleh data atau informasi tertentu __TANPA MENGGUNAKAN API__. Hasil _data scraping_ ini nantinya akan disimpan dalam DBMS dan digunakan sebagai bahan tugas analisis dan visualisasi data.
-
-2. Daftarkan judul topik yang akan dijadikan bahan _data scraping_ dan DBMS yang akan digunakan pada spreadsheet berikut: [Topik Data Scraping](https://docs.google.com/spreadsheets/d/12sgizyreDkFXz4N3FaGouyGKRZN3qHyWEeSIbEXtpR4/edit?usp=sharing). Usahakan agar tidak ada peserta dengan topik yang sama. Akses edit ke spreadsheet akan ditutup tanggal __12 Juli 2021 pukul 23.59 WIB__
-
-3. Pada folder `Data Scraping`, calon warga basdat harus mengumpulkan _file script_, json hasil _data scraping_. Folder `Data Scraping` terdiri dari _folder_ `src`, `data` dan `screenshots`. 
-    - _Folder_ `src` berisi _file script_/kode yang __*WELL DOCUMENTED* dan *CLEAN CODE*__ 
-    - _Folder_ `data` berisi _file_ json hasil _scraper_
-    - _Folder_ `screenshot` berisi tangkapan layar program.
-
-4. Sebagai referensi untuk mengenal _data scraping_, asisten menyediakan dokumen "_Short Guidance To Data Scraping_" yang dapat diakses pada link berikut: [Data Scraping Guidance](http://bit.ly/DataScrapingGuidance). Mohon memperhatikan etika dalam melakukan _scraping_.
-
-5. JSON harus dinormalisasi dan harus di-_preprocessing_
-```
-Preprocessing contohnya :
-- Cleaning
-- Parsing
-- Transformation
-- dan lainnya
-```
+1. Mendownload folder _`Data Scraping`_ atau clone repository ini
+2. Menginstall Python dan BeautifulSoup
+3. Membuka file _`main.py`_
+4. Mengganti variabel **path** sesuai direktori _`data.json`_ pada laptop/komputer anda
+5. Mengganti variabel **from_page** dan **until_page** menjadi halaman awal dan akhir yang ingin diambil datanya dari website
+6. Menjalankan file _`main.py`_
+7. Data akan langsung tersimpan pada file _`data.json`_ dalam folder _`data`_.
 
 ### Data Storing
 
-1. Lakukan _storing_ data yang didapatkan dari hasil _scraping_ ke DBMS 
-
-2. Tools yang digunakan __dibebaskan__
-
-3. Calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Folder_ `Data Storing` terdiri dari folder `data`, `screenshots` dan `export`
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
-
-
-
-4. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    - Simpan ke database online
-    - Buatlah API sederhana untuk mengakses database online tersebut
-
-### Pengumpulan
-
-
-1. Dalam mengerjakan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: [Seleksi-2021-Tugas-1](https://github.com/wargabasdat/Seleksi-2021-Tugas-1). Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_1_[NIM]```
-
-2. Tambahkan juga `.gitignore` pada _file_ atau _folder_ yang tidak perlu di-_upload_, __NB: BINARY TIDAK DIUPLOAD__
-
-3. Berikan satu buah file `README` yang __WELL DOCUMENTED__ dengan cara __override__ _file_ `README.md` ini. `README` harus memuat minimal konten:
-
+1. Mendownload folder _`Data Storing`_ atau clone repository ini
+2. Menginstall MongoDB
+3. Membuka cmd dan cd ke direktori _`C:\Program Files\MongoDB\Server\4.4\bin`_ (disesuaikan)
+4. Meng-import data dari file _`data.json`_
 
 ```
-- Description of the data and DBMS (Why you choose it)
-- Specification of the program
-- How to use
-- JSON Structure
-- Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-- Reference (Library used, etc)
-- Author
+mongoimport --jsonArray --db <nama database> --collection <nama collection> --file <direktori data.json>
 ```
 
+5. Mengecek hasil import data
 
-4. Deadline pengumpulan tugas 1 adalah <span style="color:red">__24 Juli 2021 Pukul 23.59 WIB__</span>
+```
+mongo
+```
 
-<h3 align="center">
-  <br>
-  Selamat Mengerjakan
-  <br>
-  <br>
-</h3>
+```
+use <nama database>
+```
+
+```
+db.<nama collection>.find().sort({id:1}).limit(10).pretty()
+```
+
+6. Meng-export data dari MongoDB
+
+```
+mongoexport --collection=<nama collection> --db=<nama database> --out=<nama file>
+```
+
+## JSON Structure
+
+```
+{
+    "restaurants": [
+        {
+            "id": string,
+            "nama": string,
+            "alamat": string,
+            "daerah": string,
+            "tipe kuliner": array of string,
+            "kisaran harga": string,
+            "rating": float,
+            "pembayaran": array of string,
+            "cabang": boolean,
+            "fasilitas": array of string
+        },
+        ..
+    ]
+}
+```
+
+## Screenshot Program dan Penjelasan
+
+### Data Scraping
+
+#### Data Sebelum Program Dijalankan
+
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/data-before.png" width="50%">
+
+#### Program 1 Mengambil Data Restoran dari Page 1-10
+
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/program-1.png" width="50%">
+
+#### Program 2 Mengambil Data Restoran dari Page 11-20
+
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/program-2.png" width="50%">
+
+Program ini diulang sebanyak 3 kali karena ditemukan kesalahan saat pengambilan data.
+
+#### Program 3 Mengambil Data Restoran dari Page 21-25
+
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/program-3.png" width="50%">
+
+#### Data Setelah Program 1, 2, 3 Selesai Dijalankan
+
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/data-mid.png" width="50%">
+
+Setelah pengecekan ulang data json, ditemukan data yang duplikat karena program 2 diulang namun data yang sudah tersimpan belum dihapus sehingga total baris pada file json berbeda dengan hasil screenshot. Selain itu, nama atribut **harga** diubah menjadi **kisaran harga** agar tidak rancu.
+
+#### Program 4 Mengambil Data Restoran dari Page 26-30
+
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/program-4.png" width="50%">
+
+#### Program 5 Mengambil Data Restoran dari Page 31-40
+
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/program-5.png" width="50%">
+
+#### Data Setelah Seluruh Program Selesai Dijalankan
+
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/data-after.png" width="50%">
+
+### Data Storing
+
+#### Import Data ke MongoDB
+
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Storing/screenshot/import-data.png">
+
+#### Access Data dari MongoDB
+
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Storing/screenshot/imported-data.png" width="50%">
+
+#### Export Data dari MongoDB
+
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Storing/screenshot/export-data.png">
+
+#### Import Data ke MongoDB Atlas
+
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Storing/screenshot/import-data-online.png">
+
+#### Access Data via API
+
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Storing/screenshot/access-data-via-api.png" width="50%">
+
+## References
+
+### Data Scraping
+
+Berikut daftar library yang digunakan beserta referensi lainnya:
+
+1. BeautifulSoup
+
+- https://pypi.org/project/beautifulsoup4/
+
+2. requests
+
+- https://pypi.org/project/requests/
+
+3. json
+
+- https://www.geeksforgeeks.org/append-to-json-file-using-python/
+
+4. time
+
+- https://docs.python.org/3/library/time.html
+
+5. Referensi lainnya <br />
+
+Website untuk data scraping:
+
+- https://pergikuliner.com/restaurants?utf8=%E2%9C%93&search_place=&default_search=Jakarta&search_name_cuisine=&commit=
+
+Panduan data scraping:
+
+- http://bit.ly/DataScrapingGuidance
+
+Link tutorial Youtube:
+
+- https://www.youtube.com/watch?v=XVv6mJpFOb0&ab_channel=freeCodeCamp.org
+
+### Data Storing
+
+- https://docs.mongodb.com/v4.2/reference/program/mongoexport/
+- https://www.youtube.com/watch?v=Phe9B2HRVmc&t=101s&ab_channel=PraveenKumar
+- https://github.com/beaucarnes/mern-exercise-tracker-mongodb/tree/master/backend
+
+## Author
+
+Jacelyn Felisha <br />
+18219097 <br />
+Sistem dan Teknologi Informasi ITB 2019
