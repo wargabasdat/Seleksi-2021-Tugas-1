@@ -200,7 +200,7 @@ Pada cuplikan kode tersebut, saya telah menentukan API untuk berjalan pada port 
   ```
   nodemon api.js    // jika Anda telah memiliki library nodemon terinstal, atau
 
-  node api.js(/Data%20Storing/bonus)
+  node api.js
   ```
 - Untuk detil fungsionalitas dan kode, silakan akses file [__*api.js*__](/Data%20Storing/bonus) pada folder Data Storing -> bonus
 - Di bawah ini adalah dokumentasi API saat dijalankan
