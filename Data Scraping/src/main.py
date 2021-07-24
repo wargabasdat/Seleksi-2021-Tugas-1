@@ -60,7 +60,7 @@ def writeToFile(index, title, company, loc, sal, expm, expo, last_updated, appl)
 def parseExp(old_exp):
     exp = str(old_exp)
     if ("Kurang" in exp):
-        return [0], [1]
+        return 0, 1
     else:
         temp = [int(s) for s in re.findall(r'\d+', exp)]
         # somehow temp[0] and temp[1] not working
