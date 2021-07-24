@@ -150,6 +150,10 @@ Menggunakan API
 
 ## Screenshot program
 ![1](https://user-images.githubusercontent.com/59368258/126874421-f5ae8a50-4660-42f7-a488-3a5f6cd0ceac.JPG)
+![2](https://user-images.githubusercontent.com/59368258/126874460-55558e1a-ec7e-413e-8a81-7c7a45e6c11c.JPG)
+![3](https://user-images.githubusercontent.com/59368258/126874469-dafe3efb-ad66-435b-a5bd-a791d3498cbd.JPG)
+![4](https://user-images.githubusercontent.com/59368258/126874476-22c957ed-259a-4a90-8bed-22c04787e4f7.JPG)
+![Screenshot (20210724-220438)](https://user-images.githubusercontent.com/59368258/126874484-6e40db75-0b4f-47d2-b9bd-499d66555b57.jpg)
 
 
 ## Reference
