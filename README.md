@@ -42,14 +42,14 @@ pip install beautifulsoup4 pandas requests
 - Kemudian, program akan mengambil data yang sesuai dengan kriteria pada fungsi get_mobil_data(). Setiap data mobil yang diambil akan disimpan dalam sebuah dictionary, dan kemudian seluruh dictionary yang tercipta ditambahkan ke dalam sebuah array.
 
 - Terakhir, jika file dengan nama yang dimasukkan oleh pengguna belum ada, maka akan dibuat file .json dengan nama tersebut, dan menambahkan data array dengan format json. Pada lain kasus, jika sudah ada file dengan nama yang dimasukkan pengguna, maka isi dari file tersebut akan diupdate dengan data array yang baru.
-![program](.\Data%20Scraping\screenshot\program.png?raw=true)
+![program](/Data%20Scraping/screenshot/program.png?raw=true)
 - Scraping dapat dijalankan dengan menggunakan perintah
 ```
 python -u "file/path/to/main.py"
 
 dimana file/path/to adalah path dari file main.py tersimpan
 ```
-![ssprogram](.\Data%20Scraping\screenshot\ssprogram.png?raw=true)
+![ssprogram](/Data%20Scraping/screenshot/ssprogram.png?raw=true)
 - Program ini juga terdiri atas beberapa fungsi pendukung seperti get_mobil_data(), format_distance(), dan beberapa fungsi lain.
 
 - JSON Structure dari program main.py adalah sebagai berikut:
@@ -73,10 +73,10 @@ dimana file/path/to adalah path dari file main.py tersimpan
   ```
   mongod
   ```
-  ![mongod](.\Data%20Storing\screenshot\mongod.png?raw=true)
+  ![mongod](/Data%20Storing/screenshot/mongod.png?raw=true)
   - Setelah _MongoImport_ terinstal, buka cmd dan pergi pada folder dimana _Tools_ tersebut berada, kemudian cari dan pergi ke folder bin di _Tools_ tersebut.
   Untuk melakukan import data ke dalam NoSQL DBMS MongoDB, kemudian melakukan export data yang sudah diimport tersebut ke dalam sebuah file .json, kita dapat menggunakan dua perintah berikut
-  ![import_export_data](.\Data%20Storing\screenshot\import_export.png?raw=true)
+  ![import_export_data](/Data%20Storing/screenshot/import_export.png?raw=true)
   - Kita dapat mengecek apakah data kita sudah terimport atau belum di MongoDB dengan serangkaian perintah berikut.
   ```
   > mongo
@@ -85,10 +85,10 @@ dimana file/path/to adalah path dari file main.py tersimpan
   > show collections
   > db.[collectionUsed].find()
   ```
-  ![data_on_db](.\Data%20Storing\screenshot\data_on_db.png?raw=true)
+  ![data_on_db](/Data%20Storing/screenshot/data_on_db.png?raw=true)
 
   - Seperti terlihat pada beberapa langkah sebelumnya, data dieskpor ke dalam sebuah file bernama _*exportedData.json*_. (ditunjukkan di window sebelah kiri)
-  ![exportedData](.\Data%20Storing\screenshot\exportedData.png?raw=true)
+  ![exportedData](/Data%20Storing/screenshot/exportedData.png?raw=true)
 
 - Struktur JSON pada file hasil export MongoDB juga tidak jauh berbeda, yaitu dengan tambahan _id saja.
 ```
@@ -114,22 +114,22 @@ dimana file/path/to adalah path dari file main.py tersimpan
   - Pertama, mari kita buat sebuah free cluster di MongoDB Atlas
   - Kemudian, kita lakukan konfigurasi terhadap network access dan database access.
     - Pada network access, kita menambahkan sebuah IP Address configuration dengan konfigurasi sebagai berikut.
-    ![userAccess](.\Data%20Storing\bonus\screenshot\online_db\db_access.png?raw=true)
+    ![userAccess](/Data%20Storing/bonus/screenshot/online_db/db_access.png?raw=true)
     - Pada database access, kita menambahkan sebuah user yang memiliki *role* sebagai _Atlas Admin_ dan memberikan password untuk role tersebut.
-    ![networkAccess](.\Data%20Storing\bonus\screenshot\online_db\network_access.png?raw=true)
+    ![networkAccess](/Data%20Storing/bonus/screenshot/online_db/network_access.png?raw=true)
   - Kemudian, setelah cluster siap untuk digunakan, kita akan mencoba untuk melakukan test terhadap koneksi database pada shell
     - Pilih Connect -> Connect to a MongoDB Shell -> Copy connection String pada shell/cmd -> Masukkan password user pada cmd
-    ![connectShell](.\Data%20Storing\bonus\screenshot\online_db\connect_shell.png?raw=true)
+    ![connectShell](/Data%20Storing/bonus/screenshot/online_db/connect_shell.png?raw=true)
     - Berikut adalah hasilnya
-    ![dbConnect](.\Data%20Storing\bonus\screenshot\online_db\db_connect.png?raw=true)
+    ![dbConnect](/Data%20Storing/bonus/screenshot/online_db/db_connect.png?raw=true)
     - Terakhir, kita siap untuk mengimport data yang berada pada file exportedData.json menuju ke MongoDB Atlas
       - Pertama, kita mencari shard yang berada pada cluster kita. List ini dapat kita akses pada <NamaCluster> -> Overview. Kemudian, kita memilih shard yang memiliki role primary. Role tersebut akan disalin namanya dan digunakan sebagai host
-      ![host](.\Data%20Storing\bonus\screenshot\online_db\host.png?raw=true)
-      ![primaryHost](.\Data%20Storing\bonus\screenshot\online_db\primary_host.png?raw=true)
+      ![host](/Data%20Storing/bonus/screenshot/online_db/host.png?raw=true)
+      ![primaryHost](/Data%20Storing/bonus/screenshot/online_db/primary_host.png?raw=true)
       - Selanjutnya, kita menjalankan perintah penyimpanan yang mirip seperti menyimpan pada local database.
-      ![data_imported](.\Data%20Storing\bonus\screenshot\online_db\import_data.png?raw=true)
+      ![data_imported](/Data%20Storing/bonus/screenshot/online_db/import_data.png?raw=true)
       - Kita dapat melihat data yang baru saja diimport melalui shell
-      ![new_data_imported](.\Data%20Storing\bonus\screenshot\online_db\show_data.png?raw=true)
+      ![new_data_imported](/Data%20Storing/bonus/screenshot/online_db/show_data.png?raw=true)
 
 - API ini dibangun dengan menggunakan NodeJS dengan ExpressJS dan beberapa library yang diinstal melalui npm. Library tersebut diantaranya adalah :
 ```
@@ -198,27 +198,27 @@ Pada cuplikan kode tersebut, saya telah menentukan API untuk berjalan pada port 
 - Untuk detil fungsionalitas dan kode, silakan akses file api.js pada folder Data Storing -> bonus
 - Di bawah ini adalah dokumentasi API saat dijalankan
 
-![runningAPI](.\Data%20Storing\bonus\screenshot\API\run_api.png?raw=true)
+![runningAPI](/Data%20Storing/bonus/screenshot/API/run_api.png?raw=true)
 
-![cars](.\Data%20Storing\bonus\screenshot\API\all_cars.png?raw=true)
+![cars](/Data%20Storing/bonus/screenshot/API/all_cars.png?raw=true)
 
-![car_by_distance](.\Data%20Storing\bonus\screenshot\API\distance_cars.png?raw=true)
+![car_by_distance](/Data%20Storing/bonus/screenshot/API/distance_cars.png?raw=true)
 
-![car_by_year](.\Data%20Storing\bonus\screenshot\API\car_year.png?raw=true)
+![car_by_year](/Data%20Storing/bonus/screenshot/API/car_year.png?raw=true)
 
-![car_by_location](.\Data%20Storing\bonus\screenshot\API\car_location.png?raw=true)
+![car_by_location](/Data%20Storing/bonus/screenshot/API/car_location.png?raw=true)
 
-![car_by_seller](.\Data%20Storing\bonus\screenshot\API\car_seller.png?raw=true)
+![car_by_seller](/Data%20Storing/bonus/screenshot/API/car_seller.png?raw=true)
 
-![car_by_brand](.\Data%20Storing\bonus\screenshot\API\brand_car.png?raw=true)
+![car_by_brand](/Data%20Storing/bonus/screenshot/API/brand_car.png?raw=true)
 
-![car_by_transmission](.\Data%20Storing\bonus\screenshot\API\car_transmission.png?raw=true)
+![car_by_transmission](/Data%20Storing/bonus/screenshot/API/car_transmission.png?raw=true)
 
-![car_by_maxPrice](.\Data%20Storing\bonus\screenshot\API\maxPrice_car.png?raw=true)
+![car_by_maxPrice](/Data%20Storing/bonus/screenshot/API/maxPrice_car.png?raw=true)
 
-![car_by_minPrice](.\Data%20Storing\bonus\screenshot\API\minPrice_car.png?raw=true)
+![car_by_minPrice](/Data%20Storing/bonus/screenshot/API/minPrice_car.png?raw=true)
 
-![car_by_price](.\Data%20Storing\bonus\screenshot\API\price_car.png?raw=true)
+![car_by_price](/Data%20Storing/bonus/screenshot/API/price_car.png?raw=true)
 
 #### Referensi
 - [_*PyPI*_](https://pypi.org/) - Dokumentasi dari seluruh library yang digunakan pada Python
