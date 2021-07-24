@@ -134,10 +134,10 @@ Menggunakan API
 5. masukkan endpoint pada aplikasi postman atau sejenisnya (tidak bisa menggunakan browser untuk method selain get)
 * http://127.0.0.1:5000/api/v1/imdb dengan method get untuk ambil semua data 
 * http://127.0.0.1:5000/api/v1/imdb dengan method post, lalu isi data untuk menambah data 
-* http://127.0.0.1:5000/api/v1/imdb/<idfilm> dengan method get untuk ambil data dengan id tertentu 
+* http://127.0.0.1:5000/api/v1/imdb/<filmid> dengan method get untuk ambil data dengan id tertentu 
 * http://127.0.0.1:5000/api/v1/imdb/nama/<title> dengan method get untuk ambil data dengan title tertentu
-* http://127.0.0.1:5000/api/v1/imdb/<idfilm> dengan method put untuk update data dengan id tertentu
-* http://127.0.0.1:5000/api/v1/imdb/<idfilm> dengan method delete untuk delete data dengan id tertentu
+* http://127.0.0.1:5000/api/v1/imdb/<filmid> dengan method put untuk update data dengan id tertentu
+* http://127.0.0.1:5000/api/v1/imdb/<filmid> dengan method delete untuk delete data dengan id tertentu
 
 
 ## JSON Structure
