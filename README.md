@@ -27,6 +27,9 @@ Melakukan data storing dari file _`data.json`_ ke DBMS **MongoDB** dan **MongoDB
 Program menggunakan bahasa pemrograman Python dengan library BeautifulSoup, requests, json, time.
 
 - Library **BeautifulSoup** digunakan untuk melakukan data scraping dari website dengan menggunakan fungsi _find()_ dan _find_all()_.
+```
+pip install beautifulsoup4
+```
 - Library **requests** digunakan untuk mengirim request http ke suatu website.
 - Library **json** digunakan untuk mengubah data menjadi file dengan format json.
 - Library **time** digunakan untuk memberikan jeda waktu request data dari website dengan menggunakan fungsi _sleep()_ untuk mencegah request data yang terlalu banyak.
@@ -102,39 +105,39 @@ mongoexport --collection=<nama collection> --db=<nama database> --out=<nama file
 
 #### Data Sebelum Program Dijalankan
 
-<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/data-before.png" alt="Click to view at full size" width="50%">
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/data-before.png" width="50%">
 
 #### Program 1 Mengambil Data Restoran dari Page 1-10
 
-<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/program-1.png" alt="Click to view at full size" width="50%">
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/program-1.png" width="50%">
 
 #### Program 2 Mengambil Data Restoran dari Page 11-20
 
-<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/program-2.png" alt="Click to view at full size" width="50%">
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/program-2.png" width="50%">
 
 Program ini diulang sebanyak 3 kali karena ditemukan kesalahan saat pengambilan data.
 
 #### Program 3 Mengambil Data Restoran dari Page 21-25
 
-<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/program-3.png" alt="Click to view at full size" width="50%">
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/program-3.png" width="50%">
 
 #### Data Setelah Program 1, 2, 3 Selesai Dijalankan
 
-<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/data-mid.png" alt="Click to view at full size" width="50%">
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/data-mid.png" width="50%">
 
 Setelah pengecekan ulang data json, ditemukan data yang duplikat karena program 2 diulang namun data yang sudah tersimpan belum dihapus sehingga total baris pada file json berbeda dengan hasil screenshot. Selain itu, nama atribut **harga** diubah menjadi **kisaran harga** agar tidak rancu.
 
 #### Program 4 Mengambil Data Restoran dari Page 26-30
 
-<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/program-4.png" alt="Click to view at full size" width="50%">
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/program-4.png" width="50%">
 
 #### Program 5 Mengambil Data Restoran dari Page 31-40
 
-<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/program-5.png" alt="Click to view at full size" width="50%">
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/program-5.png" width="50%">
 
 #### Data Setelah Seluruh Program Selesai Dijalankan
 
-<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/data-after.png" alt="Click to view at full size" width="50%">
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Scraping/screenshot/data-after.png" width="50%">
 
 ### Data Storing
 
@@ -144,7 +147,7 @@ Setelah pengecekan ulang data json, ditemukan data yang duplikat karena program 
 
 #### Access Data dari MongoDB
 
-<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Storing/screenshot/imported-data.png" alt="Click to view at full size" width="50%">
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Storing/screenshot/imported-data.png" width="50%">
 
 #### Export Data dari MongoDB
 
@@ -152,11 +155,11 @@ Setelah pengecekan ulang data json, ditemukan data yang duplikat karena program 
 
 #### Import Data ke MongoDB Atlas
 
-<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Storing/screenshot/import-data-online.png" alt="Click to view at full size" width="50%">
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Storing/screenshot/import-data-online.png">
 
 #### Access Data via API
 
-<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Storing/screenshot/access-data-via-api.png" alt="Click to view at full size" width="50%">
+<img src="https://github.com/roscellyn/Seleksi-2021-Tugas-1/blob/main/Data%20Storing/screenshot/access-data-via-api.png" width="50%">
 
 ## References
 
