@@ -1,0 +1,1086 @@
+{
+    "fetchTime": "2021-07-24 22:55:29",
+    "chartWeek": "2020-02-15",
+    "chart": [
+        {
+            "rank": 1,
+            "artist": "Billie Eilish",
+            "lastWeek": 1,
+            "peakRank": 1,
+            "weekOnChart": 76,
+            "label": [
+                "Darkroom/Interscope",
+                "IGA"
+            ]
+        },
+        {
+            "rank": 2,
+            "artist": "Lil Wayne",
+            "lastWeek": null,
+            "peakRank": 1,
+            "weekOnChart": 42,
+            "label": [
+                "Young Money",
+                "Republic"
+            ]
+        },
+        {
+            "rank": 3,
+            "artist": "Post Malone",
+            "lastWeek": 4,
+            "peakRank": 1,
+            "weekOnChart": 189,
+            "label": [
+                "Republic"
+            ]
+        },
+        {
+            "rank": 4,
+            "artist": "Roddy Ricch",
+            "lastWeek": 2,
+            "peakRank": 2,
+            "weekOnChart": 9,
+            "label": [
+                "Atlantic",
+                "AG"
+            ]
+        },
+        {
+            "rank": 5,
+            "artist": "Russ",
+            "lastWeek": null,
+            "peakRank": 5,
+            "weekOnChart": 12,
+            "label": [
+                "Diemon/Russ My Way",
+                "Columbia"
+            ]
+        },
+        {
+            "rank": 6,
+            "artist": "Taylor Swift",
+            "lastWeek": 25,
+            "peakRank": 1,
+            "weekOnChart": 289,
+            "label": [
+                "Republic"
+            ]
+        },
+        {
+            "rank": 7,
+            "artist": "Eminem",
+            "lastWeek": 3,
+            "peakRank": 1,
+            "weekOnChart": 285,
+            "label": [
+                "Shady/Aftermath/Interscope",
+                "IGA"
+            ]
+        },
+        {
+            "rank": 8,
+            "artist": "Louis Tomlinson",
+            "lastWeek": null,
+            "peakRank": 8,
+            "weekOnChart": 20,
+            "label": [
+                "78/SYCO",
+                "Arista"
+            ]
+        },
+        {
+            "rank": 9,
+            "artist": "Halsey",
+            "lastWeek": 5,
+            "peakRank": 1,
+            "weekOnChart": 217,
+            "label": [
+                "Capitol"
+            ]
+        },
+        {
+            "rank": 10,
+            "artist": "DaBaby",
+            "lastWeek": 7,
+            "peakRank": 2,
+            "weekOnChart": 43,
+            "label": [
+                "SouthCoast/Interscope",
+                "IGA"
+            ]
+        },
+        {
+            "rank": 11,
+            "artist": "Kesha",
+            "lastWeek": null,
+            "peakRank": 1,
+            "weekOnChart": 40,
+            "label": [
+                "Kemosabe",
+                "RCA"
+            ]
+        },
+        {
+            "rank": 12,
+            "artist": "Luke Combs",
+            "lastWeek": 8,
+            "peakRank": 1,
+            "weekOnChart": 153,
+            "label": [
+                "River House/Columbia Nashville",
+                "SMN"
+            ]
+        },
+        {
+            "rank": 13,
+            "artist": "Justin Bieber",
+            "lastWeek": 9,
+            "peakRank": 1,
+            "weekOnChart": 259,
+            "label": [
+                "Raymond Braun",
+                "Def Jam"
+            ]
+        },
+        {
+            "rank": 14,
+            "artist": "Lizzo",
+            "lastWeek": 6,
+            "peakRank": 2,
+            "weekOnChart": 42,
+            "label": [
+                "Nice Life/Atlantic",
+                "AG"
+            ]
+        },
+        {
+            "rank": 15,
+            "artist": "The Weeknd",
+            "lastWeek": 15,
+            "peakRank": 1,
+            "weekOnChart": 239,
+            "label": [
+                "XO",
+                "Republic"
+            ]
+        },
+        {
+            "rank": 16,
+            "artist": "Lil Baby",
+            "lastWeek": 19,
+            "peakRank": 8,
+            "weekOnChart": 91,
+            "label": [
+                "Quality Control/Motown",
+                "Capitol"
+            ]
+        },
+        {
+            "rank": 17,
+            "artist": "Jonas Brothers",
+            "lastWeek": 10,
+            "peakRank": 1,
+            "weekOnChart": 49,
+            "label": [
+                "Republic"
+            ]
+        },
+        {
+            "rank": 18,
+            "artist": "Ed Sheeran",
+            "lastWeek": 14,
+            "peakRank": 1,
+            "weekOnChart": 287,
+            "label": [
+                "Atlantic",
+                "AG"
+            ]
+        },
+        {
+            "rank": 19,
+            "artist": "Dua Lipa",
+            "lastWeek": 30,
+            "peakRank": 10,
+            "weekOnChart": 92,
+            "label": [
+                "Warner"
+            ]
+        },
+        {
+            "rank": 20,
+            "artist": "Lewis Capaldi",
+            "lastWeek": 13,
+            "peakRank": 11,
+            "weekOnChart": 38,
+            "label": [
+                "Vertigo",
+                "Capitol"
+            ]
+        },
+        {
+            "rank": 21,
+            "artist": "Maroon 5",
+            "lastWeek": 20,
+            "peakRank": 1,
+            "weekOnChart": 293,
+            "label": [
+                "222/Interscope",
+                "IGA"
+            ]
+        },
+        {
+            "rank": 22,
+            "artist": "Khalid",
+            "lastWeek": 21,
+            "peakRank": 1,
+            "weekOnChart": 153,
+            "label": [
+                "Right Hand",
+                "RCA"
+            ]
+        },
+        {
+            "rank": 23,
+            "artist": "Harry Styles",
+            "lastWeek": 17,
+            "peakRank": 1,
+            "weekOnChart": 32,
+            "label": [
+                "Erskine",
+                "Columbia"
+            ]
+        },
+        {
+            "rank": 24,
+            "artist": "Shakira",
+            "lastWeek": null,
+            "peakRank": 14,
+            "weekOnChart": 47,
+            "label": [
+                "Sony Music Latin/RCA"
+            ]
+        },
+        {
+            "rank": 25,
+            "artist": "Juice WRLD",
+            "lastWeek": 11,
+            "peakRank": 1,
+            "weekOnChart": 90,
+            "label": [
+                "Grade A/Interscope",
+                "IGA"
+            ]
+        },
+        {
+            "rank": 26,
+            "artist": "Drake",
+            "lastWeek": 23,
+            "peakRank": 1,
+            "weekOnChart": 293,
+            "label": [
+                "OVO Sound",
+                "Republic"
+            ]
+        },
+        {
+            "rank": 27,
+            "artist": "Selena Gomez",
+            "lastWeek": 18,
+            "peakRank": 1,
+            "weekOnChart": 222,
+            "label": [
+                "Interscope",
+                "IGA"
+            ]
+        },
+        {
+            "rank": 28,
+            "artist": "BTS",
+            "lastWeek": 12,
+            "peakRank": 1,
+            "weekOnChart": 174,
+            "label": [
+                "BigHit Music"
+            ]
+        },
+        {
+            "rank": 29,
+            "artist": "Dan + Shay",
+            "lastWeek": 27,
+            "peakRank": 11,
+            "weekOnChart": 115,
+            "label": [
+                "Warner Music Nashville",
+                "WMN"
+            ]
+        },
+        {
+            "rank": 30,
+            "artist": "Tones And I",
+            "lastWeek": 29,
+            "peakRank": 26,
+            "weekOnChart": 15,
+            "label": [
+                "Bad Batch/Elektra",
+                "EMG"
+            ]
+        },
+        {
+            "rank": 31,
+            "artist": "Meghan Trainor",
+            "lastWeek": null,
+            "peakRank": 1,
+            "weekOnChart": 158,
+            "label": [
+                "Epic"
+            ]
+        },
+        {
+            "rank": 32,
+            "artist": "Arizona Zervas",
+            "lastWeek": 31,
+            "peakRank": 28,
+            "weekOnChart": 14,
+            "label": [
+                "Arizona Zervas",
+                "Columbia"
+            ]
+        },
+        {
+            "rank": 33,
+            "artist": "Travis Scott",
+            "lastWeek": 28,
+            "peakRank": 1,
+            "weekOnChart": 196,
+            "label": [
+                "Cactus Jack/Grand Hustle",
+                "Epic"
+            ]
+        },
+        {
+            "rank": 34,
+            "artist": "Kane Brown",
+            "lastWeek": 32,
+            "peakRank": 2,
+            "weekOnChart": 138,
+            "label": [
+                "RCA Nashville",
+                "SMN"
+            ]
+        },
+        {
+            "rank": 35,
+            "artist": "Camila Cabello",
+            "lastWeek": 24,
+            "peakRank": 1,
+            "weekOnChart": 160,
+            "label": [
+                "SYCO",
+                "Epic"
+            ]
+        },
+        {
+            "rank": 36,
+            "artist": "Grateful Dead",
+            "lastWeek": null,
+            "peakRank": 24,
+            "weekOnChart": 23,
+            "label": [
+                "Grateful Dead",
+                "Rhino"
+            ]
+        },
+        {
+            "rank": 37,
+            "artist": "Blake Shelton",
+            "lastWeek": 22,
+            "peakRank": 1,
+            "weekOnChart": 262,
+            "label": [
+                "Warner Bros. Nashville",
+                "WMN"
+            ]
+        },
+        {
+            "rank": 38,
+            "artist": "Future",
+            "lastWeek": 34,
+            "peakRank": 1,
+            "weekOnChart": 165,
+            "label": [
+                "Freebandz",
+                "Epic"
+            ]
+        },
+        {
+            "rank": 39,
+            "artist": "Lil Nas X",
+            "lastWeek": 35,
+            "peakRank": 3,
+            "weekOnChart": 47,
+            "label": [
+                "Columbia"
+            ]
+        },
+        {
+            "rank": 40,
+            "artist": "blackbear",
+            "lastWeek": 37,
+            "peakRank": 33,
+            "weekOnChart": 35,
+            "label": [
+                "Beartrap/Alamo/Interscope",
+                "IGA"
+            ]
+        },
+        {
+            "rank": 41,
+            "artist": "Jason Aldean",
+            "lastWeek": 46,
+            "peakRank": 1,
+            "weekOnChart": 271,
+            "label": [
+                "Macon/Broken Bow/BMG",
+                "BBMG"
+            ]
+        },
+        {
+            "rank": 42,
+            "artist": "Maren Morris",
+            "lastWeek": 39,
+            "peakRank": 10,
+            "weekOnChart": 151,
+            "label": [
+                "Columbia Nashville",
+                "SMN"
+            ]
+        },
+        {
+            "rank": 43,
+            "artist": "Imagine Dragons",
+            "lastWeek": 44,
+            "peakRank": 1,
+            "weekOnChart": 261,
+            "label": [
+                "KIDinaKORNER/Interscope",
+                "IGA"
+            ]
+        },
+        {
+            "rank": 44,
+            "artist": "Chris Brown",
+            "lastWeek": 40,
+            "peakRank": 1,
+            "weekOnChart": 241,
+            "label": [
+                "CBE",
+                "RCA"
+            ]
+        },
+        {
+            "rank": 45,
+            "artist": "Ariana Grande",
+            "lastWeek": 36,
+            "peakRank": 1,
+            "weekOnChart": 261,
+            "label": [
+                "Republic"
+            ]
+        },
+        {
+            "rank": 46,
+            "artist": "J Balvin",
+            "lastWeek": 68,
+            "peakRank": 16,
+            "weekOnChart": 107,
+            "label": [
+                "Universal Music Latino",
+                "UMLE"
+            ]
+        },
+        {
+            "rank": 47,
+            "artist": "YoungBoy Never Broke Again",
+            "lastWeek": 42,
+            "peakRank": 2,
+            "weekOnChart": 80,
+            "label": [
+                "Never Broke Again/Artist Partner Group/Atlantic",
+                "AG"
+            ]
+        },
+        {
+            "rank": 48,
+            "artist": "Queen",
+            "lastWeek": 41,
+            "peakRank": 1,
+            "weekOnChart": 93,
+            "label": [
+                "Hollywood"
+            ]
+        },
+        {
+            "rank": 49,
+            "artist": "Morgan Wallen",
+            "lastWeek": 54,
+            "peakRank": 34,
+            "weekOnChart": 48,
+            "label": [
+                "Big Loud",
+                "Republic"
+            ]
+        },
+        {
+            "rank": 50,
+            "artist": "Yo Gotti",
+            "lastWeek": null,
+            "peakRank": 10,
+            "weekOnChart": 50,
+            "label": [
+                "Ineffable/CMG",
+                "Epic"
+            ]
+        },
+        {
+            "rank": 51,
+            "artist": "Shawn Mendes",
+            "lastWeek": 45,
+            "peakRank": 1,
+            "weekOnChart": 261,
+            "label": [
+                "Island",
+                "Republic"
+            ]
+        },
+        {
+            "rank": 52,
+            "artist": "Young Thug",
+            "lastWeek": 48,
+            "peakRank": 8,
+            "weekOnChart": 114,
+            "label": [
+                "Young Stoner Life/300/Atlantic",
+                "AG"
+            ]
+        },
+        {
+            "rank": 53,
+            "artist": "Mac Miller",
+            "lastWeek": 16,
+            "peakRank": 3,
+            "weekOnChart": 12,
+            "label": [
+                "Warner"
+            ]
+        },
+        {
+            "rank": 54,
+            "artist": "Drive-By Truckers",
+            "lastWeek": null,
+            "peakRank": 54,
+            "weekOnChart": 2,
+            "label": [
+                "ATO"
+            ]
+        },
+        {
+            "rank": 55,
+            "artist": "Bad Bunny",
+            "lastWeek": 73,
+            "peakRank": 23,
+            "weekOnChart": 99,
+            "label": [
+                "Rimas"
+            ]
+        },
+        {
+            "rank": 56,
+            "artist": "YNW Melly",
+            "lastWeek": 53,
+            "peakRank": 35,
+            "weekOnChart": 32,
+            "label": [
+                "YNW Melly/300",
+                "AG"
+            ]
+        },
+        {
+            "rank": 57,
+            "artist": "Bruno Mars",
+            "lastWeek": 67,
+            "peakRank": 1,
+            "weekOnChart": 277,
+            "label": [
+                "Atlantic",
+                "AG"
+            ]
+        },
+        {
+            "rank": 58,
+            "artist": "Panic! At The Disco",
+            "lastWeek": 50,
+            "peakRank": 1,
+            "weekOnChart": 177,
+            "label": [
+                "DCD2/Fueled By Ramen",
+                "EMG"
+            ]
+        },
+        {
+            "rank": 59,
+            "artist": "Summer Walker",
+            "lastWeek": 51,
+            "peakRank": 3,
+            "weekOnChart": 19,
+            "label": [
+                "LVRN/Interscope",
+                "IGA"
+            ]
+        },
+        {
+            "rank": 60,
+            "artist": "Rod Wave",
+            "lastWeek": 60,
+            "peakRank": 57,
+            "weekOnChart": 8,
+            "label": [
+                "Alamo/Geffen",
+                "IGA"
+            ]
+        },
+        {
+            "rank": 61,
+            "artist": "Old Dominion",
+            "lastWeek": 56,
+            "peakRank": 10,
+            "weekOnChart": 155,
+            "label": [
+                "Arista Nashville",
+                "SMN"
+            ]
+        },
+        {
+            "rank": 62,
+            "artist": "Megan Thee Stallion",
+            "lastWeek": 38,
+            "peakRank": 34,
+            "weekOnChart": 30,
+            "label": [
+                "1501 Certified/300",
+                "AG"
+            ]
+        },
+        {
+            "rank": 63,
+            "artist": "Sam Hunt",
+            "lastWeek": 65,
+            "peakRank": 5,
+            "weekOnChart": 220,
+            "label": [
+                "MCA Nashville",
+                "UMGN"
+            ]
+        },
+        {
+            "rank": 64,
+            "artist": "The Beatles",
+            "lastWeek": 52,
+            "peakRank": 3,
+            "weekOnChart": 116,
+            "label": [
+                "Apple/Capitol",
+                "UMe"
+            ]
+        },
+        {
+            "rank": 65,
+            "artist": "Doja Cat",
+            "lastWeek": 47,
+            "peakRank": 47,
+            "weekOnChart": 9,
+            "label": [
+                "Kemosabe",
+                "RCA"
+            ]
+        },
+        {
+            "rank": 66,
+            "artist": "Mustard",
+            "lastWeek": 58,
+            "peakRank": 39,
+            "weekOnChart": 28,
+            "label": [
+                "10 Summers/Interscope",
+                "IGA"
+            ]
+        },
+        {
+            "rank": 67,
+            "artist": "Sam Smith",
+            "lastWeek": 59,
+            "peakRank": 1,
+            "weekOnChart": 196,
+            "label": [
+                "Capitol"
+            ]
+        },
+        {
+            "rank": 68,
+            "artist": "Lil Uzi Vert",
+            "lastWeek": 64,
+            "peakRank": 2,
+            "weekOnChart": 120,
+            "label": [
+                "Generation Now/Atlantic",
+                "AG"
+            ]
+        },
+        {
+            "rank": 69,
+            "artist": "K. Michelle",
+            "lastWeek": null,
+            "peakRank": 12,
+            "weekOnChart": 6,
+            "label": [
+                "No Color No Sound",
+                "eOne"
+            ]
+        },
+        {
+            "rank": 70,
+            "artist": "Jennifer Lopez",
+            "lastWeek": null,
+            "peakRank": 61,
+            "weekOnChart": 14,
+            "label": [
+                "Nuyorican",
+                "HITCO"
+            ]
+        },
+        {
+            "rank": 71,
+            "artist": "Demi Lovato",
+            "lastWeek": 33,
+            "peakRank": 3,
+            "weekOnChart": 146,
+            "label": [
+                "Island",
+                "Republic"
+            ]
+        },
+        {
+            "rank": 72,
+            "artist": "Lauren Daigle",
+            "lastWeek": 57,
+            "peakRank": 3,
+            "weekOnChart": 101,
+            "label": [
+                "Centricity",
+                "12Tone"
+            ]
+        },
+        {
+            "rank": 73,
+            "artist": "Jon Pardi",
+            "lastWeek": 61,
+            "peakRank": 14,
+            "weekOnChart": 93,
+            "label": [
+                "Capitol Nashville",
+                "UMGN"
+            ]
+        },
+        {
+            "rank": 74,
+            "artist": "SHAED",
+            "lastWeek": 63,
+            "peakRank": 38,
+            "weekOnChart": 27,
+            "label": [
+                "Photo Finish"
+            ]
+        },
+        {
+            "rank": 75,
+            "artist": "XXXTENTACION",
+            "lastWeek": 70,
+            "peakRank": 1,
+            "weekOnChart": 129,
+            "label": [
+                "Bad Vibes Forever",
+                "EMPIRE"
+            ]
+        },
+        {
+            "rank": 76,
+            "artist": "Trevor Daniel",
+            "lastWeek": 81,
+            "peakRank": 75,
+            "weekOnChart": 6,
+            "label": [
+                "Alamo",
+                "IGA"
+            ]
+        },
+        {
+            "rank": 77,
+            "artist": "Cardi B",
+            "lastWeek": 86,
+            "peakRank": 1,
+            "weekOnChart": 132,
+            "label": [
+                "Atlantic",
+                "AG"
+            ]
+        },
+        {
+            "rank": 78,
+            "artist": "A Boogie Wit da Hoodie",
+            "lastWeek": null,
+            "peakRank": 11,
+            "weekOnChart": 74,
+            "label": [
+                "Highbridge The Label/Atlantic",
+                "AG"
+            ]
+        },
+        {
+            "rank": 79,
+            "artist": "Luke Bryan",
+            "lastWeek": 79,
+            "peakRank": 1,
+            "weekOnChart": 284,
+            "label": [
+                "Capitol Nashville",
+                "UMGN"
+            ]
+        },
+        {
+            "rank": 80,
+            "artist": "Moneybagg Yo",
+            "lastWeek": 55,
+            "peakRank": 24,
+            "weekOnChart": 6,
+            "label": [
+                "N-Less/Interscope",
+                "IGA"
+            ]
+        },
+        {
+            "rank": 81,
+            "artist": "Metallica",
+            "lastWeek": 66,
+            "peakRank": 2,
+            "weekOnChart": 233,
+            "label": [
+                "Blackened"
+            ]
+        },
+        {
+            "rank": 82,
+            "artist": "Lady A",
+            "lastWeek": 72,
+            "peakRank": 6,
+            "weekOnChart": 69,
+            "label": [
+                "BMLG"
+            ]
+        },
+        {
+            "rank": 83,
+            "artist": "Tool",
+            "lastWeek": 82,
+            "peakRank": 1,
+            "weekOnChart": 23,
+            "label": [
+                "Tool Dissectional/Volcano",
+                "RCA"
+            ]
+        },
+        {
+            "rank": 84,
+            "artist": "Nicki Minaj",
+            "lastWeek": null,
+            "peakRank": 2,
+            "weekOnChart": 237,
+            "label": [
+                "Young Money/Cash Money",
+                "Republic"
+            ]
+        },
+        {
+            "rank": 85,
+            "artist": "J. Cole",
+            "lastWeek": 76,
+            "peakRank": 1,
+            "weekOnChart": 191,
+            "label": [
+                "Dreamville/Roc Nation/Interscope",
+                "IGA"
+            ]
+        },
+        {
+            "rank": 86,
+            "artist": "Meek Mill",
+            "lastWeek": 91,
+            "peakRank": 1,
+            "weekOnChart": 78,
+            "label": [
+                "Maybach/Atlantic",
+                "AG"
+            ]
+        },
+        {
+            "rank": 87,
+            "artist": "P!nk",
+            "lastWeek": 77,
+            "peakRank": 1,
+            "weekOnChart": 185,
+            "label": [
+                "RCA"
+            ]
+        },
+        {
+            "rank": 88,
+            "artist": "Gunna",
+            "lastWeek": 84,
+            "peakRank": 10,
+            "weekOnChart": 49,
+            "label": [
+                "Young Stoner Life/300",
+                "AG"
+            ]
+        },
+        {
+            "rank": 89,
+            "artist": "Dustin Lynch",
+            "lastWeek": 62,
+            "peakRank": 11,
+            "weekOnChart": 63,
+            "label": [
+                "Broken Bow/BMG",
+                "BBMG"
+            ]
+        },
+        {
+            "rank": 90,
+            "artist": "Chris Stapleton",
+            "lastWeek": 85,
+            "peakRank": 1,
+            "weekOnChart": 224,
+            "label": [
+                "Mercury Nashville",
+                "UMGN"
+            ]
+        },
+        {
+            "rank": 91,
+            "artist": "Tyga",
+            "lastWeek": 90,
+            "peakRank": 27,
+            "weekOnChart": 53,
+            "label": [
+                "Last Kings",
+                "Columbia"
+            ]
+        },
+        {
+            "rank": 92,
+            "artist": "Jhene Aiko",
+            "lastWeek": 75,
+            "peakRank": 9,
+            "weekOnChart": 12,
+            "label": [
+                "2 Fish/ARTclub/ARTium",
+                "Def Jam"
+            ]
+        },
+        {
+            "rank": 93,
+            "artist": "H.E.R.",
+            "lastWeek": 71,
+            "peakRank": 26,
+            "weekOnChart": 7,
+            "label": [
+                "MBK",
+                "RCA"
+            ]
+        },
+        {
+            "rank": 94,
+            "artist": "Trippie Redd",
+            "lastWeek": 78,
+            "peakRank": 8,
+            "weekOnChart": 19,
+            "label": [
+                "1400",
+                "TenThousand Projects"
+            ]
+        },
+        {
+            "rank": 95,
+            "artist": "Gabby Barrett",
+            "lastWeek": null,
+            "peakRank": 92,
+            "weekOnChart": 3,
+            "label": [
+                "Warner Music Nashville",
+                "WMN"
+            ]
+        },
+        {
+            "rank": 96,
+            "artist": "Thomas Rhett",
+            "lastWeek": 83,
+            "peakRank": 1,
+            "weekOnChart": 261,
+            "label": [
+                "Valory",
+                "BMLG"
+            ]
+        },
+        {
+            "rank": 97,
+            "artist": "NLE Choppa",
+            "lastWeek": 99,
+            "peakRank": 42,
+            "weekOnChart": 25,
+            "label": [
+                "NLE Choppa",
+                "Warner"
+            ]
+        },
+        {
+            "rank": 98,
+            "artist": "Theory Of A Deadman",
+            "lastWeek": null,
+            "peakRank": 46,
+            "weekOnChart": 3,
+            "label": [
+                "Roadrunner",
+                "EMG"
+            ]
+        },
+        {
+            "rank": 99,
+            "artist": "Led Zeppelin",
+            "lastWeek": 96,
+            "peakRank": 5,
+            "weekOnChart": 51,
+            "label": [
+                "Swan Song/Atlantic",
+                "Rhino"
+            ]
+        },
+        {
+            "rank": 100,
+            "artist": "The Lumineers",
+            "lastWeek": 69,
+            "peakRank": 1,
+            "weekOnChart": 54,
+            "label": [
+                "Dualtone"
+            ]
+        }
+    ]
+}
