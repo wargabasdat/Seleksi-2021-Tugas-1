@@ -36,7 +36,7 @@ The database that is used to store the scraping results is PostgreSQL. PostgreSQ
 
 ## Specification
 
-This program uses Javascript programming language and Node.js as the runtime environment. To run the program, you have to make sure you have installed Node.js and Postman to run the requests. You can install Node.js from [here](https://nodejs.org/en/) and Postman from [here](https://www.postman.com). You can also use other tools besides Postman to run requests. You can access the Postman Documentation for this program [here]().
+This program uses Javascript programming language and Node.js as the runtime environment. To run the program, you have to make sure you have installed Node.js and Postman to run the requests. You can install Node.js from [here](https://nodejs.org/en/) and Postman from [here](https://www.postman.com). You can also use other tools besides Postman to run requests. You can access the Postman Collections for this program [here](https://www.getpostman.com/collections/11f5a278dbda5e3eaae1).
 
 ## How to use
 
@@ -47,8 +47,9 @@ This program uses Javascript programming language and Node.js as the runtime env
 4. Make sure you have a stable internet connection before running the code. This will avoid errors when running the code and speed up the process. 
 5. Run `npm start` to start the server.
 6. Open your web browser and go to `http://localhost:5000/`. Check that your browser will show up a HTML page that says `Hello, this is an NBA G League Players scraper!`. This is necessary to check whether the application is already running or not.
-7. Open Postman and open the documentation to make it easier for you. Open the folder `Scraping [LOCAL]` and run the request. Wait for the response to come out.
-8. After the response comes out, you can see the scraping data in JSON format in the response body. In addition, the resulting data is also generated in a JSON file located in the `Data Scraping/src/files` directory.
+7. Run `http://localhost:5000/scrap-players` in your browser.  Wait for the response to come out.
+8. Or you can open Postman and open the Postman collections to make it easier for you. Open the folder `Scraping [LOCAL]` and run the request. Wait for the response to come out.
+9. After the response comes out, you can see the scraping data in JSON format in the response body. In addition, the resulting data is also generated in a JSON file located in the `Data Scraping/src/files` directory.
 
 ## JSON Structure
 
@@ -73,7 +74,15 @@ The scraped data will be converted into JSON format. Below is an example of the 
 }
 </pre>
 
+## API
+An online API has been provided to access this web scraping database. You can access it [here](https://pacific-chamber-65189.herokuapp.com). You can also download the Postman Collections [here](https://www.getpostman.com/collections/11f5a278dbda5e3eaae1).
+
 ## Screenshots
+- Data Scraping Result
+
+![Screenshot Scraping](https://raw.githubusercontent.com/andresjerriels/Seleksi-2021-Tugas-1/main/Data%20Scraping/screenshot/scrape.png)
+- Data Storing in PostgreSQL
+![Screenshot Storing](https://raw.githubusercontent.com/andresjerriels/Seleksi-2021-Tugas-1/main/Data%20Storing/screenshot/data.png)
 
 ## Reference
 Libraries: 
