@@ -1,6 +1,7 @@
 const cheerio = require('cheerio');
 const bluebird = require("bluebird");
 const puppeteer = require('puppeteer');
+const moment = require('moment');
 
 const BASE_URL = 'https://gleague.nba.com';
 
@@ -40,6 +41,10 @@ const extractPlayerData = async (page, url) => {
   const name = main.find('h1').text().trim().replace(/\s+/g, ' ');
   const position = upperSection.find('div[class="player-header-section player-header-section--team"] > p > #playerPosition').text().trim();
 
+  if (!id || !name || !position) {
+    return {};
+  }
+
   // Player Info
   let height;
   let weight;
@@ -54,6 +59,7 @@ const extractPlayerData = async (page, url) => {
       weight = parseInt(selector(e).find('div[class="bio-stat"] > div[class="bio-stat__extra"]').text().replace(/(?=\s?kg)/g, '').trim());
     } else if (i === 2) {
       dateOfBirth = selector(e).find('div[class="bio-stat"] > div[class="bio-stat__stat bio-stat__stat--sm"]').text().trim();
+      dateOfBirth = moment.parseZone(dateOfBirth, "MMMM Do, YYYY");
     } else if (i === 3) {
       const cN = selector(e).find('div[class="bio-stat"] > div[class="bio-stat__stat bio-stat__stat--sm"]').text().trim().split('/');
       college = cN[0];
@@ -61,18 +67,28 @@ const extractPlayerData = async (page, url) => {
     }
   });
 
+  if (!height || !weight || !dateOfBirth || !college || !nationality) {
+    return {};
+  }
+
   // Career Stats
   let arrayTemp = [];
   playerInfo.find('#playerPageCareerStats > ul[class="stats-list cf"] > li').each((i, e) => {
-    arrayTemp.push(parseFloat(selector(e).find('span[class="stats-list__num"]').text().trim()));
-  })
+    const num = parseFloat(selector(e).find('span[class="stats-list__num"]').text().trim());
+    arrayTemp.push(num);
+  });
+
   let ppg = arrayTemp[0];
   let rpg = arrayTemp[1];
   let apg = arrayTemp[2];
   let bpg = arrayTemp[3];
   let spg = arrayTemp[4];
   let mpg = arrayTemp[5];
-  
+
+  if (!ppg || !rpg || !apg || !bpg || !spg || !mpg) {
+    return {};
+  }
+
   return {
     id,
     name,
@@ -93,7 +109,7 @@ const extractPlayerData = async (page, url) => {
 }
 
 const withBrowser = async (fn) => {
-	const browser = await puppeteer.launch({ headless: false });
+	const browser = await puppeteer.launch();
 	try {
 		return await fn(browser);
 	} finally {
@@ -133,7 +149,7 @@ const scrapPlayers = async () => {
     }, { concurrency: 12 });
   });
 
-  return result;
+  return result.filter(value => Object.keys(value).length !== 0);
 }
 
 

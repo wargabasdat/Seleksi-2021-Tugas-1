@@ -10,6 +10,7 @@ const { saveToDB,
   findPlayerStatsById
 } = require('./app/storing');
 const Response = require('./utils/Response');
+const fs = require('fs');
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -24,32 +25,17 @@ app.get('/', async (req, res, next) => {
 
 app.get('/scrap-players', async (req, res, next) => {
   const result = await scrapPlayers();
+  const jsonString = JSON.stringify(result, null, 2);
+  fs.writeFileSync(path.join(__dirname, "files", "data.json"), jsonString);
   res.send(result);
 });
 
-app.get('/save-players', async (req, res, next) => {
+app.get('/save-players/:filename', async (req, res, next) => {
   try {
-    const arr = [
-      {
-          "id": "1629824",
-          "name": "Jalen Adams",
-          "position": "Guard",
-          "height": 188,
-          "weight": 88,
-          "dateOfBirth": "1995-12-11T00:00:00.000Z",
-          "college": "Connecticut",
-          "nationality": "USA",
-          "ppg": 18.2,
-          "rpg": 4.2,
-          "apg": 4.6,
-          "bpg": 0.39,
-          "spg": 1.22,
-          "mpg": 32.1
-      }
-    ];
-  
+    let rawdata = fs.readFileSync(path.join(__dirname, "files", req.params.filename));
+    let arr = JSON.parse(rawdata);
     const result = await saveToDB(arr);
-    res.status(400).send(new Response(true, result, '').createResponse());
+    res.status(200).send(new Response(true, result, '').createResponse());
   } catch (err) {
     console.error(err);
     res.status(400).send(new Response(false, error, 'Internal Error').createResponse());
@@ -60,9 +46,9 @@ app.get('/players/all', async (req, res, next) => {
   try {
     const result = await findAllPlayers();
     if (!result) {
-      res.status(400).send(new Response(true, {}, '').createResponse());
+      res.status(200).send(new Response(true, {}, '').createResponse());
     } else {
-      res.status(400).send(new Response(true, result, '').createResponse());
+      res.status(200).send(new Response(true, result, '').createResponse());
     }
   } catch (err) {
     console.error(err);
@@ -74,9 +60,9 @@ app.get('/players/:id', async (req, res, next) => {
   try {
     const result = await findPlayerById(req.params.id);
     if (!result) {
-      res.status(400).send(new Response(true, {}, '').createResponse());
+      res.status(200).send(new Response(true, {}, '').createResponse());
     } else {
-      res.status(400).send(new Response(true, result, '').createResponse());
+      res.status(200).send(new Response(true, result, '').createResponse());
     }
   } catch (err) {
     console.error(err);
@@ -88,9 +74,9 @@ app.get('/players/search/:query', async (req, res, next) => {
   try {
     const result = await searchPlayersByName(req.params.query);
     if (!result) {
-      res.status(400).send(new Response(true, {}, '').createResponse());
+      res.status(200).send(new Response(true, {}, '').createResponse());
     } else {
-      res.status(400).send(new Response(true, result, '').createResponse());
+      res.status(200).send(new Response(true, result, '').createResponse());
     }
   } catch (err) {
     console.error(err);
@@ -102,9 +88,9 @@ app.get('/players/stats/:id', async (req, res, next) => {
   try {
     const result = await findPlayerStatsById(req.params.id);
     if (!result) {
-      res.status(400).send(new Response(true, {}, '').createResponse());
+      res.status(200).send(new Response(true, {}, '').createResponse());
     } else {
-      res.status(400).send(new Response(true, result, '').createResponse());
+      res.status(200).send(new Response(true, result, '').createResponse());
     }
   } catch (err) {
     console.error(err);

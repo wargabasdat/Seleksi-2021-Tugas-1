@@ -15,11 +15,11 @@ const saveToDB = async (data) => {
   for (let i = 0; i < data.length; i++) {
     const obj = data[i];
     if (i < (data.length - 1)) {
-      query1 = query1.concat(`(${obj.id}, '${obj.name}', '${obj.position}', ${obj.height}, ${obj.weight}, '${obj.dateOfBirth}', '${obj.college}', '${obj.nationality}'),\n`);
-      query2 = query2.concat(`(${obj.id}, '${obj.ppg}', '${obj.rpg}', ${obj.apg}, ${obj.bpg}, '${obj.spg}', '${obj.mpg}'),\n`);
+      query1 = query1.concat(`(${obj.id}, '${obj.name}', '${obj.position}', ${obj.height}, ${obj.weight}, '${obj.dateOfBirth}', '${obj.college}', '${obj.nationality}'), `);
+      query2 = query2.concat(`(${obj.id}, ${obj.ppg}, ${obj.rpg}, ${obj.apg}, ${obj.bpg}, ${obj.spg}, ${obj.mpg}), `);
     } else {
       query1 = query1.concat(`(${obj.id}, '${obj.name}', '${obj.position}', ${obj.height}, ${obj.weight}, '${obj.dateOfBirth}', '${obj.college}', '${obj.nationality}')`);
-      query2 = query2.concat(`(${obj.id}, '${obj.ppg}', '${obj.rpg}', ${obj.apg}, ${obj.bpg}, '${obj.spg}', '${obj.mpg}')`);
+      query2 = query2.concat(`(${obj.id}, ${obj.ppg}, ${obj.rpg}, ${obj.apg}, ${obj.bpg}, ${obj.spg}, ${obj.mpg})`);
     }
   }
 
@@ -38,7 +38,7 @@ const saveToDB = async (data) => {
 }
 
 const findAllPlayers = async () => {
-  const query = `SELECT id, name, position, height, weight, dateOfBirth, college, nationality, ppg, rpg, apg, bpg, spg, mpg FROM players NATURAL INNER JOIN player_stats`;
+  const query = `SELECT id, name, position, height, weight, dateOfBirth, college, nationality, ppg, rpg, apg, bpg, spg, mpg FROM players INNER JOIN player_stats ON id = player_id`;
   try {
     const client = await pool.connect();
     let arr = [];
@@ -56,7 +56,7 @@ const findAllPlayers = async () => {
 }
 
 const findPlayerById = async (id) => {
-  const query = `SELECT id, name, position, height, weight, dateOfBirth, college, nationality, ppg, rpg, apg, bpg, spg, mpg FROM players NATURAL INNER JOIN player_stats WHERE id = ${id}`;
+  const query = `SELECT id, name, position, height, weight, dateOfBirth, college, nationality, ppg, rpg, apg, bpg, spg, mpg FROM players INNER JOIN player_stats ON id = player_id WHERE id = ${id}`;
   try {
     const client = await pool.connect();
     const results = await client.query(query);
@@ -70,7 +70,7 @@ const findPlayerById = async (id) => {
 }
 
 const searchPlayersByName = async (searchQuery) => {
-  const query = `SELECT id, name, position, height, weight, dateOfBirth, college, nationality, ppg, rpg, apg, bpg, spg, mpg FROM players NATURAL INNER JOIN player_stats WHERE name LIKE '%${searchQuery}%'`;
+  const query = `SELECT id, name, position, height, weight, dateOfBirth, college, nationality, ppg, rpg, apg, bpg, spg, mpg FROM players INNER JOIN player_stats ON id = player_id WHERE name LIKE '%${searchQuery}%'`;
   try {
     const client = await pool.connect();
     let arr = [];

@@ -1,84 +1,93 @@
 <h1 align="center">
   <br>
-  Seleksi Warga Basdat 2021
+  Scraping NBA G League Players Data
   <br>
   <br>
 </h1>
 
 <h2 align="center">
   <br>
-  Tugas 1 : Data Scraping & Data Storing
+  Tugas 1 Seleksi Calon Warga Basdat 2021
   <br>
   <br>
 </h2>
 
+![Logo GLeague](https://media-exp1.licdn.com/dms/image/C511BAQGGtV05zbTaXg/company-background_10000/0/1519806642685?e=1627225200&v=beta&t=c1ZXNVgxmEz_crChO3kH3POzVPAHY_uQBdYC-6WRUhs)
 
-## Spesifikasi
+## Table of Contents
 
-### Data Scraping
-
-1. Lakukan _data scraping_ dari sebuah laman web untuk memperoleh data atau informasi tertentu __TANPA MENGGUNAKAN API__. Hasil _data scraping_ ini nantinya akan disimpan dalam DBMS dan digunakan sebagai bahan tugas analisis dan visualisasi data.
-
-2. Daftarkan judul topik yang akan dijadikan bahan _data scraping_ dan DBMS yang akan digunakan pada spreadsheet berikut: [Topik Data Scraping](https://docs.google.com/spreadsheets/d/12sgizyreDkFXz4N3FaGouyGKRZN3qHyWEeSIbEXtpR4/edit?usp=sharing). Usahakan agar tidak ada peserta dengan topik yang sama. Akses edit ke spreadsheet akan ditutup tanggal __12 Juli 2021 pukul 23.59 WIB__
-
-3. Pada folder `Data Scraping`, calon warga basdat harus mengumpulkan _file script_, json hasil _data scraping_. Folder `Data Scraping` terdiri dari _folder_ `src`, `data` dan `screenshots`. 
-    - _Folder_ `src` berisi _file script_/kode yang __*WELL DOCUMENTED* dan *CLEAN CODE*__ 
-    - _Folder_ `data` berisi _file_ json hasil _scraper_
-    - _Folder_ `screenshot` berisi tangkapan layar program.
-
-4. Sebagai referensi untuk mengenal _data scraping_, asisten menyediakan dokumen "_Short Guidance To Data Scraping_" yang dapat diakses pada link berikut: [Data Scraping Guidance](http://bit.ly/DataScrapingGuidance). Mohon memperhatikan etika dalam melakukan _scraping_.
-
-5. JSON harus dinormalisasi dan harus di-_preprocessing_
-```
-Preprocessing contohnya :
-- Cleaning
-- Parsing
-- Transformation
-- dan lainnya
-```
-
-### Data Storing
-
-1. Lakukan _storing_ data yang didapatkan dari hasil _scraping_ ke DBMS 
-
-2. Tools yang digunakan __dibebaskan__
-
-3. Calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Folder_ `Data Storing` terdiri dari folder `data`, `screenshots` dan `export`
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
+This README.md contains the following
+1. [Description](#description)
+2. [Specification](#specification)
+3. [How to use](#how-to-use)
+4. [JSON Structure](#json-structure)
+5. [Screenshots](#screenshots)
+6. [Reference](#reference)
+7. [Author](#author)
 
 
+## Description
 
-4. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    - Simpan ke database online
-    - Buatlah API sederhana untuk mengakses database online tersebut
+The NBA G League, or simply the G League, is the National Basketball Association's (NBA) official minor league basketball organization. The league was known as the National Basketball Development League (NBDL) from 2001 to 2005, and the NBA Development League (NBA D-League) from 2005 until 2017. As of the 2020–21 season, the league consists of 29 teams, 28 of which are either single-affiliated or owned by an NBA team, along with the NBA G League Ignite exhibition team. Their database contains players, teams, standings, and fixtures of the league.
 
-### Pengumpulan
+In this project, the author made a program that scrape the players' data consists of their names, positions of playing, heights, weights, dates of birth, colleges, nationalities, and playing statistics per game provided by [this](https://gleague.nba.com/all-players/) webpage.
 
+The database that is used to store the scraping results is PostgreSQL. PostgreSQL has earned a strong reputation for its proven architecture, reliability, data integrity, robust feature set, extensibility, and the dedication of the open source community behind the software to consistently deliver performant and innovative solutions. PostgreSQL also runs on all major operating systems.
 
-1. Dalam mengerjakan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: [Seleksi-2021-Tugas-1](https://github.com/wargabasdat/Seleksi-2021-Tugas-1). Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_1_[NIM]```
+## Specification
 
-2. Tambahkan juga `.gitignore` pada _file_ atau _folder_ yang tidak perlu di-_upload_, __NB: BINARY TIDAK DIUPLOAD__
+This program uses Javascript programming language and Node.js as the runtime environment. To run the program, you have to make sure you have installed Node.js and Postman to run the requests. You can install Node.js from [here](https://nodejs.org/en/) and Postman from [here](https://www.postman.com). You can also use other tools besides Postman to run requests. You can access the Postman Documentation for this program [here]().
 
-3. Berikan satu buah file `README` yang __WELL DOCUMENTED__ dengan cara __override__ _file_ `README.md` ini. `README` harus memuat minimal konten:
+## How to use
 
+1. Make sure you already install Node.js.
+1. Clone or download this repo to your local directory. 
+2. Open the directory where you saved this repo and navigate to `src`.
+3. Open the Terminal (for MacOS and Linux users) or Command Prompt (for Windows users) and run `npm install` to install all the dependecies needed.
+4. Make sure you have a stable internet connection before running the code. This will avoid errors when running the code and speed up the process. 
+5. Run `npm start` to start the server.
+6. Open your web browser and go to `http://localhost:5000/`. Check that your browser will show up a HTML page that says `Hello, this is an NBA G League Players scraper!`. This is necessary to check whether the application is already running or not.
+7. Open Postman and open the documentation to make it easier for you. Open the folder `Scraping [LOCAL]` and run the request. Wait for the response to come out.
+8. After the response comes out, you can see the scraping data in JSON format in the response body. In addition, the resulting data is also generated in a JSON file located in the `Data Scraping/src/files` directory.
 
-```
-- Description of the data and DBMS (Why you choose it)
-- Specification of the program
-- How to use
-- JSON Structure
-- Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-- Reference (Library used, etc)
-- Author
-```
+## JSON Structure
 
+The scraped data will be converted into JSON format. Below is an example of the scraped data stored in JSON format.
 
-4. Deadline pengumpulan tugas 1 adalah <span style="color:red">__24 Juli 2021 Pukul 23.59 WIB__</span>
+<pre>
+{
+        "id": "1629824",
+        "name": "Jalen Adams",
+        "position": "Guard",
+        "height": 188,
+        "weight": 88,
+        "dateOfBirth": "1995-12-11T00:00:00.000Z",
+        "college": "Connecticut",
+        "nationality": "USA",
+        "ppg": 18.2,
+        "rpg": 4.2,
+        "apg": 4.6,
+        "bpg": 0.39,
+        "spg": 1.22,
+        "mpg": 32.1
+}
+</pre>
 
-<h3 align="center">
-  <br>
-  Selamat Mengerjakan
-  <br>
-  <br>
-</h3>
+## Screenshots
+
+## Reference
+Libraries: 
+- Puppeteer
+- Cheerio
+- Express
+- node-postgres
+- Bluebird
+- Moment
+
+## Author
+
+Andres Jerriel Sinabutar
+<br>
+Informatics Engineering 
+<br>
+Institut Teknologi Bandung
