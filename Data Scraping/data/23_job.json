@@ -1,10 +1,14 @@
 {
-    "title": "Backend Engineer Intern",
-    "company": "Pt Super Giga Generasi",
-    "location": "Kembangan, Jakarta",
-    "estimate_salary": "IDR 2.000.000 - 2.500.000",
-    "exp_min": 0,
-    "exp_opt": 1,
-    "last_updated": "12 jam yang lalu",
-    "applicant": 203
+    "title": "Frontend Engineer (Banking)",
+    "company": "PT. Asian Sigma Technology",
+    "location": "Jakarta",
+    "estimate_salary": "IDR 5.000.000 - 15.000.000",
+    "exp_min": [
+        3
+    ],
+    "exp_opt": [
+        1
+    ],
+    "last_updated": "7 jam yang lalu",
+    "applicant": 39
 }

@@ -1,10 +1,14 @@
 {
-    "title": "Software QA Intern",
-    "company": "PT. Folarium Innotek Indonesia",
+    "title": "Solution Architect",
+    "company": "mHealthBank",
     "location": "Jakarta",
-    "estimate_salary": "IDR 0 - 1.000.000",
-    "exp_min": 0,
-    "exp_opt": 1,
-    "last_updated": "12 jam yang lalu",
-    "applicant": 49
+    "estimate_salary": "SGD 25.000.000 - 35.000.000",
+    "exp_min": [
+        10
+    ],
+    "exp_opt": [
+        5
+    ],
+    "last_updated": "8 bulan yang lalu",
+    "applicant": 114
 }

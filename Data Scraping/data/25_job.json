@@ -1,14 +1,14 @@
 {
-    "title": "Android Developer",
-    "company": "PT Verita Informatika",
-    "location": "Tanah Abang, Jakarta",
-    "estimate_salary": "IDR 15.000.000 - 30.000.000",
+    "title": "Front End Developer",
+    "company": "Pt Platinumetrix Global Inovasi",
+    "location": "Jakarta",
+    "estimate_salary": "IDR 6.500.000 - 13.000.000",
     "exp_min": [
-        5
-    ],
-    "exp_opt": [
         3
     ],
-    "last_updated": "13 jam yang lalu",
-    "applicant": 43
+    "exp_opt": [
+        1
+    ],
+    "last_updated": "12 jam yang lalu",
+    "applicant": 56
 }

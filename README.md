@@ -16,8 +16,26 @@ Di masa pandemi ini, banyak perusahaan yang mulai membuka lowongan pekerjaan di 
 2. Setelah menggunakan selenium, HTML tersebut diparse dan dicari berdasarkan tag dari HTML menggunakan library BeautifulSoup untuk mencari tag dan class yang dibutuhkan.
 3. Setelah mendapatkan data teks yang dibutuhkan, hasil dari scraping tersebut kemudian disimpan dalam format json per kartunya.
 
-![image](https://github.com/alvinwilta/Seleksi-2021-Tugas-1/tree/main/Data%20Scraping/screenshot/glints.png)
-![image](https://github.com/alvinwilta/Seleksi-2021-Tugas-1/tree/main/Data%20Scraping/screenshot/python.png)
+![image](https://github.com/alvinwilta/Seleksi-2021-Tugas-1/tree/main/Data%20Scraping/screenshot/glints.PNG)
+![image](https://github.com/alvinwilta/Seleksi-2021-Tugas-1/tree/main/Data%20Scraping/screenshot/python.PNG)
+
+start the server
+
+```
+mongod --dbpath "dir/to/db" --port 27017
+```
+
+start data scraping
+
+```
+python Data\ Scraping/src/main.py
+```
+
+start exporting it to db and dumping it to local folder
+
+```
+python Data\ Scraping/src/export.py
+```
 
 # JSON Structure
 
@@ -42,7 +60,7 @@ External Libraries Used:
 
 # Author
 
-Alvin Wilta 13519163
+Alvin Wilta 13519163 - [Github](https://github.com/alvinwilta)
 
 # Disclaimer
 

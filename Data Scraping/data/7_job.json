@@ -1,10 +1,14 @@
 {
-    "title": "Wordpress Web Developer",
-    "company": "PT. Bintang Jaya Unggul Sentosa",
-    "location": "Jakarta",
-    "estimate_salary": "IDR 1.000.000 - 4.000.000",
-    "exp_min": 0,
-    "exp_opt": 1,
-    "last_updated": "kemarin",
-    "applicant": 562
+    "title": "System Analyst IT",
+    "company": "Pt Majapahit Teknologi Nusantara",
+    "location": "Cakung, Jakarta",
+    "estimate_salary": "IDR 6.000.000 - 10.000.000",
+    "exp_min": [
+        3
+    ],
+    "exp_opt": [
+        1
+    ],
+    "last_updated": "13 jam yang lalu",
+    "applicant": 47
 }

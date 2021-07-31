@@ -1,10 +1,14 @@
 {
-    "title": "Full Stack Engineer",
-    "company": "PT Roket Edukasi Indonesia",
-    "location": "Jakarta",
-    "estimate_salary": "IDR 5.000.000 - 9.000.000",
-    "exp_min": [],
-    "exp_opt": [],
-    "last_updated": "kemarin",
-    "applicant": 83
+    "title": "Laravel Developer",
+    "company": "OKANEMO",
+    "location": "Cilandak, Jakarta",
+    "estimate_salary": null,
+    "exp_min": [
+        3
+    ],
+    "exp_opt": [
+        1
+    ],
+    "last_updated": "11 jam yang lalu",
+    "applicant": 38
 }
