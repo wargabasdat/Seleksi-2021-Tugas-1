@@ -3,12 +3,8 @@
     "company": "XCIDIC",
     "location": "Jakarta",
     "estimate_salary": "IDR 7.000.000 - 15.000.000",
-    "exp_min": [
-        5
-    ],
-    "exp_opt": [
-        3
-    ],
-    "last_updated": "22 hari yang lalu",
-    "applicant": 90
+    "exp_min": 3,
+    "exp_opt": 5,
+    "last_updated": "29 hari yang lalu",
+    "applicant": 94
 }

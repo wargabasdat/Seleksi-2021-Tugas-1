@@ -1,14 +1,10 @@
 {
-    "title": "The First Backend Developer",
-    "company": "Movus Technologies",
+    "title": "PHP Developer (Laravel)",
+    "company": "PT. Asian Sigma Technology",
     "location": "Jakarta",
-    "estimate_salary": "IDR 10.000.000 - 18.000.000",
-    "exp_min": [
-        3
-    ],
-    "exp_opt": [
-        1
-    ],
-    "last_updated": "8 jam yang lalu",
-    "applicant": 46
+    "estimate_salary": "IDR 10.000.000 - 10.000.000",
+    "exp_min": 3,
+    "exp_opt": 5,
+    "last_updated": "7 hari yang lalu",
+    "applicant": 28
 }

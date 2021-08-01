@@ -1,14 +1,10 @@
 {
-    "title": "C# Developer",
-    "company": "Sun Artha",
+    "title": "Back-End Engineer",
+    "company": "PT Indopasifik Teknologi Medika Indonesia",
     "location": "Jakarta",
-    "estimate_salary": "IDR 4.500.000 - 6.000.000",
-    "exp_min": [
-        3
-    ],
-    "exp_opt": [
-        1
-    ],
+    "estimate_salary": "IDR 8.000.000 - 12.000.000",
+    "exp_min": 1,
+    "exp_opt": 3,
     "last_updated": "14 hari yang lalu",
-    "applicant": 73
+    "applicant": 10
 }

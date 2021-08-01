@@ -16,26 +16,48 @@ Di masa pandemi ini, banyak perusahaan yang mulai membuka lowongan pekerjaan di 
 2. Setelah menggunakan selenium, HTML tersebut diparse dan dicari berdasarkan tag dari HTML menggunakan library BeautifulSoup untuk mencari tag dan class yang dibutuhkan.
 3. Setelah mendapatkan data teks yang dibutuhkan, hasil dari scraping tersebut kemudian disimpan dalam format json per kartunya.
 
-![image](https://github.com/alvinwilta/Seleksi-2021-Tugas-1/tree/main/Data%20Scraping/screenshot/glints.PNG)
-![image](https://github.com/alvinwilta/Seleksi-2021-Tugas-1/tree/main/Data%20Scraping/screenshot/python.PNG)
-
-start the server
+**Start the server**
 
 ```
 mongod --dbpath "dir/to/db" --port 27017
 ```
 
-start data scraping
+**Start data scraping**
 
 ```
 python Data\ Scraping/src/main.py
 ```
 
-start exporting it to db and dumping it to local folder
+**Start exporting it to db and dumping it to local folder**
 
 ```
 python Data\ Scraping/src/export.py
 ```
+
+## Images
+
+<details>
+    <summary><b>Glints Job Portal</b></summary>
+    <img src="./Data Scraping/screenshot/glints.PNG" alt="Glints Job Portal">
+</details>
+<details>
+    <summary><b>Python Scraping Program Ouput Log</b></summary>
+    <img src="./Data Scraping/screenshot/terminal.PNG" alt="Program terminal output">
+</details>
+<br>
+<details>
+    <summary><b>Python Export Program Ouput Log (if error)</b></summary>
+    <img src="./Data Storing/screenshot/terminal_error.PNG" alt="Program terminal error output">
+</details>
+<details>
+    <summary><b>Python Export Program Ouput Log (if successful)</b></summary>
+    <img src="./Data Storing/screenshot/terminal_success.PNG" alt="Program terminal success output">
+</details>
+<details>
+    <summary><b>Collection Structure in MongoDB</b></summary>
+    <img src="./Data Storing/screenshot/database.PNG" alt="MongoDB database">
+</details>
+<br>
 
 # JSON Structure
 

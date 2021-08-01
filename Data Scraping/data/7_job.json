@@ -1,14 +1,10 @@
 {
-    "title": "System Analyst IT",
-    "company": "Pt Majapahit Teknologi Nusantara",
-    "location": "Cakung, Jakarta",
-    "estimate_salary": "IDR 6.000.000 - 10.000.000",
-    "exp_min": [
-        3
-    ],
-    "exp_opt": [
-        1
-    ],
-    "last_updated": "13 jam yang lalu",
-    "applicant": 47
+    "title": "The First Backend Developer",
+    "company": "Movus Technologies",
+    "location": "Jakarta",
+    "estimate_salary": "IDR 10.000.000 - 18.000.000",
+    "exp_min": 1,
+    "exp_opt": 3,
+    "last_updated": "kemarin",
+    "applicant": 56
 }
