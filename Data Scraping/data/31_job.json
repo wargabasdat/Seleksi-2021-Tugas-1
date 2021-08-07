@@ -1,10 +1,12 @@
 {
-    "title": "Junior Software Developer",
-    "company": "PT Stampindo Lancar Jaya",
-    "location": "Jakarta",
-    "estimate_salary": "IDR 5.000.000 - 10.000.000",
-    "exp_min": null,
-    "exp_opt": null,
+    "title": "UI/UX Developer",
+    "company": "MNC Group",
+    "location": "Menteng, Jakarta",
+    "currency": null,
+    "start_sal": null,
+    "end_sal": null,
+    "exp_min": 1,
+    "exp_opt": 3,
     "last_updated": "2 hari yang lalu",
-    "applicant": 499
+    "applicant": 50
 }

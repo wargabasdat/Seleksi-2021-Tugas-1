@@ -1,10 +1,12 @@
 {
-    "title": "IT Business Analyst",
-    "company": "Pt Platinumetrix Global Inovasi",
+    "title": "Fullstack Developer (Fintech Company)",
+    "company": "Waktukita.com",
     "location": "Jakarta",
-    "estimate_salary": "IDR 7.500.000 - 15.000.000",
+    "currency": "IDR",
+    "start_sal": 8000000,
+    "end_sal": 15000000,
     "exp_min": 1,
     "exp_opt": 3,
-    "last_updated": "kemarin",
-    "applicant": 335
+    "last_updated": "24 hari yang lalu",
+    "applicant": 14
 }

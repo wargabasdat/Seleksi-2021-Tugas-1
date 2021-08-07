@@ -1,10 +1,12 @@
 {
-    "title": "Quality Assurance",
-    "company": "Cv. Konsultan Teknologi Indonesia",
+    "title": "Backend Developer",
+    "company": "Brick - Financial Api",
     "location": "Jakarta",
-    "estimate_salary": "IDR 10.000.000 - 12.000.000",
+    "currency": "IDR",
+    "start_sal": 10000000,
+    "end_sal": 20000000,
     "exp_min": 1,
     "exp_opt": 3,
-    "last_updated": "kemarin",
-    "applicant": 338
+    "last_updated": "2 hari yang lalu",
+    "applicant": 66
 }

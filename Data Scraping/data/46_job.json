@@ -1,10 +1,12 @@
 {
-    "title": "React Native Developer",
-    "company": "Arvis",
+    "title": "Java Script",
+    "company": "PT Mplus Solusi Perdana",
     "location": "Jakarta",
-    "estimate_salary": "IDR 6.000.000 - 10.000.000",
+    "currency": "IDR",
+    "start_sal": 6000000,
+    "end_sal": 10000000,
     "exp_min": 1,
     "exp_opt": 3,
-    "last_updated": "3 hari yang lalu",
-    "applicant": 31
+    "last_updated": "5 hari yang lalu",
+    "applicant": 8
 }

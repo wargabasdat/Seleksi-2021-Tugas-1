@@ -1,10 +1,12 @@
 {
-    "title": "Solution Architec Lead (Software Development Company)",
-    "company": "Waktukita.com",
+    "title": "Backend Developer",
+    "company": "Jatis Mobile",
     "location": "Jakarta",
-    "estimate_salary": "IDR 20.000.000 - 25.000.000",
+    "currency": "IDR",
+    "start_sal": 1234,
+    "end_sal": 5678,
     "exp_min": 3,
     "exp_opt": 5,
-    "last_updated": "20 hari yang lalu",
+    "last_updated": "11 hari yang lalu",
     "applicant": 4
 }

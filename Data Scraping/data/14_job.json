@@ -1,10 +1,12 @@
 {
-    "title": "Backend Engineer",
-    "company": "Ylearn",
+    "title": "Fullstack Programmer",
+    "company": "Rimba Ananta Vikasa Indonesia",
     "location": "Jakarta",
-    "estimate_salary": "IDR 6.000.000 - 8.000.000",
+    "currency": null,
+    "start_sal": null,
+    "end_sal": null,
     "exp_min": 1,
     "exp_opt": 3,
-    "last_updated": "kemarin",
-    "applicant": 20
+    "last_updated": "2 hari yang lalu",
+    "applicant": 57
 }

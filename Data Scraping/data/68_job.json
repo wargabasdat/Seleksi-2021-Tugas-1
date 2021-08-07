@@ -1,10 +1,12 @@
 {
-    "title": "Full Stack Developer",
-    "company": "Pt Platinumetrix Global Inovasi",
+    "title": "Backend Engineer",
+    "company": "Ylearn",
     "location": "Jakarta",
-    "estimate_salary": "IDR 7.500.000 - 15.000.000",
-    "exp_min": 3,
-    "exp_opt": 5,
-    "last_updated": "12 hari yang lalu",
-    "applicant": 8
+    "currency": "IDR",
+    "start_sal": 6000000,
+    "end_sal": 8000000,
+    "exp_min": 1,
+    "exp_opt": 3,
+    "last_updated": "2 hari yang lalu",
+    "applicant": 31
 }

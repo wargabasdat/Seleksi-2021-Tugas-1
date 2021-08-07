@@ -1,10 +1,12 @@
 {
-    "title": "PHP Developer (Laravel)",
-    "company": "PT. Asian Sigma Technology",
+    "title": "UI/UX Designer",
+    "company": "Bridge Note Indonesia",
     "location": "Jakarta",
-    "estimate_salary": "IDR 10.000.000 - 10.000.000",
-    "exp_min": 3,
-    "exp_opt": 5,
-    "last_updated": "7 hari yang lalu",
-    "applicant": 28
+    "currency": "IDR",
+    "start_sal": 7500000,
+    "end_sal": 15000000,
+    "exp_min": 1,
+    "exp_opt": 3,
+    "last_updated": "kemarin",
+    "applicant": 42
 }

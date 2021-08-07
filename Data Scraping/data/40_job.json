@@ -1,10 +1,12 @@
 {
-    "title": "DevOps Engineer",
-    "company": "Pijar Indonesia",
-    "location": "Jakarta",
-    "estimate_salary": "IDR 7.000.000 - 10.000.000",
-    "exp_min": 5,
-    "exp_opt": 10,
-    "last_updated": "21 hari yang lalu",
-    "applicant": 11
+    "title": "Android Developer",
+    "company": "Pt Linov Roket Prestasi",
+    "location": "Tebet, Jakarta",
+    "currency": "IDR",
+    "start_sal": 5000000,
+    "end_sal": 9000000,
+    "exp_min": 1,
+    "exp_opt": 3,
+    "last_updated": "2 hari yang lalu",
+    "applicant": 48
 }

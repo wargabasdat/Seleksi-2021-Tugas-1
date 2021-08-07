@@ -1,10 +1,12 @@
 {
-    "title": "Full Stack Programmer",
-    "company": "PT Astronacci International",
-    "location": "Kelapa Gading, Jakarta",
-    "estimate_salary": "Login to view estimated salary by Glints.",
-    "exp_min": 1,
-    "exp_opt": 3,
-    "last_updated": "7 hari yang lalu",
+    "title": "Web Programmer (Software Developer Engineer)",
+    "company": "Bridge Note Indonesia",
+    "location": "Jakarta",
+    "currency": "IDR",
+    "start_sal": 10000000,
+    "end_sal": 20000000,
+    "exp_min": 3,
+    "exp_opt": 5,
+    "last_updated": "5 hari yang lalu",
     "applicant": 13
 }

@@ -1,10 +1,12 @@
 {
-    "title": "SOFTWARE ENGINEER",
-    "company": "PT Indonesia Defence Services",
+    "title": "Database Administrator Engineer",
+    "company": "PT NUSA INTI SATU ARTHA (DOKU)",
     "location": "Jakarta",
-    "estimate_salary": "IDR 8.000.000 - 15.000.000",
-    "exp_min": null,
-    "exp_opt": null,
+    "currency": null,
+    "start_sal": null,
+    "end_sal": null,
+    "exp_min": 1,
+    "exp_opt": 3,
     "last_updated": "2 hari yang lalu",
-    "applicant": 58
+    "applicant": 161
 }

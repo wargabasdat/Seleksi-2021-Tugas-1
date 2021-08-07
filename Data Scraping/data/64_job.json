@@ -1,10 +1,12 @@
 {
-    "title": "DevOps Lead",
-    "company": "Lifepal",
-    "location": "Kemang, Jakarta",
-    "estimate_salary": "IDR 25.000.000 - 40.000.000",
-    "exp_min": 5,
-    "exp_opt": 10,
-    "last_updated": "6 hari yang lalu",
-    "applicant": 3
+    "title": "Front End Developer",
+    "company": "Pt Platinumetrix Global Inovasi",
+    "location": "Jakarta",
+    "currency": "IDR",
+    "start_sal": 6500000,
+    "end_sal": 13000000,
+    "exp_min": 1,
+    "exp_opt": 3,
+    "last_updated": "2 hari yang lalu",
+    "applicant": 67
 }

@@ -1,10 +1,12 @@
 {
-    "title": "DevOps Engineer",
-    "company": "Mapan - PT Ruma (Rekan Usaha Mikro Anda)",
-    "location": "Blok M, Jakarta",
-    "estimate_salary": "Login to view estimated salary by Glints.",
+    "title": "Backend Developer (Java)",
+    "company": "My Hunter",
+    "location": "Menteng, Jakarta",
+    "currency": "IDR",
+    "start_sal": 5000000,
+    "end_sal": 10000000,
     "exp_min": 1,
     "exp_opt": 3,
-    "last_updated": "21 hari yang lalu",
-    "applicant": 14
+    "last_updated": "kemarin",
+    "applicant": 31
 }

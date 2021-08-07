@@ -1,10 +1,12 @@
 {
-    "title": "Backend Developer",
-    "company": "Pasarwarga.com",
-    "location": "Kebayoran Baru, Jakarta",
-    "estimate_salary": "IDR 5.000.000 - 6.000.000",
-    "exp_min": 0,
-    "exp_opt": 1,
-    "last_updated": "3 hari yang lalu",
-    "applicant": 24
+    "title": "IT Business Analyst",
+    "company": "Pt Platinumetrix Global Inovasi",
+    "location": "Jakarta",
+    "currency": "IDR",
+    "start_sal": 7500000,
+    "end_sal": 15000000,
+    "exp_min": 1,
+    "exp_opt": 3,
+    "last_updated": "2 hari yang lalu",
+    "applicant": 347
 }

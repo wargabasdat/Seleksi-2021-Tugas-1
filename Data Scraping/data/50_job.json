@@ -1,10 +1,12 @@
 {
-    "title": "PHP Developer ",
-    "company": "Pt Linov Roket Prestasi",
+    "title": "Senior Backend Engineer",
+    "company": "Pintu",
     "location": "Jakarta",
-    "estimate_salary": "Login to view estimated salary by Glints.",
-    "exp_min": 3,
-    "exp_opt": 5,
-    "last_updated": "kemarin",
-    "applicant": 29
+    "currency": "IDR",
+    "start_sal": 1234,
+    "end_sal": 5678,
+    "exp_min": 1,
+    "exp_opt": 3,
+    "last_updated": "6 hari yang lalu",
+    "applicant": 5
 }

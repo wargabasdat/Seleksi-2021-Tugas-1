@@ -2,9 +2,11 @@
     "title": "Solution Architect",
     "company": "mHealthBank",
     "location": "Jakarta",
-    "estimate_salary": "SGD 25.000.000 - 35.000.000",
+    "currency": "SGD",
+    "start_sal": 25000000,
+    "end_sal": 35000000,
     "exp_min": 5,
     "exp_opt": 10,
     "last_updated": "9 bulan yang lalu",
-    "applicant": 119
+    "applicant": 123
 }

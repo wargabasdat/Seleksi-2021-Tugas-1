@@ -1,10 +1,12 @@
 {
-    "title": "The First QA Tester",
-    "company": "Movus Technologies",
+    "title": "Quality Assurance",
+    "company": "Cv. Konsultan Teknologi Indonesia",
     "location": "Jakarta",
-    "estimate_salary": null,
+    "currency": "IDR",
+    "start_sal": 10000000,
+    "end_sal": 12000000,
     "exp_min": 1,
     "exp_opt": 3,
     "last_updated": "kemarin",
-    "applicant": 24
+    "applicant": 346
 }

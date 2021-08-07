@@ -87,3 +87,10 @@ Alvin Wilta 13519163 - [Github](https://github.com/alvinwilta)
 # Disclaimer
 
 Saya meminta maaf yang sebesar-besarnya atas kelalaian dalam mengatur waktu dan mengumpulkan tugas mendekati deadline. Kesalahan ini tidak akan terulang kembali, terima kasih.
+
+Presentasi:
+
+- Visualisasi Data
+- Hasil analisis data (informasi apa yang bisa didapat)
+- Insight yang bisa didapatkan dari informasi tersebut
+- query yang digunakan untuk mendapat insight (pake tabel digabung2)

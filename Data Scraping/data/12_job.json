@@ -1,10 +1,12 @@
 {
-    "title": "Backend Game Programmer",
-    "company": "Anantarupa Studios",
+    "title": "Software Quality Assurance",
+    "company": "Pt. Kinerja Prima Nusantara",
     "location": "Jakarta",
-    "estimate_salary": "Login to view estimated salary by Glints.",
+    "currency": "IDR",
+    "start_sal": 6000000,
+    "end_sal": 9000000,
     "exp_min": 1,
     "exp_opt": 3,
-    "last_updated": "2 hari yang lalu",
-    "applicant": 49
+    "last_updated": "kemarin",
+    "applicant": 64
 }

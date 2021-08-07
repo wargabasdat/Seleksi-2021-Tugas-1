@@ -1,10 +1,12 @@
 {
-    "title": "Software QA Test Intern",
-    "company": "PT. Folarium Innotek Indonesia",
-    "location": "Jakarta",
-    "estimate_salary": null,
-    "exp_min": 0,
-    "exp_opt": 1,
+    "title": "Front-End Developer - Intern",
+    "company": "Takalab",
+    "location": "Mampang Prapatan, Jakarta",
+    "currency": "IDR",
+    "start_sal": 3000000,
+    "end_sal": 3200000,
+    "exp_min": null,
+    "exp_opt": null,
     "last_updated": "kemarin",
-    "applicant": 90
+    "applicant": 42
 }
