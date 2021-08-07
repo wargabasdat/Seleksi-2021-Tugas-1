@@ -51,15 +51,18 @@ def getPage(url):
 
 def writeToFile(index, arr):
     # writeToFile: Write to json file format
+    # print(arr)
     d = {
         "title": arr[0],
         "company": arr[1],
         "location": arr[2],
-        "estimate_salary": arr[3],
-        "exp_min": arr[4],
-        "exp_opt": arr[5],
-        "last_updated": arr[6],
-        "applicant": arr[7]
+        "currency": arr[3],
+        "start_sal": arr[4],
+        "end_sal": arr[5],
+        "exp_min": arr[6],
+        "exp_opt": arr[7],
+        "last_updated": arr[8],
+        "applicant": arr[9]
     }
     json_object = json.dumps(d, indent=4, ensure_ascii=False)
     with open(f'../data/{index}_job.json', 'w', encoding='utf8') as f:
@@ -74,8 +77,20 @@ def parseExp(old_exp):
     elif (exp == ""):  # Case of no experience needed, or no info
         return [None, None]
     else:  # Case of certain range of experience is needed
-        temp = [int(s) for s in re.findall(r'\d+', exp)]
-        return temp
+        return [int(s) for s in re.findall(r'\d+', exp)]
+
+
+def parseSalary(old_salary):
+    sal = str(old_salary)
+    if ("Login" in sal):
+        return [None, None, None]  # Currency, start_sal, end_sal
+    else:
+        sal_split = sal.split()
+        curr = sal_split[0]
+        if (len(sal_split) < 4):
+            return [curr, sal_split[1], None]
+        else:
+            return [curr, int(sal_split[1].replace('.', '').replace(',', '')), int(sal_split[3].replace('.', '').replace(',', ''))]
 
 
 def parseInfo(old_info):
@@ -84,26 +99,25 @@ def parseInfo(old_info):
         'div', attrs={"class": re.compile(r'(OpportunityInfo-sc)')})
     if (len(info) > 2):  # Case of full info
         loc = info[0].text.strip()
-        sal = info[1].text.strip()
+        sal = parseSalary(info[1].text.strip())
         temp = parseExp(info[2].text.strip())
     elif (len(info) == 2):  # Case of missing 1 info
         loc = info[0].text.strip()
+        sal = [None, None, None]
         if ("tahun" in info[1].text.strip()):  # Case of no salary info
-            sal = None
             temp = parseExp(info[1].text.strip())
         elif (info[1].text.strip() == ""):  # Case of no both info but counted as 2
-            sal = None
             temp = [None, None]
         else:   # Case of no experience info
-            sal = info[1].text.strip()
+            sal = parseSalary(info[1].text.strip())
             temp = [None, None]
     elif (len(info) == 1):  # Case of no salary and experience info
         loc = info[0].text.strip()
-        sal = None
+        sal = [None, None, None]
         temp = [None, None]
     else:  # Case of no info at all
-        return [None, None, None, None]
-    return ([loc, sal] + temp)
+        return [None, None, None, None, None, None]
+    return ([loc] + sal + temp)
 
 
 def main():
@@ -137,7 +151,7 @@ def main():
         # JOB APPLICANT COUNT #
         appl = jobs.find(
             'div', attrs={"class": re.compile(r'(ApplicantCount)')})
-        if (str(appl) != None):  # Case of no info
+        if (appl != None):  # Case of no info
             arr += [int(appl.text.split()[0])]
         else:
             arr += [None]

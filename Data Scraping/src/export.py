@@ -11,12 +11,12 @@ def exportToJson(db):
     col = db['jobs'].find({})
     doc_count = db['jobs'].count_documents({})
     print("Dumping documents to json...")
-    with open("../../Data Storing/export/collection.json", "w") as file:
+    with open("../../Data Storing/export/collection.json", "w", encoding='utf8') as file:
         file.write('[')
         # Start from one as type_documents_count also starts from 1.
         for i, document in enumerate(col, 1):
             file.write(json.dumps(document, default=str,
-                       sort_keys=True, indent=4))
+                       sort_keys=True, indent=4, ensure_ascii=False))
             if i != doc_count:
                 file.write(',')
         file.write(']')
@@ -28,11 +28,13 @@ def insertToMongo(db):
     col = db["jobs"]
 
     print("Removing old documents...")
-    db.jobs.drop()
+    if (db.jobs.count_documents({}) == 0):
+        print("ok")
+        # db.jobs.delete_many({})
     print("Document(s) removed!")
     print("Inserting documents to database...")
     for f in glob.glob("../data/*_job.json"):
-        file = open(f,)
+        file = open(f, encoding="UTF-8")
         data = json.load(file)
         col.insert_one(data)
     print("Insert complete! " + str(time.time() - start))
@@ -40,12 +42,14 @@ def insertToMongo(db):
 
 def main():
     load_dotenv()
-    server = os.getenv("SERVER_URL")
+    if os.getenv("PROJECT") == "LOCAL":
+        url = "LOCAL_URL"
+    else:
+        url = "SERVER_URL"
+    server = os.getenv(url)
     starts = time.time()
     try:
-        client = pymongo.MongoClient(
-            host=server, serverSelectionTimeoutMS=2000)
-        client.server_info()
+        client = pymongo.MongoClient(server)
     except:
         print("Connection error")
         print("Please check if server is running")
