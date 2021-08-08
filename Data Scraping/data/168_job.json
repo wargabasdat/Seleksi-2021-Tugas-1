@@ -1,12 +1,12 @@
 {
-    "title": "Frontend Developer",
-    "company": "Binar Academy",
+    "title": "DevOps Engineer",
+    "company": "Pijar Indonesia",
     "location": "Jakarta",
     "currency": "IDR",
-    "start_sal": 8000000,
-    "end_sal": 12000000,
-    "exp_min": 3,
-    "exp_opt": 5,
-    "last_updated": 26,
-    "applicant": 20
+    "start_sal": 7000000,
+    "end_sal": 10000000,
+    "exp_min": 5,
+    "exp_opt": 10,
+    "last_updated": 27,
+    "applicant": 11
 }

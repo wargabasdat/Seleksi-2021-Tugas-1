@@ -1,12 +1,12 @@
 {
-    "title": "Back End Developer",
-    "company": "Cv. Konsultan Teknologi Indonesia",
-    "location": "Jakarta",
-    "currency": "IDR",
-    "start_sal": 10000000,
-    "end_sal": 15000000,
+    "title": "UI/UX Developer",
+    "company": "MNC Group",
+    "location": "Menteng, Jakarta",
+    "currency": null,
+    "start_sal": null,
+    "end_sal": null,
     "exp_min": 1,
     "exp_opt": 3,
-    "last_updated": 18,
-    "applicant": 15
+    "last_updated": 2,
+    "applicant": 50
 }

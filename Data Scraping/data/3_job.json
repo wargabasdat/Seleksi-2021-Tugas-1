@@ -1,12 +1,12 @@
 {
-    "title": "Software QA Test Intern",
-    "company": "PT. Folarium Innotek Indonesia",
-    "location": "Jakarta",
-    "currency": null,
-    "start_sal": null,
-    "end_sal": null,
-    "exp_min": 0,
-    "exp_opt": 1,
+    "title": "Backend Developer (Junior - Middle)",
+    "company": "Takalab",
+    "location": "Mampang Prapatan, Jakarta",
+    "currency": "IDR",
+    "start_sal": 6000000,
+    "end_sal": 12000000,
+    "exp_min": 1,
+    "exp_opt": 3,
     "last_updated": 1,
-    "applicant": 140
+    "applicant": 108
 }

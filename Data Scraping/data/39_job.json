@@ -1,12 +1,12 @@
 {
-    "title": "React Js",
-    "company": "Pt Majapahit Teknologi Nusantara",
-    "location": "Cakung, Jakarta",
-    "currency": "IDR",
-    "start_sal": 4500000,
-    "end_sal": 7000000,
+    "title": "The First QA Tester",
+    "company": "Movus Technologies",
+    "location": "Jakarta",
+    "currency": null,
+    "start_sal": null,
+    "end_sal": null,
     "exp_min": 1,
     "exp_opt": 3,
-    "last_updated": 6,
-    "applicant": 8
+    "last_updated": 1,
+    "applicant": 44
 }

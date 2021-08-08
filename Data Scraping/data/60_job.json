@@ -1,12 +1,12 @@
 {
-    "title": "Backend Developer (Java)",
-    "company": "My Hunter",
-    "location": "Menteng, Jakarta",
+    "title": "Senior Software Engineer",
+    "company": "Studycle",
+    "location": "Bandung",
     "currency": "IDR",
-    "start_sal": 5000000,
-    "end_sal": 10000000,
-    "exp_min": 1,
-    "exp_opt": 3,
-    "last_updated": 1,
-    "applicant": 31
+    "start_sal": 7000000,
+    "end_sal": 12000000,
+    "exp_min": 3,
+    "exp_opt": 5,
+    "last_updated": 14,
+    "applicant": 7
 }

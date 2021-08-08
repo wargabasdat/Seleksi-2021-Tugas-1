@@ -1,12 +1,12 @@
 {
-    "title": "VP of Engineering",
-    "company": "Company Confidential",
+    "title": "Junior Data Developer",
+    "company": "Jakarta Web Solution",
     "location": "Jakarta",
-    "currency": "IDR",
-    "start_sal": 40000000,
-    "end_sal": 50000000,
-    "exp_min": 3,
-    "exp_opt": 5,
-    "last_updated": null,
-    "applicant": 195
+    "currency": null,
+    "start_sal": null,
+    "end_sal": null,
+    "exp_min": 1,
+    "exp_opt": 3,
+    "last_updated": 10,
+    "applicant": 19
 }

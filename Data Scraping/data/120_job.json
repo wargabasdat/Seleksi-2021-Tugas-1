@@ -1,12 +1,12 @@
 {
-    "title": "QA Engineer (Automation)",
-    "company": "Tix Id",
-    "location": "Jakarta",
+    "title": "Node.js Backend Developer",
+    "company": "The Puzzlers",
+    "location": "Denpasar",
     "currency": "IDR",
-    "start_sal": 6000000,
-    "end_sal": 10000000,
-    "exp_min": 1,
-    "exp_opt": 3,
-    "last_updated": 4,
-    "applicant": 19
+    "start_sal": 10000000,
+    "end_sal": 20000000,
+    "exp_min": null,
+    "exp_opt": null,
+    "last_updated": 1,
+    "applicant": 64
 }

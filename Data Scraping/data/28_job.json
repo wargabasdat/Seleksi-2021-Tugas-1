@@ -1,12 +1,12 @@
 {
-    "title": "Junior Software Developer",
-    "company": "PT Stampindo Lancar Jaya",
+    "title": "Senior BACKEND .NET Engineer",
+    "company": "mHealthBank",
     "location": "Jakarta",
-    "currency": "IDR",
-    "start_sal": 5000000,
-    "end_sal": 10000000,
-    "exp_min": null,
-    "exp_opt": null,
-    "last_updated": 1,
-    "applicant": 518
+    "currency": null,
+    "start_sal": null,
+    "end_sal": null,
+    "exp_min": 3,
+    "exp_opt": 5,
+    "last_updated": 120,
+    "applicant": 133
 }

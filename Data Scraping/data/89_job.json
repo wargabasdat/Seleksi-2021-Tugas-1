@@ -1,12 +1,12 @@
 {
-    "title": "Technical Writer",
-    "company": "Pt Linov Roket Prestasi",
-    "location": "Jakarta",
-    "currency": null,
-    "start_sal": null,
-    "end_sal": null,
+    "title": "EdTech Data Engineer",
+    "company": "Geniebook Pte Ltd",
+    "location": "Surabaya",
+    "currency": "IDR",
+    "start_sal": 7000000,
+    "end_sal": 10000000,
     "exp_min": 1,
     "exp_opt": 3,
-    "last_updated": 1,
-    "applicant": 60
+    "last_updated": 5,
+    "applicant": 87
 }

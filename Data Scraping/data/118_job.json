@@ -1,12 +1,12 @@
 {
-    "title": "QA Engineer (Middle)",
-    "company": "PT Code Development Indonesia",
+    "title": "React Native Developer",
+    "company": "Arvis",
     "location": "Jakarta",
-    "currency": null,
-    "start_sal": null,
-    "end_sal": null,
-    "exp_min": null,
-    "exp_opt": null,
-    "last_updated": 11,
-    "applicant": 135
+    "currency": "IDR",
+    "start_sal": 6000000,
+    "end_sal": 10000000,
+    "exp_min": 1,
+    "exp_opt": 3,
+    "last_updated": null,
+    "applicant": 36
 }

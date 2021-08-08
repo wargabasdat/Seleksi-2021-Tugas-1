@@ -34,7 +34,7 @@ def filterSalary(old_salary):
         if (len(sal_split) < 4):
             return [curr, sal_split[1], None]
         else:
-            return [curr, int(sal_split[1].replace('.', '').replace(',', '')), int(sal_split[3].replace('.', '').replace(',', ''))]
+            return [curr, int(sal_split[1].replace('.', '')), int(sal_split[3].replace('.', '').replace(',', ''))]
 
 
 def filterInfo(old_info):
@@ -69,7 +69,7 @@ def findJobTitle(jobs):
 
 
 def findJobCompany(jobs):
-    return jobs.find('span', attrs={"class": re.compile(r'(CompanyLinkContainer)')}).text
+    return jobs.find('span', attrs={"class": re.compile(r'(CompanyLinkContainer)')}).text.strip()
 
 
 def findJobInfo(jobs):

@@ -9,7 +9,7 @@ import re
 import os
 
 SCROLL = 5  # More than 10 will be very slow, min is 1
-URL = 'https://glints.com/id/opportunities/jobs/explore?country=ID&locationName=Indonesia&jobCategories=1&cities=28904'
+URL = 'https://glints.com/id/opportunities/jobs/explore?country=ID&locationName=Indonesia&jobCategories=1'
 
 
 def cleanData():

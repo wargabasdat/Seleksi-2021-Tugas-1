@@ -1,12 +1,12 @@
 {
-    "title": "Senior Android Developer",
-    "company": "PT. Indo Teknologi Utama",
+    "title": "Mobile React-Native",
+    "company": "Nostratech",
     "location": "Jakarta",
-    "currency": "IDR",
-    "start_sal": 20000000,
-    "end_sal": 25000000,
-    "exp_min": 5,
-    "exp_opt": 10,
-    "last_updated": 2,
-    "applicant": 120
+    "currency": null,
+    "start_sal": null,
+    "end_sal": null,
+    "exp_min": 1,
+    "exp_opt": 3,
+    "last_updated": 5,
+    "applicant": 4
 }

@@ -1,12 +1,12 @@
 {
-    "title": ".Net Developer",
-    "company": "PT. Asian Sigma Technology",
+    "title": "Technical Writer",
+    "company": "Pt Linov Roket Prestasi",
     "location": "Jakarta",
-    "currency": "IDR",
-    "start_sal": 12000000,
-    "end_sal": 14000000,
-    "exp_min": 3,
-    "exp_opt": 5,
-    "last_updated": 20,
-    "applicant": 1
+    "currency": null,
+    "start_sal": null,
+    "end_sal": null,
+    "exp_min": 1,
+    "exp_opt": 3,
+    "last_updated": 1,
+    "applicant": 60
 }

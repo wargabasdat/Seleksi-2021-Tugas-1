@@ -1,12 +1,12 @@
 {
-    "title": "Mobile React-Native",
-    "company": "Nostratech",
+    "title": "Fullstack Developer (Fintech Company)",
+    "company": "Waktukita.com",
     "location": "Jakarta",
-    "currency": null,
-    "start_sal": null,
-    "end_sal": null,
+    "currency": "IDR",
+    "start_sal": 8000000,
+    "end_sal": 15000000,
     "exp_min": 1,
     "exp_opt": 3,
-    "last_updated": 5,
-    "applicant": 4
+    "last_updated": 24,
+    "applicant": 14
 }

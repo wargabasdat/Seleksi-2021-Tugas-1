@@ -1,12 +1,12 @@
 {
-    "title": "Mobile App Developer",
-    "company": "PT Astronacci International",
-    "location": "Kelapa Gading, Jakarta",
-    "currency": null,
-    "start_sal": null,
-    "end_sal": null,
+    "title": "QA Tester",
+    "company": "PT. Teknologi Kode Indonesia",
+    "location": "Yogyakarta",
+    "currency": "IDR",
+    "start_sal": 4500000,
+    "end_sal": 5500000,
     "exp_min": 1,
     "exp_opt": 3,
-    "last_updated": 13,
-    "applicant": 15
+    "last_updated": 2,
+    "applicant": 290
 }

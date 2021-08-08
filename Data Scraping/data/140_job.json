@@ -1,12 +1,12 @@
 {
-    "title": "Junior Full-stack Developer",
-    "company": "Pt Prisma Harapan",
-    "location": "Kebon Jeruk, Jakarta",
-    "currency": null,
-    "start_sal": null,
-    "end_sal": null,
+    "title": "Backend Web Developer",
+    "company": "PT. PMA Born Digital",
+    "location": "Yogyakarta",
+    "currency": "IDR",
+    "start_sal": 3000000,
+    "end_sal": 7000000,
     "exp_min": 1,
     "exp_opt": 3,
-    "last_updated": 2,
-    "applicant": 3
+    "last_updated": null,
+    "applicant": 49
 }

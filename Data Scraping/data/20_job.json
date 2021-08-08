@@ -1,12 +1,12 @@
 {
-    "title": "Software QA Engineer",
-    "company": "Glints",
+    "title": "System Analyst (Project Based)",
+    "company": "PT Nusantara Compnet Integrator",
     "location": "Jakarta",
-    "currency": null,
-    "start_sal": null,
-    "end_sal": null,
+    "currency": "IDR",
+    "start_sal": 6000000,
+    "end_sal": 12000000,
     "exp_min": 1,
     "exp_opt": 3,
-    "last_updated": 1,
-    "applicant": 63
+    "last_updated": 4,
+    "applicant": 57
 }

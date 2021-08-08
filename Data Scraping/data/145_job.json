@@ -1,12 +1,12 @@
 {
-    "title": "Scrum Master",
-    "company": "Pt Platinumetrix Global Inovasi",
+    "title": "Java Developer (Backend)",
+    "company": "My Hunter",
     "location": "Jakarta",
     "currency": "IDR",
-    "start_sal": 6500000,
-    "end_sal": 13000000,
-    "exp_min": 3,
-    "exp_opt": 5,
-    "last_updated": 30,
-    "applicant": 16
+    "start_sal": 5000000,
+    "end_sal": 10000000,
+    "exp_min": 1,
+    "exp_opt": 3,
+    "last_updated": 3,
+    "applicant": 32
 }

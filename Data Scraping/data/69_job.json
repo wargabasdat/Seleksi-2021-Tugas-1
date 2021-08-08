@@ -1,12 +1,12 @@
 {
-    "title": "Software Engineer",
-    "company": "Landx",
-    "location": "Jakarta",
-    "currency": null,
-    "start_sal": null,
-    "end_sal": null,
+    "title": "Fullstack Developer",
+    "company": "Studycle",
+    "location": "Bandung",
+    "currency": "IDR",
+    "start_sal": 5000000,
+    "end_sal": 7000000,
     "exp_min": 1,
     "exp_opt": 3,
-    "last_updated": 24,
-    "applicant": 16
+    "last_updated": 30,
+    "applicant": 15
 }

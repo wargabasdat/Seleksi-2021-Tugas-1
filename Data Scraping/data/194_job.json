@@ -1,12 +1,12 @@
 {
-    "title": "Software Engineer",
-    "company": "itemku",
-    "location": "Grogol Petamburan, Jakarta",
-    "currency": "IDR",
-    "start_sal": 7000000,
-    "end_sal": 30000000,
-    "exp_min": 1,
-    "exp_opt": 3,
-    "last_updated": 1,
-    "applicant": 1
+    "title": "Senior Backend Engineer ",
+    "company": "Stockbit",
+    "location": "Jakarta",
+    "currency": null,
+    "start_sal": null,
+    "end_sal": null,
+    "exp_min": 3,
+    "exp_opt": 5,
+    "last_updated": 17,
+    "applicant": 3
 }

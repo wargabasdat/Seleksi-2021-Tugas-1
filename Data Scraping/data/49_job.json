@@ -1,12 +1,12 @@
 {
-    "title": "QA Test (Automation) ",
-    "company": "mHealthBank",
-    "location": "Jakarta",
-    "currency": null,
-    "start_sal": null,
-    "end_sal": null,
-    "exp_min": 3,
-    "exp_opt": 5,
-    "last_updated": 30,
-    "applicant": 19
+    "title": "Staff Programmer",
+    "company": "Pt Kreator Solusi Informasi",
+    "location": "Surabaya",
+    "currency": "IDR",
+    "start_sal": 4500000,
+    "end_sal": 5500000,
+    "exp_min": null,
+    "exp_opt": null,
+    "last_updated": 1,
+    "applicant": 31
 }

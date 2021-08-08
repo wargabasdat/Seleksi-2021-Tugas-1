@@ -1,12 +1,12 @@
 {
-    "title": "PHP Developer ",
-    "company": "Pt Linov Roket Prestasi",
-    "location": "Jakarta",
-    "currency": null,
-    "start_sal": null,
-    "end_sal": null,
+    "title": "Network Engineer",
+    "company": "PT Visionet Data Internasional",
+    "location": "Tangerang",
+    "currency": "IDR",
+    "start_sal": 7000000,
+    "end_sal": 11000000,
     "exp_min": 3,
     "exp_opt": 5,
-    "last_updated": 1,
-    "applicant": 40
+    "last_updated": 2,
+    "applicant": 129
 }

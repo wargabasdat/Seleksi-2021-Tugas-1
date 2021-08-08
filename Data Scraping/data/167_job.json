@@ -1,12 +1,12 @@
 {
-    "title": "Application Design",
-    "company": "Binar Academy",
+    "title": "SEO Specialist",
+    "company": "PT Code Development Indonesia",
     "location": "Jakarta",
-    "currency": "IDR",
-    "start_sal": 8000000,
-    "end_sal": 12000000,
-    "exp_min": 3,
-    "exp_opt": 5,
-    "last_updated": 26,
-    "applicant": 15
+    "currency": null,
+    "start_sal": null,
+    "end_sal": null,
+    "exp_min": 1,
+    "exp_opt": 3,
+    "last_updated": 3,
+    "applicant": 48
 }
