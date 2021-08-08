@@ -1,4 +1,6 @@
 .ipynb_checkpoints
 Data Scraping/src/run_server.bat
+Data Scraping/src/run.bat
 Data Scraping/src/.env
 Data Scraping/src/geckodriver.log
+Data Scraping/src/__pycache__/

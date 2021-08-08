@@ -2,12 +2,13 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
+import filters as fl
 import time
 import json
 import re
 import os
 
-SCROLL = 3  # More than 10 will be very slow, min is 1
+SCROLL = 5  # More than 10 will be very slow, min is 1
 URL = 'https://glints.com/id/opportunities/jobs/explore?country=ID&locationName=Indonesia&jobCategories=1&cities=28904'
 
 
@@ -69,55 +70,26 @@ def writeToFile(index, arr):
         f.write(json_object)
 
 
-def parseExp(old_exp):
-    # Handling experience info (separate them into min exp and optimal exp)
-    exp = str(old_exp)
-    if ("Kurang" in exp):  # Case of less than 1 year exp needed
-        return [0, 1]
-    elif (exp == ""):  # Case of no experience needed, or no info
-        return [None, None]
-    else:  # Case of certain range of experience is needed
-        return [int(s) for s in re.findall(r'\d+', exp)]
+def scrapingData(jobs):
+    arr = []
+    title = fl.findJobTitle(jobs)
+    arr += [title]
 
+    company = fl.findJobCompany(jobs)
+    arr += [company]
 
-def parseSalary(old_salary):
-    sal = str(old_salary)
-    if ("Login" in sal):
-        return [None, None, None]  # Currency, start_sal, end_sal
+    info = fl.findJobInfo(jobs)
+    arr += fl.filterInfo(info)
+
+    last_updated = fl.findJobLastUpdated(jobs)
+    arr += fl.filterLastUpdated(last_updated)
+
+    appl = fl.findJobApplicantCount(jobs)
+    if (appl != None):  # Case of no info
+        arr += [int(appl.text.split()[0])]
     else:
-        sal_split = sal.split()
-        curr = sal_split[0]
-        if (len(sal_split) < 4):
-            return [curr, sal_split[1], None]
-        else:
-            return [curr, int(sal_split[1].replace('.', '').replace(',', '')), int(sal_split[3].replace('.', '').replace(',', ''))]
-
-
-def parseInfo(old_info):
-    # Separate info into location, salary, and experience (still in string form)
-    info = old_info.find_all(
-        'div', attrs={"class": re.compile(r'(OpportunityInfo-sc)')})
-    if (len(info) > 2):  # Case of full info
-        loc = info[0].text.strip()
-        sal = parseSalary(info[1].text.strip())
-        temp = parseExp(info[2].text.strip())
-    elif (len(info) == 2):  # Case of missing 1 info
-        loc = info[0].text.strip()
-        sal = [None, None, None]
-        if ("tahun" in info[1].text.strip()):  # Case of no salary info
-            temp = parseExp(info[1].text.strip())
-        elif (info[1].text.strip() == ""):  # Case of no both info but counted as 2
-            temp = [None, None]
-        else:   # Case of no experience info
-            sal = parseSalary(info[1].text.strip())
-            temp = [None, None]
-    elif (len(info) == 1):  # Case of no salary and experience info
-        loc = info[0].text.strip()
-        sal = [None, None, None]
-        temp = [None, None]
-    else:  # Case of no info at all
-        return [None, None, None, None, None, None]
-    return ([loc] + sal + temp)
+        arr += [None]
+    return arr
 
 
 def main():
@@ -127,35 +99,7 @@ def main():
         'div', attrs={"class": re.compile(r'(CompactJobCard-sc)')})
     print("Web Scraping finished")
     for index, jobs in enumerate(jobs_cards):
-        arr = []
-        # JOB TITLE #
-        title = jobs.find(
-            'h3', attrs={"class": re.compile(r'(JobTitle)')}).text
-        arr += [title]
-
-        # JOB COMPANY #
-        company = jobs.find(
-            'span', attrs={"class": re.compile(r'(CompanyLinkContainer)')}).text
-        arr += [company]
-
-        # JOB INFO # location, salary, experience
-        info = jobs.find(
-            'div', attrs={"class": re.compile(r'(OpportunityInfoContainer)')})
-        arr += parseInfo(info)
-
-        # JOB LAST UPDATED #
-        last_updated = jobs.find(
-            'span', attrs={"class": re.compile(r'(UpdatedAtMessage)')}).text.strip()[11:]
-        arr += [last_updated]
-
-        # JOB APPLICANT COUNT #
-        appl = jobs.find(
-            'div', attrs={"class": re.compile(r'(ApplicantCount)')})
-        if (appl != None):  # Case of no info
-            arr += [int(appl.text.split()[0])]
-        else:
-            arr += [None]
-
+        arr = scrapingData(jobs)
         writeToFile(index, arr)
     print("Done writing result to files, check Data Scraping/data")
     print("FINISHED!")
