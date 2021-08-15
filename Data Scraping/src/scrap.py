@@ -5,8 +5,7 @@ import pymongo
 
 
 def setupDatabase():
-    db = pymongo.MongoClient(
-        "mongodb+srv://dwibagus154:mUnvBeu7vR3hAaK@cluster0.uqmyh.mongodb.net/test?retryWrites=true&w=majority")
+    db = pymongo.MongoClient("")
 
     # database
     mydatabase = db["scraping"]
